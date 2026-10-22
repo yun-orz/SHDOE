@@ -1,0 +1,5 @@
+{"stage": "G3_1_PASS", "tests": 17}
+{"stage": "POSITION_COMPLETE", "stage_name": "pilot", "position_id": 0, "rows": 36, "seconds": 24.75311160000274}
+{"stage": "POSITION_COMPLETE", "stage_name": "pilot", "position_id": 1, "rows": 72, "seconds": 49.85972110000148}
+{"stage": "POSITION_COMPLETE", "stage_name": "pilot", "position_id": 3, "rows": 108, "seconds": 77.14609290000226}
+{"stage": "POSITION_COMPLETE", "stage_name": "pilot", "position_id": 4, "rows": 144, "seconds": 105.4344332000037}

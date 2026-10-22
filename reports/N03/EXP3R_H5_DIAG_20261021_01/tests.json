@@ -1,0 +1,88 @@
+[
+  {
+    "name": "成功返回终点严格认证",
+    "passed": true
+  },
+  {
+    "name": "成功起点中间点不冒充严格终点",
+    "passed": true
+  },
+  {
+    "name": "浮点接近不改写原H5",
+    "passed": true
+  },
+  {
+    "name": "只有失败轨迹来源正确",
+    "passed": true
+  },
+  {
+    "name": "没有成功终点不回退缓存点",
+    "passed": true
+  },
+  {
+    "name": "缺失关键轨迹明确UNVERIFIED",
+    "passed": true
+  },
+  {
+    "name": "C1仅按目标选择且不访问真值",
+    "passed": true
+  },
+  {
+    "name": "目标相同保持原终点顺序",
+    "passed": true
+  },
+  {
+    "name": "第9个精修起点被拒绝",
+    "passed": true
+  },
+  {
+    "name": "单例第81次评价被拒绝",
+    "passed": true
+  },
+  {
+    "name": "旧报告路径写入被拒绝",
+    "passed": true
+  },
+  {
+    "name": "独立统计P90线性插值",
+    "passed": true
+  },
+  {
+    "name": "原48B/96起点/严格H5回放",
+    "passed": true
+  },
+  {
+    "name": "固定位置目标独立重评价一致",
+    "passed": true
+  },
+  {
+    "name": "D2每观测至多3个确定坐标且不优化",
+    "passed": true
+  },
+  {
+    "name": "D3受控或未执行",
+    "passed": true
+  },
+  {
+    "name": "未触发D3不得制造微型结果",
+    "passed": true
+  },
+  {
+    "name": "旧文件/HEAD/tracked diff完全保持",
+    "passed": true,
+    "changed": []
+  },
+  {
+    "name": "冻结新诊断源码未漂移",
+    "passed": true,
+    "changed": []
+  },
+  {
+    "name": "旧科研门仍FAIL",
+    "passed": true
+  },
+  {
+    "name": "旧门文件逐字未改",
+    "passed": true
+  }
+]

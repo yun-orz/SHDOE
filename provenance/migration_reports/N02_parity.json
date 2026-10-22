@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "same_fixed_height_phase_field": true,
+  "same_complex128_small_ASM": true,
+  "same_negative_height_error": true,
+  "all_25_metrics_records_exact_equal": true,
+  "metric_absolute_error_max": 0,
+  "complete_R2_input_hashes_resolved": 55
+}

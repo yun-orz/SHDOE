@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "spectra": [
+    "onehot_420",
+    "onehot_600",
+    "near_equal",
+    "far_half",
+    "broad_510",
+    "random_0"
+  ],
+  "seeds": [
+    20261021,
+    20261022,
+    20261023
+  ],
+  "solves": 318,
+  "failure_count": 0,
+  "scientific_bad_results": "不会因高误差停止；实现正确则记录负结果"
+}

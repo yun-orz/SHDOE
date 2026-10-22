@@ -1,0 +1,27 @@
+{
+  "G4": {
+    "status": "INCONCLUSIVE",
+    "execution": "NOT_TESTED",
+    "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+  },
+  "G5": {
+    "status": "INCONCLUSIVE",
+    "execution": "NOT_TESTED",
+    "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+  },
+  "G6": {
+    "status": "INCONCLUSIVE",
+    "execution": "NOT_TESTED",
+    "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+  },
+  "G7": {
+    "status": "INCONCLUSIVE",
+    "execution": "NOT_TESTED",
+    "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+  },
+  "G8": {
+    "status": "INCONCLUSIVE",
+    "execution": "NOT_TESTED",
+    "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+  }
+}

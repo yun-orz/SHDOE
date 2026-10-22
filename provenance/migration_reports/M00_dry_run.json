@@ -1,0 +1,28 @@
+{
+  "status": "READY",
+  "files": 805,
+  "bytes": 1309302726,
+  "free_bytes": 80693288960,
+  "existing_targets": [],
+  "validation_scene_dirs": [
+    "datasets/cave/photo_and_face_ms/photo_and_face_ms/",
+    "datasets/cave/clay_ms/clay_ms/",
+    "datasets/cave/real_and_fake_peppers_ms/real_and_fake_peppers_ms/",
+    "datasets/cave/chart_and_stuffed_toy_ms/chart_and_stuffed_toy_ms/",
+    "datasets/cave/flowers_ms/flowers_ms/",
+    "datasets/cave/pompoms_ms/pompoms_ms/",
+    "datasets/cave/sponges_ms/sponges_ms/",
+    "datasets/cave/fake_and_real_lemons_ms/fake_and_real_lemons_ms/"
+  ],
+  "legacy_files": [
+    "N01_3A_G2_f2_q6_13wave/support.py",
+    "N01_2F_G2_f1_13wave/runtime.py",
+    "N01_2E_m12_branch_diagnostic/runtime.py",
+    "N01_2E_m12_branch_diagnostic/analyze.py",
+    "N01_2E_multiorder_pilot/run.py",
+    "N01_2E_multiorder_pilot/model.py",
+    "N01_2A/model.py",
+    "N01_1/model.py"
+  ],
+  "selection_rule": "保持results相对路径；历史产物不改写；N02整包历史校验入口不重跑，它需要全部被排除的变体。迁移验证入口只验证已精选闭包。"
+}

@@ -1,0 +1,120 @@
+[
+  {
+    "name": "A0面积积分回归",
+    "value": 0.0,
+    "limit": 1e-14,
+    "passed": true
+  },
+  {
+    "name": "EXP2B名义矩阵SHA一致",
+    "value": 0.0,
+    "limit": 0,
+    "passed": true
+  },
+  {
+    "name": "尺寸103788x9",
+    "value": 0.0,
+    "limit": 0,
+    "passed": true
+  },
+  {
+    "name": "RGB及波段索引",
+    "value": 0.0,
+    "limit": 0,
+    "passed": true
+  },
+  {
+    "name": "EXP2B轴0符号-1一致",
+    "value": 0.0,
+    "limit": 1e-14,
+    "passed": true
+  },
+  {
+    "name": "EXP2B轴0符号1一致",
+    "value": 0.0,
+    "limit": 1e-14,
+    "passed": true
+  },
+  {
+    "name": "轴0差分质心正方向",
+    "value": 0.0,
+    "limit": 0,
+    "passed": true
+  },
+  {
+    "name": "EXP2B轴1符号-1一致",
+    "value": 0.0,
+    "limit": 1e-14,
+    "passed": true
+  },
+  {
+    "name": "EXP2B轴1符号1一致",
+    "value": 0.0,
+    "limit": 1e-14,
+    "passed": true
+  },
+  {
+    "name": "轴1差分质心正方向",
+    "value": 0.0,
+    "limit": 0,
+    "passed": true
+  },
+  {
+    "name": "独立逐带RGB渲染",
+    "value": 1.1931699799658198e-16,
+    "limit": 1e-14,
+    "passed": true
+  },
+  {
+    "name": "直接残差目标",
+    "value": 0.0,
+    "limit": 1e-24,
+    "passed": true
+  },
+  {
+    "name": "oracle光谱回归",
+    "value": 1.3450898624277782e-15,
+    "limit": 1e-12,
+    "passed": true
+  },
+  {
+    "name": "KKT",
+    "value": 3.2509163520539086e-17,
+    "limit": 1e-07,
+    "passed": true
+  },
+  {
+    "name": "Q40实际SNR",
+    "value": 0.0,
+    "limit": 1e-08,
+    "passed": true
+  },
+  {
+    "name": "估计器无真值参数",
+    "value": 0.0,
+    "limit": 0,
+    "passed": true
+  },
+  {
+    "name": "非周期边界",
+    "value": 0.0,
+    "limit": 0,
+    "passed": true
+  },
+  {
+    "name": "EXP2原点oracle逐例回归",
+    "passed": true,
+    "value": 0.0,
+    "limit": 1e-12
+  },
+  {
+    "name": "样本完整唯一",
+    "passed": true,
+    "value": 144
+  },
+  {
+    "name": "所有冻结输入与已有tracked差异保持",
+    "passed": true,
+    "changed": []
+  }
+]

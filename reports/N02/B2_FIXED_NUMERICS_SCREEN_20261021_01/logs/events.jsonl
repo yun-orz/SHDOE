@@ -1,0 +1,6 @@
+{"seconds": 1.8935802999985754, "stage": "CONTRACT_FROZEN", "points": 8, "estimated_gpu_bytes": 1343372288, "estimated_pair_seconds": 43.07514600048307, "allowed": true}
+{"seconds": 1.8950626000005286, "stage": "RS_START", "q": 8, "points": 8}
+{"seconds": 3.7141211999987718, "stage": "RS_COMPLETE", "q": 8, "seconds_level": 1.816719500006002, "incident_energy": 0.9999999999949358, "GPU_peak_bytes": 193006080}
+{"seconds": 3.7142802000016673, "stage": "RS_START", "q": 16, "points": 8}
+{"seconds": 8.763279999999213, "stage": "RS_COMPLETE", "q": 16, "seconds_level": 5.0463753000003635, "incident_energy": 0.9999999999948755, "GPU_peak_bytes": 771823104}
+{"seconds": 9.211357899999712, "stage": "DELIVERED", "status": "B_SCREEN_PASS_LOCAL_ONLY"}

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "E:\\SH\\README.md",
+    "before_sha256": "52cbfd0a78280b0ee680c0240c38e06c8fb67dc92159cccad169c623d159bfe2",
+    "after_sha256": "e8d2e6254c30b95cfff933bbeab8fa5d0b1a23f8ae8c0e7b6f9eb013d8be2a57",
+    "backup": "E:\\SH\\provenance\\source_code_originals\\R06_2_pre_update_docs\\README.md",
+    "diff": "--- README.md (before)\n+++ README.md (after)\n@@ -1,13 +1,14 @@\n # SH：单孔径 DOE 与高光谱研发工作区\n \n-迁移日期：2026-10-20。迁移验收结论：**PASS_WITH_KNOWN_LIMITATIONS**。本目录保留当前工作树快照，不包含旧仓库的 `.git`，未建立新Git仓库，未自动push。\n+迁移日期：2026-10-20。已补充R06-2通道对齐基线（同日）。迁移验收结论：**PASS_WITH_KNOWN_LIMITATIONS**。本目录保留当前工作树快照，不包含旧仓库的 `.git`，未建立新Git仓库，未自动push。\n \n ## 实测结果与科研状态\n \n | 模块 | 本次独立验收 | 数值对照 |\n |---|---|---|\n | N00 多波长前向 | T01–T06 PASS | 31×512×512；与冻结参考PSF、原始强度最大差均为0 |\n-| DeepLensHSI 原相机与预训练网络 | 8场景重新编码、推理及评价 PASS | 平均PSNR 18.186638236 dB、SSIM 0.662075、SAM 39.223211288°；与旧R05逐场景张量和指标完全一致 |\n+| DeepLensHSI 当前R06-2通道对齐基线 | 8场景重新编码、推理及评价 PASS；网络入口RGB→BGR | 平均PSNR 30.819418430 dB、SSIM 0.849800、固定GT掩膜SAM 21.931973815°、历史双有效掩膜SAM 17.079047561°；与原R06-2逐场景指标最大绝对差7.63e-6 |\n+| 历史R05基础对照（保留） | 原18.1866dB结果归档 | 不再作为当前默认基线；旧指标与张量保留用于解释通道顺序问题 |\n | N02 固定候选与R/R2证据 | 导入、固定输入、哈希、数值复核 PASS | 25波长指标重算误差0；R2完整55项输入、9项源码可追溯；54项原产物SHA一致 |\n \n 以上迁移验收均在Python审计钩子屏蔽两个旧工程路径后完成（源侧parity对照除外）。路径屏蔽不等同操作系统ACL隔离。已有环境位于D盘，不代表已在新主机重装环境验证。\n@@ -52,7 +53,7 @@\n & $py -B E:\\SH\\provenance\\tools\\verify_n02_frozen.py E:\\SH\\optics\\n02_single_spiral E:\\SH\\provenance\\migration_reports\\my_n02_verification.json --guard\n ```\n \n-DeepLens本次真实执行的是子目录中的`5_eval_pretrained.py --limit 8`和`6_evaluate_metrics.py`，源码未修改；默认输出固定为`results/R05_validation`。该位置已有本次结果，**不要直接重复执行并覆盖**。原脚本暂未提供自定义输出参数，未来新增推理轮次应先增加输出目录参数并拒绝覆盖；当前可独立检查`results/R05_validation/metrics.csv`及已有日志。\n+DeepLens本次真实执行的是子目录中的`5_eval_pretrained.py --limit 8`和`6_evaluate_metrics.py`，这是更新前的R05验证记录；更新后脚本默认输出为`results/R06_2_validation`，并支持`--output`。该位置已有本次结果，**不要直接重复执行并覆盖**。更新后5/6脚本已支持自定义输出路径并拒绝覆盖；当前默认使用R06-2 BGR约定，结果见`results/R06_2_validation/metrics.csv`。R05结果保留为历史对照。\n \n 完整命令、耗时及退出码见`provenance/migration_reports/*_command.json`；报告见`provenance/migration_reports/final_report.md`。\n \n@@ -61,3 +62,20 @@\n 旧N02/R的整包审计会要求所有历史变体与N01历史结果，本次精简后不支持重跑该历史审计。R2旧命令行校验器仍按旧绝对路径和原源码哈希工作，改用本工作区的固定输入入口及`R2_input_resolution.json`映射。历史文档、manifest内的旧路径保留原文用于溯源，不能机械地全替换。\n \n `n00_forward/scripts/snapshot_reference.py`已显式停用；旧`build_report.py`是依赖旧双输出目录布局的历史工具，本次不重跑。新的迁移报告独立生成。训练集、其他光学模型及训练复现不在本次范围。\n+\n+\n+## 当前默认重建基线：R06-2\n+\n+原相机仍输出物理RGB，推理前按`encoded_rgb[:, [2,1,0], :, :]`适配网络输入。开关为`configs/1_deeplens_hsi.yml`中的`network.swap_rgb_channels: true`；没有修改nafnet_hsi.pth、传感器曲线、GT或31谱通道顺序。仅此处的5/6验证入口为本次更新的主入口；原1/3训练/演示脚本保留来源版本，不要据其旧默认行为判断当前基线。\n+\n+从DeepLensHSI子目录执行；下面两条命令必须选择尚未使用的新输出路径：\n+\n+```powershell\n+Set-Location E:\\SH\\framework\\DeepLensHSI\n+& $py -B 5_eval_pretrained.py --limit 8 --output results/my_r06_run\n+& $py -B 6_evaluate_metrics.py --input results/my_r06_run\n+```\n+\n+`--no-swap-rb --output results/my_rgb_control`可显式回到RGB对照；不改变默认配置。评价表`sam_deg`沿用历史双有效掩膜SAM，`sam_fixed_deg`为固定GT掩膜SAM（GT有效但预测为零按90°计）。30.8194dB为8场景PSNR算术平均，不是全局MSE聚合PSNR（原R06-2约28.2027dB）。\n+\n+原证据完整迁入`framework/DeepLensHSI/reports/R06-2_channel_swap/`；新验证与差异报告见`provenance/migration_reports/R06_2_baseline_update.md`。\n"
+  },
+  {
+    "path": "E:\\SH\\framework\\DeepLensHSI\\MIGRATION.md",
+    "before_sha256": "26c17d549c6832c1136f53287faa8c7db5c36f177b4fccbf29695c302cfff6c3",
+    "after_sha256": "b5a2e59216caaf4d93d0db12a3a7b313d384209078b6d1d24465544f1971b93d",
+    "backup": "E:\\SH\\provenance\\source_code_originals\\R06_2_pre_update_docs\\framework\\DeepLensHSI\\MIGRATION.md",
+    "diff": "--- framework/DeepLensHSI/MIGRATION.md (before)\n+++ framework/DeepLensHSI/MIGRATION.md (after)\n@@ -1,3 +1,9 @@\n+# R06-2补充更新（2026-10-20，当前有效）\n+\n+当前主入口为5_eval_pretrained.py和6_evaluate_metrics.py，默认网络输入BGR；平均PSNR 30.819418430 dB、SSIM 0.849800、固定GT掩膜SAM 21.931973815°、历史双有效掩膜SAM 17.079047561°。8场景实跑通过，原证据已迁入reports/R06-2_channel_swap，新的结果在results/R06_2_validation。模型权重、物理RGB响应和数据未改；支持--output避免覆盖。原1/3入口保持来源行为，不作为当前通道对齐验证入口。\n+\n+以下为更新前R05迁移记录，保留溯源，其“脚本未改/不支持新输出参数”描述已被本次更新取代。\n+\n # 本工作树迁移说明\n \n 这是2026-10-20对源B当前工作树的精选快照，保留未提交修改的实际字节；原Git不在此目录。原README署名与CC BY-NC 4.0声明保持原文。\n"
+  },
+  {
+    "path": "E:\\SH\\integration\\single_spiral_to_hsi\\INTERFACE_PLAN.md",
+    "before_sha256": "fa04ce9702a38b1c4d105bf4e48806dbd6ab30899f5b37e8851331be529070be",
+    "after_sha256": "8f424e0b39797ea01d54fe87142c778533c49935548c5d41668199d9c99099e9",
+    "backup": "E:\\SH\\provenance\\source_code_originals\\R06_2_pre_update_docs\\integration\\single_spiral_to_hsi\\INTERFACE_PLAN.md",
+    "diff": "--- integration/single_spiral_to_hsi/INTERFACE_PLAN.md (before)\n+++ integration/single_spiral_to_hsi/INTERFACE_PLAN.md (after)\n@@ -29,3 +29,8 @@\n 重建输入为明确标定的RGB或新测量张量，输出定义到同一波长序列、空间网格及辐射尺度。评价分别给出PSNR、与原库一致的SSIM、SAM有效像素规则，并记录训练/验证划分。新相机模型下的原权重先作为迁移基线，不能预称端到端成功。\n \n 当前先决条件：N02 G2/G3仍FAIL、R为INCONCLUSIVE、R2全局结论未定，G4–G8未测试。以上设计文档没有授予物理门通过，也没有执行新的RS16×16或DOE优化。\n+\n+\n+## R06-2输入约定补充（2026-10-20）\n+\n+现有nafnet_hsi.pth在验证时需要在物理RGB编码之后、模型入口之前执行[R,G,B]→[B,G,R]。新基线已在8场景验证到30.8194dB；不要将这一适配实现为交换物理传感器响应或HSI真值通道。未来单螺旋PSF接入也须显式记录这一网络输入约定，并重新验证权重适用性。N02科学门控状态仍保持原结论。\n"
+  },
+  {
+    "path": "E:\\SH\\provenance\\audit\\dependency_graph.md",
+    "before_sha256": "18b7bcdfe55da2666011e434d4a10822f68d7969109dc79aaa3101a65c6feef0",
+    "after_sha256": "7e0e993581549956f910d2ceb0842c405807203e64cccde840b41969b24df08c",
+    "backup": "E:\\SH\\provenance\\source_code_originals\\R06_2_pre_update_docs\\provenance\\audit\\dependency_graph.md",
+    "diff": "--- provenance/audit/dependency_graph.md (before)\n+++ provenance/audit/dependency_graph.md (after)\n@@ -29,3 +29,8 @@\n 路径分类：历史报告和manifest的旧绝对路径保留原文；活跃N02支持模块和任务书指向新目录。N02原audit.py中的N01追溯数据、个人规划书是历史审计入口限定依赖，未纳入新固定输入验证的运行闭包；若调用该旧audit函数，应预期明确失败，不得调用后声称独立全量重演。N00旧build_report依赖旧双输出布局，未运行；snapshot_reference已显式禁用。\n \n 独立性验证：路径屏蔽启用时N00子进程、N02三入口导入、固定数值验证、DeepLens8场景推理和指标均完成。源侧parity为唯一刻意读取旧源码的数值对照，不算独立运行证据。路径屏蔽自测成功拒绝两个源README的读取。\n+\n+\n+## R06-2当前推理路径补充\n+\n+5_eval_pretrained读取network.swap_rgb_channels，在相机物理RGB之后、NAFNet之前按[2,1,0]重排；6_evaluate_metrics默认读取results/R06_2_validation并同时记录两种SAM。原R06-2报告、脚本和14项证据原样复制；增量清单见R06_2_update_candidate_dry_run.csv与R06_2_update_copied_sha256.csv。其余光学与数据依赖不变。\n"
+  },
+  {
+    "path": "E:\\SH\\provenance\\migration_reports\\final_report.md",
+    "before_sha256": "1310cd144b538e64038e45aff575481e71c78a1a5655da6d920aaa9ffcaa9c4e",
+    "after_sha256": "18bbc0692a8f3d09fc0185202fbd1f546cfb0fdadc8ffffe77d5092f2cd60248",
+    "backup": "E:\\SH\\provenance\\source_code_originals\\R06_2_pre_update_docs\\provenance\\migration_reports\\final_report.md",
+    "diff": "--- provenance/migration_reports/final_report.md (before)\n+++ provenance/migration_reports/final_report.md (after)\n@@ -1,3 +1,11 @@\n+# 当前补充：R06-2通道对齐基线（2026-10-20）\n+\n+**当前DeepLensHSI默认基线已更新，8场景独立实跑PASS：平均PSNR 30.819418430 dB、SSIM 0.849800、固定GT掩膜SAM 21.931973815°、历史双有效掩膜SAM 17.079047561°。** 网络入口RGB→BGR，预训练权重和物理传感器不改；旧R05约18.18dB为基础历史对照。\n+\n+新验收详见[R06_2_baseline_update.md](R06_2_baseline_update.md)，原R06-2证据在framework/DeepLensHSI/reports/R06-2_channel_swap。源B完整1344文件及Git状态前后不变。原808项复制计数与target_current_sha256.csv是更新前快照；增量14项原证据及新代码状态见R06_2增量清单和target_current_sha256_R06_2.csv。默认推理/评价已支持新输出路径并拒绝覆盖，旧文中的相应待办已解决。\n+\n+N02原限制仍有效。以下原始迁移报告全文保留溯源，其中R05及“5/6脚本未改”等表述为更新前状态。\n+\n # SH精选迁移最终报告\n \n 日期：2026-10-20（Asia/Shanghai）。综合结论：**PASS_WITH_KNOWN_LIMITATIONS**。\n"
+  }
+]

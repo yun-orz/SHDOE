@@ -1,0 +1,36 @@
+{
+  "noiseless": {
+    "O": {
+      "NRMSE_median": 3.565543463933582e-15,
+      "NRMSE_worst": 6.843722233698945e-15,
+      "position_median": 0.0
+    },
+    "F": {
+      "NRMSE_median": 0.009602571066788017,
+      "NRMSE_worst": 0.09978485288574732,
+      "position_median": 0.2100781059358212
+    },
+    "J": {
+      "NRMSE_median": 7.353702518316254e-09,
+      "NRMSE_worst": 0.0010140724756170344,
+      "position_median": 1.9178800714753161e-07
+    }
+  },
+  "Q40": {
+    "O": {
+      "NRMSE_median": 9.21542913136707e-05,
+      "NRMSE_worst": 0.00022217499501503898,
+      "position_median": 0.0
+    },
+    "F": {
+      "NRMSE_median": 0.009629986873353102,
+      "NRMSE_worst": 0.09985056849449463,
+      "position_median": 0.2100781059358212
+    },
+    "J": {
+      "NRMSE_median": 0.00016023829181132998,
+      "NRMSE_worst": 0.0009808658335490824,
+      "position_median": 0.00023912209683740016
+    }
+  }
+}

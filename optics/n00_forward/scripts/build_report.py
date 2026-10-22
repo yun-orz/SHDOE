@@ -1,0 +1,158 @@
+"""从已保存的实际结果生成验收报告，不重新计算或修改测试结果。"""
+import hashlib
+import json
+import subprocess
+from pathlib import Path
+import numpy as np
+
+ROOT=Path(__file__).resolve().parents[1]
+
+
+def read(path):
+    return json.loads((ROOT/path).read_text(encoding='utf-8'))
+
+
+def main():
+    s=read('results/N00_verified/test_summary.json')
+    meta=read('results/N00_verified/metadata.json')
+    initial=read('results/N00/metadata.json')
+    reference=read('docs/evidence/reference_comparison.json')
+    a=np.load(ROOT/'results/N00/psf_cube.npz')
+    b=np.load(ROOT/'results/N00_verified/psf_cube.npz')
+    difference=float(np.max(np.abs(a['PSF_cube']-b['PSF_cube'])))
+    assert difference==0 and np.array_equal(a['height_um'],b['height_um'])
+    assert reference['unchanged'] and all(s[k]['status']=='PASS' for k in ['T01','T02','T03','T04','T05','T06'])
+    compare=dict(canonical_vs_verified_psf_max_abs_error=difference,height_equal=True,wavelength_equal=np.array_equal(a['wavelength_nm'],b['wavelength_nm']),
+                 canonical_source_commit=initial['source_commit'],verified_source_commit=meta['source_commit'])
+    (ROOT/'docs/evidence/reproduction_comparison.json').write_text(json.dumps(compare,ensure_ascii=False,indent=2),encoding='utf-8')
+    records=s['T04']['evidence']['records']
+    table='\n'.join(f"| {r['wavelength_nm']} | {r['comparison']} | {r['normalized_l1']:.8g} | {r['peak_distance_um']:.4g} | {min(r['crop_fractions']):.8f} | {r['relative_captured_energy_difference']:.8g} |" for r in records)
+    t3=s['T03']['evidence']; t5=s['T05']; t6=s['T06']
+    report=f'''# N00 单孔径 DOE 多波长 PSF 环境验收报告
+
+执行日期：2026-10-09（Asia/Shanghai）。最终状态：**PASS**，适用范围仅为本报告明示的解析参考几何与标量薄相位计算基座；等待用户及 ChatGPT 二次审核后再讨论 N01。
+
+## 1. 本阶段结论与隔离
+
+已建立一张固定实体高度→熔融石英色散相位→圆孔径→精确频点 ASM→原始强度→裁剪 PSF 的闭环，完成 T01–T06。没有设计单臂螺旋、测量旋转角、使用双孔径、生成 RGB/HSI 数据集或训练网络。
+
+独立工程：`E:/SpiralDOE_HSI/n00_run_20261009`。父目录不是空项目：已有 HEAD `65c105c820ae9b64150dafcdad1e59638f22a37e`，其全部已跟踪文件在执行前已显示为 D。遵循不覆盖、不删除原则，使用新的独立 Git 子目录；没有恢复或更改父目录既有文件与索引。父目录仅新增该子目录。
+
+参考仓库：`E:/DeepLensHSI`，HEAD `{read('docs/evidence/reference_before.json')['head']}`。旧仓库本来有修改、暂存重命名及未跟踪 reports，不要求其干净。前后快照 Git HEAD/status/diff SHA256 相同，文件清单 {reference['file_count']} 项相同，其中 {reference['hashed_file_count']} 个非数据集文件完整 SHA256 相同，变化文件为空。数据集仅比较 size/mtime，不能将其表述为完整内容哈希验证。本轮未向旧库写入、未导入旧库模块；详细证据 `docs/evidence/reference_before.json`、`reference_after.json`、`reference_comparison.json`。
+
+旧库 Git 查询最初被沙箱拒绝，已通过只读权限核查完成；没有修改权限或执行写操作。系统 conda.exe 启动出现 DLL 重定位错误，改用 base Python `-m conda list --explicit` 成功读取环境；没有升级、安装或移除依赖。pip 完整锁定在 `requirements.txt`，conda 核心环境包在 `docs/evidence/conda_explicit.txt`（pip 安装的软件由 requirements 补全）。
+
+## 2. 真实接口核查及实现选择
+
+完整类、函数签名、行号、shape/dtype/单位/依赖及未发现接口见 `docs/N00_interface_audit.md`。本轮只检查真实源码，并未运行旧 DeepLens 示例，不能声称旧示例在本轮已跑通。
+
+旧 `get_phase_map0` 先包裹设计相位，不能直接复用为任意未包裹固定高度；旧 `psf` 在插值裁剪后归一化且不保留原始能量；旧 ASM 采用含端点 linspace 频率及默认填充后裁回的流程。因此本项目独立实现数学适配，未复制大量第三方源码，也未臆造接口。`planar_doe.npy` 的实际加载目标为 phase_map，绝不当作原始制造高度。
+
+## 3. 物理模型与明确参数
+
+高度单位 µm、波长输入 nm（计算时除以 1000 转 µm）、z 输入 mm（乘 1000 转 µm），空气折射率 1。材料为 20 °C 熔融石英，[Malitson 1965 原始论文](https://opg.optica.org/josa/abstract.cfm?uri=josa-55-10-1205) 提供 Sellmeier 系数 B=(.6961663,.4079426,.8974794)、共振波长 (.0684043,.1162414,9.896161) µm，适用 .21–3.71 µm。本实验在 .4–.7 µm 内。
+
+`φ(λ)=2π/λ_um·[n(λ)-1]·h_um`，不对高度或基准相位先取模。应用 exp(iφ) 时与取模相位等价，但实体高度始终保留。固定高度 SHA256：`{meta['height_sha256']}`。光瞳 SHA256：`{meta['aperture_sha256']}`。
+
+解析对照采用不包裹聚焦浮雕：`h=(sqrt(f²+R²)-sqrt(f²+r²))/(n(550nm)-1)`，孔径内非负、边缘基准面为 0，孔径外高度为 0。这是连续浮雕而非 2π 台阶菲涅耳制造模型。高度最大 {float(a['height_um'].max()):.8f} µm。选择理由是有明确的聚焦相位及 Airy 近轴参照，同时非零高度能验证跨波长共用高度。
+
+| 参数 | 固定值 |
+|---|---|
+| 圆孔径直径 | 128 µm，二值振幅光瞳 |
+| 设计 λ / 传播距离 | 550 nm / 1 mm |
+| 光瞳输入网格 / pitch | 256×256 / 1 µm，窗口 256×256 µm |
+| 零填充网格 | 1024×1024（4×），物理宽度 1024 µm |
+| 最终裁剪 | 512×512，pitch 1 µm，坐标中心 -255.5…255.5 µm |
+| 波长 | 400…700 nm，步长 10 nm，共 31，严格递增 |
+| 入射与传感器 | 无穷远、轴上、单位振幅平面波；同网格原生采样，无传感器插值 |
+| 精度 / 随机种子 | float64/complex128；20261009（解析高度不依赖随机数） |
+| Python / torch / numpy | {meta['python']} / {meta['torch']} / {meta['numpy']} |
+| GPU / 驱动 | {meta['gpu_name']}，537.53，8,188 MiB（nvidia-smi） |
+
+上述是明确选定的 N00 解析参考规格，而不是原库 4.096 mm DOE/50 mm 距离硬件几何。文档允许任选解析参考 DOE；本轮未宣称验证了该旧硬件的大几何收敛或制造精度。未来实际 N01 几何需要重新做采样与资源评估，不能沿用本轮参数的通过结论。
+
+光瞳后 `U0=A exp(iφ)`，传输核 `exp(i2πz sqrt(λ^-2-fx²-fy²))`，freq 由 fftfreq 精确生成。输入零填充、FFT 有限周期边界；返回整填充网格，不先裁回。倏逝分量由复数平方根指数衰减（本次最细 .5 µm pitch 在 700 nm 仍全部为传播频点，因此本轮能量守恒不涉及倏逝衰减）。能量用 sum(|U|²)·dx·dy，归一化只在最终裁剪后按通道进行。
+
+## 4. T01–T06 真实结果
+
+| 测试 | 状态 | 证据 |
+|---|---|---|
+| T01 单位与维度 | PASS | nm/µm/mm 转换、h=0，相位为 0；拒绝非法波长、高度、pitch、z、shape、乱序通道 |
+| T02 固定高度相位 | PASS | 独立 math 表达式逐元素核对 400/550/700 nm、共享高度哈希不变、exp 包裹等价；完整数组与误差在 test_summary |
+| T03 传播算子 | PASS | 128 网格零距、FFT 往返、平面波及能量；128×256 各向异性单频解析场；550 nm 聚焦与 Airy 剖面对照 |
+| T04 采样与收敛 | PASS | 三波长、固定物理孔径/距离；4× vs 6× 填充及 1 vs .5 µm 网格比较，详见下表 |
+| T05 数据导出 | PASS | 31×512×512、有限非负、严格顺序、逐波段归一化、raw/crop 统计、NPZ 回读、同参复算 |
+| T06 资源稳定 | PASS | 实际 RTX 4060、逐波长 no_grad、正式 31 波段显存及计时；未训练/优化 |
+
+T03：零距离误差 {t3['identity_abs_error']:.4g}（显式恒等分支）；另测 FFT 往返误差 {t3['fft_identity_abs_error']:.6g}，防止只测旁路。随机场能量相对误差 {t3['energy_relative_error']:.6g}；平面波强度误差 {t3['plane_intensity_error']:.4g}；矩形单频解析复振幅误差 {t3['rectangular_mode_abs_error']:.6g}。550 nm Airy 归一化剖面 RMS {t3['airy_profile_rms']:.8g}。图 `results/N00/t03_analytical_airy_validation.png` 显示实际传播结果；近轴 NA≈.064，Airy 为该设计波长的近轴对照，不将其作为离焦波长或高 NA 的精确解。
+
+T04：细网格仍为 D=128 µm、f=1 mm，512×512 输入/.5 µm pitch/4× 填充，输出 1024 裁剪；仅在收敛评价中将 2×2 细像素强度积分到共同的 1 µm 物理像素，与最终 PSF 的无插值传播分开。细网格高度由同一解析实体重新采样，哈希因此不同；正式 31 波段只使用一张固定网格高度。二值圆边缘离散面积在粗细网格分别为 12,892 和 12,867 µm²，这也是部分捕获能量差异的来源。中心质心均为约 0，中心四像素近似等峰可使 argmax 在四点间跳动。
+
+| nm | 比较 | 归一化强度 L1 | 峰位置差 µm | 两方案最低 crop_fraction | 捕获能量相对差 |
+|---|---|---|---|---|---|
+{table}
+
+所有被比较网格的外围 8 像素能量占比低于 .001，结合填充扩展后的形状一致性判断未见严重边界折返；仅小 edge 指标并不能独自证明无限空间精确解。存在可测的粗细采样形状误差，尤其 400 nm 为约 4.36%，不声称已达到百分之一形状精度。
+
+T05：正式最低裁剪占比 {t5['crop_fraction_min']:.10f}，最大原始能量相对误差 {t5['energy_relative_error_max']:.6g}，归一化 sum 误差 {t5['normalization_abs_error']:.6g}。每个波长重复计算最大绝对差均为 0；550 nm CPU/GPU PSF 最大差 {t5['cpu_gpu_abs_error']:.6g}。初次 canonical 与修正导出入口后的完整复跑 PSF 数值差 {difference:g}，高度、波长相同，证据 `docs/evidence/reproduction_comparison.json`。不以图片哈希替代这些科学验证。
+
+T06：正式复跑传播及 CPU 数据组装共 {t6['total_seconds']:.6f} 秒；首次为 {initial['total_propagation_seconds']:.6f} 秒，均不含前置单测、压缩存盘、绘图、报告和 31 次重复验证。峰值已分配 {t6['peak_allocated_bytes']} 字节（{t6['peak_allocated_bytes']/2**20:.3f} MiB），峰值缓存保留 {t6['peak_reserved_bytes']} 字节（{t6['peak_reserved_bytes']/2**20:.3f} MiB）；这是 PyTorch allocator 记录，不等于其他进程/驱动总占用。逐波长耗时见 energy_and_crop.csv 与 test_summary.json，包含同步/强度转 CPU；首通道含预热。全原始强度存 CPU/NPZ，GPU 不积累 31 个场。
+
+## 5. 容差依据与结论边界
+
+double 精度 FFT 累积浮点舍入规模约 epsilon·log2(N)，以 1e-12 作为恒等/能量及相位数值检查的保守绝对或相对上限，矩形解析复振幅与 CPU/GPU 则采用 1e-10；测试与指标严格区分。非零多高度相位及包裹复指数误差均要求绝对 <1e-12。数值舍入阈值不能用于形状收敛。
+
+N00 工程保真预算预先在测试中设定：归一化形状 L1<.05（总变差<2.5%，即任意区域概率质量差≤2.5%）、峰偏移≤2 µm（两粗像素，并检查质心）、捕获能量相对差<1%、裁剪保留>99%、外围能量<0.1%。这些是本计算基座的明确工程验收预算，不是普适光学定律，也不是后续角度反演精度依据；设定独立于漂亮图片与归一化成功。本轮实测均满足预算。Airy 剖面 RMS<.02 为 40 个物理采样点的独立近轴形状参考容差，实际误差远小于该阈值。
+
+未检验高 NA/亚波长结构、矢量偏振、吸收、表面反射、DOE 效率、量化与制造误差、温度漂移、真实传感器像素积分。正式 PSF 是各单色相干平面波传播强度；以后宽谱图像应非相干强度相加，不跨波长相干相加。本轮没有宣称硬件全物理精度通过。
+
+## 6. 交付路径、命令、版本
+
+下列相对路径均基于 `E:/SpiralDOE_HSI/n00_run_20261009`：
+
+- `reports/N00/N00_单孔径DOE多波长PSF环境验收报告.md`：本报告。
+- `docs/N00_interface_audit.md`：源码事实与新接口。
+- `results/N00/psf_cube.npz`：原始正式交付，keys 为 PSF_cube、wavelength_nm、height_um、aperture_mask、x_um、y_um、raw_intensity。
+- `results/N00/metadata.json`、`psf_montage.png`、`height_map.png`、`energy_and_crop.csv`、`test_summary.json`、`test_run.log`。
+- `results/N00_verified/`：最终版本独立复跑，增加 raw_x_um/raw_y_um 明确坐标，完整 T01–T06 summary；canonical 所缺的原始坐标亦可由其 metadata 的 raw_origin_pixel/pitch 严格恢复。
+- `docs/evidence/verified_run.log`、`reproduction_comparison.json`、参考前后快照及 `artifact_sha256.json`。
+
+复现命令（不覆盖已有产物，新目录必须尚不存在）：
+
+```powershell
+Set-Location E:\\SpiralDOE_HSI\\n00_run_20261009
+& 'D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe' scripts/run_n00_psf.py --output results/N00_reproduce
+```
+
+canonical 计算代码 commit `{initial['source_commit']}`；最终完整复跑计算代码 commit `{meta['source_commit']}`。后者仅修正复跑目录判断、补充 raw 坐标和 FFT 往返检查，不改物理算法。交付快照 Git commit 由 `git log -1` 查询；元数据引用的是生成数据时的真实代码 commit，避免报告自身哈希的循环定义。
+
+## 7. 验收门槛与下一阶段
+
+| 项目 | 状态 | 判定 |
+|---|---|---|
+| A 参考隔离 | PASS | 新独立目录/Git，旧库前后状态与非数据集哈希一致 |
+| B 物理高度 | PASS | 一张非零未包裹实体高度，31 波长直接由色散公式生成相位 |
+| C 传播可信 | PASS | 单位、零距、独立解析模式、原始能量、采样与边界证据完整，在声明的预算内 |
+| D PSF 数据 | PASS | 31 波段、坐标与原始能量/crop 记录，全部波长可视化 |
+| E 可复现 | PASS | 真实环境锁定、运行入口、逐波长日志、代码 commit、独立复跑数值一致 |
+| F 阶段纪律 | PASS | 仅 N00 对照，无螺旋设计、旋转标定或网络训练 |
+
+本轮没有必须先修复的 FAIL/BLOCKED 项。后续实际几何、精度目标与资源要求均需在 N01 另行明确；若要求形状误差<1%，必须进一步提高采样并重新评估，不能直接引用本轮 PASS。此处停止，等待二次审核，不进入 N01。
+'''
+    path=ROOT/'reports/N00/N00_单孔径DOE多波长PSF环境验收报告.md'
+    path.parent.mkdir(parents=True,exist_ok=True)
+    if path.exists():
+        raise FileExistsError('报告已存在，禁止覆盖')
+    path.write_text(report,encoding='utf-8')
+    manifest={}
+    for directory in ['src','scripts','tests','configs','results','reports']:
+        for p in (ROOT/directory).rglob('*'):
+            if not p.is_file() or '__pycache__' in p.parts:
+                continue
+            manifest[p.relative_to(ROOT).as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
+    (ROOT/'docs/evidence/artifact_sha256.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
+    print('验收报告已保存',path)
+
+
+if __name__=='__main__':
+    main()

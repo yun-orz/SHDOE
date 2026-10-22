@@ -1,0 +1,16 @@
+﻿=== R06-2 Baseline Snapshot ===
+Timestamp: 2026-10-09 18:20:02
+Git HEAD: 260aa949692e7321fd77b6afb613e6ed418c8710
+Git Branch: main
+Git Status Short:
+ M .gitignore AM 2_test_forward.py AM 3_test_pretrained.py AM 4_check_bitdepth.py AM 5_eval_pretrained.py AM 6_evaluate_metrics.py  M README.md R  video1_raw.gif -> assets/video1_raw.gif RM DOE_phase_map.png -> outputs/DOE_phase_map.png RM psf_spectral_1000mm.png -> outputs/psf_spectral_1000mm.png  M src/hsi_camera.py ?? reports/
+
+Python & PyTorch & CUDA:
+Python: D:\MiniAnaconda\envs\deeplens_hsi_4060\python.exe Torch: 2.5.1+cu121 CUDA available: True GPU: NVIDIA GeForce RTX 4060 Laptop GPU
+
+Core File Hashes:
+ckpts/nafnet_hsi.pth | 4CC4C92D95064155B312A2FF5DCF8037A5A431A2200F797D71F014E612D5666F | 49966674 bytes | Tracked configs/1_deeplens_hsi.yml | 7A48A83566DF9B3ED7CE0F5DAC3D3E5F21455C3961162133883FD5F180FE4C55 | 683 bytes | Tracked lenses/paraxiallens/doelens_hsi.json | FCF3262CCA515B22EE372623D508DECC8078CC13A8B379192CD83C16C738C9DB | 531 bytes | Tracked lenses/paraxiallens/planar_doe.npy | 8CC4FDD9C3D64D18282FF77D561E5E19B3F9BD0A8DEA59A9739A111D14A43111 | 4194432 bytes | Tracked sensors/flir/BFS-U3-200S7C-C.json | F0BEEA035C09E576548B13D00B259C3256B2C4E29B47DDF5DBA34EF2CF5E3E30 | 2657 bytes | Tracked src/hsi_camera.py | 34752988D577A1895B052B1DCCA72EC75CAA9677BFA43D49CB382FFB584A60B6 | 7612 bytes | Tracked src/deeplens/diffraclens.py | 22496AB26D7C7CC804A1E25E77C00310A8A62D92C8398FBD7C3ECB44E338F41A | 14833 bytes | Tracked src/deeplens/diffractive_surface/base.py | B6E87DA96537673B640C7CE0C29B5996C1D2C3EBE388F137B8533728FFF95073 | 16041 bytes | Tracked hsi_dataset.py | 894898C5A30F28C480E0EC1C10663D7A20A6ACFA9085BF86C07150DDA78A00D1 | 3322 bytes | Tracked 1_deeplens_hsi.py | 4441457576ABC422DADB7E46CB56FCD7E476FA4D0F6B6274054725047717BA9F | 12677 bytes | Tracked 5_eval_pretrained.py | CBEBCF22B60E5C626D7B086B3E53D1C4B0491EE4084A039CBA255D532F0F0DDF | 3943 bytes | Tracked 6_evaluate_metrics.py | B98CA6BD1F4731193EA2ABFBDCF051C72B0BA0CD473868C0415BB2A0074B3E06 | 2777 bytes | Tracked
+
+R05 Validation Existence:
+spectra.pt files: 8
+metrics.csv exists: True

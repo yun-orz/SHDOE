@@ -1,0 +1,50 @@
+[
+  {
+    "path": "E:\\SH\\optics\\n00_forward\\scripts\\run_n00_psf.py",
+    "before_sha256": "17597a66cc557559ffc8617abb5af5909c1468f39f2421939d4473cffcb7514d",
+    "after_sha256": "1a6dcd4a51e05a43c1e00dd31d8303fa898cfb3e075681b29a52e9cf013939bc",
+    "diff": "--- E:\\SH\\optics\\n00_forward\\scripts\\run_n00_psf.py (copied)\n+++ E:\\SH\\optics\\n00_forward\\scripts\\run_n00_psf.py (adapted)\n@@ -64,7 +64,7 @@\n                 model_boundary='薄相位标量模型；不包含偏振、吸收、制造误差、衍射效率及传感器颜色响应',\n                 reference_geometry='解析 N00 对照 D=128 µm，f=1 mm；不是旧库 4.096 mm 孔径的缩小替代',\n                 height_model='未包裹聚焦浮雕：h=(sqrt(f^2+R^2)-sqrt(f^2+r^2))/(n(550nm)-1)，孔径外 0',\n-                source_commit=subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip())\n+                source_commit=json.loads((ROOT/'source_snapshot.json').read_text(encoding='utf-8'))['source_head'])\n     x=(np.arange(512)-255.5)*cfg['pitch_um']\n     raw_x=(np.arange(r['raw_intensity'].shape[2])-(r['raw_intensity'].shape[2]-1)/2)*cfg['pitch_um']\n     raw_y=(np.arange(r['raw_intensity'].shape[1])-(r['raw_intensity'].shape[1]-1)/2)*cfg['pitch_um']\n",
+    "hash_semantics": "before_sha256/after_sha256为UTF-8 LF规范化文本SHA；复制与最终实际字节SHA见copied_files_sha256.csv与target_current_sha256.csv",
+    "actual_current_file_sha256": "e99aa6d970f04aa0d7edee4c75103c2561a18d890e4906e7dc5caf26ee72c30f"
+  },
+  {
+    "path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\optics.py",
+    "before_sha256": "34d01a8634c56be2f447dfacd96db477c6846bb7923297a39a1cfa09cffec59f",
+    "after_sha256": "7bc3aed70dddabfe76669ce456d322a7e9af87434525ed20d3cad0c40e012111",
+    "diff": "--- E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\optics.py (copied)\n+++ E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\optics.py (adapted)\n@@ -22,7 +22,7 @@\n     return obj\n \n \n-frozen = module('n02_frozen_support', ROOT/'experiments/N01_3A_G2_f2_q6_13wave/support.py')\n+frozen = module('n02_frozen_support', ROOT/'vendor_compat/experiments/N01_3A_G2_f2_q6_13wave/support.py')\n legacy = frozen.legacy\n p3 = frozen.p3\n baseline = legacy.baseline\n",
+    "hash_semantics": "before_sha256/after_sha256为UTF-8 LF规范化文本SHA；复制与最终实际字节SHA见copied_files_sha256.csv与target_current_sha256.csv",
+    "actual_current_file_sha256": "fd4c8b621564395799ad597ba2ec3e3db65ea70a76228b6fd015201b2c2f5ea1"
+  },
+  {
+    "path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_common.py",
+    "before_sha256": "eccf2b472c07569a257c222585c46173ac89aa79faf7873ac8e150a7ee8772a5",
+    "after_sha256": "30892174c21694ab01e1aa777ff3654ed9d4bbeabeed1a4d6725b98d3de88f99",
+    "diff": "--- E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_common.py (copied)\n+++ E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_common.py (adapted)\n@@ -20,7 +20,7 @@\n ROOT=Path(__file__).resolve().parents[2]\n CODE=Path(__file__).resolve().parent\n OLD=ROOT/'results/n02/n02_20261019_02'\n-TASK=Path('C:/Users/李咏晨/Downloads/N02_%E5%AE%A1%E6%A0%B8%E4%B8%8E%E4%B8%8B%E4%B8%80%E8%BD%AECodex%E4%BB%BB%E5%8A%A1%E4%B9%A6_20261020.md')\n+TASK=ROOT/'results/n02_1c_r/n02_1cr_20261020_01/task_original.md'\n \n \n def load_module(name,path):\n",
+    "hash_semantics": "before_sha256/after_sha256为UTF-8 LF规范化文本SHA；复制与最终实际字节SHA见copied_files_sha256.csv与target_current_sha256.csv",
+    "actual_current_file_sha256": "0add0a4b97b91b0bb60b74d0f9bab1ed28a3894d34010350d9a18a3af8d4a129"
+  },
+  {
+    "path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r2\\r2_common.py",
+    "before_sha256": "bc71dafc7d8ff7c396526698a06c21cdf8a90f9e0e2bc38e2940c41e4857e2b5",
+    "after_sha256": "747599228042fb7d5440fe5e5a00130932f8467da3204a20220a0a986c06a736",
+    "diff": "--- E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r2\\r2_common.py (copied)\n+++ E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r2\\r2_common.py (adapted)\n@@ -13,7 +13,7 @@\n CODE=Path(__file__).resolve().parent\n OLD=ROOT/'results/n02/n02_20261019_02'\n UP=ROOT/'results/n02_1c_r/n02_1cr_20261020_01'\n-TASK=Path('C:/Users/李咏晨/Downloads/N02_1CR2_Codex_%E5%AE%A1%E6%A0%B8%E4%B8%8E%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E4%B9%A6_20261020.md')\n+TASK=ROOT/'results/n02_1c_r2/n02_1cr2_20261020_02/task_original.md'\n \n \n def module(name,path):\n",
+    "hash_semantics": "before_sha256/after_sha256为UTF-8 LF规范化文本SHA；复制与最终实际字节SHA见copied_files_sha256.csv与target_current_sha256.csv",
+    "actual_current_file_sha256": "345f52740cfdbd0b95cb73df8c8693415ac4a53d1eaa277cdba70e2f98f8c202"
+  },
+  {
+    "path": "E:\\SH\\optics\\n00_forward\\scripts\\snapshot_reference.py",
+    "before_sha256": "ef8321304c00e37dbd81118e818683e572d3e5956fba313901de1ee4bc2548ae",
+    "after_sha256": "8e0d9b59805bec15199c6683a89a2fc5faaf85dab4aeaabf170db1d78356c365",
+    "diff": "--- E:\\SH\\optics\\n00_forward\\scripts\\snapshot_reference.py (copied)\n+++ E:\\SH\\optics\\n00_forward\\scripts\\snapshot_reference.py (adapted)\n@@ -6,7 +6,7 @@\n from pathlib import Path\n \n ROOT = Path(__file__).resolve().parents[1]\n-REF = Path('E:/DeepLensHSI')\n+REF = ROOT.parents[1]/'framework/DeepLensHSI'\n \n \n def git(*args):\n",
+    "hash_semantics": "before_sha256/after_sha256为UTF-8 LF规范化文本SHA；复制与最终实际字节SHA见copied_files_sha256.csv与target_current_sha256.csv",
+    "actual_current_file_sha256": "c165d1d3206cdf9d1e0bf535b27c064463fb3b8bffd0fca87af843dd72b1d9bb"
+  },
+  {
+    "path": "E:\\SH\\optics\\n00_forward\\scripts\\snapshot_reference.py",
+    "before_sha256": "8e0d9b59805bec15199c6683a89a2fc5faaf85dab4aeaabf170db1d78356c365",
+    "after_sha256": "721d0982bc3267dbc3e598b76dfc41f1abce031520b8dfaadab107983a4dc7ae",
+    "diff": "--- E:\\SH\\optics\\n00_forward\\scripts\\snapshot_reference.py (copied)\n+++ E:\\SH\\optics\\n00_forward\\scripts\\snapshot_reference.py (adapted)\n@@ -14,6 +14,7 @@\n \n \n def snapshot():\n+    raise RuntimeError(\"历史快照工具已归档；请使用 provenance/tools 中的迁移审计入口，避免覆盖冻结证据。\")\n     files = {}\n     for p in REF.rglob('*'):\n         if not p.is_file() or '.git' in p.relative_to(REF).parts:\n",
+    "hash_semantics": "before_sha256/after_sha256为UTF-8 LF规范化文本SHA；复制与最终实际字节SHA见copied_files_sha256.csv与target_current_sha256.csv",
+    "actual_current_file_sha256": "c165d1d3206cdf9d1e0bf535b27c064463fb3b8bffd0fca87af843dd72b1d9bb"
+  }
+]

@@ -1,0 +1,749 @@
+[
+  {
+    "name": "常量面积_4_2",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "守恒与部分视场_4_2",
+    "passed": true,
+    "value": {
+      "total": 16.0,
+      "inside": 16.0,
+      "outside": 0.0
+    }
+  },
+  {
+    "name": "常量面积_7_1",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "守恒与部分视场_7_1",
+    "passed": true,
+    "value": {
+      "total": 49.0,
+      "inside": 49.0,
+      "outside": 0.0
+    }
+  },
+  {
+    "name": "常量面积_8_0.5",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "守恒与部分视场_8_0.5",
+    "passed": true,
+    "value": {
+      "total": 64.0,
+      "inside": 64.0,
+      "outside": 0.0
+    }
+  },
+  {
+    "name": "常量面积_9_1.7",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "守恒与部分视场_9_1.7",
+    "passed": true,
+    "value": {
+      "total": 81.0,
+      "inside": 72.24999999999999,
+      "outside": 8.750000000000014
+    }
+  },
+  {
+    "name": "边界部分覆盖解析",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "全覆盖非负守恒",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "独立矩形重叠积分",
+    "passed": true,
+    "value": 3.552713678800501e-15
+  },
+  {
+    "name": "连续高斯双面积积分_0.274",
+    "passed": true,
+    "value": 1.2853216754815655e-16
+  },
+  {
+    "name": "连续高斯双面积积分_1.37",
+    "passed": true,
+    "value": 3.608224830031759e-16
+  },
+  {
+    "name": "光轴四格delta映射",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "detector连续偏移质量",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "非周期亚像元坐标_x_-0.1",
+    "passed": true,
+    "value": [
+      -0.27397868561278216,
+      0.0
+    ]
+  },
+  {
+    "name": "非周期亚像元坐标_x_0.1",
+    "passed": true,
+    "value": [
+      0.27397868561279637,
+      0.0
+    ]
+  },
+  {
+    "name": "非周期亚像元坐标_y_-0.1",
+    "passed": true,
+    "value": [
+      0.0,
+      -0.27397868561278216
+    ]
+  },
+  {
+    "name": "非周期亚像元坐标_y_0.1",
+    "passed": true,
+    "value": [
+      0.0,
+      0.27397868561279637
+    ]
+  },
+  {
+    "name": "平移无环绕",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "精确RGB波长索引",
+    "passed": true,
+    "value": [
+      2,
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      23,
+      26
+    ]
+  },
+  {
+    "name": "shape_only/B0_RGB_delta非负有限",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立列_0",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立列_1",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立列_2",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立列_3",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立列_4",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立列_5",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立列_6",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立列_7",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立列_8",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta独立多带",
+    "passed": true,
+    "value": 0.0
+  },
+  {
+    "name": "shape_only/B0_RGB_delta零输入",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B0_RGB_delta伴随",
+    "passed": true,
+    "value": 6.071532165918825e-18
+  },
+  {
+    "name": "shape_only/B0_RGB_deltaSVD重构",
+    "passed": true,
+    "value": 5.040387022540667e-16
+  },
+  {
+    "name": "shape_only/B0_RGB_delta非负KKT",
+    "passed": true,
+    "value": 2.577636960886484e-18
+  },
+  {
+    "name": "shape_only/B0_RGB_delta控制矩阵秩3",
+    "passed": true,
+    "value": 3
+  },
+  {
+    "name": "shape_only/B0_RGB_deltaQ实际SNR",
+    "passed": true,
+    "value": 30.000000000000004
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta非负有限",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立列_0",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立列_1",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立列_2",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立列_3",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立列_4",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立列_5",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立列_6",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立列_7",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立列_8",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta独立多带",
+    "passed": true,
+    "value": 1.9285396898747207e-16
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta零输入",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta伴随",
+    "passed": true,
+    "value": 1.3877787807814457e-17
+  },
+  {
+    "name": "throughput_aware/B0_RGB_deltaSVD重构",
+    "passed": true,
+    "value": 5.282082019909052e-16
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta非负KKT",
+    "passed": true,
+    "value": 2.3011409371392338e-17
+  },
+  {
+    "name": "throughput_aware/B0_RGB_delta控制矩阵秩3",
+    "passed": true,
+    "value": 3
+  },
+  {
+    "name": "throughput_aware/B0_RGB_deltaQ实际SNR",
+    "passed": true,
+    "value": 30.0
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF非负有限",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立列_0",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立列_1",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立列_2",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立列_3",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立列_4",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立列_5",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立列_6",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立列_7",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立列_8",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF独立多带",
+    "passed": true,
+    "value": 1.1241652189097911e-16
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF零输入",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF伴随",
+    "passed": true,
+    "value": 4.336808689942018e-19
+  },
+  {
+    "name": "shape_only/B1_fixed_PSFSVD重构",
+    "passed": true,
+    "value": 1.5431951635839038e-15
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF非负KKT",
+    "passed": true,
+    "value": 2.3302136256055612e-17
+  },
+  {
+    "name": "shape_only/B1_fixed_PSF控制矩阵秩3",
+    "passed": true,
+    "value": 3
+  },
+  {
+    "name": "shape_only/B1_fixed_PSFQ实际SNR",
+    "passed": true,
+    "value": 30.000000000000004
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF非负有限",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立列_0",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立列_1",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立列_2",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立列_3",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立列_4",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立列_5",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立列_6",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立列_7",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立列_8",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF独立多带",
+    "passed": true,
+    "value": 1.2756558601437568e-16
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF零输入",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF伴随",
+    "passed": true,
+    "value": 1.6805133673525319e-18
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSFSVD重构",
+    "passed": true,
+    "value": 2.712932261196243e-15
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF非负KKT",
+    "passed": true,
+    "value": 2.851264005188817e-17
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSF控制矩阵秩3",
+    "passed": true,
+    "value": 3
+  },
+  {
+    "name": "throughput_aware/B1_fixed_PSFQ实际SNR",
+    "passed": true,
+    "value": 30.0
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF非负有限",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立列_0",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立列_1",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立列_2",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立列_3",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立列_4",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立列_5",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立列_6",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立列_7",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立列_8",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF独立多带",
+    "passed": true,
+    "value": 1.3391423084117638e-16
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF零输入",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF伴随",
+    "passed": true,
+    "value": 1.8431436932253575e-18
+  },
+  {
+    "name": "shape_only/B2_spiral_PSFSVD重构",
+    "passed": true,
+    "value": 1.5575314399868002e-15
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF非负KKT",
+    "passed": true,
+    "value": 6.636195830857576e-18
+  },
+  {
+    "name": "shape_only/B2_spiral_PSF无噪声谱恢复",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "shape_only/B2_spiral_PSFQ实际SNR",
+    "passed": true,
+    "value": 30.0
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF非负有限",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立列_0",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立列_1",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立列_2",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立列_3",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立列_4",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立列_5",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立列_6",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立列_7",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立列_8",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF独立多带",
+    "passed": true,
+    "value": 1.198630632830352e-16
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF零输入",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF伴随",
+    "passed": true,
+    "value": 4.336808689942018e-19
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSFSVD重构",
+    "passed": true,
+    "value": 2.3883198428538366e-15
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF非负KKT",
+    "passed": true,
+    "value": 1.4219368983555324e-17
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSF无噪声谱恢复",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "throughput_aware/B2_spiral_PSFQ实际SNR",
+    "passed": true,
+    "value": 30.000000000000004
+  },
+  {
+    "name": "P种子重复一致",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "P有限非负rate",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "欠定NNLS补零回归_B0_RGB_delta_6",
+    "passed": true,
+    "value": 3.92659063358676e-17
+  },
+  {
+    "name": "欠定NNLS补零回归_B0_RGB_delta_3",
+    "passed": true,
+    "value": 2.6056951906633965e-17
+  },
+  {
+    "name": "欠定NNLS补零回归_B1_fixed_PSF_6",
+    "passed": true,
+    "value": 3.52967045654171e-17
+  },
+  {
+    "name": "欠定NNLS补零回归_B1_fixed_PSF_3",
+    "passed": true,
+    "value": 1.4376901971984053e-17
+  },
+  {
+    "name": "解析NNLS单位阵",
+    "passed": true,
+    "value": null
+  },
+  {
+    "name": "原RGB450B650R",
+    "passed": true,
+    "value": [
+      7.0,
+      0.0,
+      2.0
+    ]
+  },
+  {
+    "name": "S0对齐EXP1",
+    "passed": true,
+    "value": 5.738453872089251
+  },
+  {
+    "name": "通量仅一次_420",
+    "passed": true,
+    "value": 4.336808689942018e-19
+  },
+  {
+    "name": "通量仅一次_450",
+    "passed": true,
+    "value": 1.3010426069826053e-18
+  },
+  {
+    "name": "通量仅一次_480",
+    "passed": true,
+    "value": 1.734723475976807e-18
+  },
+  {
+    "name": "通量仅一次_510",
+    "passed": true,
+    "value": 8.673617379884035e-19
+  },
+  {
+    "name": "通量仅一次_540",
+    "passed": true,
+    "value": 1.734723475976807e-18
+  },
+  {
+    "name": "通量仅一次_570",
+    "passed": true,
+    "value": 8.673617379884035e-19
+  },
+  {
+    "name": "通量仅一次_600",
+    "passed": true,
+    "value": 1.3010426069826053e-18
+  },
+  {
+    "name": "通量仅一次_630",
+    "passed": true,
+    "value": 8.673617379884035e-19
+  },
+  {
+    "name": "通量仅一次_660",
+    "passed": true,
+    "value": 8.673617379884035e-19
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "numerics": "FAIL",
+  "fabrication_quantification": "PASS",
+  "fabrication_real_world": "NOT_TESTED",
+  "exceptions": [
+    {
+      "condition": "Q10_round",
+      "n02_valid": 23
+    },
+    {
+      "condition": "Q8_floor",
+      "n02_valid": 23
+    },
+    {
+      "condition": "height_scale_1.1",
+      "n02_valid": 24
+    },
+    {
+      "condition": "rounding_0.5um",
+      "n02_valid": 24
+    },
+    {
+      "condition": "lateral_2um",
+      "n02_valid": 21
+    },
+    {
+      "condition": "tilt01mrad",
+      "n02_valid": 24
+    }
+  ]
+}

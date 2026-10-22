@@ -1,0 +1,11 @@
+{
+  "command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "E:\\SH\\provenance\\tools\\verify_r06_2_output_protection.py"
+  ],
+  "cwd": "E:\\SH\\framework\\DeepLensHSI",
+  "returncode": 0,
+  "seconds": 17.1397442817688,
+  "source_guard": true
+}

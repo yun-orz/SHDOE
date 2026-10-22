@@ -1,0 +1,74 @@
+{
+  "framework\\DeepLensHSI\\sensors\\flir\\BFS-U3-200S7C-C.json": {
+    "sha256": "f0beea035c09e576548b13d00b259c3256b2c4e29b47ddf5dba34ef2cf5e3e30",
+    "bytes": 2657
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\forward.py": {
+    "sha256": "e697da9a693f428082e860b9d29148434299f0e9800d81559ed7ef26cc8e319c",
+    "bytes": 3578
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\sampling.py": {
+    "sha256": "de8327a70d10b6f295e1bb52e43139fd2c5a13e156439ff506530f2449370648",
+    "bytes": 1853
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp3\\forward_adapter.py": {
+    "sha256": "2990e4647afd666b2a0a43ec9dcdfbcf7d0bcdf522ef817528083b7e959918a1",
+    "bytes": 1586
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\height_design_maps_sections.png": {
+    "sha256": "969ded49c067e4a1093d7686a26817d0407efac5c21e9b37d0c1c8c646b94b94",
+    "bytes": 1525377
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\aperture_mask.npy": {
+    "sha256": "07e77628a12d6c223057b219d70a4eb5869027b139aaf4113f00cd0b40dc44bc",
+    "bytes": 4194432
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\height_histogram.csv": {
+    "sha256": "3c5b28dc0de6f0d7fa28408ba61c19669f0f5cfb38771918534e973b619c1ee3",
+    "bytes": 269
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\height_metadata.json": {
+    "sha256": "91b67ceecc9864ada0a4f988ac6eab91e92d4cea1e70d1eebe52cb06581b1cef",
+    "bytes": 408
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\height_um.npy": {
+    "sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f",
+    "bytes": 33554560
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\420nm.npz": {
+    "sha256": "864aec59ec85792d106000d29533ff5b8377d834abacc434b31fcb28d9a64c05",
+    "bytes": 3972243
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\450nm.npz": {
+    "sha256": "2cd0eeda745bc648b2e8027a98e168bd10278f9e414dde3b189cfe982b61722d",
+    "bytes": 3972843
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\480nm.npz": {
+    "sha256": "fce5a7b90b15c0fe2c5999f17c4aa9b8c275b43dc9df73a0bed3eb8fc0176bdb",
+    "bytes": 3973408
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\510nm.npz": {
+    "sha256": "174e07c1c425547674a1615776efa57403a41426cd54fdc602bf0fca5e952cbe",
+    "bytes": 3973739
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\540nm.npz": {
+    "sha256": "29d90260f5faccdf52be7630331205b72717251572f0ebb5675346f1616fc8a3",
+    "bytes": 3973826
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\570nm.npz": {
+    "sha256": "8e261358c66bf93028a72fefc223d79a46343b858785a08a5e16eb44c1ed83f5",
+    "bytes": 3973441
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\600nm.npz": {
+    "sha256": "c2222048f66f60a0f59d6fa2770c5e9e9fef5810e260959b3ed474c720b42b09",
+    "bytes": 3973496
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\630nm.npz": {
+    "sha256": "f844239b6ea492ee7ca11dfcfbc103fbe499c1df6f812da420e74906a0871877",
+    "bytes": 3972878
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\660nm.npz": {
+    "sha256": "ea84f1e608f679c8a615da599bd05854eab23a6ff2248df4b561b781f2ad5a62",
+    "bytes": 3972079
+  }
+}

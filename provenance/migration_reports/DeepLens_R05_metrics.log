@@ -1,0 +1,18 @@
+chart_and_stuffed_toy_ms       | PSNR=21.56 dB | SSIM=0.7212 | SAM=29.41 deg
+clay_ms                        | PSNR=16.52 dB | SSIM=0.6113 | SAM=46.78 deg
+fake_and_real_lemons_ms        | PSNR=19.99 dB | SSIM=0.7378 | SAM=36.86 deg
+flowers_ms                     | PSNR=18.06 dB | SSIM=0.7100 | SAM=38.91 deg
+photo_and_face_ms              | PSNR=25.61 dB | SSIM=0.7851 | SAM=36.12 deg
+pompoms_ms                     | PSNR=13.83 dB | SSIM=0.5156 | SAM=43.35 deg
+real_and_fake_peppers_ms       | PSNR=18.60 dB | SSIM=0.6969 | SAM=38.89 deg
+sponges_ms                     | PSNR=11.30 dB | SSIM=0.5187 | SAM=43.47 deg
+
+===== 验证集平均指标 =====
+psnr_db: 18.1866
+ssim: 0.6621
+sam_deg: 39.2232
+SAM有效像素比例范围: 73.92% 至 99.84%
+
+评价结果已保存: E:\SH\framework\DeepLensHSI\results\R05_validation\metrics.csv
+R05-3 完成
+

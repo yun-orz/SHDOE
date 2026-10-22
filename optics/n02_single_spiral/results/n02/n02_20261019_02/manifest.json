@@ -1,0 +1,164 @@
+{
+  "status": "COMPLETE_WITH_SCIENTIFIC_FAILURES",
+  "time": "2026-10-19T23:39:57.672197+08:00",
+  "git_head": "b9bf90c94bda664502d309be147949262fa71309",
+  "git_dirty": true,
+  "entry": "experiments/n02/run.py",
+  "invocation": {
+    "time": "2026-10-19T23:24:08.549432+08:00",
+    "argv": [
+      "experiments/n02/run.py",
+      "--run-id",
+      "n02_20261019_02"
+    ],
+    "python": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe"
+  },
+  "config": {
+    "design_nm": 546.1,
+    "R_um": 500.0,
+    "focal_mm": 20.0,
+    "object_mm": 180.0,
+    "sensor_mm": 22.495,
+    "L": 8,
+    "handedness": 1,
+    "Q": 10,
+    "quantizer": "floor",
+    "size": 2048,
+    "pitch_um": 1.0,
+    "padding": 2,
+    "roi_width_um": 512.0,
+    "device": "cuda",
+    "seed": 20261019,
+    "material_model": "ASSUMED_Cauchy_1.5292_plus_0.00800_over_lambda_um_squared",
+    "n_env": 1.0,
+    "thresholds": {
+      "outside_disk_ratio": 1.25,
+      "distinct_peak_ratio": 1.25,
+      "shape_l1": 0.05,
+      "shift_um": 2.0,
+      "angle_deg": 3.0,
+      "edge": 0.001,
+      "roi_fraction": 0.99,
+      "energy": 1e-10,
+      "dense_step_deg": 45.0
+    },
+    "n02_proposal": {
+      "sidelobe_ratio": 1.5,
+      "min_angle_per_10nm_deg": 4.0,
+      "max_angle_per_10nm_deg": 18.0,
+      "total_min_deg": 200.0,
+      "total_max_deg": 280.0
+    },
+    "diameter_um": 1000.0
+  },
+  "material_source": "任务书给定Cauchy近似；ASSUMED，外部DOI读取失败，未核验IP-Dip2实测曲线",
+  "environment": {
+    "time": "2026-10-19T23:24:09.620372+08:00",
+    "python": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "python_version": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 22:57:13) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "seed": 20261019,
+    "git_head": "b9bf90c94bda664502d309be147949262fa71309",
+    "disk_free_bytes": 83865710592
+  },
+  "seed": 20261019,
+  "source_hashes": {
+    "experiments\\n02\\audit.py": "e0b021ff1dafcbba902b9205ea6779d240eab3969b8c63f0bd8f1d599fab4a16",
+    "experiments\\n02\\evaluate.py": "0459fdf82e91f4aab95a8f986c42f8a7eea57aa6a586507660b45e6526abd54f",
+    "experiments\\n02\\finalize.py": "44e135d2684433d36af2f40112256b2f800d96e0aed6e4e29a36d070f774b0d2",
+    "experiments\\n02\\optics.py": "34d01a8634c56be2f447dfacd96db477c6846bb7923297a39a1cfa09cffec59f",
+    "experiments\\n02\\physics_tests.py": "34dee20f50ee181782ec0967fb83b4302747a2ea4f748a0ee45e3ad74b48fe8e",
+    "experiments\\n02\\reporting.py": "a60f664d4499f77ab7f0745575efb070b1e48757d17f9718d4d2f349992d28f8",
+    "experiments\\n02\\resume.py": "81aefdd9bac3182466215229ff5b4d33aa57285a4402e8d3de479b7a2d3255d6",
+    "experiments\\n02\\run.py": "f7dcdc38cc6fc9929a666d7f10253374688347228aad6182a49dbde7f10c7ab3",
+    "experiments\\n02\\selection.py": "bb3ffad33d4220f0fe281421f9abc2bd41d5fa27e822854e7924607d55873bf4",
+    "experiments\\n02\\validation.py": "f40f7d224766d02694c24b90631b734ff7c9b12e5cfa25a7dafbd5e18eb90041",
+    "experiments\\n02\\verify.py": "ff4cf2f2bcb8dd765eb2b4c1687bc001c19cc6b51a36ecf89fa9d0667d2f5f2b",
+    "configs/n02/baseline_B.yaml": "101462ad3f8227d2f09ed68858dccb58ae3c91a9b1e5e40634545033f9b58273"
+  },
+  "artifact_manifest_sha256": "8ec207061f74f47d22f2ac6268c1490dad986c7d85d9e75b53c39166eb4b2c13",
+  "input_hashes_sha256": "39ac67221f14077a43862a8cfc97ba6456da4a6e169eec58330f6d2574fde36e",
+  "gates": {
+    "G0": {
+      "status": "PASS",
+      "execution": "SIMULATED",
+      "reason": "12/12物理测试及冻结协议/历史路径审计"
+    },
+    "G1": {
+      "status": "PASS",
+      "execution": "SIMULATED",
+      "reason": "B2固定高度25标准通道物理/形态/链接与旋转成立"
+    },
+    "G2": {
+      "status": "FAIL",
+      "execution": "SIMULATED",
+      "standard25": "PASS",
+      "blue5nm": "FAIL",
+      "reason": "425nm冻结3x3拟合不稳定；1nm局部若干角符号误差代理/缩放角差门不通过；不能仅报标准25点"
+    },
+    "G3_Numerics": {
+      "status": "FAIL",
+      "execution": "SIMULATED",
+      "reason": "多个波长全域16um边缘能量未达冻结0.001门"
+    },
+    "G3_Fabrication": {
+      "status": "PASS",
+      "execution": "SIMULATED_ASSUMED",
+      "reason": "完成有界假设扰动定量，实测工艺NOT_TESTED"
+    },
+    "G4": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G5": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G6": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G7": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G8": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "GF": {
+      "status": "PASS",
+      "execution": "SIMULATED",
+      "reason": "完成本轮P0证据归档与独立回读；科研L1/L2/L3不因此通过"
+    }
+  },
+  "verified_cases": 571,
+  "technical_failures": [
+    "failure_traceback.txt",
+    "resume_failure_traceback.txt",
+    "resume_failure_traceback_1792423743731532900.txt"
+  ],
+  "approximations": [
+    "标量薄相位",
+    "ASSUMED材料/工艺",
+    "Fresnel对照为近轴近似",
+    "理想方形像元积分，无实测MTF"
+  ],
+  "resource": {
+    "peak_gpu_allocated_bytes": 3556900864,
+    "recorded_propagation_seconds": 278.8012708000897,
+    "full_wall_seconds": null,
+    "reason": "真实执行含中断与续跑，保留逐条时间戳，不猜测净墙钟"
+  }
+}

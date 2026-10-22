@@ -1,0 +1,22 @@
+{
+  "wall_seconds": 9.477017700002762,
+  "cpu_peak_working_set_bytes": 898867200,
+  "max_recorded_gpu_allocation_bytes": 3229745152,
+  "RS_device": "cuda",
+  "source_chunk": 8192,
+  "point_chunk": 4,
+  "new_full_domain_output_ASM": 0,
+  "selected_periodic_ASM_pads": [
+    2,
+    4
+  ],
+  "no_pad5_pad8": true,
+  "resource_after": {
+    "ram_available_bytes": 2726416384,
+    "ram_total_bytes": 16869351424,
+    "cpu_peak_working_set_bytes": 898867200,
+    "cpu_working_set_bytes": 865329152,
+    "gpu_free_bytes": 4115660800,
+    "gpu_total_bytes": 8585216000
+  }
+}

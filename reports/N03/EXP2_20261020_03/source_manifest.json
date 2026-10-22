@@ -1,0 +1,34 @@
+{
+  "integration\\single_spiral_to_hsi\\n03_exp2\\analysis.py": {
+    "sha256": "bb1ead186a2e80b42850b42f35bed35366cf09957293d7922ff631c18d49a5bf",
+    "snapshot": "logs\\source_snapshot\\analysis.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\forward.py": {
+    "sha256": "e697da9a693f428082e860b9d29148434299f0e9800d81559ed7ef26cc8e319c",
+    "snapshot": "logs\\source_snapshot\\forward.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\noise.py": {
+    "sha256": "479fb81d39cdf1aed97a7e29150692427e4121c1b6b805a93cc43edee36865fc",
+    "snapshot": "logs\\source_snapshot\\noise.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\perturbations.py": {
+    "sha256": "a12f5ee5b95f9628d74d73be73ec7c8563f3cab4c008c6864d0b9233fc760a75",
+    "snapshot": "logs\\source_snapshot\\perturbations.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\run_exp2.py": {
+    "sha256": "880da1cf02138f924b2bcca51561c63eea35f6f68eac1179ca21eace2c545c21",
+    "snapshot": "logs\\source_snapshot\\run_exp2.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\sampling.py": {
+    "sha256": "de8327a70d10b6f295e1bb52e43139fd2c5a13e156439ff506530f2449370648",
+    "snapshot": "logs\\source_snapshot\\sampling.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\verify_exp2.py": {
+    "sha256": "1668a63591f01bb873f79e7253b553e0228c3561e30c852c0e02872dea81a470",
+    "snapshot": "logs\\source_snapshot\\verify_exp2.py"
+  },
+  "integration\\single_spiral_to_hsi\\tests\\test_n03_exp2.py": {
+    "sha256": "6d4ec75d470a1c07cc1947752df0281692087448b9afe4b9e5d2528fb1b8f8f3",
+    "snapshot": "logs\\source_snapshot\\test_n03_exp2.py"
+  }
+}

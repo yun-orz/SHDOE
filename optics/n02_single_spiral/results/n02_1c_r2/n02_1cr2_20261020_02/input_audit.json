@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "absolute_old_run": "E:\\SpiralDOE_HSI\\n00_run_20261009\\results\\n02\\n02_20261019_02",
+  "absolute_upstream_run": "E:\\SpiralDOE_HSI\\n00_run_20261009\\results\\n02_1c_r\\n02_1cr_20261020_01",
+  "height_file_sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f",
+  "height_array_sha256": "eb191b8d1093590ad22872d1de78f9261c6286fee756901ada7274315a727250",
+  "height_unit": "um",
+  "height_max_um": 0.8839344951958746,
+  "mask_sha256": "07e77628a12d6c223057b219d70a4eb5869027b139aaf4113f00cd0b40dc44bc",
+  "source_pixels": 785456,
+  "area_per_source_pixel_um2": 1.0,
+  "normalization_K": 0.0011283397992865316,
+  "incident_unscaled_midpoint_power_um2": 785452.969483841,
+  "old_gates": {
+    "G0": {
+      "status": "PASS",
+      "execution": "SIMULATED",
+      "reason": "12/12物理测试及冻结协议/历史路径审计"
+    },
+    "G1": {
+      "status": "PASS",
+      "execution": "SIMULATED",
+      "reason": "B2固定高度25标准通道物理/形态/链接与旋转成立"
+    },
+    "G2": {
+      "status": "FAIL",
+      "execution": "SIMULATED",
+      "standard25": "PASS",
+      "blue5nm": "FAIL",
+      "reason": "425nm冻结3x3拟合不稳定；1nm局部若干角符号误差代理/缩放角差门不通过；不能仅报标准25点"
+    },
+    "G3_Numerics": {
+      "status": "FAIL",
+      "execution": "SIMULATED",
+      "reason": "多个波长全域16um边缘能量未达冻结0.001门"
+    },
+    "G3_Fabrication": {
+      "status": "PASS",
+      "execution": "SIMULATED_ASSUMED",
+      "reason": "完成有界假设扰动定量，实测工艺NOT_TESTED"
+    },
+    "G4": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G5": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G6": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G7": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G8": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "GF": {
+      "status": "PASS",
+      "execution": "SIMULATED",
+      "reason": "完成本轮P0证据归档与独立回读；科研L1/L2/L3不因此通过"
+    }
+  },
+  "prior_P0B": "INCONCLUSIVE",
+  "coordinates": "(index-(N-1)/2)*dx，x向右y向上；输出半像元格；正向exp(+ikR)",
+  "pupil_interpretation": "原高度与二值孔径像元分片常值；半径500um在旧mask像元化，不另行改变孔径边缘"
+}

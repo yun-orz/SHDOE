@@ -1,0 +1,20 @@
+{"seconds": 0.5084236999973655, "stage": "CONTRACT_FROZEN", "positions": 17, "expected_solves": 1224, "pitch_um": 2.7397868561278864}
+{"seconds": 0.6635860999958823, "stage": "A0_ZERO_REGRESSION_PASS", "cases": 72, "max_estimate_error": 0.0}
+{"seconds": 0.6637793999980204, "stage": "POSITION_COMPLETE", "position": "origin", "solves": 72, "A_change": 0.0}
+{"seconds": 0.9153424999967683, "stage": "POSITION_COMPLETE", "position": "x_-0.05", "solves": 144, "A_change": 0.013655780902163621}
+{"seconds": 1.1583585999978823, "stage": "POSITION_COMPLETE", "position": "x_-0.02", "solves": 216, "A_change": 0.0054806505849028676}
+{"seconds": 1.3931631999948877, "stage": "POSITION_COMPLETE", "position": "x_-0.01", "solves": 288, "A_change": 0.0027430425152793468}
+{"seconds": 1.6396858999942197, "stage": "POSITION_COMPLETE", "position": "x_-0.005", "solves": 360, "A_change": 0.0013718258532024752}
+{"seconds": 1.8816350999986753, "stage": "POSITION_COMPLETE", "position": "x_+0.005", "solves": 432, "A_change": 0.00137185352509657}
+{"seconds": 2.1261603999955696, "stage": "POSITION_COMPLETE", "position": "x_+0.01", "solves": 504, "A_change": 0.0027430002345647845}
+{"seconds": 2.3618156999946223, "stage": "POSITION_COMPLETE", "position": "x_+0.02", "solves": 576, "A_change": 0.005484128799709759}
+{"seconds": 2.594649099999515, "stage": "POSITION_COMPLETE", "position": "x_+0.05", "solves": 648, "A_change": 0.01368012448032419}
+{"seconds": 2.841728299994429, "stage": "POSITION_COMPLETE", "position": "y_-0.05", "solves": 720, "A_change": 0.013765215296483245}
+{"seconds": 3.0839158999951906, "stage": "POSITION_COMPLETE", "position": "y_-0.02", "solves": 792, "A_change": 0.0055205816990536215}
+{"seconds": 3.327496699996118, "stage": "POSITION_COMPLETE", "position": "y_-0.01", "solves": 864, "A_change": 0.00276326125987834}
+{"seconds": 3.559531999999308, "stage": "POSITION_COMPLETE", "position": "y_-0.005", "solves": 936, "A_change": 0.001381707782783588}
+{"seconds": 3.788771399995312, "stage": "POSITION_COMPLETE", "position": "y_+0.005", "solves": 1008, "A_change": 0.0013815981830655822}
+{"seconds": 4.035522799997125, "stage": "POSITION_COMPLETE", "position": "y_+0.01", "solves": 1080, "A_change": 0.0027607348889918904}
+{"seconds": 4.275279900000896, "stage": "POSITION_COMPLETE", "position": "y_+0.02", "solves": 1152, "A_change": 0.005518336927912407}
+{"seconds": 4.506453499998315, "stage": "POSITION_COMPLETE", "position": "y_+0.05", "solves": 1224, "A_change": 0.013737631902685067}
+{"seconds": 6.278570399997989, "stage": "DELIVERED", "status": "A_ENGINEERING_PASS"}

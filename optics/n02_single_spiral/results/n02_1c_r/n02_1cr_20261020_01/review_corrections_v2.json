@@ -1,0 +1,66 @@
+{
+  "time": "2026-10-20T09:16:41.323578+08:00",
+  "version": "P0B-review-v2",
+  "post_hoc": true,
+  "base_manifest_sha256": "c45a322378690088666ff6895af663a046813ef78d5b5e1d52bb35aca4f5c09a",
+  "source_protocol_sha256": "ac3f26b2326f5e127f8cc45869e325b1cea6d631364de4fba0fbecf6ded52a3a",
+  "old_gate_override": false,
+  "new_formal_gate": null,
+  "corrections": [
+    "当前资源RAM可用1.86GiB，低于2GiB下限；所有新增pad4/pad5均跳过。只复用4096/8192um旧域，没有10240um实算。",
+    "pad4蓝端仅420/425/430nm，v1角差门单元未按实际5nm间隔缩放，v2独立表按实际delta_lambda修正。原两套1nm完整轨迹不受此项影响。",
+    "GPU分配峰值0是没有新ASM调用的占位，不应表述成GPU资源占用为0。",
+    "定位主审计8方向初值；扩域/开放参考的插值比较4方向初值，均为多初值诊断，不授予正式Gate。"
+  ],
+  "completed": {
+    "old_raw_npz": 571,
+    "old_artifact_hashes": 900,
+    "new_ASM": 0,
+    "new_open_Fresnel": 13,
+    "new_local_RS": 4
+  },
+  "additional_quantitative_diagnostics": [
+    {
+      "wavelength_nm": "546.1",
+      "condition": "dx05",
+      "frozen_center_x_um": "0.7105736100082444",
+      "frozen_center_y_um": "32.94003748614555",
+      "common_center_x_um": "0.09968198947302825",
+      "common_center_y_um": "33.19752172110547",
+      "native_frozen_outside_ratio": "2.929961599497738",
+      "native_common_center_outside_ratio": "3.2314406129558373",
+      "aligned_common_center_ratio": "3.2221007952821568",
+      "old_frozen_ratio_abs_diff": "0.29876411224041544",
+      "common_center_abs_diff": "0.002714901217683696",
+      "aligned_common_center_abs_diff": "0.006624916455996832",
+      "interpretation": "仅分解评价盘掩模/像元积分敏感性，未改变原0.1门；细网格另混入高度重新采样"
+    },
+    {
+      "wavelength_nm": "660",
+      "condition": "pad4",
+      "frozen_center_x_um": "-40.097573100326",
+      "frozen_center_y_um": "0.6858160393183839",
+      "common_center_x_um": "-40.21186947817084",
+      "common_center_y_um": "0.6210810668496438",
+      "native_frozen_outside_ratio": "3.084955143429095",
+      "native_common_center_outside_ratio": "2.9913224423734905",
+      "aligned_common_center_ratio": "2.9913224423734905",
+      "old_frozen_ratio_abs_diff": "0.1034913422034136",
+      "common_center_abs_diff": "0.009858641147808989",
+      "aligned_common_center_abs_diff": "0.009858641147808989",
+      "interpretation": "仅分解评价盘掩模/像元积分敏感性，未改变原0.1门；细网格另混入高度重新采样"
+    }
+  ],
+  "rs425": {
+    "x_um": 13.954184333113828,
+    "y_um": -21.703555851931583,
+    "fit_valid": true,
+    "grid_step_um": 0.25,
+    "grid_shape": [
+      13,
+      13
+    ],
+    "peak_intensity_raw": 0.0004388774683834052,
+    "limitation": "直接RS核但入瞳仍1um中点求积，不能替代像元内部求积收敛；3x3局部拟合仅诊断"
+  }
+}

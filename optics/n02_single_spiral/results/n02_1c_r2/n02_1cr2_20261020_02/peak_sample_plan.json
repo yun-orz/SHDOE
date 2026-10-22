@@ -1,0 +1,205 @@
+{
+  "wavelength_nm": 546.1,
+  "common_center_um": [
+    0.09968198947302825,
+    33.19752172110547
+  ],
+  "disk_radius_um": 14.98711379,
+  "points": [
+    {
+      "x_um": 0.5,
+      "y_um": 33.5,
+      "roles": [
+        "pad2_main",
+        "pad4_main"
+      ],
+      "point_id": "P000"
+    },
+    {
+      "x_um": -14.5,
+      "y_um": 29.5,
+      "roles": [
+        "pad2_a_frozen_own_side",
+        "pad2_b_common_side",
+        "pad4_a_frozen_own_side",
+        "pad4_b_common_side"
+      ],
+      "point_id": "P001"
+    },
+    {
+      "x_um": 0.75,
+      "y_um": 32.75,
+      "roles": [
+        "dx05_main"
+      ],
+      "point_id": "P002"
+    },
+    {
+      "x_um": -14.25,
+      "y_um": 31.75,
+      "roles": [
+        "dx05_a_frozen_own_side"
+      ],
+      "point_id": "P003"
+    },
+    {
+      "x_um": -14.25,
+      "y_um": 28.75,
+      "roles": [
+        "dx05_b_common_side"
+      ],
+      "point_id": "P004"
+    }
+  ],
+  "output_area_cells_um": [
+    [
+      -14.5,
+      28.5
+    ],
+    [
+      -14.5,
+      29.5
+    ],
+    [
+      -14.5,
+      31.5
+    ],
+    [
+      0.5,
+      32.5
+    ],
+    [
+      0.5,
+      33.5
+    ]
+  ],
+  "frozen_definitions": [
+    {
+      "condition": "pad2",
+      "mode": "a_frozen_own",
+      "center_um": [
+        0.17589050793282968,
+        33.14252788873892
+      ],
+      "main_xy_um": [
+        0.5,
+        33.5
+      ],
+      "side_xy_um": [
+        -14.5,
+        29.5
+      ],
+      "main_intensity": 0.0006750063577647505,
+      "side_intensity": 0.00020906277523381422,
+      "outside_ratio": 3.2287257117381536,
+      "source_file_sha256": "57908d21d0ce48286402cdb156f7ad8672bbd7635cfaa5ab31d79e604a4e7c8f"
+    },
+    {
+      "condition": "pad2",
+      "mode": "b_common",
+      "center_um": [
+        0.09968198947302825,
+        33.19752172110547
+      ],
+      "main_xy_um": [
+        0.5,
+        33.5
+      ],
+      "side_xy_um": [
+        -14.5,
+        29.5
+      ],
+      "main_intensity": 0.0006750063577647505,
+      "side_intensity": 0.00020906277523381422,
+      "outside_ratio": 3.2287257117381536,
+      "source_file_sha256": "57908d21d0ce48286402cdb156f7ad8672bbd7635cfaa5ab31d79e604a4e7c8f"
+    },
+    {
+      "condition": "pad4",
+      "mode": "a_frozen_own",
+      "center_um": [
+        0.07519155949816414,
+        33.18835493535094
+      ],
+      "main_xy_um": [
+        0.5,
+        33.5
+      ],
+      "side_xy_um": [
+        -14.5,
+        29.5
+      ],
+      "main_intensity": 0.0006750767295838647,
+      "side_intensity": 0.00020945163778749454,
+      "outside_ratio": 3.2230673233922578,
+      "source_file_sha256": "7347c6e68aad52dbbd71eef2b1e1538b13bef71a93b3a25215b56bbbb9027f8c"
+    },
+    {
+      "condition": "pad4",
+      "mode": "b_common",
+      "center_um": [
+        0.09968198947302825,
+        33.19752172110547
+      ],
+      "main_xy_um": [
+        0.5,
+        33.5
+      ],
+      "side_xy_um": [
+        -14.5,
+        29.5
+      ],
+      "main_intensity": 0.0006750767295838647,
+      "side_intensity": 0.00020945163778749454,
+      "outside_ratio": 3.2230673233922578,
+      "source_file_sha256": "7347c6e68aad52dbbd71eef2b1e1538b13bef71a93b3a25215b56bbbb9027f8c"
+    },
+    {
+      "condition": "dx05",
+      "mode": "a_frozen_own",
+      "center_um": [
+        0.7105736100082444,
+        32.94003748614555
+      ],
+      "main_xy_um": [
+        0.75,
+        32.75
+      ],
+      "side_xy_um": [
+        -14.25,
+        31.75
+      ],
+      "main_intensity": 0.0006767634786470863,
+      "side_intensity": 0.00023098032368857628,
+      "outside_ratio": 2.929961599497738,
+      "source_file_sha256": "525e5df2502592bd48017a0b1d3e2e4f7b3b6ab2899eb0274e94e81cb7cf52bf"
+    },
+    {
+      "condition": "dx05",
+      "mode": "b_common",
+      "center_um": [
+        0.09968198947302825,
+        33.19752172110547
+      ],
+      "main_xy_um": [
+        0.75,
+        32.75
+      ],
+      "side_xy_um": [
+        -14.25,
+        28.75
+      ],
+      "main_intensity": 0.0006767634786470863,
+      "side_intensity": 0.00020943088848166783,
+      "outside_ratio": 3.2314406129558373,
+      "source_file_sha256": "525e5df2502592bd48017a0b1d3e2e4f7b3b6ab2899eb0274e94e81cb7cf52bf"
+    }
+  ],
+  "input_q": [
+    1,
+    2,
+    4
+  ],
+  "output_quadrature": 2,
+  "warning": "新RS仅在预注册主/旁峰候选坐标求值；得到局部候选比，不能认证整ROI全局主盘外最大值。旧dx05同时重新采样高度，本轮新RS始终只用原分片常值高度。"
+}

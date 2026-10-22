@@ -1,0 +1,151 @@
+--- configs/1_deeplens_hsi.yml (before)
++++ configs/1_deeplens_hsi.yml (after)
+@@ -7,6 +7,8 @@
+   sensor_file: "./sensors/flir/BFS-U3-200S7C-C.json"
+ 
+ network:
++  # 原预训练模型使用BGR输入约定；只在网络入口交换红蓝通道。
++  swap_rgb_channels: true
+   name: NAFNet
+   in_chan: 3
+   out_chan: 31
+
+--- 5_eval_pretrained.py (before)
++++ 5_eval_pretrained.py (after)
+@@ -15,6 +15,9 @@
+ def main():
+     parser = argparse.ArgumentParser()
+     parser.add_argument("--limit", type=int, default=1)
++    parser.add_argument("--output", type=Path, help="尚不存在的新输出目录")
++    parser.add_argument("--swap-rb", action=argparse.BooleanOptionalAction, default=None,
++                        help="覆盖配置中的网络输入红蓝交换开关")
+     args = parser.parse_args()
+ 
+     assert torch.cuda.is_available(), "未检测到 CUDA GPU"
+@@ -24,6 +27,16 @@
+     with open("configs/1_deeplens_hsi.yml", "r",
+               encoding="utf-8") as f:
+         cfg = yaml.safe_load(f)
++
++    # 只适配网络输入，不改传感器响应、GT或预训练权重。
++    swap_rb = cfg["network"].get("swap_rgb_channels", False) if args.swap_rb is None else args.swap_rb
++    out_root = args.output or Path("results/R06_2_validation" if swap_rb else "results/R05_validation")
++    if out_root.exists():
++        raise FileExistsError(f"输出目录已存在，请指定新的 --output：{out_root}")
++    if args.limit < 1:
++        raise ValueError("--limit必须为正整数")
++    torch.manual_seed(cfg.get("seed", 42))
++    print("网络输入通道:", "BGR（R06-2）" if swap_rb else "RGB（R05对照）")
+ 
+     # 2. 验证集：保持原仓库的 512×512 配置
+     dataset = CaveDataset(
+@@ -69,8 +82,7 @@
+     print("预训练模型加载成功")
+ 
+     # 5. 创建输出目录
+-    out_root = Path("results/R05_validation")
+-    out_root.mkdir(parents=True, exist_ok=True)
++    out_root.mkdir(parents=True, exist_ok=False)
+ 
+     # 6. 逐场景前向编码与重建
+     for i in range(min(args.limit, len(dataset))):
+@@ -94,7 +106,8 @@
+             encoded_rgb, gt = camera.render(data)
+ 
+             # 网络重建 31 波段
+-            pred = model(encoded_rgb).clamp(0, 1)
++            model_input = encoded_rgb[:, [2, 1, 0], :, :] if swap_rb else encoded_rgb
++            pred = model(model_input).clamp(0, 1)
+ 
+             # RGB 可视化
+             reference_rgb = camera.spectral2rgb(gt)
+@@ -132,7 +145,7 @@
+         print("耗时:", round(time.perf_counter() - start, 1), "秒")
+         print("保存路径:", out_dir.resolve(), flush=True)
+ 
+-    print("\nR05-2 本次推理完成")
++    print("\n预训练推理完成，通道适配:", swap_rb)
+ 
+ 
+ if __name__ == "__main__":
+
+--- 6_evaluate_metrics.py (before)
++++ 6_evaluate_metrics.py (after)
+@@ -1,4 +1,5 @@
+ 
++import argparse
+ import csv
+ from pathlib import Path
+ 
+@@ -7,7 +8,14 @@
+ from src.utils import batch_ssim
+ 
+ 
+-root = Path("results/R05_validation")
++parser = argparse.ArgumentParser()
++parser.add_argument("--input", type=Path, default=Path("results/R06_2_validation"))
++parser.add_argument("--output", type=Path, help="指标CSV路径，必须尚不存在")
++args = parser.parse_args()
++root = args.input
++output = args.output or root / "metrics.csv"
++if output.exists():
++    raise FileExistsError(f"指标文件已存在，请指定新的 --output：{output}")
+ files = sorted(root.glob("*/spectra.pt"))
+ 
+ assert len(files) == 8, (
+@@ -52,11 +60,21 @@
+     sam = angles_deg.mean()
+     valid_pct = valid.float().mean() * 100
+ 
++    # 固定GT掩膜作为R06-2的公平比较口径；预测零向量按90度计。
++    valid_gt = gt_norm > 1e-8
++    fixed_angles = torch.full_like(gt_norm[valid_gt], 90.0)
++    nonzero = pred_norm[valid_gt] > 1e-8
++    fixed_cos = dot[valid_gt][nonzero] / (gt_norm[valid_gt][nonzero] * pred_norm[valid_gt][nonzero])
++    fixed_angles[nonzero] = torch.rad2deg(torch.acos(fixed_cos.clamp(-1.0, 1.0)))
++    sam_fixed = fixed_angles.mean()
++
+     return {
+         "psnr_db": float(psnr),
+         "ssim": float(ssim),
+         "sam_deg": float(sam),
+         "sam_valid_pct": float(valid_pct),
++        "sam_fixed_deg": float(sam_fixed),
++        "sam_fixed_valid_pct": float(valid_gt.float().mean() * 100),
+     }
+ 
+ 
+@@ -83,7 +101,8 @@
+ # 逐场景算术平均
+ print("\n===== 验证集平均指标 =====")
+ 
+-for key in ["psnr_db", "ssim", "sam_deg"]:
++print("sam_deg沿用历史双有效掩膜；sam_fixed_deg为固定GT掩膜")
++for key in ["psnr_db", "ssim", "sam_deg", "sam_fixed_deg"]:
+     avg = sum(r[key] for r in rows) / len(rows)
+     print(f"{key}: {avg:.4f}")
+ 
+@@ -95,18 +114,19 @@
+ )
+ 
+ # 保存评价表格
+-output = root / "metrics.csv"
++output.parent.mkdir(parents=True, exist_ok=True)
+ 
+-with open(output, "w", newline="", encoding="utf-8-sig") as f:
++with open(output, "x", newline="", encoding="utf-8-sig") as f:
+     writer = csv.DictWriter(
+         f,
+         fieldnames=[
+             "scene", "psnr_db", "ssim",
+-            "sam_deg", "sam_valid_pct"
++            "sam_deg", "sam_valid_pct",
++            "sam_fixed_deg", "sam_fixed_valid_pct"
+         ]
+     )
+     writer.writeheader()
+     writer.writerows(rows)
+ 
+ print("\n评价结果已保存:", output.resolve())
+-print("R05-3 完成")
++print("指标评价完成")

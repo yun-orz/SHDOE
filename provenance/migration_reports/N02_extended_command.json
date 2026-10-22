@@ -1,0 +1,12 @@
+{
+  "command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "-c",
+    "import r2_verify_extended as v,json;from pathlib import Path;r=v.verify(v.ROOT/'results/n02_1c_r2/n02_1cr2_20261020_02');p=Path('E:/SH/provenance/migration_reports/N02_extended.json');p.write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(r,ensure_ascii=False))"
+  ],
+  "cwd": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r2",
+  "returncode": 0,
+  "seconds": 4.458127021789551,
+  "source_guard": true
+}

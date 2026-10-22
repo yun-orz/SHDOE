@@ -1,0 +1,70 @@
+--- E:\SH\optics\n00_forward\scripts\run_n00_psf.py (copied)
++++ E:\SH\optics\n00_forward\scripts\run_n00_psf.py (adapted)
+@@ -64,7 +64,7 @@
+                 model_boundary='薄相位标量模型；不包含偏振、吸收、制造误差、衍射效率及传感器颜色响应',
+                 reference_geometry='解析 N00 对照 D=128 µm，f=1 mm；不是旧库 4.096 mm 孔径的缩小替代',
+                 height_model='未包裹聚焦浮雕：h=(sqrt(f^2+R^2)-sqrt(f^2+r^2))/(n(550nm)-1)，孔径外 0',
+-                source_commit=subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip())
++                source_commit=json.loads((ROOT/'source_snapshot.json').read_text(encoding='utf-8'))['source_head'])
+     x=(np.arange(512)-255.5)*cfg['pitch_um']
+     raw_x=(np.arange(r['raw_intensity'].shape[2])-(r['raw_intensity'].shape[2]-1)/2)*cfg['pitch_um']
+     raw_y=(np.arange(r['raw_intensity'].shape[1])-(r['raw_intensity'].shape[1]-1)/2)*cfg['pitch_um']
+
+--- E:\SH\optics\n02_single_spiral\experiments\n02\optics.py (copied)
++++ E:\SH\optics\n02_single_spiral\experiments\n02\optics.py (adapted)
+@@ -22,7 +22,7 @@
+     return obj
+ 
+ 
+-frozen = module('n02_frozen_support', ROOT/'experiments/N01_3A_G2_f2_q6_13wave/support.py')
++frozen = module('n02_frozen_support', ROOT/'vendor_compat/experiments/N01_3A_G2_f2_q6_13wave/support.py')
+ legacy = frozen.legacy
+ p3 = frozen.p3
+ baseline = legacy.baseline
+
+--- E:\SH\optics\n02_single_spiral\experiments\n02_1c_r\p0b_common.py (copied)
++++ E:\SH\optics\n02_single_spiral\experiments\n02_1c_r\p0b_common.py (adapted)
+@@ -20,7 +20,7 @@
+ ROOT=Path(__file__).resolve().parents[2]
+ CODE=Path(__file__).resolve().parent
+ OLD=ROOT/'results/n02/n02_20261019_02'
+-TASK=Path('C:/Users/李咏晨/Downloads/N02_%E5%AE%A1%E6%A0%B8%E4%B8%8E%E4%B8%8B%E4%B8%80%E8%BD%AECodex%E4%BB%BB%E5%8A%A1%E4%B9%A6_20261020.md')
++TASK=ROOT/'results/n02_1c_r/n02_1cr_20261020_01/task_original.md'
+ 
+ 
+ def load_module(name,path):
+
+--- E:\SH\optics\n02_single_spiral\experiments\n02_1c_r2\r2_common.py (copied)
++++ E:\SH\optics\n02_single_spiral\experiments\n02_1c_r2\r2_common.py (adapted)
+@@ -13,7 +13,7 @@
+ CODE=Path(__file__).resolve().parent
+ OLD=ROOT/'results/n02/n02_20261019_02'
+ UP=ROOT/'results/n02_1c_r/n02_1cr_20261020_01'
+-TASK=Path('C:/Users/李咏晨/Downloads/N02_1CR2_Codex_%E5%AE%A1%E6%A0%B8%E4%B8%8E%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E4%B9%A6_20261020.md')
++TASK=ROOT/'results/n02_1c_r2/n02_1cr2_20261020_02/task_original.md'
+ 
+ 
+ def module(name,path):
+
+--- E:\SH\optics\n00_forward\scripts\snapshot_reference.py (copied)
++++ E:\SH\optics\n00_forward\scripts\snapshot_reference.py (adapted)
+@@ -6,7 +6,7 @@
+ from pathlib import Path
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+-REF = Path('E:/DeepLensHSI')
++REF = ROOT.parents[1]/'framework/DeepLensHSI'
+ 
+ 
+ def git(*args):
+
+--- E:\SH\optics\n00_forward\scripts\snapshot_reference.py (copied)
++++ E:\SH\optics\n00_forward\scripts\snapshot_reference.py (adapted)
+@@ -14,6 +14,7 @@
+ 
+ 
+ def snapshot():
++    raise RuntimeError("历史快照工具已归档；请使用 provenance/tools 中的迁移审计入口，避免覆盖冻结证据。")
+     files = {}
+     for p in REF.rglob('*'):
+         if not p.is_file() or '.git' in p.relative_to(REF).parts:

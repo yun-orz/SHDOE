@@ -1,0 +1,317 @@
+[
+  {
+    "name": "pilot/shift_x_+0.1/true_only",
+    "passed": true,
+    "value": 0.027082627700477212
+  },
+  {
+    "name": "pilot/chromatic_0.1/true_only",
+    "passed": true,
+    "value": 0.016700027644500966
+  },
+  {
+    "name": "pilot/blur_0.1/true_only",
+    "passed": true,
+    "value": 4.6948683164512115e-05
+  },
+  {
+    "name": "pilot/gain_+0.01/true_only",
+    "passed": true,
+    "value": 0.007578122729692129
+  },
+  {
+    "name": "full/shift_x_-0.5/true_only",
+    "passed": true,
+    "value": 0.13470044555284402
+  },
+  {
+    "name": "full/shift_x_-0.25/true_only",
+    "passed": true,
+    "value": 0.06769932467529342
+  },
+  {
+    "name": "full/shift_x_-0.1/true_only",
+    "passed": true,
+    "value": 0.02708019262785319
+  },
+  {
+    "name": "full/shift_x_+0.1/true_only",
+    "passed": true,
+    "value": 0.027082627700477212
+  },
+  {
+    "name": "full/shift_x_+0.25/true_only",
+    "passed": true,
+    "value": 0.06770771074586845
+  },
+  {
+    "name": "full/shift_x_+0.5/true_only",
+    "passed": true,
+    "value": 0.13471930856431388
+  },
+  {
+    "name": "full/shift_y_-0.5/true_only",
+    "passed": true,
+    "value": 0.1352993385515276
+  },
+  {
+    "name": "full/shift_y_-0.25/true_only",
+    "passed": true,
+    "value": 0.06798841957549959
+  },
+  {
+    "name": "full/shift_y_-0.1/true_only",
+    "passed": true,
+    "value": 0.027194594096740955
+  },
+  {
+    "name": "full/shift_y_+0.1/true_only",
+    "passed": true,
+    "value": 0.02717775848612509
+  },
+  {
+    "name": "full/shift_y_+0.25/true_only",
+    "passed": true,
+    "value": 0.06794254481645091
+  },
+  {
+    "name": "full/shift_y_+0.5/true_only",
+    "passed": true,
+    "value": 0.1352174264382332
+  },
+  {
+    "name": "full/chromatic_0.1/true_only",
+    "passed": true,
+    "value": 0.016700027644500966
+  },
+  {
+    "name": "full/chromatic_0.25/true_only",
+    "passed": true,
+    "value": 0.04170745111534116
+  },
+  {
+    "name": "full/blur_0.1/true_only",
+    "passed": true,
+    "value": 4.6948683164512115e-05
+  },
+  {
+    "name": "full/blur_0.25/true_only",
+    "passed": true,
+    "value": 0.008535268908424827
+  },
+  {
+    "name": "full/blur_0.5/true_only",
+    "passed": true,
+    "value": 0.03289135239085089
+  },
+  {
+    "name": "full/gain_-0.05/true_only",
+    "passed": true,
+    "value": 0.03789061364846059
+  },
+  {
+    "name": "full/gain_-0.03/true_only",
+    "passed": true,
+    "value": 0.0227343681890763
+  },
+  {
+    "name": "full/gain_-0.01/true_only",
+    "passed": true,
+    "value": 0.007578122729692081
+  },
+  {
+    "name": "full/gain_+0.01/true_only",
+    "passed": true,
+    "value": 0.007578122729692129
+  },
+  {
+    "name": "full/gain_+0.03/true_only",
+    "passed": true,
+    "value": 0.022734368189076374
+  },
+  {
+    "name": "full/gain_+0.05/true_only",
+    "passed": true,
+    "value": 0.03789061364846065
+  },
+  {
+    "name": "P共享总量_shape_only_0",
+    "passed": true,
+    "value": 2.225702962852098e-16
+  },
+  {
+    "name": "P共享总量_shape_only_1",
+    "passed": true,
+    "value": 1.9327015676953906e-16
+  },
+  {
+    "name": "P共享总量_shape_only_2",
+    "passed": true,
+    "value": 2.788146556849327e-16
+  },
+  {
+    "name": "P共享总量_shape_only_3",
+    "passed": true,
+    "value": 1.4673831509545616e-16
+  },
+  {
+    "name": "P共享总量_shape_only_4",
+    "passed": true,
+    "value": 3.6426571386117085e-16
+  },
+  {
+    "name": "P共享总量_shape_only_5",
+    "passed": true,
+    "value": 3.34791829372995e-16
+  },
+  {
+    "name": "P共享总量_shape_only_6",
+    "passed": true,
+    "value": 1.5429467188446767e-16
+  },
+  {
+    "name": "P共享总量_shape_only_7",
+    "passed": true,
+    "value": 1.9492197506570068e-16
+  },
+  {
+    "name": "P共享总量_shape_only_8",
+    "passed": true,
+    "value": 2.2097481029033386e-16
+  },
+  {
+    "name": "P共享总量_shape_only_9",
+    "passed": true,
+    "value": 1.6253092896448584e-16
+  },
+  {
+    "name": "P共享总量_shape_only_10",
+    "passed": true,
+    "value": 0.0
+  },
+  {
+    "name": "P共享总量_shape_only_11",
+    "passed": true,
+    "value": 4.435393674172887e-16
+  },
+  {
+    "name": "P共享总量_shape_only_12",
+    "passed": true,
+    "value": 0.0
+  },
+  {
+    "name": "P共享总量_shape_only_13",
+    "passed": true,
+    "value": 1.650964930018361e-16
+  },
+  {
+    "name": "P共享总量_shape_only_14",
+    "passed": true,
+    "value": 1.8079899797033584e-16
+  },
+  {
+    "name": "P共享总量_shape_only_15",
+    "passed": true,
+    "value": 1.84346908634259e-16
+  },
+  {
+    "name": "P共享总量_shape_only_16",
+    "passed": true,
+    "value": 1.878916872199253e-16
+  },
+  {
+    "name": "P共享总量_shape_only_17",
+    "passed": true,
+    "value": 1.7891357579594187e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_0",
+    "passed": true,
+    "value": 3.029006478533877e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_1",
+    "passed": true,
+    "value": 0.0
+  },
+  {
+    "name": "P共享总量_throughput_aware_2",
+    "passed": true,
+    "value": 3.310315351300963e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_3",
+    "passed": true,
+    "value": 1.677641582170622e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_4",
+    "passed": true,
+    "value": 2.0568240434310333e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_5",
+    "passed": true,
+    "value": 1.2741872323941482e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_6",
+    "passed": true,
+    "value": 1.8187720401835268e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_7",
+    "passed": true,
+    "value": 3.6118120886679605e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_8",
+    "passed": true,
+    "value": 1.4546682436219539e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_9",
+    "passed": true,
+    "value": 1.84798248981729e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_10",
+    "passed": true,
+    "value": 1.123902341416512e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_11",
+    "passed": true,
+    "value": 1.4839828414899524e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_12",
+    "passed": true,
+    "value": 1.2169122914929357e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_13",
+    "passed": true,
+    "value": 1.930207905687145e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_14",
+    "passed": true,
+    "value": 0.0
+  },
+  {
+    "name": "P共享总量_throughput_aware_15",
+    "passed": true,
+    "value": 2.2179212577000197e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_16",
+    "passed": true,
+    "value": 2.297774886020623e-16
+  },
+  {
+    "name": "P共享总量_throughput_aware_17",
+    "passed": true,
+    "value": 2.1591134151061376e-16
+  }
+]

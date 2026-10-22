@@ -1,0 +1,33 @@
+{
+  "candidate_id": "B2",
+  "wave_count": 25,
+  "n01_valid": 24,
+  "n02_valid": 24,
+  "single_component_count": 25,
+  "unique_main_links": 24,
+  "credible_links": 18,
+  "diagnostic_rotation_deg": 107.50108598692066,
+  "rotation_deg": null,
+  "min_outside_ratio": 2.634556563645658,
+  "mean_outside_ratio": 2.9250377851329126,
+  "min_distinct_ratio": 2.634556563645658,
+  "min_roi_fraction": 0.736137608779347,
+  "max_roi_fraction": 0.8667002350103885,
+  "min_main_incident_fraction": 0.08355412239633635,
+  "mean_main_incident_fraction": 0.1335796157999539,
+  "min_radius_um": 25.326062328140925,
+  "max_radius_um": 30.47012495372172,
+  "radius_cv": 0.05993504387953103,
+  "gram_condition_number": 373006.11057286104,
+  "effective_rank": 3.3358956964890756,
+  "max_adjacent_cosine": 0.9978520934008757,
+  "max_height_um": 0.8839344951958746,
+  "failure_wavelengths_nm": [
+    425.0
+  ],
+  "monotone_brightest_diagnostic": true,
+  "G1_physical": "PASS",
+  "G1_single_lobe": "FAIL",
+  "G1_monotone": "FAIL",
+  "G2": "FAIL"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "scripts/run_n00_psf.py",
+    "--output",
+    "E:\\SH\\optics\\n00_forward\\results\\migration_20261020"
+  ],
+  "cwd": "E:\\SH\\optics\\n00_forward",
+  "returncode": 0,
+  "seconds": 20.562334299087524,
+  "source_guard": true
+}

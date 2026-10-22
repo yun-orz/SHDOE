@@ -1,0 +1,63 @@
+验证集场景总数: 8
+本次测试场景数: 8
+GPU: NVIDIA GeForce RTX 4060 Laptop GPU
+预训练模型加载成功
+
+===== 场景 1: photo_and_face_ms =====
+GT shape: (1, 31, 512, 512)
+Pred shape: (1, 31, 512, 512)
+PSNR: 25.6069 dB
+耗时: 10.9 秒
+保存路径: E:\SH\framework\DeepLensHSI\results\R05_validation\photo_and_face_ms
+
+===== 场景 2: clay_ms =====
+GT shape: (1, 31, 512, 512)
+Pred shape: (1, 31, 512, 512)
+PSNR: 16.5245 dB
+耗时: 4.4 秒
+保存路径: E:\SH\framework\DeepLensHSI\results\R05_validation\clay_ms
+
+===== 场景 3: real_and_fake_peppers_ms =====
+GT shape: (1, 31, 512, 512)
+Pred shape: (1, 31, 512, 512)
+PSNR: 18.6041 dB
+耗时: 4.5 秒
+保存路径: E:\SH\framework\DeepLensHSI\results\R05_validation\real_and_fake_peppers_ms
+
+===== 场景 4: chart_and_stuffed_toy_ms =====
+GT shape: (1, 31, 512, 512)
+Pred shape: (1, 31, 512, 512)
+PSNR: 21.5649 dB
+耗时: 4.6 秒
+保存路径: E:\SH\framework\DeepLensHSI\results\R05_validation\chart_and_stuffed_toy_ms
+
+===== 场景 5: flowers_ms =====
+GT shape: (1, 31, 512, 512)
+Pred shape: (1, 31, 512, 512)
+PSNR: 18.0621 dB
+耗时: 4.5 秒
+保存路径: E:\SH\framework\DeepLensHSI\results\R05_validation\flowers_ms
+
+===== 场景 6: pompoms_ms =====
+GT shape: (1, 31, 512, 512)
+Pred shape: (1, 31, 512, 512)
+PSNR: 13.8346 dB
+耗时: 4.2 秒
+保存路径: E:\SH\framework\DeepLensHSI\results\R05_validation\pompoms_ms
+
+===== 场景 7: sponges_ms =====
+GT shape: (1, 31, 512, 512)
+Pred shape: (1, 31, 512, 512)
+PSNR: 11.3022 dB
+耗时: 4.1 秒
+保存路径: E:\SH\framework\DeepLensHSI\results\R05_validation\sponges_ms
+
+===== 场景 8: fake_and_real_lemons_ms =====
+GT shape: (1, 31, 512, 512)
+Pred shape: (1, 31, 512, 512)
+PSNR: 19.9939 dB
+耗时: 4.2 秒
+保存路径: E:\SH\framework\DeepLensHSI\results\R05_validation\fake_and_real_lemons_ms
+
+R05-2 本次推理完成
+

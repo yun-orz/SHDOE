@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "P1_ASM_RS_rows_recomputed": 84,
+  "opposite_pairs_recomputed": 67,
+  "P2_physical_ratio_rows_recomputed": 5,
+  "CPU_full_pupil_spot_point_id": "B006",
+  "CPU_RS_q": 4,
+  "CPU_GPU_absolute_field_difference": 2.2400628662900178e-20,
+  "CPU_GPU_relative_field_difference": 1.7067950767291383e-15,
+  "CPU_spot_seconds": 1.2178420999998707,
+  "source_height_sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f",
+  "no_new_wavelength_or_sample_point": true
+}

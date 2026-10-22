@@ -1,0 +1,454 @@
+{
+  "T01": {
+    "status": "PASS",
+    "evidence": {
+      "zero_phase_max": 0.0,
+      "nm_to_um": 0.55,
+      "mm_to_um": 1000,
+      "invalid_inputs": "已拒绝"
+    }
+  },
+  "T02": {
+    "status": "PASS",
+    "evidence": {
+      "comparisons": [
+        {
+          "wavelength_nm": 400.0,
+          "phase": [
+            [
+              0.0,
+              0.9083017068062309
+            ],
+            [
+              12.553763427403192,
+              147.69133444003754
+            ]
+          ],
+          "expected": [
+            [
+              0.0,
+              0.9083017068062309
+            ],
+            [
+              12.553763427403192,
+              147.69133444003754
+            ]
+          ],
+          "abs_error": 0.0,
+          "exp_wrapped_error": 5.63182191039314e-15
+        },
+        {
+          "wavelength_nm": 550.0,
+          "phase": [
+            [
+              0.0,
+              0.646243190745613
+            ],
+            [
+              8.931816457459691,
+              105.08019361717285
+            ]
+          ],
+          "expected": [
+            [
+              0.0,
+              0.646243190745613
+            ],
+            [
+              8.931816457459691,
+              105.08019361717285
+            ]
+          ],
+          "abs_error": 0.0,
+          "exp_wrapped_error": 3.942464333787022e-15
+        },
+        {
+          "wavelength_nm": 700.0,
+          "phase": [
+            [
+              0.0,
+              0.5026635613458783
+            ],
+            [
+              6.947382555186936,
+              81.73391241396395
+            ]
+          ],
+          "expected": [
+            [
+              0.0,
+              0.5026635613458783
+            ],
+            [
+              6.947382555186936,
+              81.73391241396395
+            ]
+          ],
+          "abs_error": 0.0,
+          "exp_wrapped_error": 3.1799520708660347e-15
+        }
+      ],
+      "height_sha256": "0b8191ba3d43ea718bffdc1da0590b4ee73a7020233942692e1faa5cd19cdb5d",
+      "height_unchanged": true
+    }
+  },
+  "T03": {
+    "status": "PASS",
+    "evidence": {
+      "identity_abs_error": 0.0,
+      "fft_identity_abs_error": 1.790180836524724e-15,
+      "energy_relative_error": 4.440892098500626e-16,
+      "plane_intensity_error": 0.0,
+      "rectangular_mode_abs_error": 6.824034386733983e-15,
+      "airy_profile_rms": 0.0001399683548084469,
+      "airy_rms_limit": 0.02,
+      "aperture_energy": {
+        "wavelength_nm": 550.0,
+        "n": 1.4599108864687285,
+        "input_energy": 12892.0,
+        "output_energy": 12892.000000000007,
+        "crop_energy": 12874.300899943211,
+        "crop_fraction": 0.9986271253446481,
+        "energy_relative_error": 5.643777237188509e-16,
+        "edge_fraction": 8.737564974487109e-11,
+        "seconds": 0.8019003000226803,
+        "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+      },
+      "small_grid": 128
+    }
+  },
+  "T04": {
+    "status": "PASS",
+    "evidence": {
+      "records": [
+        {
+          "wavelength_nm": 400,
+          "comparison": "padding_4_vs_6",
+          "normalized_l1": 2.3944995130176834e-06,
+          "centroid_um": [
+            0.0,
+            0.0
+          ],
+          "peak_distance_um": 0.0,
+          "crop_fractions": [
+            0.9998837571803167,
+            0.9998833801693685
+          ],
+          "relative_captured_energy_difference": 3.770549204237049e-07,
+          "base_stats": {
+            "wavelength_nm": 400.0,
+            "n": 1.4701161185594052,
+            "input_energy": 12892.0,
+            "output_energy": 12892.000000000002,
+            "crop_energy": 12890.501397568645,
+            "crop_fraction": 0.9998837571803167,
+            "energy_relative_error": 1.4109443092971272e-16,
+            "edge_fraction": 1.1297514820539745e-11,
+            "seconds": 0.007821200008038431,
+            "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+          },
+          "comparison_stats": {
+            "wavelength_nm": 400.0,
+            "n": 1.4701161185594052,
+            "input_energy": 12892.0,
+            "output_energy": 12892.0,
+            "crop_energy": 12890.4965371435,
+            "crop_fraction": 0.9998833801693685,
+            "energy_relative_error": 0.0,
+            "edge_fraction": 2.0554834360551726e-13,
+            "seconds": 0.024146799987647682,
+            "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+          }
+        },
+        {
+          "wavelength_nm": 400,
+          "comparison": "pitch_1_vs_0.5_um",
+          "normalized_l1": 0.04360326871732222,
+          "centroid_um": [
+            0.0,
+            -4.440892098500626e-16
+          ],
+          "peak_distance_um": 0.0,
+          "crop_fractions": [
+            0.9998837571803167,
+            0.9981181814979376
+          ],
+          "relative_captured_energy_difference": 0.0037152961866631327,
+          "base_stats": {
+            "wavelength_nm": 400.0,
+            "n": 1.4701161185594052,
+            "input_energy": 12892.0,
+            "output_energy": 12892.000000000002,
+            "crop_energy": 12890.501397568645,
+            "crop_fraction": 0.9998837571803167,
+            "energy_relative_error": 1.4109443092971272e-16,
+            "edge_fraction": 1.1297514820539745e-11,
+            "seconds": 0.007821200008038431,
+            "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+          },
+          "comparison_stats": {
+            "wavelength_nm": 400.0,
+            "n": 1.4701161185594052,
+            "input_energy": 12867.0,
+            "output_energy": 12867.000000000005,
+            "crop_energy": 12842.786641333969,
+            "crop_fraction": 0.9981181814979376,
+            "energy_relative_error": 4.241057131139791e-16,
+            "edge_fraction": 1.061678481096077e-06,
+            "seconds": 0.11308320000534877,
+            "height_sha256": "2973f9bf80819afe40311a077ad114f86b331631babe8b0ed1fe43dba06422ff"
+          }
+        },
+        {
+          "wavelength_nm": 550,
+          "comparison": "padding_4_vs_6",
+          "normalized_l1": 3.2130961069609668e-06,
+          "centroid_um": [
+            -4.440892098500626e-16,
+            -2.220446049250313e-16
+          ],
+          "peak_distance_um": 0.0,
+          "crop_fractions": [
+            0.9986271253446481,
+            0.9986271335443071
+          ],
+          "relative_captured_energy_difference": 8.210930920365093e-09,
+          "base_stats": {
+            "wavelength_nm": 550.0,
+            "n": 1.4599108864687285,
+            "input_energy": 12892.0,
+            "output_energy": 12892.000000000007,
+            "crop_energy": 12874.300899943211,
+            "crop_fraction": 0.9986271253446481,
+            "energy_relative_error": 5.643777237188509e-16,
+            "edge_fraction": 8.737564974487109e-11,
+            "seconds": 0.008706900000106543,
+            "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+          },
+          "comparison_stats": {
+            "wavelength_nm": 550.0,
+            "n": 1.4599108864687285,
+            "input_energy": 12892.0,
+            "output_energy": 12892.0,
+            "crop_energy": 12874.301005653208,
+            "crop_fraction": 0.9986271335443071,
+            "energy_relative_error": 0.0,
+            "edge_fraction": 6.17748480495458e-13,
+            "seconds": 0.01952890001120977,
+            "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+          }
+        },
+        {
+          "wavelength_nm": 550,
+          "comparison": "pitch_1_vs_0.5_um",
+          "normalized_l1": 0.02633961836742671,
+          "centroid_um": [
+            0.0,
+            -2.220446049250313e-16
+          ],
+          "peak_distance_um": 1.0,
+          "crop_fractions": [
+            0.9986271253446481,
+            0.9970301349701877
+          ],
+          "relative_captured_energy_difference": 0.0035478143163965273,
+          "base_stats": {
+            "wavelength_nm": 550.0,
+            "n": 1.4599108864687285,
+            "input_energy": 12892.0,
+            "output_energy": 12892.000000000007,
+            "crop_energy": 12874.300899943211,
+            "crop_fraction": 0.9986271253446481,
+            "energy_relative_error": 5.643777237188509e-16,
+            "edge_fraction": 8.737564974487109e-11,
+            "seconds": 0.008706900000106543,
+            "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+          },
+          "comparison_stats": {
+            "wavelength_nm": 550.0,
+            "n": 1.4599108864687285,
+            "input_energy": 12867.0,
+            "output_energy": 12867.000000000004,
+            "crop_energy": 12828.786746661408,
+            "crop_fraction": 0.9970301349701877,
+            "energy_relative_error": 2.827371420759861e-16,
+            "edge_fraction": 5.5335172966101326e-05,
+            "seconds": 0.032591800001682714,
+            "height_sha256": "2973f9bf80819afe40311a077ad114f86b331631babe8b0ed1fe43dba06422ff"
+          }
+        },
+        {
+          "wavelength_nm": 700,
+          "comparison": "padding_4_vs_6",
+          "normalized_l1": 5.1526849652164095e-06,
+          "centroid_um": [
+            -4.440892098500626e-16,
+            0.0
+          ],
+          "peak_distance_um": 0.0,
+          "crop_fractions": [
+            0.9971599177690892,
+            0.9971599744215962
+          ],
+          "relative_captured_energy_difference": 5.6813860047230905e-08,
+          "base_stats": {
+            "wavelength_nm": 700.0,
+            "n": 1.4552924662622837,
+            "input_energy": 12892.0,
+            "output_energy": 12892.000000000002,
+            "crop_energy": 12855.385659879099,
+            "crop_fraction": 0.9971599177690892,
+            "energy_relative_error": 1.4109443092971272e-16,
+            "edge_fraction": 3.936387295281652e-09,
+            "seconds": 0.008806899975752458,
+            "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+          },
+          "comparison_stats": {
+            "wavelength_nm": 700.0,
+            "n": 1.4552924662622837,
+            "input_energy": 12892.0,
+            "output_energy": 12892.000000000004,
+            "crop_energy": 12855.386390243222,
+            "crop_fraction": 0.9971599744215962,
+            "energy_relative_error": 2.8218886185942543e-16,
+            "edge_fraction": 2.4443572225441867e-12,
+            "seconds": 0.018520300014643,
+            "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+          }
+        },
+        {
+          "wavelength_nm": 700,
+          "comparison": "pitch_1_vs_0.5_um",
+          "normalized_l1": 0.018329283700243025,
+          "centroid_um": [
+            0.0,
+            0.0
+          ],
+          "peak_distance_um": 1.4142135623730951,
+          "crop_fractions": [
+            0.9971599177690892,
+            0.9964041489420297
+          ],
+          "relative_captured_energy_difference": 0.0027029248363883915,
+          "base_stats": {
+            "wavelength_nm": 700.0,
+            "n": 1.4552924662622837,
+            "input_energy": 12892.0,
+            "output_energy": 12892.000000000002,
+            "crop_energy": 12855.385659879099,
+            "crop_fraction": 0.9971599177690892,
+            "energy_relative_error": 1.4109443092971272e-16,
+            "edge_fraction": 3.936387295281652e-09,
+            "seconds": 0.008806899975752458,
+            "height_sha256": "706d8de7533043e6032283a52a602c253ac41ffb0d2b8ad5229682604518c0ff"
+          },
+          "comparison_stats": {
+            "wavelength_nm": 700.0,
+            "n": 1.4552924662622837,
+            "input_energy": 12867.0,
+            "output_energy": 12867.000000000004,
+            "crop_energy": 12820.7321844371,
+            "crop_fraction": 0.9964041489420297,
+            "energy_relative_error": 2.827371420759861e-16,
+            "edge_fraction": 5.4011460081897034e-05,
+            "seconds": 0.02973450001445599,
+            "height_sha256": "2973f9bf80819afe40311a077ad114f86b331631babe8b0ed1fe43dba06422ff"
+          }
+        }
+      ],
+      "limits": {
+        "shape_l1": 0.05,
+        "peak_um": 2.0,
+        "crop_fraction_min": 0.99,
+        "captured_energy_difference": 0.01,
+        "edge_fraction": 0.001
+      }
+    }
+  },
+  "T05": {
+    "status": "PASS",
+    "shape": [
+      31,
+      512,
+      512
+    ],
+    "normalization_abs_error": 3.3306690738754696e-16,
+    "repeat_max_abs_errors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "cpu_gpu_abs_error": 1.3877787807814457e-17,
+    "crop_fraction_min": 0.9971599177690892,
+    "energy_relative_error_max": 5.643777237188509e-16,
+    "export_reload_equal": true
+  },
+  "T06": {
+    "status": "PASS",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "total_seconds": 1.9291568000044208,
+    "seconds_per_wavelength": [
+      0.8060168999945745,
+      0.008868300006724894,
+      0.008925800008000806,
+      0.008840499998768792,
+      0.008289399993373081,
+      0.00878449997981079,
+      0.00897989998338744,
+      0.008993799972813576,
+      0.00868379999883473,
+      0.00831030000699684,
+      0.008233600005041808,
+      0.008078900020336732,
+      0.00842450000345707,
+      0.008349899988388643,
+      0.008788600011030212,
+      0.008356000005733222,
+      0.008499299990944564,
+      0.008128499990561977,
+      0.008535700006177649,
+      0.008722700004000217,
+      0.008781199983786792,
+      0.008498099981807172,
+      0.00848649998079054,
+      0.008351299999048933,
+      0.008093600015854463,
+      0.007432599988533184,
+      0.0072447000129614025,
+      0.0073299999930895865,
+      0.00724799997988157,
+      0.007261499995365739,
+      0.009994500025641173
+    ],
+    "peak_allocated_bytes": 94389248,
+    "peak_reserved_bytes": 109051904
+  }
+}

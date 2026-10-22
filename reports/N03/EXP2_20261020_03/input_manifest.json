@@ -1,0 +1,590 @@
+{
+  "reports\\N03\\00_audit.md": {
+    "sha256": "ab4ba5dedf249647450712fb1469d3a7ac35dfff6330b26cd3ae75efad983772",
+    "bytes": 7275
+  },
+  "reports\\N03\\00_manifest.json": {
+    "sha256": "42ba2e786e65f944a74da25cb6c2d21df86557e8efb2bd963574d0b2ed2f9df3",
+    "bytes": 214805
+  },
+  "reports\\N03\\01_point_reconstruction_report.md": {
+    "sha256": "4c3e42d288ae5108dd5d21dc7837ae9b79961afd98a12626e3fc2c2ff4363e85",
+    "bytes": 3590
+  },
+  "reports\\N03\\EXP1_delivery_verification.json": {
+    "sha256": "2a88da434ab991ff63909ac3086d03ac3a0b2cca9f9ad98e95ac92479ed4eca3",
+    "bytes": 1269
+  },
+  "reports\\N03\\run_commands.md": {
+    "sha256": "0ec1bf219aead44b5f0fa4054a12ad3d6f431bca4d5f639a8dc8ee383a09282e",
+    "bytes": 362
+  },
+  "reports\\N03\\EXP1\\artifact_manifest.json": {
+    "sha256": "45c7e6cddf4cbdbf735faa1474eb897508b634ae1147b7c19a8b245eaf07062c",
+    "bytes": 2074
+  },
+  "reports\\N03\\EXP1\\matrix_diagnostics.json": {
+    "sha256": "046169eda20259ff1895334ebf46f34910f5818b314345faa581850822f6ead5",
+    "bytes": 10741
+  },
+  "reports\\N03\\EXP1\\metrics.csv": {
+    "sha256": "51d0c48e6a979af32df8c5e02c60dc850265f7cd32b351b9c8ae19e35f922d1b",
+    "bytes": 119325
+  },
+  "reports\\N03\\EXP1\\noise_calibration.json": {
+    "sha256": "a32c1ea6fec990b55c6ece5afb9a62d58ab5837498e8eb53f7ccbfc63cfc3183",
+    "bytes": 219
+  },
+  "reports\\N03\\EXP1\\nonuniqueness_example.json": {
+    "sha256": "08123388f6516c6c8f5c847512737fe3de2e61fdc7862317a98d4dba6bdf6387",
+    "bytes": 784
+  },
+  "reports\\N03\\EXP1\\README.md": {
+    "sha256": "1b65505fcb67e78dabd3bf5f9ed6cca559e486e042a66722a579b0f9c58b28fe",
+    "bytes": 755
+  },
+  "reports\\N03\\EXP1\\result_summary.md": {
+    "sha256": "d13dde9f7c2d568d50adf767fe1e784a16fb2bd3dde4dc1bb85a8b2f45b54ad1",
+    "bytes": 7263
+  },
+  "reports\\N03\\EXP1\\run_config.json": {
+    "sha256": "d96aa5241a351dbd3933b098228cfb831f35c31dbd568ba4f9fbf96961c4c362",
+    "bytes": 15823
+  },
+  "reports\\N03\\EXP1\\spectra_results.json": {
+    "sha256": "e9b4515803133d7f9f764955dd82598f0d5dbf871a04adab1fb53b3af6fcbe31",
+    "bytes": 453970
+  },
+  "reports\\N03\\EXP1\\summary_metrics.json": {
+    "sha256": "34a8f54f15d379f4c35aa140e1bb21f2a04d4f333ac6a4b0e7351c213cca6d3a",
+    "bytes": 6196
+  },
+  "reports\\N03\\EXP1\\validation_results.json": {
+    "sha256": "b62cf384386aac65e9ef0a29c53a313193132dbc64492bafe259c2d9d437b3fd",
+    "bytes": 6876
+  },
+  "reports\\N03\\EXP1\\figures\\archived_psfs.png": {
+    "sha256": "0a2c858f489520486ad715da303d20d1726b11a581211c5fd2707780720a9ca9",
+    "bytes": 163265
+  },
+  "reports\\N03\\EXP1\\figures\\column_cosine.png": {
+    "sha256": "29ceaf09cf94d1be8c1e79b78436341c4553d0fedd2a4e0b69793b67b84cf3ae",
+    "bytes": 76000
+  },
+  "reports\\N03\\EXP1\\figures\\matrix_svd_norms_response.png": {
+    "sha256": "f862b6f04b3405e9b5ca639bf0fca727556262893d047562e11027fe308421ab",
+    "bytes": 152414
+  },
+  "reports\\N03\\EXP1\\figures\\noise_summary.png": {
+    "sha256": "ea8ca59383a6481b8acda50527e707773a66317a80308b04cc866769a582fb6d",
+    "bytes": 68670
+  },
+  "reports\\N03\\EXP1\\figures\\spectrum_broad_510.png": {
+    "sha256": "02986810fbd8034d39629c53d334736950b2eddb81c570a3d7d530c9d1d8f45e",
+    "bytes": 140431
+  },
+  "reports\\N03\\EXP1\\figures\\spectrum_near_equal.png": {
+    "sha256": "48757d6b3215fa538971a007e641545f0a0eaac73079a652e4a200217af611ae",
+    "bytes": 117250
+  },
+  "reports\\N03\\EXP1\\figures\\spectrum_onehot_540.png": {
+    "sha256": "c01e92546b191604a61fea71fccb95d9de082f62f6377f7eb9c600ed0617295d",
+    "bytes": 111609
+  },
+  "reports\\N03\\EXP1\\figures\\spectrum_random_0.png": {
+    "sha256": "fc45e34f1d7d4fc7aa04ad9c68c74bbec172c171a046f5a6f9f93ea307cdb723",
+    "bytes": 165788
+  },
+  "reports\\N03\\EXP1\\figures\\worst_spiral_case.png": {
+    "sha256": "7c66195f9d22943a629cf3e3d62a75fbea2d5407ae17e5b59b64472c96baaefe",
+    "bytes": 111326
+  },
+  "reports\\N03\\EXP1\\logs\\events.jsonl": {
+    "sha256": "6dd73f823bbb344cf44b85278acfa26ce9e7dda68f97bfa7015d2103bde0a9d6",
+    "bytes": 793
+  },
+  "reports\\N03\\EXP1\\logs\\run_record.json": {
+    "sha256": "a67dc9ab5920a6ac4deee40d451277d51991a577e0f07d0b77428a9772c40caa",
+    "bytes": 9376
+  },
+  "reports\\N03\\EXP1_verified\\artifact_manifest.json": {
+    "sha256": "0fbb6362e9631c486e52c65d8de4fc0d87eb89eb82ffe72e364f6191a7d3385f",
+    "bytes": 2074
+  },
+  "reports\\N03\\EXP1_verified\\matrix_diagnostics.json": {
+    "sha256": "046169eda20259ff1895334ebf46f34910f5818b314345faa581850822f6ead5",
+    "bytes": 10741
+  },
+  "reports\\N03\\EXP1_verified\\metrics.csv": {
+    "sha256": "51d0c48e6a979af32df8c5e02c60dc850265f7cd32b351b9c8ae19e35f922d1b",
+    "bytes": 119325
+  },
+  "reports\\N03\\EXP1_verified\\noise_calibration.json": {
+    "sha256": "a32c1ea6fec990b55c6ece5afb9a62d58ab5837498e8eb53f7ccbfc63cfc3183",
+    "bytes": 219
+  },
+  "reports\\N03\\EXP1_verified\\nonuniqueness_example.json": {
+    "sha256": "08123388f6516c6c8f5c847512737fe3de2e61fdc7862317a98d4dba6bdf6387",
+    "bytes": 784
+  },
+  "reports\\N03\\EXP1_verified\\README.md": {
+    "sha256": "1b65505fcb67e78dabd3bf5f9ed6cca559e486e042a66722a579b0f9c58b28fe",
+    "bytes": 755
+  },
+  "reports\\N03\\EXP1_verified\\result_summary.md": {
+    "sha256": "3b54191dde5bf176002f1fe1a579862f3323dc01f253311a01b67f9b6c009e12",
+    "bytes": 7720
+  },
+  "reports\\N03\\EXP1_verified\\run_config.json": {
+    "sha256": "0f294fc916cc036f015180604fb4f312196ee1a26c99cf50a8641ca31e83a78d",
+    "bytes": 20540
+  },
+  "reports\\N03\\EXP1_verified\\spectra_results.json": {
+    "sha256": "e9b4515803133d7f9f764955dd82598f0d5dbf871a04adab1fb53b3af6fcbe31",
+    "bytes": 453970
+  },
+  "reports\\N03\\EXP1_verified\\summary_metrics.json": {
+    "sha256": "34a8f54f15d379f4c35aa140e1bb21f2a04d4f333ac6a4b0e7351c213cca6d3a",
+    "bytes": 6196
+  },
+  "reports\\N03\\EXP1_verified\\validation_results.json": {
+    "sha256": "6e2893e597eef1e167f5f814e59ca3def519aba3611a1b3e08189a4ccbb330de",
+    "bytes": 7560
+  },
+  "reports\\N03\\EXP1_verified\\figures\\archived_psfs.png": {
+    "sha256": "0a2c858f489520486ad715da303d20d1726b11a581211c5fd2707780720a9ca9",
+    "bytes": 163265
+  },
+  "reports\\N03\\EXP1_verified\\figures\\column_cosine.png": {
+    "sha256": "29ceaf09cf94d1be8c1e79b78436341c4553d0fedd2a4e0b69793b67b84cf3ae",
+    "bytes": 76000
+  },
+  "reports\\N03\\EXP1_verified\\figures\\matrix_svd_norms_response.png": {
+    "sha256": "7c0cf654366fa45bb4030ef7f9410154b5eb42785ce4a35d1516ef6d046995f3",
+    "bytes": 148684
+  },
+  "reports\\N03\\EXP1_verified\\figures\\noise_summary.png": {
+    "sha256": "ea8ca59383a6481b8acda50527e707773a66317a80308b04cc866769a582fb6d",
+    "bytes": 68670
+  },
+  "reports\\N03\\EXP1_verified\\figures\\spectrum_broad_510.png": {
+    "sha256": "02986810fbd8034d39629c53d334736950b2eddb81c570a3d7d530c9d1d8f45e",
+    "bytes": 140431
+  },
+  "reports\\N03\\EXP1_verified\\figures\\spectrum_near_equal.png": {
+    "sha256": "48757d6b3215fa538971a007e641545f0a0eaac73079a652e4a200217af611ae",
+    "bytes": 117250
+  },
+  "reports\\N03\\EXP1_verified\\figures\\spectrum_onehot_540.png": {
+    "sha256": "c01e92546b191604a61fea71fccb95d9de082f62f6377f7eb9c600ed0617295d",
+    "bytes": 111609
+  },
+  "reports\\N03\\EXP1_verified\\figures\\spectrum_random_0.png": {
+    "sha256": "fc45e34f1d7d4fc7aa04ad9c68c74bbec172c171a046f5a6f9f93ea307cdb723",
+    "bytes": 165788
+  },
+  "reports\\N03\\EXP1_verified\\figures\\worst_spiral_case.png": {
+    "sha256": "7c66195f9d22943a629cf3e3d62a75fbea2d5407ae17e5b59b64472c96baaefe",
+    "bytes": 111326
+  },
+  "reports\\N03\\EXP1_verified\\logs\\events.jsonl": {
+    "sha256": "f41c4ae291d9560102aa87370603908d95b74b57831df5c751536ef11604db3b",
+    "bytes": 790
+  },
+  "reports\\N03\\EXP1_verified\\logs\\run_record.json": {
+    "sha256": "faaa33edec9884e90584bfa28f70f143e844a46907b785472d97deaaa4e72e19",
+    "bytes": 11289
+  },
+  "reports\\N03\\EXP2_20261020_01\\00_preflight.md": {
+    "sha256": "595e0087cee043958e0b6bd586aea39e1db2edc889e60143345ce9b073e60c99",
+    "bytes": 1118
+  },
+  "reports\\N03\\EXP2_20261020_01\\input_manifest.json": {
+    "sha256": "e40137cac7fbc1418bed5a3772a1da5228f2e6452fc49a2ae63e43cd3aeb3eba",
+    "bytes": 19182
+  },
+  "reports\\N03\\EXP2_20261020_01\\matrices_9band.json": {
+    "sha256": "13855143657218cac8c921bfbf47d1ebdf2eee7eb8d0692e896a029e87cf5309",
+    "bytes": 45149
+  },
+  "reports\\N03\\EXP2_20261020_01\\run_config.json": {
+    "sha256": "e6a8869e162e69c23934e73f2c45f2f3f1b0159e7f098864cd54cde73689a213",
+    "bytes": 23752
+  },
+  "reports\\N03\\EXP2_20261020_01\\sampling_energy_check.csv": {
+    "sha256": "33b08e35aa533e21d567320acc70bd636957faffb11d292543183e36efd7308d",
+    "bytes": 2675
+  },
+  "reports\\N03\\EXP2_20261020_01\\tests.json": {
+    "sha256": "2be2b729f24d81f10888fd5115985a0b674d679c42b7384623f0ffa9cd35c95e",
+    "bytes": 14812
+  },
+  "reports\\N03\\EXP2_20261020_01\\throughput_analysis.csv": {
+    "sha256": "182e8b2cc1ff4aa3adab2b854d50bc93a1b5aff02d7ef6c1855bc81faf67a577",
+    "bytes": 4543
+  },
+  "reports\\N03\\EXP2_20261020_01\\logs\\events.jsonl": {
+    "sha256": "cbc717221ea6ae9bc4c017016005d13c6628566cd3fc0672ce075c982688cc9e",
+    "bytes": 425
+  },
+  "reports\\N03\\EXP2_20261020_01\\logs\\failure.txt": {
+    "sha256": "2429197ed91adb93a5081afc551ce501abb5f40977edeb529eb43d7d4210244c",
+    "bytes": 801
+  },
+  "reports\\N03\\EXP2_20261020_02\\00_preflight.md": {
+    "sha256": "595e0087cee043958e0b6bd586aea39e1db2edc889e60143345ce9b073e60c99",
+    "bytes": 1118
+  },
+  "reports\\N03\\EXP2_20261020_02\\artifact_manifest.json": {
+    "sha256": "c4bee869395e2467892c96a80e1e13f4a15e9232e5766a430878a7871a640104",
+    "bytes": 2818
+  },
+  "reports\\N03\\EXP2_20261020_02\\input_manifest.json": {
+    "sha256": "6e44462fb92bc0df70ad1d0e3d7cb82b6d61f4c73852762d78e05a3dea8bdef8",
+    "bytes": 20686
+  },
+  "reports\\N03\\EXP2_20261020_02\\matrices_25band_diagnostic.json": {
+    "sha256": "67dd86d58ae4eb6d4bcf6ddb69fa13e743aaa4aba381b22adb36d718ad9dd4c7",
+    "bytes": 39436
+  },
+  "reports\\N03\\EXP2_20261020_02\\matrices_9band.json": {
+    "sha256": "13855143657218cac8c921bfbf47d1ebdf2eee7eb8d0692e896a029e87cf5309",
+    "bytes": 45149
+  },
+  "reports\\N03\\EXP2_20261020_02\\metrics.csv": {
+    "sha256": "7c1d33cbe87dc1d0c4300665bb7cb621af7a38994d417e4b829c91b5d220fad5",
+    "bytes": 3450845
+  },
+  "reports\\N03\\EXP2_20261020_02\\mismatch_ratios.csv": {
+    "sha256": "c4fad2b616bf22134cad5726851f76f7a15a1800880eb59ae57c727e71281838",
+    "bytes": 142688
+  },
+  "reports\\N03\\EXP2_20261020_02\\model_mismatch.csv": {
+    "sha256": "4bc7708a9cc4d765e589aa97aaa34c604fd11c9dc66579991e2d44a1dcf9007c",
+    "bytes": 2135776
+  },
+  "reports\\N03\\EXP2_20261020_02\\noise_calibration.csv": {
+    "sha256": "9bdeea532c63f63784a8b56acf4cd912c55b79f60d3e81e715cb5034f755dbd6",
+    "bytes": 1232962
+  },
+  "reports\\N03\\EXP2_20261020_02\\perturbation_manifest.json": {
+    "sha256": "f3920b0f181232214a7b2afd0d0ba515becfb1258bd81a31bdf987f5121ecf38",
+    "bytes": 52712
+  },
+  "reports\\N03\\EXP2_20261020_02\\pilot_gate.json": {
+    "sha256": "d1ef83164c41a75198b354412eae9ab7dc75098b603c4f2dd2fab9950d748a44",
+    "bytes": 349
+  },
+  "reports\\N03\\EXP2_20261020_02\\pilot_metrics.csv": {
+    "sha256": "617f083bd8527a14b326774cf8afbf46a3c904fc7e33c161f2ad798b7fa46f91",
+    "bytes": 206514
+  },
+  "reports\\N03\\EXP2_20261020_02\\postrun_checks.json": {
+    "sha256": "439f36c2320adf974f2f655e6d7381bbde808aeb9ac85411d2d0f7d8774af2ed",
+    "bytes": 7032
+  },
+  "reports\\N03\\EXP2_20261020_02\\preservation.json": {
+    "sha256": "c0e71a093c22d64b33c31b3c37d579c8af67663c89037715dd10beb7b026de5b",
+    "bytes": 109
+  },
+  "reports\\N03\\EXP2_20261020_02\\result_summary.md": {
+    "sha256": "dbcd6f97e5992cb6a52092823c961dc1dda4555729d0a225cc1ff4a824649e82",
+    "bytes": 16762
+  },
+  "reports\\N03\\EXP2_20261020_02\\run_commands.md": {
+    "sha256": "d5420ed762438853d103acada443b758c8d68119772b072b0a0436e6a01c265e",
+    "bytes": 812
+  },
+  "reports\\N03\\EXP2_20261020_02\\run_config.json": {
+    "sha256": "17c5679e8ca2baa0b8085c116228403f9e41e25b16a8f7da397589dd0cd6c272",
+    "bytes": 24554
+  },
+  "reports\\N03\\EXP2_20261020_02\\sampling_energy_check.csv": {
+    "sha256": "33b08e35aa533e21d567320acc70bd636957faffb11d292543183e36efd7308d",
+    "bytes": 2675
+  },
+  "reports\\N03\\EXP2_20261020_02\\spectral_solutions.json": {
+    "sha256": "64f21c7214b99d2d0020fb3905e5455c3c3b0bb95a6bb46c07962c3593a2d851",
+    "bytes": 8674431
+  },
+  "reports\\N03\\EXP2_20261020_02\\summary_metrics.csv": {
+    "sha256": "c21cc3847baa34b05b6ad02f943158f45bb7bf37d4d43b2cca5fa2cba04cfa1e",
+    "bytes": 155700
+  },
+  "reports\\N03\\EXP2_20261020_02\\tests.json": {
+    "sha256": "48e6c54427cd0f56a0e2d44200cfc340a415afe2eba8d2a8349b9d93f884792a",
+    "bytes": 15300
+  },
+  "reports\\N03\\EXP2_20261020_02\\throughput_analysis.csv": {
+    "sha256": "182e8b2cc1ff4aa3adab2b854d50bc93a1b5aff02d7ef6c1855bc81faf67a577",
+    "bytes": 4543
+  },
+  "reports\\N03\\EXP2_20261020_02\\figures\\diagnostic_25bands.png": {
+    "sha256": "4d311d7691295607d24ab366bc34ba15e57c55afc1dbdc166926f7660978d14c",
+    "bytes": 68957
+  },
+  "reports\\N03\\EXP2_20261020_02\\figures\\mismatch_nrmse_log.png": {
+    "sha256": "3135679a712559b8cfbb9dd19d34fd10e30437960cf3337ea60b5c1bd1d76a13",
+    "bytes": 109415
+  },
+  "reports\\N03\\EXP2_20261020_02\\figures\\noise_budget_comparison.png": {
+    "sha256": "0b566385cf1f2713c588ef030579358fb38f78bb4693ffb09cc658f8ab1ba0eb",
+    "bytes": 164976
+  },
+  "reports\\N03\\EXP2_20261020_02\\figures\\sampling_psf_comparison.png": {
+    "sha256": "f750f50263d0d4a4bdad815452a46ea472193ec7c83594c98241bcdca7010038",
+    "bytes": 78833
+  },
+  "reports\\N03\\EXP2_20261020_02\\figures\\singular_values_9band.png": {
+    "sha256": "b6d8fe315f02d540f47ca689d23632aa8bdd231bda5443d24f3427506bd26a30",
+    "bytes": 128741
+  },
+  "reports\\N03\\EXP2_20261020_02\\figures\\spectrum_best_median_worst.png": {
+    "sha256": "09b66205eae6f7f3285b882523d04ec9375c5a36134b0b08ecfa8f285a69c26e",
+    "bytes": 163413
+  },
+  "reports\\N03\\EXP2_20261020_02\\logs\\events.jsonl": {
+    "sha256": "452d8844b8e0834853e1b695dc2975d88c1fdb9b7ed8718af09e983236f123c9",
+    "bytes": 5470
+  },
+  "reports\\N03\\EXP2_20261020_02\\logs\\run_record.json": {
+    "sha256": "055540a3da08228fbc1c961a05dc8f0a3a4289095c7ecb7ba329b85f664158a7",
+    "bytes": 5975
+  },
+  "reports\\N03\\logs\\00_audit_run.json": {
+    "sha256": "18e2de86b41fa95dc032c8cd2ed215f175f5dda252c12e6a91982c28a91e6933",
+    "bytes": 488
+  },
+  "reports\\N03\\logs\\00_initial_attempt.md": {
+    "sha256": "ee633865fe9b23ae70877f4395d751d531fbb9915933c66e8654dca3858009bd",
+    "bytes": 840
+  },
+  "reports\\N03\\logs\\01_delivery_verification.json": {
+    "sha256": "2b5d7fc57d691615d081e7a2925b22a76334cea6ba535c816e6c27f5eef83186",
+    "bytes": 999
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp1\\forward.py": {
+    "sha256": "85adbc0b3c927171eb801b3d0a947822a4c3efae9d0b4e60ec5d9e4392258fbb",
+    "bytes": 2803
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp1\\run_exp1.py": {
+    "sha256": "5bd655b00e67409de13b648c41622ec30995f3225995250c01c502abffe2d169",
+    "bytes": 28610
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp1\\solvers.py": {
+    "sha256": "e29e9e5f1c5dcbd0497334a821cd2963826dfc0ebc66d40af00808ae3504141a",
+    "bytes": 1348
+  },
+  "README.md": {
+    "sha256": "4c6f803c5e1b021e993bd519ee553a6dc7559fbda7f4fb42b24a3465aa250e6d",
+    "bytes": 6331
+  },
+  "integration\\single_spiral_to_hsi\\tests\\test_n03_exp1.py": {
+    "sha256": "bd8cb07ba3529e73f370a6d0437c88b462dea5a0d5672e89173a7946085df45f",
+    "bytes": 4571
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\420nm.npz": {
+    "sha256": "864aec59ec85792d106000d29533ff5b8377d834abacc434b31fcb28d9a64c05",
+    "bytes": 3972243
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\421nm.npz": {
+    "sha256": "207ae2a97260bf4f225a14aa96b88137ba6e217b5a6b21cf2862e94fa516d01f",
+    "bytes": 3972392
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\422nm.npz": {
+    "sha256": "aee60bb8892a4fecb768f7be6c84185a735db00ab80dd95826a466c1fc27b62c",
+    "bytes": 3972600
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\423nm.npz": {
+    "sha256": "716d812a9cc2eae8736b3e56e3736c56f3c678a62836afb65c48d15e5ffb3f99",
+    "bytes": 3972354
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\424nm.npz": {
+    "sha256": "80abf61f163346e20b71a44f9a20f8e7230256605533cf13ff65636b07133910",
+    "bytes": 3972585
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\425nm.npz": {
+    "sha256": "89baf87c08842be5267c052994a6234557e987adbbe3f8bd1fcd09a78e35cf6a",
+    "bytes": 3972590
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\426nm.npz": {
+    "sha256": "5e9ff38e2b16cde1f58c92dc22e770c7b2809752dd28a020395f80836348c586",
+    "bytes": 3972616
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\427nm.npz": {
+    "sha256": "e40e66d191d80e4e11fcf330cc180d01ff7a1cd0e86e294fe714fef40646b5ad",
+    "bytes": 3972567
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\428nm.npz": {
+    "sha256": "8151801522395c1809bb171c6c31d0ccabb7f13af8ad38a29a2f29be5b4057cd",
+    "bytes": 3972755
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\429nm.npz": {
+    "sha256": "b21929800d6cdd1f690c2188709538b3bc0c4b1ba01783f808ac074addababd7",
+    "bytes": 3972669
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\430nm.npz": {
+    "sha256": "8e118d5ae19c86882e9b5962de793840dd5c482c8c8cc9d08404ee5e038aed29",
+    "bytes": 3972597
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\440nm.npz": {
+    "sha256": "9cd5c1ac25a15266690b583508f226a859db0ada4f0c58aaba93fa58cbbfaa5a",
+    "bytes": 3972838
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\450nm.npz": {
+    "sha256": "2cd0eeda745bc648b2e8027a98e168bd10278f9e414dde3b189cfe982b61722d",
+    "bytes": 3972843
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\460nm.npz": {
+    "sha256": "de3320714587fae0f432efd4ade639a3662dfc5a16db6844c86ef715969e78c7",
+    "bytes": 3973417
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\470nm.npz": {
+    "sha256": "0ba300646bc2d4ea6497c0326de91d7d0e16d60998eba701370498b30be7e428",
+    "bytes": 3973634
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\480nm.npz": {
+    "sha256": "fce5a7b90b15c0fe2c5999f17c4aa9b8c275b43dc9df73a0bed3eb8fc0176bdb",
+    "bytes": 3973408
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\490nm.npz": {
+    "sha256": "c37073d2769c31c58d53b318fa214eaccd3a1bdedf19dbec7d15cb5081b61b2c",
+    "bytes": 3973749
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\500nm.npz": {
+    "sha256": "01bda9e9f3c49d05d33766eba35de7006f0358f4bf535dd152dbf2d05d39d213",
+    "bytes": 3973914
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\510nm.npz": {
+    "sha256": "174e07c1c425547674a1615776efa57403a41426cd54fdc602bf0fca5e952cbe",
+    "bytes": 3973739
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\520nm.npz": {
+    "sha256": "8196ee5393ef0acdacd0131c83ce204ea03ccf87777206fc394ea9672a8608af",
+    "bytes": 3973760
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\530nm.npz": {
+    "sha256": "40bf352ad62f00c7aa253db2fd3bb201c7e515135a92f74eec75f0ce413ee488",
+    "bytes": 3973903
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\540nm.npz": {
+    "sha256": "29d90260f5faccdf52be7630331205b72717251572f0ebb5675346f1616fc8a3",
+    "bytes": 3973826
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\546.1nm.npz": {
+    "sha256": "57908d21d0ce48286402cdb156f7ad8672bbd7635cfaa5ab31d79e604a4e7c8f",
+    "bytes": 3973166
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\550nm.npz": {
+    "sha256": "01dfb0ee57b0feb628cd2c92f0554f72170cf372df79c53d009e4f1dfa1b2827",
+    "bytes": 3973667
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\560nm.npz": {
+    "sha256": "f7602887354b0f608e543cd94c68029ee29b8ae30f303fca84301349ac024005",
+    "bytes": 3973788
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\570nm.npz": {
+    "sha256": "8e261358c66bf93028a72fefc223d79a46343b858785a08a5e16eb44c1ed83f5",
+    "bytes": 3973441
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\580nm.npz": {
+    "sha256": "deafd500c2cf8b8f4e3a4ea595365914102de3092a8f71a6d6df7fefd7397677",
+    "bytes": 3973309
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\590nm.npz": {
+    "sha256": "44537c4994bba438f287f127cc28acb8889db9aa6c9dcab37999cdb46f3c07b5",
+    "bytes": 3973401
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\600nm.npz": {
+    "sha256": "c2222048f66f60a0f59d6fa2770c5e9e9fef5810e260959b3ed474c720b42b09",
+    "bytes": 3973496
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\610nm.npz": {
+    "sha256": "c77abaf9b11cbfebb5a90e6dbb4901a74e20b9cc532762b1c82e7a7f8315fb17",
+    "bytes": 3973086
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\620nm.npz": {
+    "sha256": "b4f71aef90019f027e0d1bf72ffdaafcdd95949bfd0b223a5623e77f9e23750e",
+    "bytes": 3972970
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\630nm.npz": {
+    "sha256": "f844239b6ea492ee7ca11dfcfbc103fbe499c1df6f812da420e74906a0871877",
+    "bytes": 3972878
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\640nm.npz": {
+    "sha256": "a427f75d5d347f6ac4ce8e8dcef43646088a9b0d237c85f1b0f328f39be5afb4",
+    "bytes": 3972377
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\650nm.npz": {
+    "sha256": "2188b525b223352f0455d4763361cee0d0bad0dec8900170d74384ba511487bc",
+    "bytes": 3972345
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\660nm.npz": {
+    "sha256": "ea84f1e608f679c8a615da599bd05854eab23a6ff2248df4b561b781f2ad5a62",
+    "bytes": 3972079
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\height_um.npy": {
+    "sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f",
+    "bytes": 33554560
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\aperture_mask.npy": {
+    "sha256": "07e77628a12d6c223057b219d70a4eb5869027b139aaf4113f00cd0b40dc44bc",
+    "bytes": 4194432
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\config.json": {
+    "sha256": "aee9b28c91fbf5ee01685cef576d82dafbe9da656c70d8c976d12ff67d57719a",
+    "bytes": 868
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\frozen_sha256.json": {
+    "sha256": "f98192f2864c398434c4fce917268692a3cb09e2ba1f2e69e52d7d75a79d420e",
+    "bytes": 4093
+  },
+  "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\gates.json": {
+    "sha256": "a9855429b0d94ac842496b32d0c18319f873ea9882415c5e8463a4dc6fd8d0a4",
+    "bytes": 2007
+  },
+  "optics\\n02_single_spiral\\reports\\n02_1c_r2\\n02_1cr2_20261020_02\\N02_1CR2_final_audit.md": {
+    "sha256": "bb4ce8b06a008ef7ee1488408a08638e94b42972ab20608495c9c0641290f47c",
+    "bytes": 5353
+  },
+  "framework\\DeepLensHSI\\src\\sensor\\sensor.py": {
+    "sha256": "3d49df514c67c19987cb40669eed0209642933df3b05312f16cd97858e97a156",
+    "bytes": 19026
+  },
+  "framework\\DeepLensHSI\\5_eval_pretrained.py": {
+    "sha256": "385747ce195b98ee27d3e8c9eccd672b26b72ffc9e3631fc3e9d34aaa978a33b",
+    "bytes": 4740
+  },
+  "framework\\DeepLensHSI\\sensors\\flir\\BFS-U3-200S7C-C.json": {
+    "sha256": "f0beea035c09e576548b13d00b259c3256b2c4e29b47ddf5dba34ef2cf5e3e30",
+    "bytes": 2657
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\analysis.py": {
+    "sha256": "bb1ead186a2e80b42850b42f35bed35366cf09957293d7922ff631c18d49a5bf",
+    "bytes": 18976
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\forward.py": {
+    "sha256": "e697da9a693f428082e860b9d29148434299f0e9800d81559ed7ef26cc8e319c",
+    "bytes": 3578
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\noise.py": {
+    "sha256": "479fb81d39cdf1aed97a7e29150692427e4121c1b6b805a93cc43edee36865fc",
+    "bytes": 1479
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\perturbations.py": {
+    "sha256": "a12f5ee5b95f9628d74d73be73ec7c8563f3cab4c008c6864d0b9233fc760a75",
+    "bytes": 3980
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\run_exp2.py": {
+    "sha256": "880da1cf02138f924b2bcca51561c63eea35f6f68eac1179ca21eace2c545c21",
+    "bytes": 26841
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2\\sampling.py": {
+    "sha256": "de8327a70d10b6f295e1bb52e43139fd2c5a13e156439ff506530f2449370648",
+    "bytes": 1853
+  },
+  "integration\\single_spiral_to_hsi\\tests\\test_n03_exp2.py": {
+    "sha256": "6d4ec75d470a1c07cc1947752df0281692087448b9afe4b9e5d2528fb1b8f8f3",
+    "bytes": 7126
+  }
+}

@@ -1,0 +1,34 @@
+{"seconds": 0.6292448000003787, "stage": "PREFLIGHT_FROZEN", "pitch_um": 2.7397868561278864, "detector_count": 186, "spectra": 18, "perturbations": 23}
+{"seconds": 1.5561448000007658, "stage": "G_IMPL_PASS", "checks": 141, "S0_kappa": 5.738453872089251, "S1_kappa": 5.777724842475291}
+{"seconds": 2.154191300000093, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "pilot", "condition": "shift_x_+0.1", "A_relative_change": 0.027292575091262847, "solves": 174}
+{"seconds": 2.48698289999993, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "pilot", "condition": "chromatic_0.1", "A_relative_change": 0.016855844927585184, "solves": 222}
+{"seconds": 2.6828420000001643, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "pilot", "condition": "blur_0.1", "A_relative_change": 0.002618980280800955, "solves": 270}
+{"seconds": 2.893595200001073, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "pilot", "condition": "gain_+0.01", "A_relative_change": 0.007578122729692129, "solves": 318}
+{"seconds": 2.902659900000799, "stage": "G_PILOT_PASS", "solves": 318}
+{"seconds": 9.117437599999903, "stage": "FULL_SAMPLING_NOISE_COMPLETE", "solves": 2388}
+{"seconds": 9.517843400000856, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_x_-0.5", "A_relative_change": 0.13515320689286114, "solves": 2532}
+{"seconds": 9.899668500000189, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_x_-0.25", "A_relative_change": 0.06791383599305553, "solves": 2676}
+{"seconds": 10.324626999999964, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_x_-0.1", "A_relative_change": 0.02724588134245426, "solves": 2820}
+{"seconds": 10.69765020000159, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_x_+0.1", "A_relative_change": 0.027292575091262847, "solves": 2964}
+{"seconds": 11.068952100000388, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_x_+0.25", "A_relative_change": 0.06796541108829582, "solves": 3108}
+{"seconds": 11.469043500001135, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_x_+0.5", "A_relative_change": 0.13527670532614797, "solves": 3252}
+{"seconds": 11.84612240000024, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_y_-0.5", "A_relative_change": 0.13585730574699403, "solves": 3396}
+{"seconds": 12.226557400001184, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_y_-0.25", "A_relative_change": 0.0682231032333156, "solves": 3540}
+{"seconds": 12.609859000000142, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_y_-0.1", "A_relative_change": 0.027468804047813277, "solves": 3684}
+{"seconds": 12.98360750000029, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_y_+0.1", "A_relative_change": 0.02736114050152318, "solves": 3828}
+{"seconds": 13.355242500001623, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_y_+0.25", "A_relative_change": 0.06808225668534022, "solves": 3972}
+{"seconds": 13.761747700000342, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "shift_y_+0.5", "A_relative_change": 0.13559923788976114, "solves": 4116}
+{"seconds": 14.158239800000956, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "chromatic_0.1", "A_relative_change": 0.016855844927585184, "solves": 4260}
+{"seconds": 14.588169800001197, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "chromatic_0.25", "A_relative_change": 0.04189402428910083, "solves": 4404}
+{"seconds": 14.941975300000195, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "blur_0.1", "A_relative_change": 0.002618980280800955, "solves": 4548}
+{"seconds": 15.292696100001194, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "blur_0.25", "A_relative_change": 0.009054582526164834, "solves": 4692}
+{"seconds": 15.654656600001545, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "blur_0.5", "A_relative_change": 0.0330333666851444, "solves": 4836}
+{"seconds": 16.032773900000393, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "gain_-0.05", "A_relative_change": 0.037890613648460594, "solves": 4980}
+{"seconds": 16.416760300000533, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "gain_-0.03", "A_relative_change": 0.022734368189076305, "solves": 5124}
+{"seconds": 16.786084100000153, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "gain_-0.01", "A_relative_change": 0.007578122729692082, "solves": 5268}
+{"seconds": 17.173212000001513, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "gain_+0.01", "A_relative_change": 0.007578122729692129, "solves": 5412}
+{"seconds": 17.552448300000833, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "gain_+0.03", "A_relative_change": 0.02273436818907638, "solves": 5556}
+{"seconds": 17.951903500001208, "stage": "MISMATCH_GROUP_COMPLETE", "phase": "full", "condition": "gain_+0.05", "A_relative_change": 0.03789061364846066, "solves": 5700}
+{"seconds": 17.972407300001578, "stage": "G_FULL_PASS", "solves": 5382, "postrun_checks": 63}
+{"seconds": 18.355586600000606, "stage": "G_25DIAG_COMPLETE", "rank": 25, "kappa": 1439.90577118221, "no_reconstruction": true}
+{"seconds": 21.389380500000698, "stage": "DELIVERED", "seconds_total": 21.3893775000015, "full_solves": 5382, "next_stage": "STOP_FOR_REVIEW"}

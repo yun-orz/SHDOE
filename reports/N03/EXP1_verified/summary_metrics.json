@@ -1,0 +1,173 @@
+[
+  {
+    "condition": "noiseless",
+    "model": "B0_RGB_delta",
+    "cases": 18,
+    "replicates": 1,
+    "spectral_NRMSE_mean": 0.46689647711393145,
+    "spectral_NRMSE_seed_std": 0.0,
+    "SAM_deg_mean": 23.80177205938275,
+    "SAM_deg_seed_std": 0.0,
+    "relative_sensor_residual_mean": 2.083853458416483e-16,
+    "relative_sensor_residual_seed_std": 0.0,
+    "relative_amplitude_bias_mean": -0.04392883215689603,
+    "relative_amplitude_bias_seed_std": 0.0,
+    "peak_error_nm_mean": 16.666666666666668,
+    "peak_error_nm_seed_std": 0.0,
+    "actual_SNR_range_db": null
+  },
+  {
+    "condition": "noiseless",
+    "model": "B1_fixed_PSF",
+    "cases": 18,
+    "replicates": 1,
+    "spectral_NRMSE_mean": 0.46689647711393106,
+    "spectral_NRMSE_seed_std": 0.0,
+    "SAM_deg_mean": 23.801772059382724,
+    "SAM_deg_seed_std": 0.0,
+    "relative_sensor_residual_mean": 2.1444477956977446e-16,
+    "relative_sensor_residual_seed_std": 0.0,
+    "relative_amplitude_bias_mean": -0.043928832156896254,
+    "relative_amplitude_bias_seed_std": 0.0,
+    "peak_error_nm_mean": 16.666666666666668,
+    "peak_error_nm_seed_std": 0.0,
+    "actual_SNR_range_db": null
+  },
+  {
+    "condition": "noiseless",
+    "model": "B2_spiral_PSF",
+    "cases": 18,
+    "replicates": 1,
+    "spectral_NRMSE_mean": 2.9361809248453273e-16,
+    "spectral_NRMSE_seed_std": 0.0,
+    "SAM_deg_mean": 1.145106619987404e-07,
+    "SAM_deg_seed_std": 0.0,
+    "relative_sensor_residual_mean": 3.015708207955688e-16,
+    "relative_sensor_residual_seed_std": 0.0,
+    "relative_amplitude_bias_mean": 1.9120507646322142e-16,
+    "relative_amplitude_bias_seed_std": 0.0,
+    "peak_error_nm_mean": 0.0,
+    "peak_error_nm_seed_std": 0.0,
+    "actual_SNR_range_db": null
+  },
+  {
+    "condition": "common_absolute_40dB",
+    "model": "B0_RGB_delta",
+    "cases": 54,
+    "replicates": 3,
+    "spectral_NRMSE_mean": 0.4668968971079015,
+    "spectral_NRMSE_seed_std": 4.4126451970987665e-08,
+    "SAM_deg_mean": 23.801789990696374,
+    "SAM_deg_seed_std": 3.9796239603577873e-07,
+    "relative_sensor_residual_mean": 6.234742470656166e-05,
+    "relative_sensor_residual_seed_std": 1.668460790966934e-08,
+    "relative_amplitude_bias_mean": -0.04392879918843103,
+    "relative_amplitude_bias_seed_std": 1.7207613571133174e-08,
+    "peak_error_nm_mean": 16.666666666666668,
+    "peak_error_nm_seed_std": 0.0,
+    "actual_SNR_range_db": [
+      81.0911412137722,
+      86.59873537507032
+    ]
+  },
+  {
+    "condition": "common_absolute_40dB",
+    "model": "B1_fixed_PSF",
+    "cases": 54,
+    "replicates": 3,
+    "spectral_NRMSE_mean": 0.4669517216270669,
+    "spectral_NRMSE_seed_std": 1.4126637702584318e-05,
+    "SAM_deg_mean": 23.804415684112342,
+    "SAM_deg_seed_std": 0.0007093013898776182,
+    "relative_sensor_residual_mean": 0.00499857089682455,
+    "relative_sensor_residual_seed_std": 1.3388283439069847e-06,
+    "relative_amplitude_bias_mean": -0.04392544205226078,
+    "relative_amplitude_bias_seed_std": 2.6091390137290714e-06,
+    "peak_error_nm_mean": 16.666666666666668,
+    "peak_error_nm_seed_std": 0.0,
+    "actual_SNR_range_db": [
+      43.01047328694884,
+      48.51806744824691
+    ]
+  },
+  {
+    "condition": "common_absolute_40dB",
+    "model": "B2_spiral_PSF",
+    "cases": 54,
+    "replicates": 3,
+    "spectral_NRMSE_mean": 2.5396047908405052e-05,
+    "spectral_NRMSE_seed_std": 1.103701554916859e-06,
+    "SAM_deg_mean": 0.0013283872503404256,
+    "SAM_deg_seed_std": 5.4938891705923966e-05,
+    "relative_sensor_residual_mean": 0.006866023172526294,
+    "relative_sensor_residual_seed_std": 2.220247714245608e-06,
+    "relative_amplitude_bias_mean": 5.2595200002920535e-06,
+    "relative_amplitude_bias_seed_std": 1.80856694621488e-06,
+    "peak_error_nm_mean": 0.0,
+    "peak_error_nm_seed_std": 0.0,
+    "actual_SNR_range_db": [
+      38.68006090970825,
+      48.68902290951538
+    ]
+  },
+  {
+    "condition": "common_absolute_30dB",
+    "model": "B0_RGB_delta",
+    "cases": 54,
+    "replicates": 3,
+    "spectral_NRMSE_mean": 0.4668978052519735,
+    "spectral_NRMSE_seed_std": 1.3953987392141084e-07,
+    "SAM_deg_mean": 23.80182905561703,
+    "SAM_deg_seed_std": 1.2483601666601649e-06,
+    "relative_sensor_residual_mean": 0.00019715986558539408,
+    "relative_sensor_residual_seed_std": 5.275626034426205e-08,
+    "relative_amplitude_bias_mean": -0.04392872790145543,
+    "relative_amplitude_bias_seed_std": 5.4415251898398877e-08,
+    "peak_error_nm_mean": 16.666666666666668,
+    "peak_error_nm_seed_std": 0.0,
+    "actual_SNR_range_db": [
+      71.09114121377222,
+      76.59873537507032
+    ]
+  },
+  {
+    "condition": "common_absolute_30dB",
+    "model": "B1_fixed_PSF",
+    "cases": 54,
+    "replicates": 3,
+    "spectral_NRMSE_mean": 0.46707118470021824,
+    "spectral_NRMSE_seed_std": 4.467214716963389e-05,
+    "SAM_deg_mean": 23.81013722542151,
+    "SAM_deg_seed_std": 0.0022448968552441608,
+    "relative_sensor_residual_mean": 0.015804929969634028,
+    "relative_sensor_residual_seed_std": 4.236467718262119e-06,
+    "relative_amplitude_bias_mean": -0.04391811170474188,
+    "relative_amplitude_bias_seed_std": 8.250822015481905e-06,
+    "peak_error_nm_mean": 16.666666666666668,
+    "peak_error_nm_seed_std": 0.0,
+    "actual_SNR_range_db": [
+      33.01047328694884,
+      38.51806744824691
+    ]
+  },
+  {
+    "condition": "common_absolute_30dB",
+    "model": "B2_spiral_PSF",
+    "cases": 54,
+    "replicates": 3,
+    "spectral_NRMSE_mean": 8.030935495747333e-05,
+    "spectral_NRMSE_seed_std": 3.4902107705794167e-06,
+    "SAM_deg_mean": 0.0042007585189299266,
+    "SAM_deg_seed_std": 0.0001737015840459064,
+    "relative_sensor_residual_mean": 0.021706087009345468,
+    "relative_sensor_residual_seed_std": 7.054398233263043e-06,
+    "relative_amplitude_bias_mean": 1.6632062600075293e-05,
+    "relative_amplitude_bias_seed_std": 5.719190850981101e-06,
+    "peak_error_nm_mean": 0.0,
+    "peak_error_nm_seed_std": 0.0,
+    "actual_SNR_range_db": [
+      28.680060909708253,
+      38.68902290951537
+    ]
+  }
+]

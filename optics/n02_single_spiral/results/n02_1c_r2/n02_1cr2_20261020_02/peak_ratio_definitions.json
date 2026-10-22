@@ -1,0 +1,20 @@
+{
+  "original_numerator": "512um ROI全部像素最大强度；无连续插值，无主盘能量",
+  "original_denominator": "所有距各自拟合中心严格大于1.22lambda*z/D的ROI像素中最大强度；不要求是独立局部旁峰",
+  "distinct_side_ratio": "另行用3x3局部极大且在主盘外的候选定义，不能与outside_main_disk_ratio混用",
+  "common_center": [
+    0.09968198947302825,
+    33.19752172110547
+  ],
+  "physical_radius_um": 14.98711379,
+  "source_code_paths": [
+    "experiments/N01_1/model.py:analyze",
+    "experiments/N01_2A/model.py:measure"
+  ],
+  "modes": {
+    "a": "旧冻结各自中心及离散掩模，仅回读不替换",
+    "b": "同一共同中心、各自原生采样",
+    "c": "同一1um候选像元内2x2输出面积求积；同时列中心判外与物理半径裁切的面积均值；仍是局部候选集合"
+  },
+  "threshold_0_1": "原两条件outside_ratio绝对差上限不变，不是峰比阈值；新局部比不授予Gate"
+}

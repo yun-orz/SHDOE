@@ -1,0 +1,17 @@
+{
+  "status": "FINAL_DELIVERY_PASS",
+  "entry": "DELIVERY.md",
+  "authoritative_run": "E:\\SH\\reports\\N03\\EXP2_20261020_03",
+  "engineering_checks": 141,
+  "postrun_checks": 63,
+  "pilot_solves": 318,
+  "full_solves": 5382,
+  "protected_input_files": 147,
+  "frozen_source_files": 8,
+  "original_files_changed": [],
+  "tracked_diff_unchanged": true,
+  "physical_gates": "N03 G0 FAIL; N02 G2/G3_Numerics FAIL; unchanged",
+  "next_stage": "STOP_FOR_CHATGPT_REVIEW",
+  "recommendation": "CONDITIONAL GO",
+  "final_manifest": "final_manifest.json"
+}

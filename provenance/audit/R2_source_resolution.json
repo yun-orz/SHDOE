@@ -1,0 +1,49 @@
+[
+  {
+    "relative": "experiments/n02_1c_r2/r2_analysis.py",
+    "status": "MATCH",
+    "expected_sha256": "d5ce9517a2914416e14bf1d3331454be32efb5107d967e9831d5805518303af4"
+  },
+  {
+    "relative": "experiments/n02_1c_r2/r2_common.py",
+    "status": "MATCH_ORIGINAL_WITH_RECORDED_PATH_ADAPTATION",
+    "archived_original": "E:\\SH\\provenance\\source_code_originals\\experiments\\n02_1c_r2\\r2_common.py",
+    "expected_sha256": "bc71dafc7d8ff7c396526698a06c21cdf8a90f9e0e2bc38e2940c41e4857e2b5",
+    "adapted_sha256": "345f52740cfdbd0b95cb73df8c8693415ac4a53d1eaa277cdba70e2f98f8c202"
+  },
+  {
+    "relative": "experiments/n02_1c_r2/r2_experiments.py",
+    "status": "MATCH",
+    "expected_sha256": "f27258dfb4b7ceaab1feac0bea8b584102598fd32906f563926eb3ca33b05829"
+  },
+  {
+    "relative": "experiments/n02_1c_r2/r2_prepare.py",
+    "status": "MATCH",
+    "expected_sha256": "fefb45298252a7a5ac91fcb7cac242a5b260751ea7f7e230546423c6c152518c"
+  },
+  {
+    "relative": "experiments/n02_1c_r2/r2_report.py",
+    "status": "MATCH",
+    "expected_sha256": "fd4a37b9c388bc11711e7e8050e7a6f2eca196ab1eec7a82166c0ccfcbcda6f9"
+  },
+  {
+    "relative": "experiments/n02_1c_r2/r2_run.py",
+    "status": "MATCH",
+    "expected_sha256": "c397d5105279b9e4ddb8c7ea88d752eb5bc4bebdd733d575f8c40966e20af095"
+  },
+  {
+    "relative": "experiments/n02_1c_r2/r2_solver.py",
+    "status": "MATCH",
+    "expected_sha256": "ed4ac9d53702ca4f2c405a53676d9bc0ccda4411242f0b1b664819f28c21d80d"
+  },
+  {
+    "relative": "experiments/n02_1c_r2/r2_verify.py",
+    "status": "MATCH",
+    "expected_sha256": "626139aefc9d96cfcc63a2c21f1ece81a5406a608ae835ec86e64a0da273ce89"
+  },
+  {
+    "relative": "configs/n02_1c_r2/protocol_v1.json",
+    "status": "MATCH",
+    "expected_sha256": "9695082bb5bd0d1567e6a65f8628206999a1d445c532f232e4817709bbd3d263"
+  }
+]

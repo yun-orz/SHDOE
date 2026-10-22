@@ -1,0 +1,901 @@
+{
+  "notice": "EXP2 exploratory; N02 G2/G3_Numerics=FAIL; N03 G0=FAIL. No certified physical DOE performance.",
+  "created_at": "2026-10-20T23:19:30.167198+08:00",
+  "original_gates": {
+    "N03_G0": "FAIL_UNCHANGED",
+    "N02_G2": "FAIL_UNCHANGED",
+    "N02_G3_Numerics": "FAIL_UNCHANGED"
+  },
+  "git_before": {
+    "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+    "branch": "main",
+    "dirty": "M README.md\n?? integration/single_spiral_to_hsi/n03_audit.py\n?? integration/single_spiral_to_hsi/n03_exp1/forward.py\n?? integration/single_spiral_to_hsi/n03_exp1/run_exp1.py\n?? integration/single_spiral_to_hsi/n03_exp1/solvers.py\n?? integration/single_spiral_to_hsi/n03_exp2/analysis.py\n?? integration/single_spiral_to_hsi/n03_exp2/forward.py\n?? integration/single_spiral_to_hsi/n03_exp2/noise.py\n?? integration/single_spiral_to_hsi/n03_exp2/perturbations.py\n?? integration/single_spiral_to_hsi/n03_exp2/run_exp2.py\n?? integration/single_spiral_to_hsi/n03_exp2/sampling.py\n?? integration/single_spiral_to_hsi/tests/test_n03_exp1.py\n?? integration/single_spiral_to_hsi/tests/test_n03_exp2.py\n?? reports/N03/00_audit.md\n?? reports/N03/00_manifest.json\n?? reports/N03/01_point_reconstruction_report.md\n?? reports/N03/EXP1/README.md\n?? reports/N03/EXP1/artifact_manifest.json\n?? reports/N03/EXP1/figures/archived_psfs.png\n?? reports/N03/EXP1/figures/column_cosine.png\n?? reports/N03/EXP1/figures/matrix_svd_norms_response.png\n?? reports/N03/EXP1/figures/noise_summary.png\n?? reports/N03/EXP1/figures/spectrum_broad_510.png\n?? reports/N03/EXP1/figures/spectrum_near_equal.png\n?? reports/N03/EXP1/figures/spectrum_onehot_540.png\n?? reports/N03/EXP1/figures/spectrum_random_0.png\n?? reports/N03/EXP1/figures/worst_spiral_case.png\n?? reports/N03/EXP1/logs/events.jsonl\n?? reports/N03/EXP1/logs/run_record.json\n?? reports/N03/EXP1/matrix_diagnostics.json\n?? reports/N03/EXP1/metrics.csv\n?? reports/N03/EXP1/noise_calibration.json\n?? reports/N03/EXP1/nonuniqueness_example.json\n?? reports/N03/EXP1/result_summary.md\n?? reports/N03/EXP1/run_config.json\n?? reports/N03/EXP1/spectra_results.json\n?? reports/N03/EXP1/summary_metrics.json\n?? reports/N03/EXP1/validation_results.json\n?? reports/N03/EXP1_delivery_verification.json\n?? reports/N03/EXP1_verified/README.md\n?? reports/N03/EXP1_verified/artifact_manifest.json\n?? reports/N03/EXP1_verified/figures/archived_psfs.png\n?? reports/N03/EXP1_verified/figures/column_cosine.png\n?? reports/N03/EXP1_verified/figures/matrix_svd_norms_response.png\n?? reports/N03/EXP1_verified/figures/noise_summary.png\n?? reports/N03/EXP1_verified/figures/spectrum_broad_510.png\n?? reports/N03/EXP1_verified/figures/spectrum_near_equal.png\n?? reports/N03/EXP1_verified/figures/spectrum_onehot_540.png\n?? reports/N03/EXP1_verified/figures/spectrum_random_0.png\n?? reports/N03/EXP1_verified/figures/worst_spiral_case.png\n?? reports/N03/EXP1_verified/logs/events.jsonl\n?? reports/N03/EXP1_verified/logs/run_record.json\n?? reports/N03/EXP1_verified/matrix_diagnostics.json\n?? reports/N03/EXP1_verified/metrics.csv\n?? reports/N03/EXP1_verified/noise_calibration.json\n?? reports/N03/EXP1_verified/nonuniqueness_example.json\n?? reports/N03/EXP1_verified/result_summary.md\n?? reports/N03/EXP1_verified/run_config.json\n?? reports/N03/EXP1_verified/spectra_results.json\n?? reports/N03/EXP1_verified/summary_metrics.json\n?? reports/N03/EXP1_verified/validation_results.json\n?? reports/N03/EXP2_20261020_01/00_preflight.md\n?? reports/N03/EXP2_20261020_01/input_manifest.json\n?? reports/N03/EXP2_20261020_01/logs/events.jsonl\n?? reports/N03/EXP2_20261020_01/logs/failure.txt\n?? reports/N03/EXP2_20261020_01/matrices_9band.json\n?? reports/N03/EXP2_20261020_01/run_config.json\n?? reports/N03/EXP2_20261020_01/sampling_energy_check.csv\n?? reports/N03/EXP2_20261020_01/tests.json\n?? reports/N03/EXP2_20261020_01/throughput_analysis.csv\n?? reports/N03/EXP2_20261020_02/00_preflight.md\n?? reports/N03/EXP2_20261020_02/artifact_manifest.json\n?? reports/N03/EXP2_20261020_02/figures/diagnostic_25bands.png\n?? reports/N03/EXP2_20261020_02/figures/mismatch_nrmse_log.png\n?? reports/N03/EXP2_20261020_02/figures/noise_budget_comparison.png\n?? reports/N03/EXP2_20261020_02/figures/sampling_psf_comparison.png\n?? reports/N03/EXP2_20261020_02/figures/singular_values_9band.png\n?? reports/N03/EXP2_20261020_02/figures/spectrum_best_median_worst.png\n?? reports/N03/EXP2_20261020_02/input_manifest.json\n?? reports/N03/EXP2_20261020_02/logs/events.jsonl\n?? reports/N03/EXP2_20261020_02/logs/run_record.json\n?? reports/N03/EXP2_20261020_02/matrices_25band_diagnostic.json\n?? reports/N03/EXP2_20261020_02/matrices_9band.json\n?? reports/N03/EXP2_20261020_02/metrics.csv\n?? reports/N03/EXP2_20261020_02/mismatch_ratios.csv\n?? reports/N03/EXP2_20261020_02/model_mismatch.csv\n?? reports/N03/EXP2_20261020_02/noise_calibration.csv\n?? reports/N03/EXP2_20261020_02/perturbation_manifest.json\n?? reports/N03/EXP2_20261020_02/pilot_gate.json\n?? reports/N03/EXP2_20261020_02/pilot_metrics.csv\n?? reports/N03/EXP2_20261020_02/postrun_checks.json\n?? reports/N03/EXP2_20261020_02/preservation.json\n?? reports/N03/EXP2_20261020_02/result_summary.md\n?? reports/N03/EXP2_20261020_02/run_commands.md\n?? reports/N03/EXP2_20261020_02/run_config.json\n?? reports/N03/EXP2_20261020_02/sampling_energy_check.csv\n?? reports/N03/EXP2_20261020_02/spectral_solutions.json\n?? reports/N03/EXP2_20261020_02/summary_metrics.csv\n?? reports/N03/EXP2_20261020_02/tests.json\n?? reports/N03/EXP2_20261020_02/throughput_analysis.csv\n?? reports/N03/logs/00_audit_run.json\n?? reports/N03/logs/00_initial_attempt.md\n?? reports/N03/logs/01_delivery_verification.json\n?? reports/N03/run_commands.md",
+    "tracked_diff_sha256": "b6eabf899354f8e9d40dc0e7f6df60e0095ccb380d36c2f3fe7e7711163ec88e"
+  },
+  "wavelengths_nm": [
+    420.0,
+    450.0,
+    480.0,
+    510.0,
+    540.0,
+    570.0,
+    600.0,
+    630.0,
+    660.0
+  ],
+  "sensor_indices": [
+    2,
+    5,
+    8,
+    11,
+    14,
+    17,
+    20,
+    23,
+    26
+  ],
+  "weights_RGB": [
+    [
+      0.003939229816640016,
+      0.0020083037725905817,
+      0.002476087313316577,
+      0.0030054213199275895,
+      0.003714130969974866,
+      0.0045788088941661545,
+      0.049939117044523286,
+      0.048992412259720654,
+      0.04411937394636818
+    ],
+    [
+      0.010241997523264034,
+      0.011068532350862616,
+      0.0448915957268503,
+      0.06526952089224586,
+      0.06314022648957276,
+      0.054588480127428264,
+      0.03849893711869788,
+      0.020628526173729157,
+      0.015419270996562292
+    ],
+    [
+      0.048171153186340764,
+      0.05872828909493596,
+      0.052180798539629904,
+      0.026300137233073565,
+      0.009341602136603459,
+      0.0030106970741463077,
+      0.001505348537073148,
+      0.0015756919266560017,
+      0.0032639332766445893
+    ]
+  ],
+  "spectrum_unit": "每离散带积分入射比例，sum=1；不乘Delta-lambda",
+  "spectra": [
+    {
+      "name": "onehot_420",
+      "kind": "onehot",
+      "truth": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_450",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_480",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_510",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_540",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_570",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_600",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_630",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_660",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "near_equal",
+      "kind": "double",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "near_half",
+      "kind": "double",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "far_equal",
+      "kind": "double",
+      "truth": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "name": "far_half",
+      "kind": "double",
+      "truth": [
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ]
+    },
+    {
+      "name": "broad_510",
+      "kind": "broad",
+      "truth": [
+        0.03631405853069406,
+        0.11031236956931917,
+        0.21485915735956687,
+        0.2683266156631495,
+        0.21485915735956687,
+        0.11031236956931917,
+        0.03631405853069406,
+        0.007664884150241445,
+        0.0010373292674487485
+      ]
+    },
+    {
+      "name": "broad_585",
+      "kind": "broad",
+      "truth": [
+        0.004868022540526897,
+        0.01699106819109356,
+        0.046186511909958115,
+        0.09777684648066283,
+        0.16120676657464977,
+        0.20699358562389816,
+        0.20699358562389816,
+        0.16120676657464977,
+        0.09777684648066283
+      ]
+    },
+    {
+      "name": "random_0",
+      "kind": "random",
+      "truth": [
+        0.17117318918572233,
+        0.026365043918285567,
+        0.16931430614392873,
+        0.07333324709994413,
+        0.14041738681458352,
+        0.17637006783664944,
+        0.017823030649059993,
+        0.18014357649594462,
+        0.04506015185588157
+      ]
+    },
+    {
+      "name": "random_1",
+      "kind": "random",
+      "truth": [
+        0.13430464498114175,
+        0.18254457875483454,
+        0.07161623002757758,
+        0.05004067761836915,
+        0.09406255755830228,
+        0.10001453985706653,
+        0.10608284028800276,
+        0.1402241983614212,
+        0.1211097325532842
+      ]
+    },
+    {
+      "name": "random_2",
+      "kind": "random",
+      "truth": [
+        0.14083028600147537,
+        0.15123129557989043,
+        0.09492630081231314,
+        0.19585124774113447,
+        0.18091448933582094,
+        0.012491844513288818,
+        0.017189689133207856,
+        0.1040873222508575,
+        0.10247752463201142
+      ]
+    }
+  ],
+  "detector": {
+    "pitch_um": 2.7397868561278864,
+    "source": "framework\\DeepLensHSI\\sensors\\flir\\BFS-U3-200S7C-C.json",
+    "pitch_rule": "size[0]mm*1000/res[0]; y方向一致",
+    "count": 186,
+    "shape": [
+      186,
+      186
+    ],
+    "fine_edges_um": [
+      -256.0,
+      256.0
+    ],
+    "edges_um": [
+      -254.80017761989345,
+      -252.06039076376555,
+      -249.32060390763766,
+      -246.58081705150977,
+      -243.8410301953819,
+      -241.101243339254,
+      -238.36145648312612,
+      -235.62166962699823,
+      -232.88188277087033,
+      -230.14209591474247,
+      -227.40230905861458,
+      -224.66252220248668,
+      -221.9227353463588,
+      -219.1829484902309,
+      -216.44316163410303,
+      -213.70337477797514,
+      -210.96358792184725,
+      -208.22380106571936,
+      -205.4840142095915,
+      -202.7442273534636,
+      -200.0044404973357,
+      -197.26465364120781,
+      -194.52486678507992,
+      -191.78507992895206,
+      -189.04529307282417,
+      -186.30550621669627,
+      -183.56571936056838,
+      -180.82593250444052,
+      -178.08614564831262,
+      -175.34635879218473,
+      -172.60657193605684,
+      -169.86678507992895,
+      -167.12699822380108,
+      -164.3872113676732,
+      -161.6474245115453,
+      -158.9076376554174,
+      -156.16785079928954,
+      -153.42806394316165,
+      -150.68827708703375,
+      -147.94849023090586,
+      -145.20870337477797,
+      -142.4689165186501,
+      -139.7291296625222,
+      -136.98934280639432,
+      -134.24955595026643,
+      -131.50976909413856,
+      -128.76998223801067,
+      -126.03019538188278,
+      -123.29040852575488,
+      -120.550621669627,
+      -117.81083481349911,
+      -115.07104795737123,
+      -112.33126110124334,
+      -109.59147424511545,
+      -106.85168738898757,
+      -104.11190053285968,
+      -101.3721136767318,
+      -98.63232682060391,
+      -95.89253996447603,
+      -93.15275310834814,
+      -90.41296625222026,
+      -87.67317939609237,
+      -84.93339253996447,
+      -82.1936056838366,
+      -79.4538188277087,
+      -76.71403197158082,
+      -73.97424511545293,
+      -71.23445825932505,
+      -68.49467140319716,
+      -65.75488454706928,
+      -63.01509769094139,
+      -60.2753108348135,
+      -57.53552397868562,
+      -54.795737122557725,
+      -52.05595026642984,
+      -49.316163410301954,
+      -46.57637655417407,
+      -43.83658969804618,
+      -41.0968028419183,
+      -38.35701598579041,
+      -35.617229129662526,
+      -32.87744227353464,
+      -30.13765541740675,
+      -27.397868561278862,
+      -24.658081705150977,
+      -21.91829484902309,
+      -19.178507992895206,
+      -16.43872113676732,
+      -13.698934280639431,
+      -10.959147424511546,
+      -8.21936056838366,
+      -5.479573712255773,
+      -2.7397868561278864,
+      0.0,
+      2.7397868561278864,
+      5.479573712255773,
+      8.21936056838366,
+      10.959147424511546,
+      13.698934280639431,
+      16.43872113676732,
+      19.178507992895206,
+      21.91829484902309,
+      24.658081705150977,
+      27.397868561278862,
+      30.13765541740675,
+      32.87744227353464,
+      35.617229129662526,
+      38.35701598579041,
+      41.0968028419183,
+      43.83658969804618,
+      46.57637655417407,
+      49.316163410301954,
+      52.05595026642984,
+      54.795737122557725,
+      57.53552397868562,
+      60.2753108348135,
+      63.01509769094139,
+      65.75488454706928,
+      68.49467140319716,
+      71.23445825932505,
+      73.97424511545293,
+      76.71403197158082,
+      79.4538188277087,
+      82.1936056838366,
+      84.93339253996447,
+      87.67317939609237,
+      90.41296625222026,
+      93.15275310834814,
+      95.89253996447603,
+      98.63232682060391,
+      101.3721136767318,
+      104.11190053285968,
+      106.85168738898757,
+      109.59147424511545,
+      112.33126110124334,
+      115.07104795737123,
+      117.81083481349911,
+      120.550621669627,
+      123.29040852575488,
+      126.03019538188278,
+      128.76998223801067,
+      131.50976909413856,
+      134.24955595026643,
+      136.98934280639432,
+      139.7291296625222,
+      142.4689165186501,
+      145.20870337477797,
+      147.94849023090586,
+      150.68827708703375,
+      153.42806394316165,
+      156.16785079928954,
+      158.9076376554174,
+      161.6474245115453,
+      164.3872113676732,
+      167.12699822380108,
+      169.86678507992895,
+      172.60657193605684,
+      175.34635879218473,
+      178.08614564831262,
+      180.82593250444052,
+      183.56571936056838,
+      186.30550621669627,
+      189.04529307282417,
+      191.78507992895206,
+      194.52486678507992,
+      197.26465364120781,
+      200.0044404973357,
+      202.7442273534636,
+      205.4840142095915,
+      208.22380106571936,
+      210.96358792184725,
+      213.70337477797514,
+      216.44316163410303,
+      219.1829484902309,
+      221.9227353463588,
+      224.66252220248668,
+      227.40230905861458,
+      230.14209591474247,
+      232.88188277087033,
+      235.62166962699823,
+      238.36145648312612,
+      241.101243339254,
+      243.8410301953819,
+      246.58081705150977,
+      249.32060390763766,
+      252.06039076376555,
+      254.80017761989345
+    ],
+    "optical_axis_um": [
+      0,
+      0
+    ],
+    "fine_centers_rule": "index-255.5",
+    "delta": "四格中心各0.25；detector光轴同样四格交点",
+    "area_model": "原1um像元内均匀能量的精确几何面积重叠，不是新传播认证"
+  },
+  "modes": [
+    "shape_only",
+    "throughput_aware"
+  ],
+  "q_shared": [
+    0.7347963692469222,
+    0.7898215598472862,
+    0.842260105446926,
+    0.8746702314423938,
+    0.8855052891484368,
+    0.8758310679975818,
+    0.848345303729753,
+    0.8095187551863533,
+    0.7595367921833931
+  ],
+  "q_definition": "B2 crop_fraction(ROI/有限传播域) * detector_capture_fraction(归一ROI内)；对三模型统一只乘一次",
+  "noise": {
+    "seeds": [
+      20261021,
+      20261022,
+      20261023
+    ],
+    "P_in": [
+      10000.0,
+      100000.0
+    ],
+    "read_sigma_e": [
+      1,
+      3
+    ],
+    "electron_scale": 9.57266410933561,
+    "electron_scale_rule": "1/max_l sum_c w_c,l over original 31 points; idealized conversion, not measured QE",
+    "Q_target_db": [
+      30,
+      40
+    ],
+    "P_assumptions": "independent ideal RGB planes, no Bayer/background/dark/saturation/ADC; Gaussian read noise may yield negative observations",
+    "pairing": "同谱/种子Gaussian方向共用；P同种子Poisson生成方案+独立共用read方向，不宣称不同rate生成同计数"
+  },
+  "perturbations": [
+    {
+      "id": "shift_x_-0.5",
+      "kind": "common_shift_x",
+      "level": -0.5
+    },
+    {
+      "id": "shift_x_-0.25",
+      "kind": "common_shift_x",
+      "level": -0.25
+    },
+    {
+      "id": "shift_x_-0.1",
+      "kind": "common_shift_x",
+      "level": -0.1
+    },
+    {
+      "id": "shift_x_+0.1",
+      "kind": "common_shift_x",
+      "level": 0.1
+    },
+    {
+      "id": "shift_x_+0.25",
+      "kind": "common_shift_x",
+      "level": 0.25
+    },
+    {
+      "id": "shift_x_+0.5",
+      "kind": "common_shift_x",
+      "level": 0.5
+    },
+    {
+      "id": "shift_y_-0.5",
+      "kind": "common_shift_y",
+      "level": -0.5
+    },
+    {
+      "id": "shift_y_-0.25",
+      "kind": "common_shift_y",
+      "level": -0.25
+    },
+    {
+      "id": "shift_y_-0.1",
+      "kind": "common_shift_y",
+      "level": -0.1
+    },
+    {
+      "id": "shift_y_+0.1",
+      "kind": "common_shift_y",
+      "level": 0.1
+    },
+    {
+      "id": "shift_y_+0.25",
+      "kind": "common_shift_y",
+      "level": 0.25
+    },
+    {
+      "id": "shift_y_+0.5",
+      "kind": "common_shift_y",
+      "level": 0.5
+    },
+    {
+      "id": "chromatic_0.1",
+      "kind": "chromatic_shift",
+      "level": 0.1,
+      "signature": [
+        [
+          0.531088877708655,
+          -0.018241028249200958
+        ],
+        [
+          -0.33493337593401823,
+          0.37438942016434074
+        ],
+        [
+          0.3001930642289735,
+          -0.946711182844773
+        ],
+        [
+          0.5504991985048103,
+          -0.21398779915613095
+        ],
+        [
+          -0.3841968536615772,
+          -0.019268487457262277
+        ],
+        [
+          1.0,
+          -0.01715432045605047
+        ],
+        [
+          -0.8601279531550092,
+          -0.2115426951368899
+        ],
+        [
+          0.099104723848855,
+          0.4441386996008531
+        ],
+        [
+          0.5981190406477865,
+          0.24451959683351757
+        ]
+      ],
+      "signature_seed": 20261024
+    },
+    {
+      "id": "chromatic_0.25",
+      "kind": "chromatic_shift",
+      "level": 0.25,
+      "signature": [
+        [
+          0.531088877708655,
+          -0.018241028249200958
+        ],
+        [
+          -0.33493337593401823,
+          0.37438942016434074
+        ],
+        [
+          0.3001930642289735,
+          -0.946711182844773
+        ],
+        [
+          0.5504991985048103,
+          -0.21398779915613095
+        ],
+        [
+          -0.3841968536615772,
+          -0.019268487457262277
+        ],
+        [
+          1.0,
+          -0.01715432045605047
+        ],
+        [
+          -0.8601279531550092,
+          -0.2115426951368899
+        ],
+        [
+          0.099104723848855,
+          0.4441386996008531
+        ],
+        [
+          0.5981190406477865,
+          0.24451959683351757
+        ]
+      ],
+      "signature_seed": 20261024
+    },
+    {
+      "id": "blur_0.1",
+      "kind": "gaussian_blur",
+      "level": 0.1
+    },
+    {
+      "id": "blur_0.25",
+      "kind": "gaussian_blur",
+      "level": 0.25
+    },
+    {
+      "id": "blur_0.5",
+      "kind": "gaussian_blur",
+      "level": 0.5
+    },
+    {
+      "id": "gain_-0.05",
+      "kind": "rgb_gain",
+      "level": -0.05,
+      "signature": [
+        1.0,
+        -0.5,
+        -1.0
+      ]
+    },
+    {
+      "id": "gain_-0.03",
+      "kind": "rgb_gain",
+      "level": -0.03,
+      "signature": [
+        1.0,
+        -0.5,
+        -1.0
+      ]
+    },
+    {
+      "id": "gain_-0.01",
+      "kind": "rgb_gain",
+      "level": -0.01,
+      "signature": [
+        1.0,
+        -0.5,
+        -1.0
+      ]
+    },
+    {
+      "id": "gain_+0.01",
+      "kind": "rgb_gain",
+      "level": 0.01,
+      "signature": [
+        1.0,
+        -0.5,
+        -1.0
+      ]
+    },
+    {
+      "id": "gain_+0.03",
+      "kind": "rgb_gain",
+      "level": 0.03,
+      "signature": [
+        1.0,
+        -0.5,
+        -1.0
+      ]
+    },
+    {
+      "id": "gain_+0.05",
+      "kind": "rgb_gain",
+      "level": 0.05,
+      "signature": [
+        1.0,
+        -0.5,
+        -1.0
+      ]
+    }
+  ],
+  "mismatch_mode": "shape_only B2; M1 nominal, M2 oracle; noiseless + Q40/3 seeds",
+  "perturbation_boundary": "nonperiodic zero extension; unknown original outside ROI treated zero; losses recorded before shape normalization",
+  "pilot": {
+    "spectra": [
+      "onehot_420",
+      "onehot_600",
+      "near_equal",
+      "far_half",
+      "broad_510",
+      "random_0"
+    ],
+    "seeds": [
+      20261021,
+      20261022,
+      20261023
+    ],
+    "perturbations": [
+      "shift_x_+0.1",
+      "chromatic_0.1",
+      "blur_0.1",
+      "gain_+0.01"
+    ],
+    "noise_P": {
+      "P_in": 10000.0,
+      "read_sigma_e": 1
+    },
+    "noise_Q": [
+      30
+    ],
+    "mode": "shape_only"
+  },
+  "full_design": "18 spectra; sampling noiseless both modes; P 2 budgets x 2 read levels; Q 30/40; 23 true-only mismatch conditions each M1/M2 noiseless+Q40. Independent single-factor groups, no Cartesian noise-by-mismatch scan",
+  "nnls_numerics": "SVD压缩后零行补至L+1行；补零严格不改变目标。避免SciPy 1.15.3欠定m<n路径错误终止；每例独立KKT及真实残差验证",
+  "prior_failed_run": "EXP2_20261020_01：G-impl通过后pilot KKT失败，未进入full；在B0秩亏压缩矩阵重现后补零行修复，保留原错误日志",
+  "sampling_refinement": "EXP2_20261020_02已完成，但其0.1pixel Gaussian使用fine格点采样核会低估亚像元模糊；本run改为连续高斯源/接收像元双积分，平移也直接积分到detector。保留旧run不覆盖，结论采用本run",
+  "diagnostic_25band": "only after core full; no spectral recovery",
+  "environment": {
+    "executable": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 22:57:13) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9",
+    "torch": "2.5.1+cu121",
+    "device": "CPU",
+    "precision": "float64",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "threads": {
+      "OMP_NUM_THREADS": "4",
+      "MKL_NUM_THREADS": "4",
+      "OPENBLAS_NUM_THREADS": "4"
+    }
+  },
+  "task_source": {
+    "path": "C:\\Users\\李咏晨\\Downloads\\N03-A-EXP2_%E5%8D%95%E5%AD%94%E5%BE%84DOE%E9%B2%81%E6%A3%92%E6%80%A7%E4%B8%8E%E7%89%A9%E7%90%86%E9%87%87%E6%A0%B7%E9%AA%8C%E8%AF%81_Codex%E4%BB%BB%E5%8A%A1%E4%B9%A6.md",
+    "sha256": "910de9861db1680558fccb69d0b5623647d91265ba1e547828bb602b49d5516f"
+  },
+  "source_read_audit": {
+    "integration\\single_spiral_to_hsi\\n03_exp1\\forward.py": {
+      "lines": 58,
+      "sha256": "85adbc0b3c927171eb801b3d0a947822a4c3efae9d0b4e60ec5d9e4392258fbb"
+    },
+    "integration\\single_spiral_to_hsi\\n03_exp1\\run_exp1.py": {
+      "lines": 300,
+      "sha256": "5bd655b00e67409de13b648c41622ec30995f3225995250c01c502abffe2d169"
+    },
+    "integration\\single_spiral_to_hsi\\n03_exp1\\solvers.py": {
+      "lines": 26,
+      "sha256": "e29e9e5f1c5dcbd0497334a821cd2963826dfc0ebc66d40af00808ae3504141a"
+    },
+    "integration\\single_spiral_to_hsi\\tests\\test_n03_exp1.py": {
+      "lines": 66,
+      "sha256": "bd8cb07ba3529e73f370a6d0437c88b462dea5a0d5672e89173a7946085df45f"
+    },
+    "framework\\DeepLensHSI\\src\\sensor\\sensor.py": {
+      "lines": 576,
+      "sha256": "3d49df514c67c19987cb40669eed0209642933df3b05312f16cd97858e97a156"
+    },
+    "framework\\DeepLensHSI\\5_eval_pretrained.py": {
+      "lines": 152,
+      "sha256": "385747ce195b98ee27d3e8c9eccd672b26b72ffc9e3631fc3e9d34aaa978a33b"
+    }
+  }
+}

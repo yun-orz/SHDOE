@@ -1,0 +1,9 @@
+{
+  "seconds": 105.39370909999707,
+  "peak_memory_bytes": 306192384,
+  "max_evaluations": 117,
+  "passed": false,
+  "clean_worst_position": 0.011716099995917596,
+  "Q40_worse_than_F": 0,
+  "projected_full_seconds": 1106.6339455499692
+}

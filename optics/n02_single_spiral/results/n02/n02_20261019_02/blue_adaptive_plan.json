@@ -1,0 +1,14 @@
+{
+  "wavelengths_nm": [
+    421,
+    422,
+    423,
+    424,
+    426,
+    427,
+    428,
+    429
+  ],
+  "rule": "protocol_frozen.json中预注册规则",
+  "max_new_points": 80
+}

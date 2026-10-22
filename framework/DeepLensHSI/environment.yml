@@ -1,0 +1,44 @@
+# Conda environment for DeepLens Hyperspectral.
+#
+# ┌─ GPU COMPATIBILITY (read this first) ────────────────────────────────────┐
+# │ Target GPU: NVIDIA RTX 5090 (Blackwell, compute capability sm_120).       │
+# │ This REQUIRES PyTorch built against CUDA 12.8+. Older builds such as      │
+# │ torch 2.5.x / cu124 do NOT ship sm_120 kernels and fail at runtime with   │
+# │ "no kernel image is available for execution on the device".               │
+# └──────────────────────────────────────────────────────────────────────────┘
+#
+# On the AutoDL machine the `base` env already satisfies everything below
+# (torch 2.8.0+cu128) — you can run directly in `base` with NO setup.
+#
+# Use this file only to recreate the environment elsewhere:
+#   conda env create -f environment.yml -n deeplens
+#   conda activate deeplens
+#
+name: deeplens
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # --- PyTorch for CUDA 12.8 (RTX 5090 / Blackwell, sm_120) ---
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch>=2.7
+      - torchvision>=0.22
+
+      # --- scientific stack ---
+      - numpy>=2.0
+      - scipy>=1.13
+      - matplotlib>=3.8
+      - scikit-image>=0.24
+      - imageio>=2.34
+      - pillow>=10.0
+      - opencv-python>=4.10
+
+      # --- ML / training utilities ---
+      - einops>=0.8
+      - lpips>=0.1.4
+      - transformers>=4.45
+      - tqdm>=4.66
+      - pyyaml>=6.0
+      - requests>=2.31

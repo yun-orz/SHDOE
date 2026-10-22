@@ -1,0 +1,18 @@
+{
+  "unchanged": true,
+  "changed": [],
+  "source_changed": [],
+  "git_before": {
+    "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+    "porcelain_v2": "1 .M N... 100644 100644 100644 1afd76527585b15e1782192942f9f4dbc9c509c1 1afd76527585b15e1782192942f9f4dbc9c509c1 README.md\n? integration/single_spiral_to_hsi/n03_audit.py\n? integration/single_spiral_to_hsi/n03_exp1/\n? integration/single_spiral_to_hsi/n03_exp2/\n? integration/single_spiral_to_hsi/n03_exp2b/\n? integration/single_spiral_to_hsi/n03_exp3/\n? integration/single_spiral_to_hsi/n03_exp3r/\n? integration/single_spiral_to_hsi/n03_exp3r_h5_diag/\n? integration/single_spiral_to_hsi/tests/\n? reports/",
+    "tracked_diff_sha256": "b6eabf899354f8e9d40dc0e7f6df60e0095ccb380d36c2f3fe7e7711163ec88e"
+  },
+  "git_after": {
+    "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+    "porcelain_v2": "1 .M N... 100644 100644 100644 1afd76527585b15e1782192942f9f4dbc9c509c1 1afd76527585b15e1782192942f9f4dbc9c509c1 README.md\n? integration/single_spiral_to_hsi/n03_audit.py\n? integration/single_spiral_to_hsi/n03_exp1/\n? integration/single_spiral_to_hsi/n03_exp2/\n? integration/single_spiral_to_hsi/n03_exp2b/\n? integration/single_spiral_to_hsi/n03_exp3/\n? integration/single_spiral_to_hsi/n03_exp3r/\n? integration/single_spiral_to_hsi/n03_exp3r_h5_diag/\n? integration/single_spiral_to_hsi/tests/\n? reports/",
+    "tracked_diff_sha256": "b6eabf899354f8e9d40dc0e7f6df60e0095ccb380d36c2f3fe7e7711163ec88e"
+  },
+  "old_gate_sha256_before": "0009612deb5d2892e8075f19b995a413418863421a029c92ef11ba79eacecd7e",
+  "old_gate_sha256_after": "0009612deb5d2892e8075f19b995a413418863421a029c92ef11ba79eacecd7e",
+  "full_observations": 0
+}

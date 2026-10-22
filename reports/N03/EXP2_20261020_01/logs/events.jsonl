@@ -1,0 +1,3 @@
+{"seconds": 0.5986009000007471, "stage": "PREFLIGHT_FROZEN", "pitch_um": 2.7397868561278864, "detector_count": 186, "spectra": 18, "perturbations": 23}
+{"seconds": 1.3357869000010396, "stage": "G_IMPL_PASS", "checks": 134, "S0_kappa": 5.738453872089251, "S1_kappa": 5.777724842475291}
+{"seconds": 1.3646879000007175, "stage": "FAILED_STOP", "error": "ArithmeticError: NNLS非负/有限/KKT失败：9.179217062399088e-07"}

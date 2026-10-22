@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "offset": [
+    1.4790130308188043,
+    0.12147172081873285
+  ],
+  "hessian_eigenvalues": [
+    -0.028904506108991465,
+    -0.005247731840996713
+  ],
+  "RS49": [
+    {
+      "method": "pad2",
+      "RS49_relative_L1": 0.0025305238595199685
+    },
+    {
+      "method": "pad4",
+      "RS49_relative_L1": 7.572255956390983e-06
+    }
+  ],
+  "pad4_five_nm_intervals_checked": 4,
+  "old_G2": "FAIL",
+  "new_425_propagations": 0
+}

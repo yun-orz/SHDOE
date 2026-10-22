@@ -1,0 +1,19 @@
+{
+  "status": "INCONCLUSIVE",
+  "stage": "N02-1C-R",
+  "time": "2026-10-20T09:15:17.548453+08:00",
+  "work_A": "EVALUATOR_INSTABILITY",
+  "work_B": "INCONCLUSIVE",
+  "work_C": "DIAGNOSTIC_RECOMPUTATION_COMPLETED",
+  "legacy_G2": "FAIL",
+  "legacy_G3_Numerics": "FAIL",
+  "G4_G8": "NOT_TESTED_DO_NOT_START",
+  "physical_failure_established": false,
+  "reasons": [
+    "425nm冻结拟合失败可复现，负定曲面弱曲率方向使驻点超1pixel；未观察双半峰域篡位",
+    "边界份额包含物理尾部和周期/采样效应；稀疏开放RS核查不等于全边界能量参考",
+    "旧660nm pad4和546.1nm dx0.5主盘外峰比另超0.1，需保留原失败",
+    "dx0.5旧对照同时重采样量化高度与探测面，不能把差异全部归因定位器"
+  ],
+  "next_minimal_experiment": "只在546.1nm，将冻结1um B2高度解释为分片常值，对同一局部主/旁峰及主盘边缘坐标进行2x2/4x4像元内RS中点求积；固定同一主盘中心并并列冻结输出，以区分输入求积误差与主盘掩模敏感性。不得由此自动启动G4–G8。"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "CZT与显式双矩阵Fresnel积分",
+    "status": "PASS",
+    "details": {
+      "relative_field_error": 4.454583294348559e-15
+    }
+  },
+  {
+    "name": "Fresnel积分单频胞Parseval",
+    "status": "PASS",
+    "details": {
+      "full_Fourier_cell_energy": 1.0000000000001625
+    }
+  },
+  {
+    "name": "RS与小NAFresnel极限",
+    "status": "PASS",
+    "details": {
+      "relative_field_error": 8.66582028410889e-06
+    }
+  },
+  {
+    "name": "独立实体相位回代与冻结入射场",
+    "status": "PASS",
+    "details": {
+      "field_max_error": 8.093843349813862e-18
+    }
+  },
+  {
+    "name": "已知高斯峰定位解析核对",
+    "status": "PASS",
+    "details": {
+      "analytic_gaussian_position_error_um": 1.3877787807814457e-16
+    }
+  }
+]

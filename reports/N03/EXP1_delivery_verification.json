@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "inputs": 56,
+  "changed_inputs": [],
+  "artifact_hash_failures": [],
+  "tests_passed": 61,
+  "key_evidence": {
+    "B0_RGB_delta独立多带": {
+      "max_absolute": 1.3877787807814457e-17,
+      "relative": 5.854761873275368e-17
+    },
+    "B0_RGB_delta伴随内积": 0.0,
+    "B1_fixed_PSF独立多带": {
+      "max_absolute": 2.710505431213761e-20,
+      "relative": 1.1617174932255241e-16
+    },
+    "B1_fixed_PSF伴随内积": 9.161508357502512e-18,
+    "B2_spiral_PSF独立多带": {
+      "max_absolute": 2.0328790734103208e-20,
+      "relative": 1.3495410825334097e-16
+    },
+    "B2_spiral_PSF伴随内积": 7.697835424647081e-18
+  },
+  "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+  "sensor_sha256": "f0beea035c09e576548b13d00b259c3256b2c4e29b47ddf5dba34ef2cf5e3e30",
+  "tracked_diff": "README.md",
+  "canonical_result": "E:\\SH\\reports\\N03\\EXP1_verified",
+  "initial_run_note": "EXP1保留；新增全ROI加噪残差校验与图表纵轴改进后，最终数据在EXP1_verified；未删除或覆盖初次结果",
+  "delivery_checker_note": "首次汇总用正斜杠索引Windows manifest导致KeyError，未写文件；改为从真实路径读取hash后本次校验通过，不影响实验"
+}

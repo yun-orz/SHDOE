@@ -1,0 +1,23 @@
+{
+  "matrix_diagnostics.json": "046169eda20259ff1895334ebf46f34910f5818b314345faa581850822f6ead5",
+  "metrics.csv": "51d0c48e6a979af32df8c5e02c60dc850265f7cd32b351b9c8ae19e35f922d1b",
+  "noise_calibration.json": "a32c1ea6fec990b55c6ece5afb9a62d58ab5837498e8eb53f7ccbfc63cfc3183",
+  "nonuniqueness_example.json": "08123388f6516c6c8f5c847512737fe3de2e61fdc7862317a98d4dba6bdf6387",
+  "README.md": "1b65505fcb67e78dabd3bf5f9ed6cca559e486e042a66722a579b0f9c58b28fe",
+  "result_summary.md": "d13dde9f7c2d568d50adf767fe1e784a16fb2bd3dde4dc1bb85a8b2f45b54ad1",
+  "run_config.json": "d96aa5241a351dbd3933b098228cfb831f35c31dbd568ba4f9fbf96961c4c362",
+  "spectra_results.json": "e9b4515803133d7f9f764955dd82598f0d5dbf871a04adab1fb53b3af6fcbe31",
+  "summary_metrics.json": "34a8f54f15d379f4c35aa140e1bb21f2a04d4f333ac6a4b0e7351c213cca6d3a",
+  "validation_results.json": "b62cf384386aac65e9ef0a29c53a313193132dbc64492bafe259c2d9d437b3fd",
+  "figures\\archived_psfs.png": "0a2c858f489520486ad715da303d20d1726b11a581211c5fd2707780720a9ca9",
+  "figures\\column_cosine.png": "29ceaf09cf94d1be8c1e79b78436341c4553d0fedd2a4e0b69793b67b84cf3ae",
+  "figures\\matrix_svd_norms_response.png": "f862b6f04b3405e9b5ca639bf0fca727556262893d047562e11027fe308421ab",
+  "figures\\noise_summary.png": "ea8ca59383a6481b8acda50527e707773a66317a80308b04cc866769a582fb6d",
+  "figures\\spectrum_broad_510.png": "02986810fbd8034d39629c53d334736950b2eddb81c570a3d7d530c9d1d8f45e",
+  "figures\\spectrum_near_equal.png": "48757d6b3215fa538971a007e641545f0a0eaac73079a652e4a200217af611ae",
+  "figures\\spectrum_onehot_540.png": "c01e92546b191604a61fea71fccb95d9de082f62f6377f7eb9c600ed0617295d",
+  "figures\\spectrum_random_0.png": "fc45e34f1d7d4fc7aa04ad9c68c74bbec172c171a046f5a6f9f93ea307cdb723",
+  "figures\\worst_spiral_case.png": "7c66195f9d22943a629cf3e3d62a75fbea2d5407ae17e5b59b64472c96baaefe",
+  "logs\\events.jsonl": "6dd73f823bbb344cf44b85278acfa26ce9e7dda68f97bfa7015d2103bde0a9d6",
+  "logs\\run_record.json": "a67dc9ab5920a6ac4deee40d451277d51991a577e0f07d0b77428a9772c40caa"
+}

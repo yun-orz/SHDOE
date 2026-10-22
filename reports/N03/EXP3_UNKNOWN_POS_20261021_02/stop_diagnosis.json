@@ -1,0 +1,48 @@
+{
+  "worst_clean_observation": "pilot_4_9_0",
+  "spectrum": "near_equal",
+  "true_position": [
+    0.4,
+    -0.35
+  ],
+  "estimated_position": [
+    0.39507837054959605,
+    -0.36063224165767765
+  ],
+  "position_error_pixel": 0.011716099995917596,
+  "position_error_nm": 32.099616773895015,
+  "joint_relative_squared_residual": 1.2457711490735258e-05,
+  "oracle_relative_squared_residual": 1.5171055742690305e-29,
+  "local_terminations": [
+    {
+      "start": [
+        0.5,
+        -0.5
+      ],
+      "position": [
+        0.45301814023005543,
+        -0.3747189056962238
+      ],
+      "loss": 3.932567722087403e-05,
+      "success": false,
+      "message": "Maximum number of function evaluations has been exceeded.",
+      "nfev": 55
+    },
+    {
+      "start": [
+        0.0,
+        0.0
+      ],
+      "position": [
+        0.19863221325087901,
+        -0.252367736908543
+      ],
+      "loss": 0.0005699794321595704,
+      "success": false,
+      "message": "Maximum number of function evaluations has been exceeded.",
+      "nfev": 55
+    }
+  ],
+  "candidate_evaluations": 117,
+  "interpretation": "两个局部起点均耗尽55次评价。真位置处存在明显更小残差，当前结果不足以判定联合不可辨识；本次证据支持预算内定位未完成，禁止追加搜索凑达标。"
+}

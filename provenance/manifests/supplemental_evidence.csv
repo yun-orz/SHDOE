@@ -1,0 +1,4 @@
+﻿source,target,sha256,reason
+E:\SpiralDOE_HSI\n00_run_20261009\experiments\n02\optics.py,E:\SH\provenance\source_code_originals\experiments\n02\optics.py,34d01a8634c56be2f447dfacd96db477c6846bb7923297a39a1cfa09cffec59f,适配前原始源码字节，用于历史输入SHA验证
+E:\SpiralDOE_HSI\n00_run_20261009\experiments\n02_1c_r\p0b_common.py,E:\SH\provenance\source_code_originals\experiments\n02_1c_r\p0b_common.py,eccf2b472c07569a257c222585c46173ac89aa79faf7873ac8e150a7ee8772a5,适配前原始源码字节，用于历史输入SHA验证
+E:\SH\optics\n02_single_spiral\results\n02_1c_r2\n02_1cr2_20261020_02\task_original.md,E:\SH\provenance\source_tasks\R2_original_LF.md,33f332922dd10c433513ba20d7377cc1d5e468b9657e45014f1294441c7caac0,REGENERATE：从任务书快照恢复LF字节；与原输入完整SHA匹配

@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETED_LOCAL_DIAGNOSTIC",
+  "RS_q1_q4_local_candidate_ratio_difference": 0.0011639483440459841,
+  "output_area_done": true,
+  "full_ROI_RS_certified": false,
+  "source_q8_done": false,
+  "old_G3": "FAIL"
+}

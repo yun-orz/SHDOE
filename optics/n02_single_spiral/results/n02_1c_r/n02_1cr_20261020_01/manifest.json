@@ -1,0 +1,90 @@
+{
+  "status": "COMPLETE_DIAGNOSTIC_INCONCLUSIVE",
+  "time": "2026-10-20T09:15:23.828465+08:00",
+  "run_id": "n02_1cr_20261020_01",
+  "stage": "N02-1C-R",
+  "entry": "experiments/n02_1c_r/p0b_run.py",
+  "invocation": {
+    "time": "2026-10-20T09:13:03.673755+08:00",
+    "python": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "argv": [
+      "experiments/n02_1c_r/p0b_run.py",
+      "--run-id",
+      "n02_1cr_20261020_01"
+    ]
+  },
+  "environment": {
+    "time": "2026-10-20T09:14:10.243158+08:00",
+    "python": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "python_version": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 22:57:13) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "git_head": "b9bf90c94bda664502d309be147949262fa71309",
+    "memory": {
+      "ram_available_bytes": 2077708288,
+      "ram_total_bytes": 16869351424,
+      "cpu_peak_working_set_bytes": 563187712,
+      "cpu_working_set_bytes": 542162944,
+      "gpu_free_bytes": 7458521088,
+      "gpu_total_bytes": 8585216000
+    },
+    "seed": 20261020
+  },
+  "source_hashes": {
+    "experiments/n02_1c_r/p0b_analysis.py": "e320b5848d686315d87fc4fb3a5589dd1bf43432f6009103037dfe315a0afe64",
+    "experiments/n02_1c_r/p0b_boundary.py": "15d8cea748ff46bcd07e6ab4978a02a1f5baa6260b3d52bf4410df5c78a5b121",
+    "experiments/n02_1c_r/p0b_common.py": "eccf2b472c07569a257c222585c46173ac89aa79faf7873ac8e150a7ee8772a5",
+    "experiments/n02_1c_r/p0b_locators.py": "e5b10af1a1bae1be4025c50c13fb1e426c9547d3452e6e73dfec47dd6d8cb643",
+    "experiments/n02_1c_r/p0b_propagation.py": "617c592319067a3f43a462a20de5f5a0b1b1415d5c884119ea7d910c7479f5ca",
+    "experiments/n02_1c_r/p0b_report.py": "c6d94e7324ffe03310632776952461dd8628a0dc68a36267e2aed2314af8163b",
+    "experiments/n02_1c_r/p0b_run.py": "7b2a490c1e0283ccfc7dcc0a2e370aaa1eb23b0cc0a8fadf7e280b7373c7146d",
+    "experiments/n02_1c_r/p0b_verify.py": "d42058f7a526a89c5e94ead520a67b1042510149ba3f9250645c3992c92eabb3",
+    "configs/n02_1c_r/P0B_protocol_v1.json": "6ba55165ba5fc643c86e43eb6142f485820d42d5fa20b7207464885f91fba7dd"
+  },
+  "artifact_manifest_sha256": "9f52ff57a29e004ddd15ae815845466df4cb6bbf789c9cef45c1977b2dd83a1e",
+  "old_run": "E:\\SpiralDOE_HSI\\n00_run_20261009\\results\\n02\\n02_20261019_02",
+  "old_G2": "FAIL",
+  "old_G3": "FAIL",
+  "input_hashes_sha256": "c9ba3ef6fac08f5ae27589f7379bd0fc03d7e476c633cbc4c8a4a3a27670a4e7",
+  "decision": {
+    "status": "INCONCLUSIVE",
+    "stage": "N02-1C-R",
+    "time": "2026-10-20T09:15:17.548453+08:00",
+    "work_A": "EVALUATOR_INSTABILITY",
+    "work_B": "INCONCLUSIVE",
+    "work_C": "DIAGNOSTIC_RECOMPUTATION_COMPLETED",
+    "legacy_G2": "FAIL",
+    "legacy_G3_Numerics": "FAIL",
+    "G4_G8": "NOT_TESTED_DO_NOT_START",
+    "physical_failure_established": false,
+    "reasons": [
+      "425nm冻结拟合失败可复现，负定曲面弱曲率方向使驻点超1pixel；未观察双半峰域篡位",
+      "边界份额包含物理尾部和周期/采样效应；稀疏开放RS核查不等于全边界能量参考",
+      "旧660nm pad4和546.1nm dx0.5主盘外峰比另超0.1，需保留原失败",
+      "dx0.5旧对照同时重采样量化高度与探测面，不能把差异全部归因定位器"
+    ],
+    "next_minimal_experiment": "只在546.1nm，将冻结1um B2高度解释为分片常值，对同一局部主/旁峰及主盘边缘坐标进行2x2/4x4像元内RS中点求积；固定同一主盘中心并并列冻结输出，以区分输入求积误差与主盘掩模敏感性。不得由此自动启动G4–G8。"
+  },
+  "resources": {
+    "wall_seconds": 139.23175429998082,
+    "cpu_peak_working_set_bytes": 1067048960,
+    "gpu_peak_allocated_bytes": 0,
+    "new_ASM_calls": 0,
+    "new_Fresnel_calls": 13,
+    "new_RS_calls": 4,
+    "original_data_reuse": true,
+    "no_install": true,
+    "resource_after": {
+      "ram_available_bytes": 2078220288,
+      "ram_total_bytes": 16869351424,
+      "cpu_peak_working_set_bytes": 1067048960,
+      "cpu_working_set_bytes": 781094912,
+      "gpu_free_bytes": 7458521088,
+      "gpu_total_bytes": 8585216000
+    }
+  }
+}

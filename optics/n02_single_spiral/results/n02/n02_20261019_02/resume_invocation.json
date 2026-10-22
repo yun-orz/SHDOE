@@ -1,0 +1,19 @@
+{
+  "time": "2026-10-19T23:28:49.249264+08:00",
+  "argv": [
+    "experiments/n02/resume.py",
+    "--run-id",
+    "n02_20261019_02"
+  ],
+  "python": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+  "reason": "原始批次1产物完整，后续validation模块补齐后续跑；保留failure_traceback.txt",
+  "source_hashes": {
+    "audit.py": "e0b021ff1dafcbba902b9205ea6779d240eab3969b8c63f0bd8f1d599fab4a16",
+    "evaluate.py": "acb8460a199fcece83ae74fbb2bef3781191a4d374fc0a59753c3c158730aaf6",
+    "optics.py": "34d01a8634c56be2f447dfacd96db477c6846bb7923297a39a1cfa09cffec59f",
+    "physics_tests.py": "34dee20f50ee181782ec0967fb83b4302747a2ea4f748a0ee45e3ad74b48fe8e",
+    "resume.py": "9b12be4c6b0fd7384f9cc73cf74eec8b17c12ab6539e96335576c04220c99312",
+    "run.py": "f7dcdc38cc6fc9929a666d7f10253374688347228aad6182a49dbde7f10c7ab3",
+    "validation.py": "ca0da9971f859716cf9b62cbf4928e4ac69e18d9adc172494ae6b05629e23ee3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "inputs_unchanged": true,
+  "tracked_diff_unchanged": true,
+  "all_tests_pass": true,
+  "N03_G0": "FAIL",
+  "N02_G2": "FAIL",
+  "N02_G3_Numerics": "FAIL"
+}

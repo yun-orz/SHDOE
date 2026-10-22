@@ -1,0 +1,49 @@
+﻿case,locator,position_error_um,fit_valid,failure_reason,unconstrained_offset_pixels,boundary_active,noise
+elongated_0,frozen3,1.1808961860602547e-07,True,,"[0.36999999999999933, -0.28]",,False
+elongated_0,centroid7,0.3115350518469958,True,,,,False
+elongated_0,constrained_log5,1.1808961766099178e-07,True,,,False,False
+elongated_0,constrained_log7,1.1808961798365189e-07,True,,,False,False
+elongated_0,interpolation_order1,0.4640044100994275,True,,,,False
+elongated_0,interpolation_order3,0.02625047984229512,True,,,,False
+elongated_30,frozen3,1.0434513939061361e-05,True,,"[-0.6299999999999975, -0.27999999999999886]",,False
+elongated_30,centroid7,0.5709872781504832,True,,,,False
+elongated_30,constrained_log5,1.0434513940128965e-05,True,,,False,False
+elongated_30,constrained_log7,1.0434513944140837e-05,True,,,False,False
+elongated_30,interpolation_order1,0.6894097121515124,True,,,,False
+elongated_30,interpolation_order3,0.1521794748773579,True,,,,False
+elongated_60,frozen3,1.9243535466297616e-05,True,,"[0.370000000000002, 0.720000000000004]",,False
+elongated_60,centroid7,0.6629500991597327,True,,,,False
+elongated_60,constrained_log5,1.9243535469965205e-05,True,,,False,False
+elongated_60,constrained_log7,1.924353547045828e-05,True,,,False,False
+elongated_60,interpolation_order1,0.8095251565550033,True,,,,False
+elongated_60,interpolation_order3,0.1240457698980047,True,,,,False
+elongated_90,frozen3,1.4166910072098707e-07,True,,"[0.3700000000000002, -0.28000000000000647]",,False
+elongated_90,centroid7,0.236135776029877,True,,,,False
+elongated_90,constrained_log5,1.416690938608072e-07,True,,,False,False
+elongated_90,constrained_log7,1.416690945844988e-07,True,,,False,False
+elongated_90,interpolation_order1,0.46400423193125484,True,,,,False
+elongated_90,interpolation_order3,0.01941876163663662,True,,,,False
+symmetric,frozen3,1.4231778103710009e-07,True,,"[0.37, -0.2800000000000003]",,False
+symmetric,centroid7,0.13274960419825899,True,,,,False
+symmetric,constrained_log5,1.4231778096930034e-07,True,,,False,False
+symmetric,constrained_log7,1.4231778118962105e-07,True,,,False,False
+symmetric,interpolation_order1,0.4640041687480812,True,,,,False
+symmetric,interpolation_order3,0.004952134071271579,True,,,,False
+asymmetric_shoulder,frozen3,0.006926432201110135,True,,"[0.14561105795868307, 0.26333614435463265]",,False
+asymmetric_shoulder,centroid7,0.1377704872817471,True,,,,False
+asymmetric_shoulder,constrained_log5,0.023457800476334605,True,,,False,False
+asymmetric_shoulder,constrained_log7,0.046050969200885895,True,,,False,False
+asymmetric_shoulder,interpolation_order1,0.29461801502973545,True,,,,False
+asymmetric_shoulder,interpolation_order3,0.02610124675125065,True,,,,False
+competing_double,frozen3,4.1121746088458506e-05,True,,"[0.3700629647625293, -0.2800000000000004]",,False
+competing_double,centroid7,0.01036228621640458,True,,,,False
+competing_double,constrained_log5,0.0014272168389081901,True,,,False,False
+competing_double,constrained_log7,0.043592209354852196,True,,,False,False
+competing_double,interpolation_order1,0.4640219837921019,True,,,,False
+competing_double,interpolation_order3,0.03263040971985934,True,,,,False
+poisson_read_noise,frozen3,0.37230845625539727,True,,"[-0.6283160574764316, -0.21276168869678366]",,True
+poisson_read_noise,centroid7,0.18876967688554616,True,,,,True
+poisson_read_noise,constrained_log5,0.02103132190568647,True,,,False,True
+poisson_read_noise,constrained_log7,0.04220674083034248,True,,,False,True
+poisson_read_noise,interpolation_order1,0.29222664158255734,True,,,,True
+poisson_read_noise,interpolation_order3,0.2753418546239459,True,,,,True

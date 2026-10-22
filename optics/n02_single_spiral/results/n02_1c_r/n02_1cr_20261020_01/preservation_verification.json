@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "historical_files_checked": 7261,
+  "changed_original_files": [],
+  "input_content_hashes_checked": 923,
+  "old_gates_sha256": "a9855429b0d94ac842496b32d0c18319f873ea9882415c5e8463a4dc6fd8d0a4",
+  "scope": "全部旧工程文件size/mtime和文本SHA；本轮使用的旧原始产物另完整SHA；没有声称所有历史二进制重哈希"
+}

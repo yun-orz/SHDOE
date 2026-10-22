@@ -1,0 +1,35 @@
+{
+  "notice": "EXPLORATORY / N03 G0 FAIL / N02 G2+G3_Numerics FAIL",
+  "input_files_verified": 1293,
+  "input_hash_mismatches": [],
+  "source_hash_mismatches": [],
+  "original_output_hash_mismatches": [],
+  "B_observations": 48,
+  "B_starts": 96,
+  "provenance_counts": {
+    "SUCCESSFUL_START_INTERMEDIATE": 28,
+    "UNSUCCESSFUL_START_ONLY": 12,
+    "SUCCESSFUL_RETURN_ENDPOINT": 8
+  },
+  "strict_H5_count": 8,
+  "success_starts": 77,
+  "budget_exhausted_starts": 19,
+  "C1_selection_without_GT_replayed": true,
+  "C1_valid": 47,
+  "missing_endpoint": [
+    "pilot_4_9_0"
+  ],
+  "posterior_metric_failures": [],
+  "SAM_max_abs_delta_deg": 1.2074182697257333e-06,
+  "SAM_tolerance_deg": 2e-06,
+  "distinct_fixed_point_NNLS_positions": 116,
+  "recorded_fixed_point_NNLS": 116,
+  "max_C1_C0_position_shift_px": 6.168725917672015e-07,
+  "max_abs_normalized_objective_regret": 1.9464464762197764e-14,
+  "D3_status": "D3_SKIPPED",
+  "new_optimization_starts": 0,
+  "no_fabricated_micro_csv": true,
+  "original_H5_status": "FAIL",
+  "full_observations": 0,
+  "passed": true
+}

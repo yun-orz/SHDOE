@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "sources": {
+    "A": {
+      "files": 7510,
+      "bytes": 22633230761,
+      "all_file_sha256_size_mtime_equal": true,
+      "git_head_status_index_worktree_config_remote_equal": true,
+      "changes": []
+    },
+    "B": {
+      "files": 1344,
+      "bytes": 1089878395,
+      "all_file_sha256_size_mtime_equal": true,
+      "git_head_status_index_worktree_config_remote_equal": true,
+      "changes": []
+    }
+  },
+  "seconds": 60.855409383773804
+}

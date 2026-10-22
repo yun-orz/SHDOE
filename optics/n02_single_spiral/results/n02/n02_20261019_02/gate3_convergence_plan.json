@@ -1,0 +1,17 @@
+{
+  "wavelengths_nm": [
+    420,
+    425.0,
+    430.0,
+    546.1,
+    660
+  ],
+  "selected_worst_nm": [
+    420.0,
+    430.0
+  ],
+  "protocol": "protocol_frozen.json",
+  "alignment": "0.5um强度按2x2面积均值到1um；不配准平移；能量单独物理积分",
+  "precision": "complex64对照仅诊断；最终证据使用complex128；独立SciPy使用去除全局活塞的精确ASM",
+  "fine_sampling": "同一连续解析设计重新采样量化，不插值包裹高度图；物理输入视场2048um不变"
+}

@@ -1,0 +1,41 @@
+{
+  "required": 13,
+  "fail": 11,
+  "passed": 2,
+  "non_edge_failures": [
+    {
+      "wavelength_nm": 546.1,
+      "condition": "dx05",
+      "candidate_edge": 0.0007605742563960337,
+      "frozen_baseline_edge": 0.0008016485341670836,
+      "candidate_edge_gate": true,
+      "baseline_edge_gate": true,
+      "combined_gate": true,
+      "outside_ratio_abs_change": 0.29876411224041544,
+      "outside_ratio_gate": false,
+      "all_failed_checks": [
+        "main_ratio"
+      ],
+      "original_status": "FAIL",
+      "required": true
+    },
+    {
+      "wavelength_nm": 660,
+      "condition": "pad4",
+      "candidate_edge": 0.00041114254070475926,
+      "frozen_baseline_edge": 0.0011644851783079017,
+      "candidate_edge_gate": true,
+      "baseline_edge_gate": false,
+      "combined_gate": false,
+      "outside_ratio_abs_change": 0.1034913422034136,
+      "outside_ratio_gate": false,
+      "all_failed_checks": [
+        "edge",
+        "main_ratio"
+      ],
+      "original_status": "FAIL",
+      "required": true
+    }
+  ],
+  "correction": "上轮聊天中“主峰位置、角度和归一化形态差在容差内”不代表全部非边缘指标通过；660nm pad4和546.1nm dx0.5主盘外比均超0.1。"
+}

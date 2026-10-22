@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "guard_enabled": true,
+  "height_file_sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f",
+  "mask_file_sha256": "07e77628a12d6c223057b219d70a4eb5869027b139aaf4113f00cd0b40dc44bc",
+  "max_frozen_metric_error": 0.0,
+  "r2_numerical": {
+    "P1_raw_fields_checked": 134,
+    "max_intensity_recalculation_error": 0.0,
+    "fixed_K_same_all_levels": true,
+    "partial_outputs_respected": true,
+    "no_full_edge_integration": true
+  },
+  "r2_output_hashes": 54,
+  "scientific_status": "LOCAL_MECHANISM_SUPPORTED_GLOBAL_INCONCLUSIVE",
+  "old_G2_G3": "FAIL_UNCHANGED",
+  "seconds": 4.125352382659912
+}
+

@@ -1,0 +1,11 @@
+{
+  "decision": "G0_FAIL_STOP",
+  "checks": 174,
+  "failures": 0,
+  "archived_psfs": 35,
+  "standard_bands": 25,
+  "preservation": true,
+  "seconds": 4.465446600001087,
+  "command": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe -B integration/single_spiral_to_hsi/n03_audit.py --output E:\\SH\\reports\\N03",
+  "git_after": "?? integration/single_spiral_to_hsi/n03_audit.py\n?? reports/N03/00_audit.md\n?? reports/N03/00_manifest.json\n?? reports/N03/run_commands.md"
+}

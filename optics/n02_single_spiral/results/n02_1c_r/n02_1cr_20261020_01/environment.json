@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-20T09:14:10.243158+08:00",
+  "python": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+  "python_version": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 22:57:13) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "git_head": "b9bf90c94bda664502d309be147949262fa71309",
+  "memory": {
+    "ram_available_bytes": 2077708288,
+    "ram_total_bytes": 16869351424,
+    "cpu_peak_working_set_bytes": 563187712,
+    "cpu_working_set_bytes": 542162944,
+    "gpu_free_bytes": 7458521088,
+    "gpu_total_bytes": 8585216000
+  },
+  "seed": 20261020
+}

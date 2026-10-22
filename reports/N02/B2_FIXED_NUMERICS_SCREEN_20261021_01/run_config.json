@@ -1,0 +1,251 @@
+{
+  "notice": "EXP2B EXPLORATORY, archived PSFs; N03 G0 FAIL; N02 G2/G3_Numerics FAIL.",
+  "branch": "B_FIXED_BOUNDARY_SCREEN",
+  "environment": {
+    "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 22:57:13) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.5.1+cu121",
+    "device": "CUDA",
+    "precision": "float64 / complex128",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "time_Asia_Shanghai": "2026-10-21T13:00:34.841659+08:00"
+  },
+  "git_before": {
+    "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+    "branch": "main",
+    "dirty": "M README.md\n?? integration/single_spiral_to_hsi/n03_audit.py\n?? integration/single_spiral_to_hsi/n03_exp1/forward.py\n?? integration/single_spiral_to_hsi/n03_exp1/run_exp1.py\n?? integration/single_spiral_to_hsi/n03_exp1/solvers.py\n?? integration/single_spiral_to_hsi/n03_exp2/analysis.py\n?? integration/single_spiral_to_hsi/n03_exp2/forward.py\n?? integration/single_spiral_to_hsi/n03_exp2/noise.py\n?? integration/single_spiral_to_hsi/n03_exp2/perturbations.py\n?? integration/single_spiral_to_hsi/n03_exp2/run_exp2.py\n?? integration/single_spiral_to_hsi/n03_exp2/sampling.py\n?? integration/single_spiral_to_hsi/n03_exp2/verify_exp2.py\n?? integration/single_spiral_to_hsi/n03_exp2b/common.py\n?? integration/single_spiral_to_hsi/n03_exp2b/run_boundary_screen.py\n?? integration/single_spiral_to_hsi/n03_exp2b/run_calibration.py\n?? integration/single_spiral_to_hsi/tests/test_n03_exp1.py\n?? integration/single_spiral_to_hsi/tests/test_n03_exp2.py\n?? integration/single_spiral_to_hsi/tests/test_n03_exp2b.py\n?? reports/N03/00_audit.md\n?? reports/N03/00_manifest.json\n?? reports/N03/01_point_reconstruction_report.md\n?? reports/N03/EXP1/README.md\n?? reports/N03/EXP1/artifact_manifest.json\n?? reports/N03/EXP1/figures/archived_psfs.png\n?? reports/N03/EXP1/figures/column_cosine.png\n?? reports/N03/EXP1/figures/matrix_svd_norms_response.png\n?? reports/N03/EXP1/figures/noise_summary.png\n?? reports/N03/EXP1/figures/spectrum_broad_510.png\n?? reports/N03/EXP1/figures/spectrum_near_equal.png\n?? reports/N03/EXP1/figures/spectrum_onehot_540.png\n?? reports/N03/EXP1/figures/spectrum_random_0.png\n?? reports/N03/EXP1/figures/worst_spiral_case.png\n?? reports/N03/EXP1/logs/events.jsonl\n?? reports/N03/EXP1/logs/run_record.json\n?? reports/N03/EXP1/matrix_diagnostics.json\n?? reports/N03/EXP1/metrics.csv\n?? reports/N03/EXP1/noise_calibration.json\n?? reports/N03/EXP1/nonuniqueness_example.json\n?? reports/N03/EXP1/result_summary.md\n?? reports/N03/EXP1/run_config.json\n?? reports/N03/EXP1/spectra_results.json\n?? reports/N03/EXP1/summary_metrics.json\n?? reports/N03/EXP1/validation_results.json\n?? reports/N03/EXP1_delivery_verification.json\n?? reports/N03/EXP1_verified/README.md\n?? reports/N03/EXP1_verified/artifact_manifest.json\n?? reports/N03/EXP1_verified/figures/archived_psfs.png\n?? reports/N03/EXP1_verified/figures/column_cosine.png\n?? reports/N03/EXP1_verified/figures/matrix_svd_norms_response.png\n?? reports/N03/EXP1_verified/figures/noise_summary.png\n?? reports/N03/EXP1_verified/figures/spectrum_broad_510.png\n?? reports/N03/EXP1_verified/figures/spectrum_near_equal.png\n?? reports/N03/EXP1_verified/figures/spectrum_onehot_540.png\n?? reports/N03/EXP1_verified/figures/spectrum_random_0.png\n?? reports/N03/EXP1_verified/figures/worst_spiral_case.png\n?? reports/N03/EXP1_verified/logs/events.jsonl\n?? reports/N03/EXP1_verified/logs/run_record.json\n?? reports/N03/EXP1_verified/matrix_diagnostics.json\n?? reports/N03/EXP1_verified/metrics.csv\n?? reports/N03/EXP1_verified/noise_calibration.json\n?? reports/N03/EXP1_verified/nonuniqueness_example.json\n?? reports/N03/EXP1_verified/result_summary.md\n?? reports/N03/EXP1_verified/run_config.json\n?? reports/N03/EXP1_verified/spectra_results.json\n?? reports/N03/EXP1_verified/summary_metrics.json\n?? reports/N03/EXP1_verified/validation_results.json\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/00_preflight.md\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/DELIVERY.md\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/archived_control_comparison.csv\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/artifact_manifest.json\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/figures/fraction_exceeding_threshold.png\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/figures/nrmse_signed_shift.png\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/figures/worst_spectra.png\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/input_manifest.json\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/logs/events.jsonl\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/logs/run_record.json\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/logs/source_snapshot/common.py\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/logs/source_snapshot/run_boundary_screen.py\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/logs/source_snapshot/run_calibration.py\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/logs/source_snapshot/test_n03_exp2b.py\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/metrics.csv\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/qa.json\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/result_summary.md\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/run_commands.md\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/run_config.json\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/shift_manifest.json\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/source_manifest.json\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/spectral_solutions.npz\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/tests.json\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/tolerance_intervals.csv\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/tolerance_summary.csv\n?? reports/N03/EXP2B_CAL_TOL_20261021_01/zero_regression.json\n?? reports/N03/EXP2_20261020_01/00_preflight.md\n?? reports/N03/EXP2_20261020_01/input_manifest.json\n?? reports/N03/EXP2_20261020_01/logs/events.jsonl\n?? reports/N03/EXP2_20261020_01/logs/failure.txt\n?? reports/N03/EXP2_20261020_01/matrices_9band.json\n?? reports/N03/EXP2_20261020_01/run_config.json\n?? reports/N03/EXP2_20261020_01/sampling_energy_check.csv\n?? reports/N03/EXP2_20261020_01/tests.json\n?? reports/N03/EXP2_20261020_01/throughput_analysis.csv\n?? reports/N03/EXP2_20261020_02/00_preflight.md\n?? reports/N03/EXP2_20261020_02/artifact_manifest.json\n?? reports/N03/EXP2_20261020_02/figures/diagnostic_25bands.png\n?? reports/N03/EXP2_20261020_02/figures/mismatch_nrmse_log.png\n?? reports/N03/EXP2_20261020_02/figures/noise_budget_comparison.png\n?? reports/N03/EXP2_20261020_02/figures/sampling_psf_comparison.png\n?? reports/N03/EXP2_20261020_02/figures/singular_values_9band.png\n?? reports/N03/EXP2_20261020_02/figures/spectrum_best_median_worst.png\n?? reports/N03/EXP2_20261020_02/input_manifest.json\n?? reports/N03/EXP2_20261020_02/logs/events.jsonl\n?? reports/N03/EXP2_20261020_02/logs/run_record.json\n?? reports/N03/EXP2_20261020_02/matrices_25band_diagnostic.json\n?? reports/N03/EXP2_20261020_02/matrices_9band.json\n?? reports/N03/EXP2_20261020_02/metrics.csv\n?? reports/N03/EXP2_20261020_02/mismatch_ratios.csv\n?? reports/N03/EXP2_20261020_02/model_mismatch.csv\n?? reports/N03/EXP2_20261020_02/noise_calibration.csv\n?? reports/N03/EXP2_20261020_02/perturbation_manifest.json\n?? reports/N03/EXP2_20261020_02/pilot_gate.json\n?? reports/N03/EXP2_20261020_02/pilot_metrics.csv\n?? reports/N03/EXP2_20261020_02/postrun_checks.json\n?? reports/N03/EXP2_20261020_02/preservation.json\n?? reports/N03/EXP2_20261020_02/result_summary.md\n?? reports/N03/EXP2_20261020_02/run_commands.md\n?? reports/N03/EXP2_20261020_02/run_config.json\n?? reports/N03/EXP2_20261020_02/sampling_energy_check.csv\n?? reports/N03/EXP2_20261020_02/spectral_solutions.json\n?? reports/N03/EXP2_20261020_02/summary_metrics.csv\n?? reports/N03/EXP2_20261020_02/tests.json\n?? reports/N03/EXP2_20261020_02/throughput_analysis.csv\n?? reports/N03/EXP2_20261020_03/00_preflight.md\n?? reports/N03/EXP2_20261020_03/DELIVERY.md\n?? reports/N03/EXP2_20261020_03/artifact_manifest.json\n?? reports/N03/EXP2_20261020_03/delivery_manifest.json\n?? reports/N03/EXP2_20261020_03/delivery_qa.json\n?? reports/N03/EXP2_20261020_03/figures/diagnostic_25bands.png\n?? reports/N03/EXP2_20261020_03/figures/diagnostic_25bands_verified.png\n?? reports/N03/EXP2_20261020_03/figures/mismatch_nrmse_log.png\n?? reports/N03/EXP2_20261020_03/figures/mismatch_sam_log.png\n?? reports/N03/EXP2_20261020_03/figures/noise_budget_comparison.png\n?? reports/N03/EXP2_20261020_03/figures/sampling_psf_comparison.png\n?? reports/N03/EXP2_20261020_03/figures/singular_values_9band.png\n?? reports/N03/EXP2_20261020_03/figures/spectrum_best_median_worst.png\n?? reports/N03/EXP2_20261020_03/final_manifest.json\n?? reports/N03/EXP2_20261020_03/independent_energy_verification.csv\n?? reports/N03/EXP2_20261020_03/input_manifest.json\n?? reports/N03/EXP2_20261020_03/interpretation_addendum.md\n?? reports/N03/EXP2_20261020_03/logs/events.jsonl\n?? reports/N03/EXP2_20261020_03/logs/final_delivery_record.json\n?? reports/N03/EXP2_20261020_03/logs/run_record.json\n?? reports/N03/EXP2_20261020_03/logs/source_snapshot/analysis.py\n?? reports/N03/EXP2_20261020_03/logs/source_snapshot/forward.py\n?? reports/N03/EXP2_20261020_03/logs/source_snapshot/noise.py\n?? reports/N03/EXP2_20261020_03/logs/source_snapshot/perturbations.py\n?? reports/N03/EXP2_20261020_03/logs/source_snapshot/run_exp2.py\n?? reports/N03/EXP2_20261020_03/logs/source_snapshot/sampling.py\n?? reports/N03/EXP2_20261020_03/logs/source_snapshot/test_n03_exp2.py\n?? reports/N03/EXP2_20261020_03/logs/source_snapshot/verify_exp2.py\n?? reports/N03/EXP2_20261020_03/matrices_25band_diagnostic.json\n?? reports/N03/EXP2_20261020_03/matrices_9band.json\n?? reports/N03/EXP2_20261020_03/metrics.csv\n?? reports/N03/EXP2_20261020_03/mismatch_ratios.csv\n?? reports/N03/EXP2_20261020_03/model_mismatch.csv\n?? reports/N03/EXP2_20261020_03/noise_calibration.csv\n?? reports/N03/EXP2_20261020_03/perturbation_manifest.json\n?? reports/N03/EXP2_20261020_03/pilot_gate.json\n?? reports/N03/EXP2_20261020_03/pilot_metrics.csv\n?? reports/N03/EXP2_20261020_03/postrun_checks.json\n?? reports/N03/EXP2_20261020_03/preservation.json\n?? reports/N03/EXP2_20261020_03/result_summary.md\n?? reports/N03/EXP2_20261020_03/run_commands.md\n?? reports/N03/EXP2_20261020_03/run_config.json\n?? reports/N03/EXP2_20261020_03/sampling_energy_check.csv\n?? reports/N03/EXP2_20261020_03/source_manifest.json\n?? reports/N03/EXP2_20261020_03/spectral_solutions.json\n?? reports/N03/EXP2_20261020_03/summary_metrics.csv\n?? reports/N03/EXP2_20261020_03/tests.json\n?? reports/N03/EXP2_20261020_03/throughput_analysis.csv\n?? reports/N03/logs/00_audit_run.json\n?? reports/N03/logs/00_initial_attempt.md\n?? reports/N03/logs/01_delivery_verification.json\n?? reports/N03/run_commands.md",
+    "tracked_diff_sha256": "b6eabf899354f8e9d40dc0e7f6df60e0095ccb380d36c2f3fe7e7711163ec88e"
+  },
+  "task_source": {
+    "path": "C:\\Users\\李咏晨\\Downloads\\N03-A-EXP2B_%E6%A0%87%E5%AE%9A%E5%AE%B9%E5%B7%AE%E4%B8%8EN02%E5%8F%97%E9%99%90%E6%95%B0%E5%80%BC%E7%AD%9B%E6%9F%A5_Codex%E4%BB%BB%E5%8A%A1%E4%B9%A6.md",
+    "sha256": "06bf0a83c1002cfb3d147d500093aa9d8d719f4eaa22c643bc0006ad949ca58a"
+  },
+  "wavelength_nm": 420,
+  "points": [
+    {
+      "x_um": 2047.5,
+      "y_um": 0.5,
+      "group": "edge_normal",
+      "detail": "从外侧像元中心向内0um；距物理域边界0.5um",
+      "q8_preregistered": true,
+      "point_id": "B006",
+      "opposite_id": "B007",
+      "inside_pad2": true,
+      "in_16um_boundary_strip": true,
+      "source_label": "frozen_original / parallel_diagnostic / physical_reference并排"
+    },
+    {
+      "x_um": -2047.5,
+      "y_um": -0.5,
+      "group": "edge_normal",
+      "detail": "从外侧像元中心向内0um；距物理域边界0.5um",
+      "q8_preregistered": true,
+      "point_id": "B007",
+      "opposite_id": "B006",
+      "inside_pad2": true,
+      "in_16um_boundary_strip": true,
+      "source_label": "frozen_original / parallel_diagnostic / physical_reference并排"
+    },
+    {
+      "x_um": 0.5,
+      "y_um": 2047.5,
+      "group": "edge_normal",
+      "detail": "从外侧像元中心向内0um；距物理域边界0.5um",
+      "q8_preregistered": true,
+      "point_id": "B008",
+      "opposite_id": "B009",
+      "inside_pad2": true,
+      "in_16um_boundary_strip": true,
+      "source_label": "frozen_original / parallel_diagnostic / physical_reference并排"
+    },
+    {
+      "x_um": -0.5,
+      "y_um": -2047.5,
+      "group": "edge_normal",
+      "detail": "从外侧像元中心向内0um；距物理域边界0.5um",
+      "q8_preregistered": true,
+      "point_id": "B009",
+      "opposite_id": "B008",
+      "inside_pad2": true,
+      "in_16um_boundary_strip": true,
+      "source_label": "frozen_original / parallel_diagnostic / physical_reference并排"
+    },
+    {
+      "x_um": 2039.5,
+      "y_um": 0.5,
+      "group": "edge_normal",
+      "detail": "从外侧像元中心向内8um；距物理域边界8.5um",
+      "q8_preregistered": true,
+      "point_id": "B010",
+      "opposite_id": "B011",
+      "inside_pad2": true,
+      "in_16um_boundary_strip": true,
+      "source_label": "frozen_original / parallel_diagnostic / physical_reference并排"
+    },
+    {
+      "x_um": -2039.5,
+      "y_um": -0.5,
+      "group": "edge_normal",
+      "detail": "从外侧像元中心向内8um；距物理域边界8.5um",
+      "q8_preregistered": true,
+      "point_id": "B011",
+      "opposite_id": "B010",
+      "inside_pad2": true,
+      "in_16um_boundary_strip": true,
+      "source_label": "frozen_original / parallel_diagnostic / physical_reference并排"
+    },
+    {
+      "x_um": 0.5,
+      "y_um": 2039.5,
+      "group": "edge_normal",
+      "detail": "从外侧像元中心向内8um；距物理域边界8.5um",
+      "q8_preregistered": true,
+      "point_id": "B012",
+      "opposite_id": "B013",
+      "inside_pad2": true,
+      "in_16um_boundary_strip": true,
+      "source_label": "frozen_original / parallel_diagnostic / physical_reference并排"
+    },
+    {
+      "x_um": -0.5,
+      "y_um": -2039.5,
+      "group": "edge_normal",
+      "detail": "从外侧像元中心向内8um；距物理域边界8.5um",
+      "q8_preregistered": true,
+      "point_id": "B013",
+      "opposite_id": "B012",
+      "inside_pad2": true,
+      "in_16um_boundary_strip": true,
+      "source_label": "frozen_original / parallel_diagnostic / physical_reference并排"
+    }
+  ],
+  "quantity": "RS1 complex field and point intensity at 8 output-plane positions, not 2D PSF or source points",
+  "quadrature": [
+    8,
+    16
+  ],
+  "pixel_chunk": 8192,
+  "point_chunk": 4,
+  "physics": {
+    "design_nm": 546.1,
+    "R_um": 500.0,
+    "focal_mm": 20.0,
+    "object_mm": 180.0,
+    "sensor_mm": 22.495,
+    "L": 8,
+    "handedness": 1,
+    "Q": 10,
+    "quantizer": "floor",
+    "size": 2048,
+    "pitch_um": 1.0,
+    "padding": 2,
+    "roi_width_um": 512.0,
+    "device": "cuda",
+    "seed": 20261019,
+    "material_model": "ASSUMED_Cauchy_1.5292_plus_0.00800_over_lambda_um_squared",
+    "n_env": 1.0,
+    "thresholds": {
+      "outside_disk_ratio": 1.25,
+      "distinct_peak_ratio": 1.25,
+      "shape_l1": 0.05,
+      "shift_um": 2.0,
+      "angle_deg": 3.0,
+      "edge": 0.001,
+      "roi_fraction": 0.99,
+      "energy": 1e-10,
+      "dense_step_deg": 45.0
+    },
+    "n02_proposal": {
+      "sidelobe_ratio": 1.5,
+      "min_angle_per_10nm_deg": 4.0,
+      "max_angle_per_10nm_deg": 18.0,
+      "total_min_deg": 200.0,
+      "total_max_deg": 280.0
+    },
+    "candidate_id": "B2"
+  },
+  "normalization": {
+    "K": 0.0011283397992865316,
+    "source_pixels": 785456,
+    "source_cell_area_um2": 1,
+    "definition": "original 1um midpoint incident normalization; same K both q; no per-q or ROI renormalization"
+  },
+  "thresholds": {
+    "raw_intensity_vector_L1": 0.01,
+    "relative_complex_field_per_point": 0.01,
+    "relative_intensity_per_point": 0.02,
+    "formal_edge_fraction_limit_UNCHANGED": 0.001,
+    "old_425_fit_max_offset_pixel_UNCHANGED": 1
+  },
+  "criterion": "new raw vector L1<=1% AND preserved R2 per-point complex<=1% and intensity<=2%; local diagnostic only, not G2/G3",
+  "L1_definition": "sum_i |I8_i-I16_i| / sum_i |I16_i|; same fixed K, no normalizing the two vectors separately",
+  "field_definition": "global exp(ikz) removed identically, phase and normalization match frozen R2",
+  "geometry": "original 2048² source cells at pitch1um; fixed mask, piecewise constant height and aperture per original pixel; source subcells do not reclip circular pupil; output points on original pad2=4096um boundary",
+  "historical_q8_meta": {
+    "seconds": 1.1537573000241537,
+    "incident_quadrature_energy": 0.9999999999949358,
+    "fixed_K": 0.0011283397992865316,
+    "source_pixels": 785456,
+    "input_subdivision": 8,
+    "pixel_chunk": 8192,
+    "point_chunk": 4,
+    "gpu_peak_allocated_bytes": 201525760,
+    "resource": {
+      "ram_available_bytes": 2779021312,
+      "ram_total_bytes": 16869351424,
+      "cpu_peak_working_set_bytes": 821493760,
+      "cpu_working_set_bytes": 819417088,
+      "gpu_free_bytes": 7137656832,
+      "gpu_total_bytes": 8585216000
+    }
+  },
+  "interfaces": {
+    "rs": {
+      "path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r2\\r2_solver.py",
+      "line": 6,
+      "end_line": 36,
+      "sha256": "ed4ac9d53702ca4f2c405a53676d9bc0ccda4411242f0b1b664819f28c21d80d"
+    },
+    "source_pixels": {
+      "path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r2\\r2_common.py",
+      "line": 102,
+      "end_line": 108,
+      "sha256": "345f52740cfdbd0b95cb73df8c8693415ac4a53d1eaa277cdba70e2f98f8c202"
+    },
+    "memory": {
+      "path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_common.py",
+      "line": 101,
+      "end_line": 112,
+      "sha256": "0add0a4b97b91b0bb60b74d0f9bab1ed28a3894d34010350d9a18a3af8d4a129"
+    }
+  },
+  "resource": {
+    "before": {
+      "ram_available_bytes": 4694003712,
+      "ram_total_bytes": 16869351424,
+      "cpu_peak_working_set_bytes": 535252992,
+      "cpu_working_set_bytes": 449523712,
+      "gpu_free_bytes": 6953107456,
+      "gpu_total_bytes": 8585216000
+    },
+    "estimated_peak_GPU_bytes": 1343372288,
+    "estimated_pair_seconds": 43.07514600048307,
+    "allowed": true,
+    "method": "historical q8 peak x4 x1.5 +128MiB; pair time historical q8 x5 x4 +20s",
+    "historical_cap_note": "R2 384MiB temporary estimate applied to q<=8; new q16 expected larger at same chunks, explicitly checked against free VRAM"
+  },
+  "original_gates": {
+    "N02_G2": "FAIL_UNCHANGED",
+    "N02_G3_Numerics": "FAIL_UNCHANGED",
+    "N03_G0": "FAIL_UNCHANGED"
+  },
+  "NOT_RERUN": [
+    "420nm full-domain edge",
+    "660nm full-domain edge",
+    "425nm localization",
+    "blue wavelength angle gates",
+    "ASM or FFT propagation"
+  ]
+}

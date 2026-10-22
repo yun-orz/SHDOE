@@ -1,0 +1,5 @@
+
+  File "<string>", line 1
+    import os;from pathlib import Path;assert os.environ.get('SH_SOURCE_GUARD')=='1';n=0;exec('for p in [\
+                                                                                              ^
+SyntaxError: unterminated string literal (detected at line 1)

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "D:\\dev\\python\\python3.10.4\\python.exe",
+    "-B",
+    "E:\\SH\\provenance\\tools\\verify_r06_2_update.py"
+  ],
+  "cwd": "E:\\SH",
+  "returncode": 0,
+  "seconds": 7.4838175773620605,
+  "source_guard": false
+}

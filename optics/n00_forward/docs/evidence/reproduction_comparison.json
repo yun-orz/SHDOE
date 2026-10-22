@@ -1,0 +1,7 @@
+{
+  "canonical_vs_verified_psf_max_abs_error": 0.0,
+  "height_equal": true,
+  "wavelength_equal": true,
+  "canonical_source_commit": "329540a9ebf2e4d84326a8e60a84d0856c09ad34",
+  "verified_source_commit": "49899b8ea54bc46aa2ff643ea4c1185a53c795c9"
+}

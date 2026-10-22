@@ -1,0 +1,57 @@
+{
+  "H0": {
+    "passed": true,
+    "definition": "48观测指纹一致且A的144行历史回归通过"
+  },
+  "H1": {
+    "passed": true,
+    "definition": "仅maxfev55→150；真值隔离；同一只读y"
+  },
+  "H2": {
+    "passed": true,
+    "passed_cases": 24,
+    "total": 24,
+    "threshold": 0.005
+  },
+  "H3": {
+    "passed": true,
+    "passed_cases": 24,
+    "total": 24,
+    "threshold": 0.02
+  },
+  "H4": {
+    "passed": true,
+    "fractions": {
+      "noiseless": 1.0,
+      "Q40": 1.0
+    },
+    "NRMSE_threshold": 0.01,
+    "fraction_threshold": 0.8
+  },
+  "H5": {
+    "passed": false,
+    "accepted": 8,
+    "total": 48,
+    "definition": "选中缓存点与成功Powell返回终点逐位相同，且NNLS有限非负/KKT合格"
+  },
+  "H6": {
+    "passed": true,
+    "unchanged": true,
+    "complete": true,
+    "boundary_cases": [],
+    "OF_invariant": true
+  },
+  "violations_clean": [],
+  "violations_Q40": [],
+  "full": {
+    "status": "NOT_RUN",
+    "observations": 0,
+    "planned": 504
+  },
+  "upstream": {
+    "N03_G0": "FAIL",
+    "N02_G2": "FAIL",
+    "N02_G3_Numerics": "FAIL"
+  },
+  "decision": "EXP3R_PILOT_FAIL"
+}

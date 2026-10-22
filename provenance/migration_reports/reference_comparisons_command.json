@@ -1,0 +1,11 @@
+{
+  "command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "E:\\SH\\provenance\\tools\\compare_references.py"
+  ],
+  "cwd": "E:\\SH",
+  "returncode": 0,
+  "seconds": 6.540448904037476,
+  "source_guard": true
+}

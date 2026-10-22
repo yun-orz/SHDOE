@@ -1,0 +1,45 @@
+{
+  "notice": "EXPLORATORY / N03 G0 FAIL / N02 G2+G3_Numerics FAIL",
+  "validation_command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "E:\\SH\\integration\\single_spiral_to_hsi\\n03_exp3r\\validate_results.py",
+    "E:\\SH\\reports\\N03\\EXP3R_BUDGET_AB_20261021_01"
+  ],
+  "independent_validator": {
+    "failures": [],
+    "rows": 288,
+    "artifact_hash_mismatches": [],
+    "input_hash_mismatches": [],
+    "source_hash_mismatches": [],
+    "A_history_regression": true,
+    "OF_invariant": true,
+    "summary_recomputed": true,
+    "gates_recomputed": true,
+    "passed": true
+  },
+  "independent_SAM_max_abs_delta_deg": 1.2074182697257333e-06,
+  "SAM_tolerance_deg": 2e-06,
+  "energy_bias_max_abs_delta": 2.220446049250313e-16,
+  "objective_max_abs_delta": 0.0,
+  "contract_source_hash_mismatches": [],
+  "selection_provenance": {
+    "A": {
+      "seen_in_converged_start_not_returned_endpoint": 11,
+      "seen_only_in_nonconverged_starts": 37
+    },
+    "B": {
+      "seen_in_converged_start_not_returned_endpoint": 28,
+      "seen_only_in_nonconverged_starts": 12,
+      "certified_returned_endpoint": 8
+    }
+  },
+  "visual_QA": {
+    "inspected": 4,
+    "passed": true,
+    "note": "四图均标注上游FAIL；局部目标图内以文字列出不在局部视窗内的两个初值，GT仅后验标记。"
+  },
+  "full_observations": 0,
+  "B_retries": 0,
+  "passed": true
+}

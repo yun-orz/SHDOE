@@ -1,0 +1,11 @@
+{
+  "command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "6_evaluate_metrics.py"
+  ],
+  "cwd": "E:\\SH\\framework\\DeepLensHSI",
+  "returncode": 0,
+  "seconds": 13.934391736984253,
+  "source_guard": true
+}

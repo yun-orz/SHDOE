@@ -1,0 +1,11 @@
+{
+  "experiments/n02_1c_r2/r2_analysis.py": "d5ce9517a2914416e14bf1d3331454be32efb5107d967e9831d5805518303af4",
+  "experiments/n02_1c_r2/r2_common.py": "bc71dafc7d8ff7c396526698a06c21cdf8a90f9e0e2bc38e2940c41e4857e2b5",
+  "experiments/n02_1c_r2/r2_experiments.py": "9cd386f798c29f59cc1d41022731f259614b852ac721a6172e7d3ce44596d8b9",
+  "experiments/n02_1c_r2/r2_prepare.py": "c0277ad77a40bd07e44e5e6e00e58eb3ecb3851da2bb14d4cc8817c3b70ee45c",
+  "experiments/n02_1c_r2/r2_report.py": "03856125c49ae0664c2e52c1aa1485578431991007f2cc1ae53e3613c8b87e2c",
+  "experiments/n02_1c_r2/r2_run.py": "c397d5105279b9e4ddb8c7ea88d752eb5bc4bebdd733d575f8c40966e20af095",
+  "experiments/n02_1c_r2/r2_solver.py": "ed4ac9d53702ca4f2c405a53676d9bc0ccda4411242f0b1b664819f28c21d80d",
+  "experiments/n02_1c_r2/r2_verify.py": "626139aefc9d96cfcc63a2c21f1ece81a5406a608ae835ec86e64a0da273ce89",
+  "configs/n02_1c_r2/protocol_v1.json": "9695082bb5bd0d1567e6a65f8628206999a1d445c532f232e4817709bbd3d263"
+}

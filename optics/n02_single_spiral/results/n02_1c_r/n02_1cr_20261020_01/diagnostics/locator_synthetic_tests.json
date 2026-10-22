@@ -1,0 +1,1782 @@
+{
+  "seed": 20261020,
+  "rows": [
+    {
+      "locator": "frozen3",
+      "width": 3,
+      "x_um": 0.36999999999999933,
+      "y_um": -0.28,
+      "fit_valid": true,
+      "gradient": [
+        0.01479999999999998,
+        -0.1944444444444444
+      ],
+      "coefficients": [
+        -0.029960222222222253,
+        0.01479999999999998,
+        -0.1944444444444444,
+        -0.020000000000000018,
+        -2.5001072293332205e-17,
+        -0.3472222222222221
+      ],
+      "hessian": [
+        [
+          -0.040000000000000036,
+          -2.5001072293332205e-17
+        ],
+        [
+          -2.5001072293332205e-17,
+          -0.6944444444444442
+        ]
+      ],
+      "hessian_eigenvalues": [
+        -0.6944444444444442,
+        -0.040000000000000036
+      ],
+      "hessian_condition": 17.36111111111109,
+      "unconstrained_offset_pixels": [
+        0.36999999999999933,
+        -0.28
+      ],
+      "fitted_offset_pixels": [
+        0.36999999999999933,
+        -0.28
+      ],
+      "rmse_log": 7.857273975649128e-17,
+      "stationarity_residual": 0.0,
+      "clipped_log_samples": 0,
+      "pixel_row": 24,
+      "pixel_col": 24,
+      "pixel_x_um": 0.0,
+      "pixel_y_um": 0.0,
+      "failure_reason": "",
+      "local_raw_matrix": [
+        [
+          0.8044970334517024,
+          0.8329863695786591,
+          0.8286660829371595
+        ],
+        [
+          0.9372921782711422,
+          0.9704841364830514,
+          0.9654507172054277
+        ],
+        [
+          0.5452957947505351,
+          0.564606139648403,
+          0.5616778079830655
+        ]
+      ],
+      "case": "elongated_0",
+      "true_peak_x_um": 0.37000011767912344,
+      "true_peak_y_um": -0.2800000098377727,
+      "position_error_um": 1.1808961860602547e-07,
+      "noise": false
+    },
+    {
+      "locator": "centroid7",
+      "x_um": 0.05851247424868894,
+      "y_um": -0.2854347609327981,
+      "fit_valid": true,
+      "background": "局部最小强度扣除后截零，非峰值无偏估计",
+      "shape_covariance_um2": [
+        [
+          3.7500054603030084,
+          0.0008032255132077989
+        ],
+        [
+          0.0008032255132077989,
+          1.2569495096096486
+        ]
+      ],
+      "shape_eigenvalues_um2": [
+        1.2569492508223727,
+        3.750005719090284
+      ],
+      "case": "elongated_0",
+      "true_peak_x_um": 0.37000011767912344,
+      "true_peak_y_um": -0.2800000098377727,
+      "position_error_um": 0.3115350518469958,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log5",
+      "x_um": 0.3700000000000003,
+      "y_um": -0.2800000000000001,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.3700000000000003,
+        -0.2800000000000001
+      ],
+      "boundary_active": false,
+      "rmse_log": 1.0574701291099616e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 3.885780586188048e-16,
+      "all_initial_solution_offsets": [
+        [
+          0.37000000000000055,
+          -0.2800000000000002
+        ],
+        [
+          0.3700000000000003,
+          -0.2800000000000001
+        ],
+        [
+          0.37000000000000016,
+          -0.27999999999999997
+        ],
+        [
+          0.3700000000000004,
+          -0.2800000000000001
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "elongated_0",
+      "true_peak_x_um": 0.37000011767912344,
+      "true_peak_y_um": -0.2800000098377727,
+      "position_error_um": 1.1808961766099178e-07,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log7",
+      "x_um": 0.36999999999999994,
+      "y_um": -0.2800000000000002,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.36999999999999994,
+        -0.2800000000000002
+      ],
+      "boundary_active": false,
+      "rmse_log": 3.098224017335892e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 2.7755575615628914e-16,
+      "all_initial_solution_offsets": [
+        [
+          0.36999999999999994,
+          -0.28000000000000036
+        ],
+        [
+          0.36999999999999966,
+          -0.2800000000000004
+        ],
+        [
+          0.36999999999999994,
+          -0.2800000000000002
+        ],
+        [
+          0.36999999999999994,
+          -0.28000000000000014
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "elongated_0",
+      "true_peak_x_um": 0.37000011767912344,
+      "true_peak_y_um": -0.2800000098377727,
+      "position_error_um": 1.1808961798365189e-07,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order1",
+      "x_um": 4.668965921749293e-17,
+      "y_um": -4.440892098500626e-16,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        4.668965921749293e-17,
+        -4.440892098500626e-16
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 7.836733027176349e-11,
+      "interpolation_order": 1,
+      "interpolation_energy_before": 36.34471883052166,
+      "interpolation_energy_after": 36.30968380714848,
+      "interpolation_energy_relative_change": -0.0009639646281636161,
+      "interpolated_min": 6.244818546963973e-18,
+      "interpolated_negative_fraction": 0.0,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "elongated_0",
+      "true_peak_x_um": 0.37000011767912344,
+      "true_peak_y_um": -0.2800000098377727,
+      "position_error_um": 0.4640044100994275,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order3",
+      "x_um": 0.3693705382156009,
+      "y_um": -0.25375708085395204,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        0.3693705382156009,
+        -0.25375708085395204
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 0.0,
+      "interpolation_order": 3,
+      "interpolation_energy_before": 36.34471883052166,
+      "interpolation_energy_after": 36.3335929394742,
+      "interpolation_energy_relative_change": -0.0003061212579285044,
+      "interpolated_min": -1.0195058333271631e-06,
+      "interpolated_negative_fraction": 0.19047619047619047,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "elongated_0",
+      "true_peak_x_um": 0.37000011767912344,
+      "true_peak_y_um": -0.2800000098377727,
+      "position_error_um": 0.02625047984229512,
+      "noise": false
+    },
+    {
+      "locator": "frozen3",
+      "width": 3,
+      "x_um": 0.37000000000000255,
+      "y_um": -0.27999999999999886,
+      "fit_valid": true,
+      "gradient": [
+        -0.04892782800437237,
+        0.029897803656828564
+      ],
+      "coefficients": [
+        -0.011226573309421265,
+        -0.04892782800437237,
+        0.029897803656828564,
+        -0.10180555555555565,
+        0.28338275712724126,
+        -0.26541666666666663
+      ],
+      "hessian": [
+        [
+          -0.2036111111111113,
+          0.28338275712724126
+        ],
+        [
+          0.28338275712724126,
+          -0.5308333333333333
+        ]
+      ],
+      "hessian_eigenvalues": [
+        -0.6944444444444444,
+        -0.040000000000000174
+      ],
+      "hessian_condition": 17.361111111110997,
+      "unconstrained_offset_pixels": [
+        -0.6299999999999975,
+        -0.27999999999999886
+      ],
+      "fitted_offset_pixels": [
+        -0.6299999999999975,
+        -0.27999999999999886
+      ],
+      "rmse_log": 1.0762122789361211e-16,
+      "stationarity_residual": 3.469446951953614e-18,
+      "clipped_log_samples": 0,
+      "pixel_row": 24,
+      "pixel_col": 25,
+      "pixel_x_um": 1.0,
+      "pixel_y_um": 0.0,
+      "failure_reason": "",
+      "local_raw_matrix": [
+        [
+          0.9267828287488606,
+          0.7359883099254125,
+          0.47680046674495097
+        ],
+        [
+          0.937907169903973,
+          0.9888362094998067,
+          0.8504752595503273
+        ],
+        [
+          0.5582178832741221,
+          0.7813395688936462,
+          0.8921722472444903
+        ]
+      ],
+      "case": "elongated_30",
+      "true_peak_x_um": 0.37001003017670514,
+      "true_peak_y_um": -0.2799971234332155,
+      "position_error_um": 1.0434513939061361e-05,
+      "noise": false
+    },
+    {
+      "locator": "centroid7",
+      "x_um": 0.8737005700507967,
+      "y_um": -0.011069044105222177,
+      "fit_valid": true,
+      "background": "局部最小强度扣除后截零，非峰值无偏估计",
+      "shape_covariance_um2": [
+        [
+          3.5888692447427504,
+          1.6906089084055276
+        ],
+        [
+          1.6906089084055276,
+          2.3788759172126017
+        ]
+      ],
+      "shape_eigenvalues_um2": [
+        1.1882725574905413,
+        4.779472604464811
+      ],
+      "case": "elongated_30",
+      "true_peak_x_um": 0.37001003017670514,
+      "true_peak_y_um": -0.2799971234332155,
+      "position_error_um": 0.5709872781504832,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log5",
+      "x_um": 0.37000000000000155,
+      "y_um": -0.27999999999999925,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        -0.6299999999999985,
+        -0.27999999999999925
+      ],
+      "boundary_active": false,
+      "rmse_log": 2.5105590352670536e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 3.432143458326209e-12,
+      "all_initial_solution_offsets": [
+        [
+          -0.6299999999999985,
+          -0.27999999999999925
+        ],
+        [
+          -0.6300000000000006,
+          -0.2800000000000006
+        ],
+        [
+          -0.6299999999965684,
+          -0.27999999999805547
+        ],
+        [
+          -0.6299999999999519,
+          -0.2799999999999732
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "elongated_30",
+      "true_peak_x_um": 0.37001003017670514,
+      "true_peak_y_um": -0.2799971234332155,
+      "position_error_um": 1.0434513940128965e-05,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log7",
+      "x_um": 0.369999999999998,
+      "y_um": -0.2800000000000014,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        -0.630000000000002,
+        -0.2800000000000014
+      ],
+      "boundary_active": false,
+      "rmse_log": 3.94988667397513e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 2.609024107869118e-14,
+      "all_initial_solution_offsets": [
+        [
+          -0.6300000000000001,
+          -0.2800000000000004
+        ],
+        [
+          -0.6299999999999759,
+          -0.27999999999998637
+        ],
+        [
+          -0.6300000000000004,
+          -0.28000000000000064
+        ],
+        [
+          -0.630000000000002,
+          -0.2800000000000014
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "elongated_30",
+      "true_peak_x_um": 0.37001003017670514,
+      "true_peak_y_um": -0.2799971234332155,
+      "position_error_um": 1.0434513944140837e-05,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order1",
+      "x_um": 1.0,
+      "y_um": -4.440892098500626e-16,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        4.5924254968025835e-17,
+        -4.440892098500626e-16
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 1.1491854115675324e-11,
+      "interpolation_order": 1,
+      "interpolation_energy_before": 37.05112237049889,
+      "interpolation_energy_after": 37.02370871849669,
+      "interpolation_energy_relative_change": -0.0007398872219865904,
+      "interpolated_min": 7.594774713797111e-30,
+      "interpolated_negative_fraction": 0.0,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "elongated_30",
+      "true_peak_x_um": 0.37001003017670514,
+      "true_peak_y_um": -0.2799971234332155,
+      "position_error_um": 0.6894097121515124,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order3",
+      "x_um": 0.4958400271826977,
+      "y_um": -0.19440854693249138,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        -0.5041599728173023,
+        -0.19440854693249138
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 0.0,
+      "interpolation_order": 3,
+      "interpolation_energy_before": 37.05112237049889,
+      "interpolation_energy_after": 37.042444559773294,
+      "interpolation_energy_relative_change": -0.00023421181789906598,
+      "interpolated_min": -3.563693547593687e-08,
+      "interpolated_negative_fraction": 0.1333560090702948,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "elongated_30",
+      "true_peak_x_um": 0.37001003017670514,
+      "true_peak_y_um": -0.2799971234332155,
+      "position_error_um": 0.1521794748773579,
+      "noise": false
+    },
+    {
+      "locator": "frozen3",
+      "width": 3,
+      "x_um": 0.370000000000002,
+      "y_um": -0.27999999999999603,
+      "fit_valid": true,
+      "gradient": [
+        -0.007627251798280499,
+        0.04174837986292075
+      ],
+      "coefficients": [
+        -0.013618375167969588,
+        -0.007627251798280499,
+        0.04174837986292075,
+        -0.2654166666666668,
+        0.2833827571272415,
+        -0.10180555555555545
+      ],
+      "hessian": [
+        [
+          -0.5308333333333336,
+          0.2833827571272415
+        ],
+        [
+          0.2833827571272415,
+          -0.2036111111111109
+        ]
+      ],
+      "hessian_eigenvalues": [
+        -0.6944444444444446,
+        -0.039999999999999786
+      ],
+      "hessian_condition": 17.361111111111196,
+      "unconstrained_offset_pixels": [
+        0.370000000000002,
+        0.720000000000004
+      ],
+      "fitted_offset_pixels": [
+        0.370000000000002,
+        0.720000000000004
+      ],
+      "rmse_log": 1.0890754306760526e-16,
+      "stationarity_residual": 1.3985787785349405e-17,
+      "clipped_log_samples": 0,
+      "pixel_row": 23,
+      "pixel_col": 24,
+      "pixel_x_um": 0.0,
+      "pixel_y_um": -1.0,
+      "failure_reason": "",
+      "local_raw_matrix": [
+        [
+          0.8767100400784973,
+          0.8545567969478264,
+          0.48987795703340564
+        ],
+        [
+          0.7623055723964359,
+          0.9864739353880887,
+          0.7507652242275614
+        ],
+        [
+          0.5407232288292558,
+          0.9289730494577767,
+          0.9386273731884521
+        ]
+      ],
+      "case": "elongated_60",
+      "true_peak_x_um": 0.3700105664904144,
+      "true_peak_y_um": -0.2799839169984849,
+      "position_error_um": 1.9243535466297616e-05,
+      "noise": false
+    },
+    {
+      "locator": "centroid7",
+      "x_um": 0.0524028690279505,
+      "y_um": -0.8619015954449224,
+      "fit_valid": true,
+      "background": "局部最小强度扣除后截零，非峰值无偏估计",
+      "shape_covariance_um2": [
+        [
+          2.377312981958835,
+          1.6906774228655281
+        ],
+        [
+          1.6906774228655281,
+          3.586993641161809
+        ]
+      ],
+      "shape_eigenvalues_um2": [
+        1.186541445788752,
+        4.777765177331892
+      ],
+      "case": "elongated_60",
+      "true_peak_x_um": 0.3700105664904144,
+      "true_peak_y_um": -0.2799839169984849,
+      "position_error_um": 0.6629500991597327,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log5",
+      "x_um": 0.3700000000000004,
+      "y_um": -0.27999999999999936,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.3700000000000004,
+        0.7200000000000006
+      ],
+      "boundary_active": false,
+      "rmse_log": 1.7520123131314964e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 6.661338147750939e-16,
+      "all_initial_solution_offsets": [
+        [
+          0.3700000000000001,
+          0.7200000000000003
+        ],
+        [
+          0.37,
+          0.72
+        ],
+        [
+          0.3700000000000004,
+          0.7200000000000006
+        ],
+        [
+          0.3700000000000002,
+          0.7200000000000001
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "elongated_60",
+      "true_peak_x_um": 0.3700105664904144,
+      "true_peak_y_um": -0.2799839169984849,
+      "position_error_um": 1.9243535469965205e-05,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log7",
+      "x_um": 0.37000000000000016,
+      "y_um": -0.2799999999999998,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.37000000000000016,
+        0.7200000000000002
+      ],
+      "boundary_active": false,
+      "rmse_log": 4.0977386678087237e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 1.7319479184152442e-14,
+      "all_initial_solution_offsets": [
+        [
+          0.3699999999999998,
+          0.7199999999999998
+        ],
+        [
+          0.37000000000000016,
+          0.7200000000000002
+        ],
+        [
+          0.3700000000000002,
+          0.7200000000000001
+        ],
+        [
+          0.3699999999999905,
+          0.7199999999999829
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "elongated_60",
+      "true_peak_x_um": 0.3700105664904144,
+      "true_peak_y_um": -0.2799839169984849,
+      "position_error_um": 1.924353547045828e-05,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order1",
+      "x_um": 4.5924254968025835e-17,
+      "y_um": -1.0000000000000004,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        4.5924254968025835e-17,
+        -4.440892098500626e-16
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 1.45240098768982e-11,
+      "interpolation_order": 1,
+      "interpolation_energy_before": 37.03822287487567,
+      "interpolation_energy_after": 37.01057806020735,
+      "interpolation_energy_relative_change": -0.0007463860985369442,
+      "interpolated_min": 1.0171720337962277e-29,
+      "interpolated_negative_fraction": 0.0,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "elongated_60",
+      "true_peak_x_um": 0.3700105664904144,
+      "true_peak_y_um": -0.2799839169984849,
+      "position_error_um": 0.8095251565550033,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order3",
+      "x_um": 0.2992324515364828,
+      "y_um": -0.381855460979897,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        0.2992324515364828,
+        0.618144539020103
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 0.0,
+      "interpolation_order": 3,
+      "interpolation_energy_before": 37.03822287487567,
+      "interpolation_energy_after": 37.02947123350572,
+      "interpolation_energy_relative_change": -0.00023628675164899526,
+      "interpolated_min": -3.5789872346645094e-08,
+      "interpolated_negative_fraction": 0.1334467120181406,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "elongated_60",
+      "true_peak_x_um": 0.3700105664904144,
+      "true_peak_y_um": -0.2799839169984849,
+      "position_error_um": 0.1240457698980047,
+      "noise": false
+    },
+    {
+      "locator": "frozen3",
+      "width": 3,
+      "x_um": 0.3700000000000002,
+      "y_um": -0.28000000000000647,
+      "fit_valid": true,
+      "gradient": [
+        0.2569444444444446,
+        -0.011200000000000043
+      ],
+      "coefficients": [
+        -0.04910272222222241,
+        0.2569444444444446,
+        -0.011200000000000043,
+        -0.34722222222222227,
+        -1.1016056221637697e-16,
+        -0.019999999999999685
+      ],
+      "hessian": [
+        [
+          -0.6944444444444445,
+          -1.1016056221637697e-16
+        ],
+        [
+          -1.1016056221637697e-16,
+          -0.03999999999999937
+        ]
+      ],
+      "hessian_eigenvalues": [
+        -0.6944444444444445,
+        -0.03999999999999937
+      ],
+      "hessian_condition": 17.361111111111388,
+      "unconstrained_offset_pixels": [
+        0.3700000000000002,
+        -0.28000000000000647
+      ],
+      "fitted_offset_pixels": [
+        0.3700000000000002,
+        -0.28000000000000647
+      ],
+      "rmse_log": 1.772552033665509e-16,
+      "stationarity_residual": 1.734723475976807e-18,
+      "clipped_log_samples": 0,
+      "pixel_row": 24,
+      "pixel_col": 24,
+      "pixel_x_um": 0.0,
+      "pixel_y_um": 0.0,
+      "failure_reason": "",
+      "local_raw_matrix": [
+        [
+          0.5157828739943306,
+          0.9437417480716938,
+          0.8622754601740639
+        ],
+        [
+          0.5203417931094003,
+          0.9520833245603707,
+          0.8698969696813498
+        ],
+        [
+          0.5043577764270294,
+          0.9228369408481545,
+          0.8431752112920381
+        ]
+      ],
+      "case": "elongated_90",
+      "true_peak_x_um": 0.3700000086961895,
+      "true_peak_y_um": -0.27999985859806026,
+      "position_error_um": 1.4166910072098707e-07,
+      "noise": false
+    },
+    {
+      "locator": "centroid7",
+      "x_um": 0.37334110739255194,
+      "y_um": -0.04388772045024415,
+      "fit_valid": true,
+      "background": "局部最小强度扣除后截零，非峰值无偏估计",
+      "shape_covariance_um2": [
+        [
+          1.2742039120174338,
+          0.000647608833857042
+        ],
+        [
+          0.000647608833857042,
+          3.7531384475271374
+        ]
+      ],
+      "shape_eigenvalues_um2": [
+        1.2742037428329847,
+        3.7531386167115866
+      ],
+      "case": "elongated_90",
+      "true_peak_x_um": 0.3700000086961895,
+      "true_peak_y_um": -0.27999985859806026,
+      "position_error_um": 0.236135776029877,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log5",
+      "x_um": 0.37000000000000005,
+      "y_um": -0.2799999999999996,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.37000000000000005,
+        -0.2799999999999996
+      ],
+      "boundary_active": false,
+      "rmse_log": 2.1731481349949298e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 6.661338147750939e-16,
+      "all_initial_solution_offsets": [
+        [
+          0.37000000000000005,
+          -0.2799999999999999
+        ],
+        [
+          0.37000000000000005,
+          -0.2799999999999996
+        ],
+        [
+          0.3700000000000001,
+          -0.28000000000000025
+        ],
+        [
+          0.37000000000000005,
+          -0.2800000000000001
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "elongated_90",
+      "true_peak_x_um": 0.3700000086961895,
+      "true_peak_y_um": -0.27999985859806026,
+      "position_error_um": 1.416690938608072e-07,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log7",
+      "x_um": 0.37,
+      "y_um": -0.2800000000000003,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.37,
+        -0.2800000000000003
+      ],
+      "boundary_active": false,
+      "rmse_log": 2.260835855985786e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 8.38606961650612e-13,
+      "all_initial_solution_offsets": [
+        [
+          0.37,
+          -0.2800000000000003
+        ],
+        [
+          0.36999999999999994,
+          -0.2800000000000004
+        ],
+        [
+          0.37000000000000005,
+          -0.2799999999999996
+        ],
+        [
+          0.36999999999999883,
+          -0.2799999999991618
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "elongated_90",
+      "true_peak_x_um": 0.3700000086961895,
+      "true_peak_y_um": -0.27999985859806026,
+      "position_error_um": 1.416690945844988e-07,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order1",
+      "x_um": 4.668965921749293e-17,
+      "y_um": -4.440892098500626e-16,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        4.668965921749293e-17,
+        -4.440892098500626e-16
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 4.145010853672403e-11,
+      "interpolation_order": 1,
+      "interpolation_energy_before": 36.352855968299934,
+      "interpolation_energy_after": 36.317877454698625,
+      "interpolation_energy_relative_change": -0.0009621943770198316,
+      "interpolated_min": 3.4035868884468777e-18,
+      "interpolated_negative_fraction": 0.0,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "elongated_90",
+      "true_peak_x_um": 0.3700000086961895,
+      "true_peak_y_um": -0.27999985859806026,
+      "position_error_um": 0.46400423193125484,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order3",
+      "x_um": 0.3506029462613001,
+      "y_um": -0.279082104601875,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        0.3506029462613001,
+        -0.279082104601875
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 0.0,
+      "interpolation_order": 3,
+      "interpolation_energy_before": 36.352855968299934,
+      "interpolation_energy_after": 36.341747971255195,
+      "interpolation_energy_relative_change": -0.00030556050546415303,
+      "interpolated_min": -8.826669863277289e-07,
+      "interpolated_negative_fraction": 0.19047619047619047,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "elongated_90",
+      "true_peak_x_um": 0.3700000086961895,
+      "true_peak_y_um": -0.27999985859806026,
+      "position_error_um": 0.01941876163663662,
+      "noise": false
+    },
+    {
+      "locator": "frozen3",
+      "width": 3,
+      "x_um": 0.37,
+      "y_um": -0.2800000000000003,
+      "fit_valid": true,
+      "gradient": [
+        0.05920000000000003,
+        -0.044800000000000034
+      ],
+      "coefficients": [
+        -0.017223999999999955,
+        0.05920000000000003,
+        -0.044800000000000034,
+        -0.08000000000000004,
+        1.1196145808742381e-17,
+        -0.07999999999999996
+      ],
+      "hessian": [
+        [
+          -0.1600000000000001,
+          1.1196145808742381e-17
+        ],
+        [
+          1.1196145808742381e-17,
+          -0.15999999999999992
+        ]
+      ],
+      "hessian_eigenvalues": [
+        -0.1600000000000001,
+        -0.15999999999999992
+      ],
+      "hessian_condition": 1.000000000000001,
+      "unconstrained_offset_pixels": [
+        0.37,
+        -0.2800000000000003
+      ],
+      "fitted_offset_pixels": [
+        0.37,
+        -0.2800000000000003
+      ],
+      "rmse_log": 7.034607306733603e-17,
+      "stationarity_residual": 6.938893903907228e-18,
+      "clipped_log_samples": 0,
+      "pixel_row": 24,
+      "pixel_col": 24,
+      "pixel_x_um": 0.0,
+      "pixel_y_um": 0.0,
+      "failure_reason": "",
+      "local_raw_matrix": [
+        [
+          0.8256172422208398,
+          0.9489264367245622,
+          0.9293926227599513
+        ],
+        [
+          0.8551965101679376,
+          0.9829234851128186,
+          0.9626898360578773
+        ],
+        [
+          0.754859228073797,
+          0.8676004338256313,
+          0.8497407296229915
+        ]
+      ],
+      "case": "symmetric",
+      "true_peak_x_um": 0.3699998783531618,
+      "true_peak_y_um": -0.279999926132568,
+      "position_error_um": 1.4231778103710009e-07,
+      "noise": false
+    },
+    {
+      "locator": "centroid7",
+      "x_um": 0.26407244760390874,
+      "y_um": -0.19998844677081254,
+      "fit_valid": true,
+      "background": "局部最小强度扣除后截零，非峰值无偏估计",
+      "shape_covariance_um2": [
+        [
+          2.683942405888532,
+          0.016008821021992095
+        ],
+        [
+          0.016008821021992095,
+          2.7029640003366295
+        ]
+      ],
+      "shape_eigenvalues_um2": [
+        2.6748323112340713,
+        2.7120740949910904
+      ],
+      "case": "symmetric",
+      "true_peak_x_um": 0.3699998783531618,
+      "true_peak_y_um": -0.279999926132568,
+      "position_error_um": 0.13274960419825899,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log5",
+      "x_um": 0.37000000000000005,
+      "y_um": -0.2800000000000001,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.37000000000000005,
+        -0.2800000000000001
+      ],
+      "boundary_active": false,
+      "rmse_log": 1.0480256901832324e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 5.723199691942682e-14,
+      "all_initial_solution_offsets": [
+        [
+          0.3700000000000002,
+          -0.2800000000000001
+        ],
+        [
+          0.36999999999999866,
+          -0.27999999999994285
+        ],
+        [
+          0.3700000000000001,
+          -0.27999999999999997
+        ],
+        [
+          0.37000000000000005,
+          -0.2800000000000001
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "symmetric",
+      "true_peak_x_um": 0.3699998783531618,
+      "true_peak_y_um": -0.279999926132568,
+      "position_error_um": 1.4231778096930034e-07,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log7",
+      "x_um": 0.3700000000000001,
+      "y_um": -0.2800000000000004,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.3700000000000001,
+        -0.2800000000000004
+      ],
+      "boundary_active": false,
+      "rmse_log": 1.2694940841182692e-16,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 2.4980018054066022e-15,
+      "all_initial_solution_offsets": [
+        [
+          0.3700000000000001,
+          -0.2800000000000004
+        ],
+        [
+          0.37000000000000005,
+          -0.2800000000000004
+        ],
+        [
+          0.3699999999999977,
+          -0.2800000000000004
+        ],
+        [
+          0.3700000000000002,
+          -0.2800000000000003
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "symmetric",
+      "true_peak_x_um": 0.3699998783531618,
+      "true_peak_y_um": -0.279999926132568,
+      "position_error_um": 1.4231778118962105e-07,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order1",
+      "x_um": 4.668965921749293e-17,
+      "y_um": -4.440892098500626e-16,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        4.668965921749293e-17,
+        -4.440892098500626e-16
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 4.481065996584282e-11,
+      "interpolation_order": 1,
+      "interpolation_energy_before": 39.26774329896588,
+      "interpolation_energy_after": 39.26678172408276,
+      "interpolation_energy_relative_change": -2.4487653283222777e-05,
+      "interpolated_min": 1.5498844080704093e-08,
+      "interpolated_negative_fraction": 0.0,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "symmetric",
+      "true_peak_x_um": 0.3699998783531618,
+      "true_peak_y_um": -0.279999926132568,
+      "position_error_um": 0.4640041687480812,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order3",
+      "x_um": 0.36717620286731234,
+      "y_um": -0.2759316969587798,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        0.36717620286731234,
+        -0.2759316969587798
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 0.0,
+      "interpolation_order": 3,
+      "interpolation_energy_before": 39.26774329896588,
+      "interpolation_energy_after": 39.2674908581965,
+      "interpolation_energy_relative_change": -6.4287058071377245e-06,
+      "interpolated_min": 8.43052774694508e-09,
+      "interpolated_negative_fraction": 0.0,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "symmetric",
+      "true_peak_x_um": 0.3699998783531618,
+      "true_peak_y_um": -0.279999926132568,
+      "position_error_um": 0.004952134071271579,
+      "noise": false
+    },
+    {
+      "locator": "frozen3",
+      "width": 3,
+      "x_um": 1.1456110579586831,
+      "y_um": 0.26333614435463265,
+      "fit_valid": true,
+      "gradient": [
+        -0.010105922555773833,
+        0.05596680783235745
+      ],
+      "coefficients": [
+        0.320420499443286,
+        -0.010105922555773833,
+        0.05596680783235745,
+        -0.09381988999282401,
+        0.14213145531672292,
+        -0.14556057163765507
+      ],
+      "hessian": [
+        [
+          -0.18763977998564801,
+          0.14213145531672292
+        ],
+        [
+          0.14213145531672292,
+          -0.29112114327531013
+        ]
+      ],
+      "hessian_eigenvalues": [
+        -0.3906366969648327,
+        -0.08812422629612546
+      ],
+      "hessian_condition": 4.432795763246409,
+      "unconstrained_offset_pixels": [
+        0.14561105795868307,
+        0.26333614435463265
+      ],
+      "fitted_offset_pixels": [
+        0.14561105795868307,
+        0.26333614435463265
+      ],
+      "rmse_log": 0.0002802397054383603,
+      "stationarity_residual": 7.152448122690996e-18,
+      "clipped_log_samples": 0,
+      "pixel_row": 24,
+      "pixel_col": 25,
+      "pixel_x_um": 1.0,
+      "pixel_y_um": 0.0,
+      "failure_reason": "",
+      "local_raw_matrix": [
+        [
+          1.1935940504339637,
+          1.126706739713676,
+          0.8805325589328832
+        ],
+        [
+          1.267430654310104,
+          1.377685485192463,
+          1.241381742227038
+        ],
+        [
+          1.0050504532215052,
+          1.259149459129911,
+          1.3091344895750665
+        ]
+      ],
+      "case": "asymmetric_shoulder",
+      "true_peak_x_um": 1.1400559468989988,
+      "true_peak_y_um": 0.25919897090514465,
+      "position_error_um": 0.006926432201110135,
+      "noise": false
+    },
+    {
+      "locator": "centroid7",
+      "x_um": 1.0431473699088913,
+      "y_um": 0.16127331098088143,
+      "fit_valid": true,
+      "background": "局部最小强度扣除后截零，非峰值无偏估计",
+      "shape_covariance_um2": [
+        [
+          3.177308847517167,
+          1.1686180028822337
+        ],
+        [
+          1.1686180028822337,
+          2.6827544268955994
+        ]
+      ],
+      "shape_eigenvalues_um2": [
+        1.7355384160453993,
+        4.1245248583673675
+      ],
+      "case": "asymmetric_shoulder",
+      "true_peak_x_um": 1.1400559468989988,
+      "true_peak_y_um": 0.25919897090514465,
+      "position_error_um": 0.1377704872817471,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log5",
+      "x_um": 1.1589794167085046,
+      "y_um": 0.27306153537050415,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.1589794167085046,
+        0.27306153537050415
+      ],
+      "boundary_active": false,
+      "rmse_log": 0.0017048910117711778,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 2.1321006071772786e-10,
+      "all_initial_solution_offsets": [
+        [
+          0.15897941683905842,
+          0.273061535468269
+        ],
+        [
+          0.15897941672640375,
+          0.27306153537829175
+        ],
+        [
+          0.1589794167085046,
+          0.27306153537050415
+        ],
+        [
+          0.15897941692171466,
+          0.27306153550933787
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "asymmetric_shoulder",
+      "true_peak_x_um": 1.1400559468989988,
+      "true_peak_y_um": 0.25919897090514465,
+      "position_error_um": 0.023457800476334605,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log7",
+      "x_um": 1.1772567310583024,
+      "y_um": 0.28634290986532224,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.17725673105830247,
+        0.28634290986532224
+      ],
+      "boundary_active": false,
+      "rmse_log": 0.004681556608503477,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 3.117995028834031e-10,
+      "all_initial_solution_offsets": [
+        [
+          0.17725673137010198,
+          0.2863429100632337
+        ],
+        [
+          0.17725673118959878,
+          0.2863429099407636
+        ],
+        [
+          0.1772567311560471,
+          0.2863429099221516
+        ],
+        [
+          0.17725673105830247,
+          0.28634290986532224
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "asymmetric_shoulder",
+      "true_peak_x_um": 1.1400559468989988,
+      "true_peak_y_um": 0.25919897090514465,
+      "position_error_um": 0.046050969200885895,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order1",
+      "x_um": 1.0,
+      "y_um": -4.440892098500626e-16,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        4.5924254968025835e-17,
+        -4.440892098500626e-16
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 8.000237197235349e-12,
+      "interpolation_order": 1,
+      "interpolation_energy_before": 46.736757956110225,
+      "interpolation_energy_after": 46.7339676158665,
+      "interpolation_energy_relative_change": -5.970333343074952e-05,
+      "interpolated_min": 6.0622440065555005e-18,
+      "interpolated_negative_fraction": 0.0,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "asymmetric_shoulder",
+      "true_peak_x_um": 1.1400559468989988,
+      "true_peak_y_um": 0.25919897090514465,
+      "position_error_um": 0.29461801502973545,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order3",
+      "x_um": 1.1211756308910137,
+      "y_um": 0.2411765196454438,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        0.12117563089101363,
+        0.2411765196454438
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 0.0,
+      "interpolation_order": 3,
+      "interpolation_energy_before": 46.736757956110225,
+      "interpolation_energy_after": 46.73596767697215,
+      "interpolation_energy_relative_change": -1.6909156146716064e-05,
+      "interpolated_min": -2.014001313910429e-17,
+      "interpolated_negative_fraction": 0.0005668934240362812,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "asymmetric_shoulder",
+      "true_peak_x_um": 1.1400559468989988,
+      "true_peak_y_um": 0.25919897090514465,
+      "position_error_um": 0.02610124675125065,
+      "noise": false
+    },
+    {
+      "locator": "frozen3",
+      "width": 3,
+      "x_um": 0.3700629647625293,
+      "y_um": -0.2800000000000004,
+      "fit_valid": true,
+      "gradient": [
+        0.25696990288072064,
+        -0.19444444444444453
+      ],
+      "coefficients": [
+        -0.07475615482711133,
+        0.25696990288072064,
+        -0.19444444444444453,
+        -0.3471975411611631,
+        -3.821376449694588e-17,
+        -0.3472222222222219
+      ],
+      "hessian": [
+        [
+          -0.6943950823223262,
+          -3.821376449694588e-17
+        ],
+        [
+          -3.821376449694588e-17,
+          -0.6944444444444438
+        ]
+      ],
+      "hessian_eigenvalues": [
+        -0.6944444444444438,
+        -0.6943950823223262
+      ],
+      "hessian_condition": 1.0000710865087818,
+      "unconstrained_offset_pixels": [
+        0.3700629647625293,
+        -0.2800000000000004
+      ],
+      "fitted_offset_pixels": [
+        0.3700629647625293,
+        -0.2800000000000004
+      ],
+      "rmse_log": 2.2911196082997134e-16,
+      "stationarity_residual": 2.7755575615628914e-17,
+      "clipped_log_samples": 0,
+      "pixel_row": 24,
+      "pixel_col": 24,
+      "pixel_x_um": 0.0,
+      "pixel_y_um": 0.0,
+      "failure_reason": "",
+      "local_raw_matrix": [
+        [
+          0.43530803300329646,
+          0.7964953938754393,
+          0.7277762907864541
+        ],
+        [
+          0.5071626090676948,
+          0.9279697396836462,
+          0.8479074459213397
+        ],
+        [
+          0.295055954152347,
+          0.5398722068059965,
+          0.4932937405403383
+        ]
+      ],
+      "case": "competing_double",
+      "true_peak_x_um": 0.3700218451675709,
+      "true_peak_y_um": -0.2800004206088701,
+      "position_error_um": 4.1121746088458506e-05,
+      "noise": false
+    },
+    {
+      "locator": "centroid7",
+      "x_um": 0.3770545864400604,
+      "y_um": -0.27239006412412436,
+      "fit_valid": true,
+      "background": "局部最小强度扣除后截零，非峰值无偏估计",
+      "shape_covariance_um2": [
+        [
+          1.4162050160805617,
+          0.0002574252248575283
+        ],
+        [
+          0.0002574252248575283,
+          1.3858633171756567
+        ]
+      ],
+      "shape_eigenvalues_um2": [
+        1.3858611332842004,
+        1.416207199972018
+      ],
+      "case": "competing_double",
+      "true_peak_x_um": 0.3700218451675709,
+      "true_peak_y_um": -0.2800004206088701,
+      "position_error_um": 0.01036228621640458,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log5",
+      "x_um": 0.3714490619445006,
+      "y_um": -0.2799999999980088,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.3714490619445006,
+        -0.2799999999980088
+      ],
+      "boundary_active": false,
+      "rmse_log": 0.0004786258555186061,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 4.168554390560075e-12,
+      "all_initial_solution_offsets": [
+        [
+          0.3714490619409085,
+          -0.2799999999994232
+        ],
+        [
+          0.3714490619426391,
+          -0.2800000000003501
+        ],
+        [
+          0.37144906194033206,
+          -0.2799999999992265
+        ],
+        [
+          0.3714490619445006,
+          -0.2799999999980088
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "competing_double",
+      "true_peak_x_um": 0.3700218451675709,
+      "true_peak_y_um": -0.2800004206088701,
+      "position_error_um": 0.0014272168389081901,
+      "noise": false
+    },
+    {
+      "locator": "constrained_log7",
+      "x_um": 0.41361405452039374,
+      "y_um": -0.2799999999782066,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        0.41361405452039374,
+        -0.2799999999782066
+      ],
+      "boundary_active": false,
+      "rmse_log": 0.03453631594363231,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 1.529523729892901e-10,
+      "all_initial_solution_offsets": [
+        [
+          0.4136140543692118,
+          -0.27999999996506
+        ],
+        [
+          0.4136140544719166,
+          -0.2799999999714451
+        ],
+        [
+          0.41361405436744136,
+          -0.27999999997961306
+        ],
+        [
+          0.41361405452039374,
+          -0.2799999999782066
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "competing_double",
+      "true_peak_x_um": 0.3700218451675709,
+      "true_peak_y_um": -0.2800004206088701,
+      "position_error_um": 0.043592209354852196,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order1",
+      "x_um": 4.668965921749293e-17,
+      "y_um": -4.440892098500626e-16,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        4.668965921749293e-17,
+        -4.440892098500626e-16
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 2.8236316360588428e-11,
+      "interpolation_order": 1,
+      "interpolation_energy_before": 18.003302685094106,
+      "interpolation_energy_after": 17.999685398370485,
+      "interpolation_energy_relative_change": -0.00020092350758593724,
+      "interpolated_min": 2.1327953620985515e-33,
+      "interpolated_negative_fraction": 0.0,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "competing_double",
+      "true_peak_x_um": 0.3700218451675709,
+      "true_peak_y_um": -0.2800004206088701,
+      "position_error_um": 0.4640219837921019,
+      "noise": false
+    },
+    {
+      "locator": "interpolation_order3",
+      "x_um": 0.35063030253180594,
+      "y_um": -0.2537571031224851,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        0.35063030253180594,
+        -0.2537571031224851
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 0.0,
+      "interpolation_order": 3,
+      "interpolation_energy_before": 18.003302685094106,
+      "interpolation_energy_after": 18.00260851245186,
+      "interpolation_energy_relative_change": -3.855807205976891e-05,
+      "interpolated_min": -1.0126446874332432e-06,
+      "interpolated_negative_fraction": 0.2494331065759637,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "competing_double",
+      "true_peak_x_um": 0.3700218451675709,
+      "true_peak_y_um": -0.2800004206088701,
+      "position_error_um": 0.03263040971985934,
+      "noise": false
+    },
+    {
+      "locator": "frozen3",
+      "width": 3,
+      "x_um": 0.3716839425235684,
+      "y_um": -0.21276168869678366,
+      "fit_valid": true,
+      "gradient": [
+        -0.03390696004609242,
+        -0.008507676151832275
+      ],
+      "coefficients": [
+        0.12547741093841133,
+        -0.03390696004609242,
+        -0.008507676151832275,
+        -0.0479982715899125,
+        0.12412577498225352,
+        -0.20327412855601218
+      ],
+      "hessian": [
+        [
+          -0.095996543179825,
+          0.12412577498225352
+        ],
+        [
+          0.12412577498225352,
+          -0.40654825711202436
+        ]
+      ],
+      "hessian_eigenvalues": [
+        -0.45006324443082046,
+        -0.05248155586102891
+      ],
+      "hessian_condition": 8.575645996901985,
+      "unconstrained_offset_pixels": [
+        -0.6283160574764316,
+        -0.21276168869678366
+      ],
+      "fitted_offset_pixels": [
+        -0.6283160574764316,
+        -0.21276168869678366
+      ],
+      "rmse_log": 0.008634223306642453,
+      "stationarity_residual": 1.5515838457795457e-17,
+      "clipped_log_samples": 0,
+      "pixel_row": 24,
+      "pixel_col": 25,
+      "pixel_x_um": 1.0,
+      "pixel_y_um": 0.0,
+      "failure_reason": "",
+      "local_raw_matrix": [
+        [
+          1.0516849022992574,
+          0.9185346858276937,
+          0.7639281008988577
+        ],
+        [
+          1.1122751838270297,
+          1.136797370358822,
+          1.046878702089754
+        ],
+        [
+          0.7951765301037153,
+          0.9292705109931128,
+          0.9489841440820503
+        ]
+      ],
+      "case": "poisson_read_noise",
+      "true_peak_x_um": 0.7301187946477852,
+      "true_peak_y_um": -0.11207383748340284,
+      "position_error_um": 0.37230845625539727,
+      "noise": true
+    },
+    {
+      "locator": "centroid7",
+      "x_um": 0.9084311317694083,
+      "y_um": -0.05011658333428699,
+      "fit_valid": true,
+      "background": "局部最小强度扣除后截零，非峰值无偏估计",
+      "shape_covariance_um2": [
+        [
+          3.4217684818149174,
+          1.1193362636164437
+        ],
+        [
+          1.1193362636164437,
+          2.3765565268710453
+        ]
+      ],
+      "shape_eigenvalues_um2": [
+        1.6638363616842025,
+        4.13448864700176
+      ],
+      "case": "poisson_read_noise",
+      "true_peak_x_um": 0.7301187946477852,
+      "true_peak_y_um": -0.11207383748340284,
+      "position_error_um": 0.18876967688554616,
+      "noise": true
+    },
+    {
+      "locator": "constrained_log5",
+      "x_um": 0.742254636556156,
+      "y_um": -0.12925050311662858,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        -0.2577453634438441,
+        -0.12925050311662858
+      ],
+      "boundary_active": false,
+      "rmse_log": 0.03511350880918108,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 3.811481297244512e-09,
+      "all_initial_solution_offsets": [
+        [
+          -0.25774536620211924,
+          -0.1292505042565438
+        ],
+        [
+          -0.2577453634438441,
+          -0.12925050311662858
+        ],
+        [
+          -0.25774536239063794,
+          -0.1292505025800092
+        ],
+        [
+          -0.25774536256256,
+          -0.1292505026860583
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "poisson_read_noise",
+      "true_peak_x_um": 0.7301187946477852,
+      "true_peak_y_um": -0.11207383748340284,
+      "position_error_um": 0.02103132190568647,
+      "noise": true
+    },
+    {
+      "locator": "constrained_log7",
+      "x_um": 0.701782606831445,
+      "y_um": -0.1433543335081911,
+      "fit_valid": true,
+      "constrained_offset_pixels": [
+        -0.29821739316855495,
+        -0.1433543335081911
+      ],
+      "boundary_active": false,
+      "rmse_log": 0.08897493117193354,
+      "multistart_count": 4,
+      "near_optimum_spread_um": 2.9377454136003678e-08,
+      "all_initial_solution_offsets": [
+        [
+          -0.29821739316855495,
+          -0.1433543335081911
+        ],
+        [
+          -0.2982174060581789,
+          -0.14335433922719393
+        ],
+        [
+          -0.2982174029024994,
+          -0.1433543379574166
+        ],
+        [
+          -0.2982174225460091,
+          -0.14335434774998995
+        ]
+      ],
+      "constraint": "中心±1pixel；Hessian=-LL^T；边界活跃不代表成功定位真实峰",
+      "case": "poisson_read_noise",
+      "true_peak_x_um": 0.7301187946477852,
+      "true_peak_y_um": -0.11207383748340284,
+      "position_error_um": 0.04220674083034248,
+      "noise": true
+    },
+    {
+      "locator": "interpolation_order1",
+      "x_um": 1.0,
+      "y_um": -4.440892098500626e-16,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        4.5924254968025835e-17,
+        -4.440892098500626e-16
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 2.0358280190691526e-10,
+      "interpolation_order": 1,
+      "interpolation_energy_before": 39.833454465583586,
+      "interpolation_energy_after": 39.8235073654833,
+      "interpolation_energy_relative_change": -0.0002497172347649679,
+      "interpolated_min": 0.0,
+      "interpolated_negative_fraction": 0.0,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "poisson_read_noise",
+      "true_peak_x_um": 0.7301187946477852,
+      "true_peak_y_um": -0.11207383748340284,
+      "position_error_um": 0.29222664158255734,
+      "noise": true
+    },
+    {
+      "locator": "interpolation_order3",
+      "x_um": 0.45530663023766604,
+      "y_um": -0.12914460782278075,
+      "fit_valid": true,
+      "interpolated_peak_offset_pixels": [
+        -0.544693369762334,
+        -0.12914460782278075
+      ],
+      "multistart_count": 4,
+      "near_optimum_spread_um": 0.0,
+      "interpolation_order": 3,
+      "interpolation_energy_before": 39.833454465583586,
+      "interpolation_energy_after": 39.83105583232316,
+      "interpolation_energy_relative_change": -6.021655145427296e-05,
+      "interpolated_min": -0.003979016266576447,
+      "interpolated_negative_fraction": 0.1349659863945578,
+      "energy_note": "局部物理窗口中点积分，含采样误差；没有重归一修补能量，插值不是独立物理传播",
+      "case": "poisson_read_noise",
+      "true_peak_x_um": 0.7301187946477852,
+      "true_peak_y_um": -0.11207383748340284,
+      "position_error_um": 0.2753418546239459,
+      "noise": true
+    }
+  ],
+  "scope": "8种已知解析峰/噪声，共6定位器；约束法不会产生>1pixel，须看边界活跃及真实位置误差，不以限幅证明准确"
+}

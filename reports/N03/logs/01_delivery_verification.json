@@ -1,0 +1,17 @@
+{
+  "changed_inputs": [],
+  "tracked_changes": "",
+  "all_checks_passed": true,
+  "task_source": {
+    "path": "C:\\Users\\李咏晨\\Downloads\\N03_%E5%8D%95%E5%AD%94%E5%BE%84DOE_%E4%BC%A0%E7%BB%9F%E4%BC%98%E5%8C%96%E5%85%89%E8%B0%B1%E9%87%8D%E5%BB%BA_%E4%BB%BB%E5%8A%A1%E8%A7%84%E5%88%92.md",
+    "sha256": "b34e3f9e3985bf7d61236f4f5007a92a3097394372c70a1ebe04f7ce95f990bb"
+  },
+  "artifacts": {
+    "00_audit.md": "ab4ba5dedf249647450712fb1469d3a7ac35dfff6330b26cd3ae75efad983772",
+    "00_manifest.json": "42ba2e786e65f944a74da25cb6c2d21df86557e8efb2bd963574d0b2ed2f9df3",
+    "01_point_reconstruction_report.md": "4c3e42d288ae5108dd5d21dc7837ae9b79961afd98a12626e3fc2c2ff4363e85",
+    "run_commands.md": "0ec1bf219aead44b5f0fa4054a12ad3d6f431bca4d5f639a8dc8ee383a09282e",
+    "logs\\00_audit_run.json": "18e2de86b41fa95dc032c8cd2ed215f175f5dda252c12e6a91982c28a91e6933",
+    "logs\\00_initial_attempt.md": "ee633865fe9b23ae70877f4395d751d531fbb9915933c66e8654dca3858009bd"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "shape": [
+    31,
+    512,
+    512
+  ],
+  "wavelength_equal": true,
+  "height_equal": true,
+  "max_psf_abs_difference": 0.0,
+  "max_raw_intensity_abs_difference": 0.0,
+  "max_normalization_error": 3.3306690738754696e-16
+}

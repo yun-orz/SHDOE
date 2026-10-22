@@ -1,0 +1,103 @@
+{
+  "seed": 20261019,
+  "cases": [
+    {
+      "name": "Q10_round",
+      "reason": "同一连续设计的独立量化",
+      "options": {}
+    },
+    {
+      "name": "Q8_floor",
+      "reason": "同一连续设计的独立量化",
+      "options": {}
+    },
+    {
+      "name": "Q16_floor",
+      "reason": "同一连续设计的独立量化",
+      "options": {}
+    },
+    {
+      "name": "height_scale_0.9",
+      "reason": "ASSUMED 全局高度直接缩放0.9，不重包裹",
+      "options": {}
+    },
+    {
+      "name": "height_scale_0.95",
+      "reason": "ASSUMED 全局高度直接缩放0.95，不重包裹",
+      "options": {}
+    },
+    {
+      "name": "height_scale_1.05",
+      "reason": "ASSUMED 全局高度直接缩放1.05，不重包裹",
+      "options": {}
+    },
+    {
+      "name": "height_scale_1.1",
+      "reason": "ASSUMED 全局高度直接缩放1.1，不重包裹",
+      "options": {}
+    },
+    {
+      "name": "material_constant",
+      "reason": "ASSUMED 固定设计折射率",
+      "options": {
+        "material": "constant"
+      }
+    },
+    {
+      "name": "n_minus005",
+      "reason": "ASSUMED 全谱n减0.005",
+      "options": {
+        "n_offset": -0.005
+      }
+    },
+    {
+      "name": "n_plus005",
+      "reason": "ASSUMED 全谱n加0.005",
+      "options": {
+        "n_offset": 0.005
+      }
+    },
+    {
+      "name": "local20nm",
+      "reason": "ASSUMED 10um相关长度、20nm RMS高斯高度误差；负高截为零",
+      "options": {}
+    },
+    {
+      "name": "rounding_0.5um",
+      "reason": "ASSUMED 高度Gaussian卷积sigma=0.5um，代表边缘圆角敏感性，不是工艺实测",
+      "options": {}
+    },
+    {
+      "name": "rounding_1um",
+      "reason": "ASSUMED 高度Gaussian卷积sigma=1.0um，代表边缘圆角敏感性，不是工艺实测",
+      "options": {}
+    },
+    {
+      "name": "lateral_2um",
+      "reason": "ASSUMED 2um方格高度面积平均并保持入瞳",
+      "options": {}
+    },
+    {
+      "name": "lateral_4um",
+      "reason": "ASSUMED 4um方格高度面积平均并保持入瞳",
+      "options": {}
+    },
+    {
+      "name": "aperture_decenter2um",
+      "reason": "ASSUMED 遮光孔径相对固定DOE偏心2um；高度不移动",
+      "options": {}
+    },
+    {
+      "name": "tilt01mrad",
+      "reason": "ASSUMED 入射增加0.1mrad线性相位",
+      "options": {
+        "tilt_mrad": 0.1
+      }
+    }
+  ],
+  "material_validation": "NOT_TESTED",
+  "manufacturing_acceptance": "NOT_TESTED",
+  "local_noise_rms_um": 0.02,
+  "local_noise_correlation_sigma_um": 10.0,
+  "minimum_linewidth_reason": "当前采样不能认证亚微米特征；像素边缘跳变不是可微坡度"
+}

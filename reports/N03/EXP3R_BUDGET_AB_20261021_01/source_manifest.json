@@ -1,0 +1,22 @@
+{
+  "integration\\single_spiral_to_hsi\\n03_exp3r\\compare_budget.py": {
+    "sha256": "e55d28370fb2a0e888ebf89e4dd601d96d9dae18c7130ede2605335b6405c7f1",
+    "snapshot": "logs\\source_snapshot\\compare_budget.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp3r\\frozen_pilot.py": {
+    "sha256": "8335339dab2d2210faa97ddac5609197a1b8c965e9f470e442ddf1ceb840914c",
+    "snapshot": "logs\\source_snapshot\\frozen_pilot.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp3r\\validate_results.py": {
+    "sha256": "6c08216dc81fbf56e28a535cb9799853692e5200ffbea3748156ab17921b2ec9",
+    "snapshot": "logs\\source_snapshot\\validate_results.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp3r\\__init__.py": {
+    "sha256": "83e503565ab7fa7a2728c388f9a3eb05bdcc897e66c5a8f78ef1608060a13748",
+    "snapshot": "logs\\source_snapshot\\__init__.py"
+  },
+  "integration\\single_spiral_to_hsi\\tests\\test_n03_exp3r.py": {
+    "sha256": "050c43f2f93c737321f96b5bea3ff30cc17847a4ebbda94f6eeafff283e4447f",
+    "snapshot": "logs\\source_snapshot\\test_n03_exp3r.py"
+  }
+}

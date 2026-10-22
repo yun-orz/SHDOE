@@ -1,0 +1,22 @@
+{
+  "integration\\single_spiral_to_hsi\\n03_exp2b\\common.py": {
+    "sha256": "82dc37e9aa50e057d38022d6806044dd0007482b61ab7c17dc1c572515c91d5f",
+    "snapshot": "logs/source_snapshot/common.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2b\\run_boundary_screen.py": {
+    "sha256": "caa7ff4efb5a83b5421233a14d480f098bed43ef884bf98917f2598f1aa09920",
+    "snapshot": "logs/source_snapshot/run_boundary_screen.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2b\\run_calibration.py": {
+    "sha256": "081aa10b80b777a5308692e2f43f15cfed6e859438cfbd3f48bfb9affb0caca3",
+    "snapshot": "logs/source_snapshot/run_calibration.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp2b\\verify_delivery.py": {
+    "sha256": "fa879a602b1cbb2fb7e207f8e04c2e10f1379683c546308ff783d9bc0dc02505",
+    "snapshot": "logs/source_snapshot/verify_delivery.py"
+  },
+  "integration\\single_spiral_to_hsi\\tests\\test_n03_exp2b.py": {
+    "sha256": "3b8851186916d98ac921a646efd3bfda5b3aa9505ae5add7621d6dc794d7f4ec",
+    "snapshot": "logs/source_snapshot/test_n03_exp2b.py"
+  }
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\SpiralDOE_HSI\n00_run_20261009\experiments\n02_1c_r2\r2_run.py", line 30, in <module>
+    try:execute(out)
+  File "E:\SpiralDOE_HSI\n00_run_20261009\experiments\n02_1c_r2\r2_run.py", line 19, in execute
+    p1=run_p1(out,cfg,src,resource,plan);a1=analyze_p1(out,p1)
+  File "E:\SpiralDOE_HSI\n00_run_20261009\experiments\n02_1c_r2\r2_experiments.py", line 70, in run_p1
+    event(out,event='SELECTED_ASM_COMPLETE',padding=pad,**meta)
+TypeError: r2_common.event() got multiple values for keyword argument 'padding'

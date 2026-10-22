@@ -1,0 +1,38 @@
+{
+  "design_nm": 546.1,
+  "R_um": 500.0,
+  "focal_mm": 20.0,
+  "object_mm": 180.0,
+  "sensor_mm": 22.495,
+  "L": 8,
+  "handedness": 1,
+  "Q": 10,
+  "quantizer": "floor",
+  "size": 2048,
+  "pitch_um": 1.0,
+  "padding": 2,
+  "roi_width_um": 512.0,
+  "device": "cuda",
+  "seed": 20261019,
+  "material_model": "ASSUMED_Cauchy_1.5292_plus_0.00800_over_lambda_um_squared",
+  "n_env": 1.0,
+  "thresholds": {
+    "outside_disk_ratio": 1.25,
+    "distinct_peak_ratio": 1.25,
+    "shape_l1": 0.05,
+    "shift_um": 2.0,
+    "angle_deg": 3.0,
+    "edge": 0.001,
+    "roi_fraction": 0.99,
+    "energy": 1e-10,
+    "dense_step_deg": 45.0
+  },
+  "n02_proposal": {
+    "sidelobe_ratio": 1.5,
+    "min_angle_per_10nm_deg": 4.0,
+    "max_angle_per_10nm_deg": 18.0,
+    "total_min_deg": 200.0,
+    "total_max_deg": 280.0
+  },
+  "diameter_um": 1000.0
+}

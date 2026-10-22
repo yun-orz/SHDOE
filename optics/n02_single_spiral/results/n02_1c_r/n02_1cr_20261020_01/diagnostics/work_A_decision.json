@@ -1,0 +1,22 @@
+{
+  "classification": "EVALUATOR_INSTABILITY",
+  "positive_evidence": {
+    "fit_offset": [
+      1.4790130308188043,
+      0.12147172081873285
+    ],
+    "hessian_eigenvalues": [
+      -0.028904506108991465,
+      -0.005247731840996713
+    ],
+    "hessian_condition": 5.507999833981908,
+    "raw_halfmax_unique": true,
+    "max_competitor_relative_height": 0.37957051816576515
+  },
+  "counterevidence": [
+    "多个估计器受局部不对称和像素相位影响；约束或插值不会保证无偏",
+    "局部11点和有限候选链接不能严格证明全波段同一物理模态",
+    "原1nm角差门有多个失败，不只425nm单点"
+  ],
+  "old_G2": "FAIL"
+}

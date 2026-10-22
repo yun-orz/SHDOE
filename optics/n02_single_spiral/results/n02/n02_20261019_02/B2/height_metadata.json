@@ -1,0 +1,9 @@
+{
+  "period_um": 0.9821494391065273,
+  "max_height_um": 0.8839344951958746,
+  "height_sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f",
+  "aperture_sha256": "07e77628a12d6c223057b219d70a4eb5869027b139aaf4113f00cd0b40dc44bc",
+  "array_sha256": "eb191b8d1093590ad22872d1de78f9261c6286fee756901ada7274315a727250",
+  "continuous": false,
+  "soft_low_amplitude_fraction": null
+}

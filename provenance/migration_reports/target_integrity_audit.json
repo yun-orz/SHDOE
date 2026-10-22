@@ -1,0 +1,180 @@
+{
+  "status": "PASS",
+  "copied_file_count": 808,
+  "copied_bytes": 1309322634,
+  "source_matching_current": 803,
+  "adapted_current": 5,
+  "workspace_files": 924,
+  "workspace_bytes": 2082465008,
+  "modules": {
+    "README.md": {
+      "files": 1,
+      "bytes": 4745
+    },
+    "environments": {
+      "files": 3,
+      "bytes": 5077
+    },
+    "framework/DeepLensHSI": {
+      "files": 390,
+      "bytes": 1206396827
+    },
+    "integration/single_spiral_to_hsi": {
+      "files": 1,
+      "bytes": 3703
+    },
+    "optics/n00_forward": {
+      "files": 39,
+      "bytes": 476007644
+    },
+    "optics/n02_single_spiral": {
+      "files": 404,
+      "bytes": 388588044
+    },
+    "provenance": {
+      "files": 86,
+      "bytes": 11458968
+    }
+  },
+  "links": [],
+  "unexpected_bytecode_caches": [],
+  "old_source_code_references": [
+    {
+      "file": "optics/n00_forward/scripts/build_report.py",
+      "line": 39,
+      "classification": "HISTORICAL_AUDIT_ONLY",
+      "text": "独立工程：`E:/SpiralDOE_HSI/n00_run_20261009`。父目录不是空项目：已有 HEAD `65c105c820ae9b64150dafcdad1e59638f22a37e`，其全部已跟踪文件在执行前已显示为 D。遵循不覆盖、不删除原则，使用新的独立 Git 子目录；没有恢复或更改父目录既有文件与索引。父目录仅新增该子目录。"
+    },
+    {
+      "file": "optics/n00_forward/scripts/build_report.py",
+      "line": 41,
+      "classification": "HISTORICAL_AUDIT_ONLY",
+      "text": "参考仓库：`E:/DeepLensHSI`，HEAD `{read('docs/evidence/reference_before.json')['head']}`。旧仓库本来有修改、暂存重命名及未跟踪 reports，不要求其干净。前后快照 Git HEAD/status/diff SHA256 相同，文件清单 {reference['file_count']} 项相同，其中 {reference['hashed_file_count']} 个非数据集文件完整 SHA256 相同，变化文件为空。数据集仅比较 size/mtime，不能将其表述为完整内容哈希验证。本轮未向旧库写入、未导入旧库模块；详细证据 `docs/evidence/reference_before.json`、`reference_after.json`、`reference_comparison.json`。"
+    },
+    {
+      "file": "optics/n00_forward/scripts/build_report.py",
+      "line": 111,
+      "classification": "HISTORICAL_AUDIT_ONLY",
+      "text": "下列相对路径均基于 `E:/SpiralDOE_HSI/n00_run_20261009`："
+    },
+    {
+      "file": "optics/n02_single_spiral/experiments/n02/audit.py",
+      "line": 75,
+      "classification": "HISTORICAL_AUDIT_ONLY",
+      "text": "        Path('C:/Users/李咏晨/Downloads/N02_MF_SH_DOE_Codex_%E5%AE%8C%E6%95%B4%E6%89%A7%E8%A1%8C%E8%A7%84%E5%88%92.md')]"
+    },
+    {
+      "file": "optics/n02_single_spiral/results/n02_1c_r2/n02_1cr2_20261020_01/source_at_failure/r2_common.py",
+      "line": 16,
+      "classification": "HISTORICAL_AUDIT_ONLY",
+      "text": "TASK=Path('C:/Users/李咏晨/Downloads/N02_1CR2_Codex_%E5%AE%A1%E6%A0%B8%E4%B8%8E%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E4%B9%A6_20261020.md')"
+    },
+    {
+      "file": "provenance/guard/sitecustomize.py",
+      "line": 3,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "_BLOCKED=('e:/spiraldoe_hsi','e:/deeplenshsi','c:/users/李咏晨/downloads')"
+    },
+    {
+      "file": "provenance/source_code_originals/experiments/n02_1c_r/p0b_common.py",
+      "line": 23,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "TASK=Path('C:/Users/李咏晨/Downloads/N02_%E5%AE%A1%E6%A0%B8%E4%B8%8E%E4%B8%8B%E4%B8%80%E8%BD%AECodex%E4%BB%BB%E5%8A%A1%E4%B9%A6_20261020.md')"
+    },
+    {
+      "file": "provenance/source_code_originals/experiments/n02_1c_r2/r2_common.py",
+      "line": 16,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "TASK=Path('C:/Users/李咏晨/Downloads/N02_1CR2_Codex_%E5%AE%A1%E6%A0%B8%E4%B8%8E%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E4%B9%A6_20261020.md')"
+    },
+    {
+      "file": "provenance/tools/adapt_targets.py",
+      "line": 22,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "edit(p,\"REF = Path('E:/DeepLensHSI')\",\"REF = ROOT.parents[1]/'framework/DeepLensHSI'\")"
+    },
+    {
+      "file": "provenance/tools/audit_r2_source_hashes.py",
+      "line": 8,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "  old=Path('E:/SpiralDOE_HSI/n00_run_20261009')/rel"
+    },
+    {
+      "file": "provenance/tools/audit_resolution.py",
+      "line": 3,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "R=Path('E:/SH');N=R/'optics/n02_single_spiral';A=Path('E:/SpiralDOE_HSI/n00_run_20261009')"
+    },
+    {
+      "file": "provenance/tools/final_integrity_audit.py",
+      "line": 8,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": " source=Path('E:/SpiralDOE_HSI/n00_run_20261009')/p.relative_to(R/'provenance/source_code_originals');digest=sha(p)"
+    },
+    {
+      "file": "provenance/tools/final_integrity_audit.py",
+      "line": 35,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "    if re.search(r'E:[\\\\/](?:SpiralDOE_HSI|DeepLensHSI)|C:[\\\\/].*Downloads|file:///home/conda',line,re.I):"
+    },
+    {
+      "file": "provenance/tools/inventory_sources.py",
+      "line": 4,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "A=Path('E:/SpiralDOE_HSI/n00_run_20261009'); B=Path('E:/DeepLensHSI')"
+    },
+    {
+      "file": "provenance/tools/precopy_check.py",
+      "line": 10,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": " root=Path('E:/SpiralDOE_HSI/n00_run_20261009') if lab=='A' else Path('E:/DeepLensHSI')"
+    },
+    {
+      "file": "provenance/tools/select_candidates.py",
+      "line": 5,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "ROOT=Path('E:/SH'); A=Path('E:/SpiralDOE_HSI/n00_run_20261009');B=Path('E:/DeepLensHSI')"
+    },
+    {
+      "file": "provenance/tools/select_candidates.py",
+      "line": 60,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "    if re.search(r'[A-Za-z]:[\\\\/]|file:///home/conda|/home/conda',line):scans.append(dict(source=r['source'],line=n,text=line[:1500],selected=bool(destinations)))"
+    },
+    {
+      "file": "provenance/tools/verify_guard.py",
+      "line": 5,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "for p in ['E:/DeepLensHSI/README.md','E:/SpiralDOE_HSI/n00_run_20261009/README.md']:"
+    },
+    {
+      "file": "provenance/tools/verify_n02_frozen.py",
+      "line": 8,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": " forbidden=['e:/spiraldoe_hsi','e:/deeplenshsi','c:/users/李咏晨/downloads']"
+    },
+    {
+      "file": "provenance/tools/verify_source_preservation.py",
+      "line": 10,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "for label,root in [('A',Path('E:/SpiralDOE_HSI/n00_run_20261009')),('B',Path('E:/DeepLensHSI'))]:"
+    },
+    {
+      "file": "provenance/tools/write_documentation.py",
+      "line": 77,
+      "classification": "PROVENANCE_READONLY_OR_GUARD",
+      "text": "`runtime_versions.json`记录完整实测包版本；`requirements_runtime.txt`依据已安装distribution的实际版本生成，包含PyTorch cu121索引。该清单不含`file:///home/conda`依赖。原N00 requirements.txt保留来源原文；其中不可移植的packaging路径，在新清单中由实际安装的packaging版本替代，没有删除依赖或盲装新版。"
+    }
+  ],
+  "large_files": [
+    {
+      "path": "optics/n00_forward/reference_results/N00_verified/psf_cube.npz",
+      "bytes": 234875845
+    },
+    {
+      "path": "optics/n00_forward/results/migration_20261020/psf_cube.npz",
+      "bytes": 234875845
+    }
+  ],
+  "note": "工作区统计在最终报告生成前采样，包含参考与本次新输出；provenance里旧源路径用于只读审计。"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "-c",
+    "import os;from pathlib import Path;assert os.environ.get('SH_SOURCE_GUARD')=='1';n=0;exec('for p in [\\",
+    "E:/DeepLensHSI/README.md\\,\\E:/SpiralDOE_HSI/n00_run_20261009/README.md\\]:\\n try:Path(p).read_bytes()\\n except PermissionError:n+=1');assert n==2;print('SOURCE_GUARD_PASS',n)"
+  ],
+  "cwd": "E:\\SH",
+  "returncode": 1,
+  "seconds": 0.03638291358947754,
+  "source_guard": false
+}

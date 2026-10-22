@@ -1,0 +1,9 @@
+{
+  "max_sampled_step_um": 0.8839344951958746,
+  "fraction_horizontal_edges_gt_half_period": 0.004308420096482657,
+  "fraction_vertical_edges_gt_half_period": 0.004433889533463606,
+  "grid_resolution_um": 1.0,
+  "certified_minimum_feature_um": null,
+  "maximum_physical_slope": null,
+  "reason": "含包裹/量化台阶，离散高度差不等于侧壁坡度；需设备PSF、最小线宽、固化收缩、色散和侧壁表征"
+}

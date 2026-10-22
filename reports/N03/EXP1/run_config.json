@@ -1,0 +1,547 @@
+{
+  "notice": "EXPLORATORY ONLY — archived B2 PSF numerical-convergence certification is incomplete; results do not establish physical DOE performance.",
+  "scope": "EXP1-A/B/C only",
+  "original_N03_G0": "FAIL_UNCHANGED",
+  "N02_G2_G3_Numerics": "FAIL_UNCHANGED",
+  "wavelengths_nm": [
+    420.0,
+    450.0,
+    480.0,
+    510.0,
+    540.0,
+    570.0,
+    600.0,
+    630.0,
+    660.0
+  ],
+  "sensor_indices_zero_based": [
+    2,
+    5,
+    8,
+    11,
+    14,
+    17,
+    20,
+    23,
+    26
+  ],
+  "weights_RGB": [
+    [
+      0.003939229816640016,
+      0.0020083037725905817,
+      0.002476087313316577,
+      0.0030054213199275895,
+      0.003714130969974866,
+      0.0045788088941661545,
+      0.049939117044523286,
+      0.048992412259720654,
+      0.04411937394636818
+    ],
+    [
+      0.010241997523264034,
+      0.011068532350862616,
+      0.0448915957268503,
+      0.06526952089224586,
+      0.06314022648957276,
+      0.054588480127428264,
+      0.03849893711869788,
+      0.020628526173729157,
+      0.015419270996562292
+    ],
+    [
+      0.048171153186340764,
+      0.05872828909493596,
+      0.052180798539629904,
+      0.026300137233073565,
+      0.009341602136603459,
+      0.0030106970741463077,
+      0.001505348537073148,
+      0.0015756919266560017,
+      0.0032639332766445893
+    ]
+  ],
+  "weight_rule": "真实波长精确匹配；原31点绿色响应和作所有通道共同分母；不乘Delta-lambda、不交换R/B",
+  "spectrum_unit": "每带已积分相对能量；所有真值sum(s)=1",
+  "grid": {
+    "pitch_um": 1,
+    "roi": [
+      512,
+      512
+    ],
+    "observations": 786432,
+    "axis_center": "像元间(0,0)um",
+    "delta_pixel": [
+      256,
+      256
+    ],
+    "delta_coordinate_um": [
+      0.5,
+      0.5
+    ],
+    "boundary": "固定PSF ROI，无卷积/平移/额外裁切"
+  },
+  "normalization": "shape_only; each archived ROI normalized_psf sums to 1",
+  "throughput_aware": "NOT_RUN：归档捕获率未完成数值认证；不能解释绝对硬件性能",
+  "noise": {
+    "mode": "common_absolute_noise",
+    "reference": "B2_spiral_PSF，预定义均匀谱s=1/9",
+    "levels_db": [
+      40,
+      30
+    ],
+    "seeds": [
+      20261021,
+      20261022,
+      20261023
+    ],
+    "sigma_formula": "||A_B2*(1/9)||_2 / sqrt(786432) * 10^(-reference_SNR_dB/20)",
+    "shared": "各光学方案及所有谱共用相同sigma；同谱/种子共用同一全ROI高斯噪声场；两SNR级也复用标准场",
+    "rng": "default_rng(SeedSequence([seed,spectrum_index]))"
+  },
+  "solver": "scipy.optimize.nnls; exact orthogonal SVD compression; no spectral prior",
+  "numerical_rank_rule": "sigma > eps_float64 * max(A.shape) * sigma_max",
+  "solver_scaling": "三组统一除以B2的sigma_max；不是列归一化",
+  "spectra": [
+    {
+      "name": "onehot_420",
+      "kind": "onehot",
+      "truth": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_450",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_480",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_510",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_540",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_570",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_600",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_630",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "onehot_660",
+      "kind": "onehot",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "near_equal",
+      "kind": "double",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "near_half",
+      "kind": "double",
+      "truth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "far_equal",
+      "kind": "double",
+      "truth": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "name": "far_half",
+      "kind": "double",
+      "truth": [
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ]
+    },
+    {
+      "name": "broad_510",
+      "kind": "broad",
+      "truth": [
+        0.03631405853069406,
+        0.11031236956931917,
+        0.21485915735956687,
+        0.2683266156631495,
+        0.21485915735956687,
+        0.11031236956931917,
+        0.03631405853069406,
+        0.007664884150241445,
+        0.0010373292674487485
+      ]
+    },
+    {
+      "name": "broad_585",
+      "kind": "broad",
+      "truth": [
+        0.004868022540526897,
+        0.01699106819109356,
+        0.046186511909958115,
+        0.09777684648066283,
+        0.16120676657464977,
+        0.20699358562389816,
+        0.20699358562389816,
+        0.16120676657464977,
+        0.09777684648066283
+      ]
+    },
+    {
+      "name": "random_0",
+      "kind": "random",
+      "truth": [
+        0.17117318918572233,
+        0.026365043918285567,
+        0.16931430614392873,
+        0.07333324709994413,
+        0.14041738681458352,
+        0.17637006783664944,
+        0.017823030649059993,
+        0.18014357649594462,
+        0.04506015185588157
+      ]
+    },
+    {
+      "name": "random_1",
+      "kind": "random",
+      "truth": [
+        0.13430464498114175,
+        0.18254457875483454,
+        0.07161623002757758,
+        0.05004067761836915,
+        0.09406255755830228,
+        0.10001453985706653,
+        0.10608284028800276,
+        0.1402241983614212,
+        0.1211097325532842
+      ]
+    },
+    {
+      "name": "random_2",
+      "kind": "random",
+      "truth": [
+        0.14083028600147537,
+        0.15123129557989043,
+        0.09492630081231314,
+        0.19585124774113447,
+        0.18091448933582094,
+        0.012491844513288818,
+        0.017189689133207856,
+        0.1040873222508575,
+        0.10247752463201142
+      ]
+    }
+  ],
+  "random_spectrum_seed": 20261020,
+  "precision": "float64",
+  "device": "CPU",
+  "optional_25bands_and_Tikhonov": "NOT_RUN；完成必要A/B/C后停止",
+  "git_before": {
+    "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+    "branch": "main",
+    "dirty": "M README.md\n?? integration/single_spiral_to_hsi/n03_audit.py\n?? integration/single_spiral_to_hsi/n03_exp1/forward.py\n?? integration/single_spiral_to_hsi/n03_exp1/run_exp1.py\n?? integration/single_spiral_to_hsi/n03_exp1/solvers.py\n?? integration/single_spiral_to_hsi/tests/test_n03_exp1.py\n?? reports/N03/00_audit.md\n?? reports/N03/00_manifest.json\n?? reports/N03/01_point_reconstruction_report.md\n?? reports/N03/logs/00_audit_run.json\n?? reports/N03/logs/00_initial_attempt.md\n?? reports/N03/logs/01_delivery_verification.json\n?? reports/N03/run_commands.md"
+  },
+  "environment": {
+    "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 22:57:13) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9",
+    "torch": "2.5.1+cu121",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cuda_available": true,
+    "thread_env": {
+      "OMP_NUM_THREADS": "4",
+      "MKL_NUM_THREADS": "4",
+      "OPENBLAS_NUM_THREADS": "4"
+    }
+  },
+  "input_manifest": {
+    "README.md": {
+      "sha256": "4c6f803c5e1b021e993bd519ee553a6dc7559fbda7f4fb42b24a3465aa250e6d",
+      "bytes": 6331
+    },
+    "framework\\DeepLensHSI\\sensors\\flir\\BFS-U3-200S7C-C.json": {
+      "sha256": "f0beea035c09e576548b13d00b259c3256b2c4e29b47ddf5dba34ef2cf5e3e30",
+      "bytes": 2657
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\height_um.npy": {
+      "sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f",
+      "bytes": 33554560
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\aperture_mask.npy": {
+      "sha256": "07e77628a12d6c223057b219d70a4eb5869027b139aaf4113f00cd0b40dc44bc",
+      "bytes": 4194432
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\config.json": {
+      "sha256": "aee9b28c91fbf5ee01685cef576d82dafbe9da656c70d8c976d12ff67d57719a",
+      "bytes": 868
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\480nm.npz": {
+      "sha256": "fce5a7b90b15c0fe2c5999f17c4aa9b8c275b43dc9df73a0bed3eb8fc0176bdb",
+      "bytes": 3973408
+    },
+    "framework\\DeepLensHSI\\src\\sensor\\sensor.py": {
+      "sha256": "3d49df514c67c19987cb40669eed0209642933df3b05312f16cd97858e97a156",
+      "bytes": 19026
+    },
+    "integration\\single_spiral_to_hsi\\n03_exp1\\forward.py": {
+      "sha256": "85adbc0b3c927171eb801b3d0a947822a4c3efae9d0b4e60ec5d9e4392258fbb",
+      "bytes": 2803
+    },
+    "reports\\N03\\logs\\00_initial_attempt.md": {
+      "sha256": "ee633865fe9b23ae70877f4395d751d531fbb9915933c66e8654dca3858009bd",
+      "bytes": 840
+    },
+    "integration\\single_spiral_to_hsi\\tests\\test_n03_exp1.py": {
+      "sha256": "aea77c29bf6101a8f42615fbe7c3e78911875167fe724f9e6571d3a5bf00d3d4",
+      "bytes": 4012
+    },
+    "framework\\DeepLensHSI\\5_eval_pretrained.py": {
+      "sha256": "385747ce195b98ee27d3e8c9eccd672b26b72ffc9e3631fc3e9d34aaa978a33b",
+      "bytes": 4740
+    },
+    "integration\\single_spiral_to_hsi\\n03_exp1\\solvers.py": {
+      "sha256": "e29e9e5f1c5dcbd0497334a821cd2963826dfc0ebc66d40af00808ae3504141a",
+      "bytes": 1348
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\600nm.npz": {
+      "sha256": "c2222048f66f60a0f59d6fa2770c5e9e9fef5810e260959b3ed474c720b42b09",
+      "bytes": 3973496
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\gates.json": {
+      "sha256": "a9855429b0d94ac842496b32d0c18319f873ea9882415c5e8463a4dc6fd8d0a4",
+      "bytes": 2007
+    },
+    "reports\\N03\\logs\\01_delivery_verification.json": {
+      "sha256": "2b5d7fc57d691615d081e7a2925b22a76334cea6ba535c816e6c27f5eef83186",
+      "bytes": 999
+    },
+    "optics\\n02_single_spiral\\reports\\n02_1c_r2\\n02_1cr2_20261020_02\\N02_1CR2_final_audit.md": {
+      "sha256": "bb4ce8b06a008ef7ee1488408a08638e94b42972ab20608495c9c0641290f47c",
+      "bytes": 5353
+    },
+    "reports\\N03\\01_point_reconstruction_report.md": {
+      "sha256": "4c3e42d288ae5108dd5d21dc7837ae9b79961afd98a12626e3fc2c2ff4363e85",
+      "bytes": 3590
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\450nm.npz": {
+      "sha256": "2cd0eeda745bc648b2e8027a98e168bd10278f9e414dde3b189cfe982b61722d",
+      "bytes": 3972843
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\660nm.npz": {
+      "sha256": "ea84f1e608f679c8a615da599bd05854eab23a6ff2248df4b561b781f2ad5a62",
+      "bytes": 3972079
+    },
+    "integration\\single_spiral_to_hsi\\n03_exp1\\run_exp1.py": {
+      "sha256": "70bf9a27398dbbacf68101697fa72137d752e9d3d8a45ffae5d10dd097df7d33",
+      "bytes": 28149
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\510nm.npz": {
+      "sha256": "174e07c1c425547674a1615776efa57403a41426cd54fdc602bf0fca5e952cbe",
+      "bytes": 3973739
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\frozen_sha256.json": {
+      "sha256": "f98192f2864c398434c4fce917268692a3cb09e2ba1f2e69e52d7d75a79d420e",
+      "bytes": 4093
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\630nm.npz": {
+      "sha256": "f844239b6ea492ee7ca11dfcfbc103fbe499c1df6f812da420e74906a0871877",
+      "bytes": 3972878
+    },
+    "reports\\N03\\00_audit.md": {
+      "sha256": "ab4ba5dedf249647450712fb1469d3a7ac35dfff6330b26cd3ae75efad983772",
+      "bytes": 7275
+    },
+    "framework\\DeepLensHSI\\src\\deeplens\\render_psf.py": {
+      "sha256": "5ec3a2f5ce2848b3a8b212262919fba7149416c678c67b25faf2a265b3067985",
+      "bytes": 15794
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\570nm.npz": {
+      "sha256": "8e261358c66bf93028a72fefc223d79a46343b858785a08a5e16eb44c1ed83f5",
+      "bytes": 3973441
+    },
+    "reports\\N03\\00_manifest.json": {
+      "sha256": "42ba2e786e65f944a74da25cb6c2d21df86557e8efb2bd963574d0b2ed2f9df3",
+      "bytes": 214805
+    },
+    "integration\\single_spiral_to_hsi\\n03_audit.py": {
+      "sha256": "ca87bf98bb57f3a73f1c5b00caef14600c70cb2266351d553dda9edbd6dc8e74",
+      "bytes": 18741
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\540nm.npz": {
+      "sha256": "29d90260f5faccdf52be7630331205b72717251572f0ebb5675346f1616fc8a3",
+      "bytes": 3973826
+    },
+    "reports\\N03\\logs\\00_audit_run.json": {
+      "sha256": "18e2de86b41fa95dc032c8cd2ed215f175f5dda252c12e6a91982c28a91e6933",
+      "bytes": 488
+    },
+    "integration\\single_spiral_to_hsi\\INTERFACE_PLAN.md": {
+      "sha256": "8f424e0b39797ea01d54fe87142c778533c49935548c5d41668199d9c99099e9",
+      "bytes": 4160
+    },
+    "reports\\N03\\run_commands.md": {
+      "sha256": "0ec1bf219aead44b5f0fa4054a12ad3d6f431bca4d5f639a8dc8ee383a09282e",
+      "bytes": 362
+    },
+    "framework\\DeepLensHSI\\src\\hsi_camera.py": {
+      "sha256": "bfc2f1422ac2f83320151744f9919470c176f32051b2d1c1e38c79c5726bd0c9",
+      "bytes": 8786
+    },
+    "optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\420nm.npz": {
+      "sha256": "864aec59ec85792d106000d29533ff5b8377d834abacc434b31fcb28d9a64c05",
+      "bytes": 3972243
+    }
+  },
+  "task_source": {
+    "path": "C:\\Users\\李咏晨\\Downloads\\N03-A-EXP1_%E5%8D%95%E7%82%B9%E5%85%89%E8%B0%B1NNLS%E6%8E%A2%E7%B4%A2%E6%80%A7%E9%AA%8C%E8%AF%81_Codex%E4%BB%BB%E5%8A%A1%E4%B9%A6.md",
+    "sha256": "9d571e926b091d9d11fcebcf6d0746b11aef1d5c9150b1918ce95a6e2d3d50d1"
+  },
+  "old_manifest_read": true,
+  "changes_since_previous_audit": [
+    "README.md"
+  ],
+  "previous_README_policy": "允许用户既有README变化；按本轮开始字节保护，不覆盖或回滚"
+}

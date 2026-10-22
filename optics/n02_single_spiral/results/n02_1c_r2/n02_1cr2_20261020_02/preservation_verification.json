@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "old_files_checked": 7360,
+  "changed_original_files": [],
+  "scope": "全部旧文件size/mtime及文本SHA；本轮用到的二进制输入另完整SHA，不冒称所有旧二进制重哈希"
+}

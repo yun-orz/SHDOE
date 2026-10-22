@@ -1,0 +1,74 @@
+[
+  {
+    "name": "48观测唯一且只读",
+    "passed": true
+  },
+  {
+    "name": "24clean24Q40单seed",
+    "passed": true
+  },
+  {
+    "name": "Joint无真值入参",
+    "passed": true
+  },
+  {
+    "name": "原函数AST两路仅maxfev不同",
+    "passed": true
+  },
+  {
+    "name": "A函数AST与canonical逐节点相同",
+    "passed": true
+  },
+  {
+    "name": "几何单位与RGB布局",
+    "passed": true
+  },
+  {
+    "name": "正负位移方向与连续面积积分",
+    "passed": true
+  },
+  {
+    "name": "Q40原SNR与噪声指纹",
+    "passed": true
+  },
+  {
+    "name": "mock验证maxfev确实传入SciPy",
+    "passed": true
+  },
+  {
+    "name": "Powell失败不得误标SUCCESS",
+    "passed": true
+  },
+  {
+    "name": "NNLS非负KKT与直接残差",
+    "passed": true
+  },
+  {
+    "name": "mock真值隔离",
+    "passed": true
+  },
+  {
+    "name": "hard gate逐例≤等号通过",
+    "passed": true
+  },
+  {
+    "name": "hard gate单例超限不能由mean掩盖",
+    "passed": true
+  },
+  {
+    "name": "Q40门实际检查位置",
+    "passed": true
+  },
+  {
+    "name": "光谱80%比例门不能被残差代替",
+    "passed": true
+  },
+  {
+    "name": "选中未收敛解触发H5失败",
+    "passed": true
+  },
+  {
+    "name": "独立P90与NumPy一致",
+    "passed": true
+  }
+]

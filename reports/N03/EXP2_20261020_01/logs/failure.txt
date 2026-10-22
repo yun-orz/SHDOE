@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "E:\SH\integration\single_spiral_to_hsi\n03_exp2\run_exp2.py", line 221, in main
+    matched_batch('pilot',pilot_selected,['shape_only'],[(1e4,1)],[30])
+  File "E:\SH\integration\single_spiral_to_hsi\n03_exp2\run_exp2.py", line 195, in matched_batch
+    recover(i,phase,key,op,op,y,clean,'Q',seed,target=target,meta=dict(noise_std=amp))
+  File "E:\SH\integration\single_spiral_to_hsi\n03_exp2\run_exp2.py", line 165, in recover
+    case=spectra[case_index];truth=np.array(case['truth']);estimate,residual,kkt=recon_op.solve(y)
+  File "E:\SH\integration\single_spiral_to_hsi\n03_exp2\forward.py", line 61, in solve
+    raise ArithmeticError(f'NNLS非负/有限/KKT失败：{kkt}')
+ArithmeticError: NNLS非负/有限/KKT失败：9.179217062399088e-07

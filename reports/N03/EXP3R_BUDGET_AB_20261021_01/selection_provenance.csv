@@ -1,0 +1,97 @@
+budget_group,observation,category,selected_start_id,certified_returned_endpoint,requested_start_ids,successful_start_ids,nearest_successful_endpoint_distance
+A,pilot_0_0_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],"[0, 1]",2.1960197350098808e-07
+A,pilot_0_0_20261021,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_0_8_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],[0],8.384926519518823e-08
+A,pilot_0_8_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_0_9_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],"[0, 1]",2.7257609652747086e-07
+A,pilot_0_9_20261021,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_0_11_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],[0],2.1187046359725653e-07
+A,pilot_0_11_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_0_13_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],[0],1.4484582666525552e-06
+A,pilot_0_13_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_0_15_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],"[0, 1]",6.826707045529489e-09
+A,pilot_0_15_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_1_0_0,seen_only_in_nonconverged_starts,1,False,[1],[0],9.891945897586179e-09
+A,pilot_1_0_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_1_8_0,seen_in_converged_start_not_returned_endpoint,0,False,[0],[0],2.4990070997238792e-08
+A,pilot_1_8_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_1_9_0,seen_only_in_nonconverged_starts,0,False,[0],[1],3.778944685029796e-07
+A,pilot_1_9_20261021,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_1_11_0,seen_in_converged_start_not_returned_endpoint,0,False,[0],[0],2.310681797873347e-07
+A,pilot_1_11_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_1_13_0,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",1.0317402010590555e-07
+A,pilot_1_13_20261021,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_1_15_0,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",1.2005082532970798e-08
+A,pilot_1_15_20261021,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",6.168725852091653e-07
+A,pilot_3_0_0,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_3_0_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_3_8_0,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_3_8_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_3_9_0,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_3_9_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_3_11_0,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_3_11_20261021,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_3_13_0,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_3_13_20261021,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_3_15_0,seen_only_in_nonconverged_starts,0,False,"[0, 1]",[],
+A,pilot_3_15_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_4_0_0,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_4_0_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_4_8_0,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_4_8_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_4_9_0,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_4_9_20261021,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_4_11_0,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_4_11_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_4_13_0,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_4_13_20261021,seen_only_in_nonconverged_starts,1,False,[1],[],
+A,pilot_4_15_0,seen_only_in_nonconverged_starts,0,False,[0],[],
+A,pilot_4_15_20261021,seen_only_in_nonconverged_starts,0,False,[0],[],
+B,pilot_0_0_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],"[0, 1]",2.1960197350098808e-07
+B,pilot_0_0_20261021,seen_only_in_nonconverged_starts,0,False,[0],[1],1.269201120036727e-07
+B,pilot_0_8_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],[0],8.384926519518823e-08
+B,pilot_0_8_20261021,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",1.0693754816437644e-10
+B,pilot_0_9_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],"[0, 1]",2.7257609652747086e-07
+B,pilot_0_9_20261021,certified_returned_endpoint,1,True,[1],"[0, 1]",0.0
+B,pilot_0_11_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],"[0, 1]",4.839607344551515e-09
+B,pilot_0_11_20261021,certified_returned_endpoint,0,True,[0],[0],0.0
+B,pilot_0_13_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],"[0, 1]",1.9381111208701926e-08
+B,pilot_0_13_20261021,seen_only_in_nonconverged_starts,0,False,[0],[1],3.3079815868618977e-07
+B,pilot_0_15_0,seen_in_converged_start_not_returned_endpoint,-1,False,[0],"[0, 1]",6.826707045529489e-09
+B,pilot_0_15_20261021,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",1.4192370112528683e-09
+B,pilot_1_0_0,certified_returned_endpoint,1,True,[1],"[0, 1]",0.0
+B,pilot_1_0_20261021,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",5.618413381798e-10
+B,pilot_1_8_0,seen_in_converged_start_not_returned_endpoint,0,False,[0],[0],2.4990070997238792e-08
+B,pilot_1_8_20261021,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",4.034999463755789e-10
+B,pilot_1_9_0,seen_only_in_nonconverged_starts,0,False,[0],[1],4.037563477458601e-07
+B,pilot_1_9_20261021,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",1.407148102139067e-09
+B,pilot_1_11_0,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",2.256484882886323e-07
+B,pilot_1_11_20261021,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",2.7142983258727266e-10
+B,pilot_1_13_0,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",1.0317402010590555e-07
+B,pilot_1_13_20261021,certified_returned_endpoint,0,True,[0],"[0, 1]",0.0
+B,pilot_1_15_0,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",1.2005082532970798e-08
+B,pilot_1_15_20261021,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",6.168725852091653e-07
+B,pilot_3_0_0,seen_only_in_nonconverged_starts,1,False,[1],[0],5.2081438545878735e-09
+B,pilot_3_0_20261021,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",2.005743819240518e-10
+B,pilot_3_8_0,seen_in_converged_start_not_returned_endpoint,1,False,[1],[1],9.106172449844857e-10
+B,pilot_3_8_20261021,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",7.495397706038266e-12
+B,pilot_3_9_0,seen_only_in_nonconverged_starts,0,False,[0],[1],3.674221408708449e-09
+B,pilot_3_9_20261021,certified_returned_endpoint,0,True,[0],[0],0.0
+B,pilot_3_11_0,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",2.435991714151651e-10
+B,pilot_3_11_20261021,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",1.748915664426468e-07
+B,pilot_3_13_0,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",2.830524433501838e-16
+B,pilot_3_13_20261021,certified_returned_endpoint,1,True,[1],"[0, 1]",0.0
+B,pilot_3_15_0,seen_in_converged_start_not_returned_endpoint,0,False,"[0, 1]","[0, 1]",1.2440848789950262e-07
+B,pilot_3_15_20261021,seen_in_converged_start_not_returned_endpoint,0,False,[0],"[0, 1]",1.2333501673046887e-07
+B,pilot_4_0_0,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",3.9742164217527215e-13
+B,pilot_4_0_20261021,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",8.111156003140739e-10
+B,pilot_4_8_0,certified_returned_endpoint,1,True,[1],[1],0.0
+B,pilot_4_8_20261021,certified_returned_endpoint,1,True,[1],"[0, 1]",0.0
+B,pilot_4_9_0,seen_only_in_nonconverged_starts,0,False,[0],[],
+B,pilot_4_9_20261021,seen_only_in_nonconverged_starts,0,False,[0],[1],5.0637698942373074e-09
+B,pilot_4_11_0,seen_only_in_nonconverged_starts,1,False,[1],[0],2.996964228764616e-07
+B,pilot_4_11_20261021,seen_only_in_nonconverged_starts,1,False,[1],[0],3.857952230341384e-07
+B,pilot_4_13_0,seen_only_in_nonconverged_starts,1,False,[1],[0],2.821105500713761e-08
+B,pilot_4_13_20261021,seen_only_in_nonconverged_starts,0,False,[0],[1],2.5971682732877518e-09
+B,pilot_4_15_0,seen_only_in_nonconverged_starts,1,False,[1],[0],8.59421089625684e-08
+B,pilot_4_15_20261021,seen_in_converged_start_not_returned_endpoint,1,False,[1],"[0, 1]",7.791682415904021e-11

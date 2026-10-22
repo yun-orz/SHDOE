@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETED_LOCAL_DIAGNOSTIC",
+  "RS_q_done": [
+    1,
+    2,
+    4
+  ],
+  "output_area2_status": "SIMULATED",
+  "seconds": 0.8776912000030279,
+  "source_height_sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f",
+  "limitation": "仅固定少量候选点/像元，不是完整ROI独立场"
+}

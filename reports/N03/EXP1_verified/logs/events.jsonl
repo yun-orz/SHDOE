@@ -1,0 +1,8 @@
+{"seconds": 0.6214085000010527, "stage": "PREREGISTERED", "spectra": 18, "bands": 9, "noise_seeds": [20261021, 20261022, 20261023]}
+{"seconds": 2.281164500000159, "stage": "EXP1_ENTRY_PASS", "tests": 61}
+{"seconds": 2.4959900000012567, "stage": "NOISELESS_COMPLETE", "solves": 54}
+{"seconds": 2.797973800001273, "stage": "NOISE_PROGRESS", "spectra_complete": 6, "solves": 162}
+{"seconds": 3.1455994000007195, "stage": "NOISE_PROGRESS", "spectra_complete": 12, "solves": 270}
+{"seconds": 3.453162499999962, "stage": "NOISE_PROGRESS", "spectra_complete": 18, "solves": 378}
+{"seconds": 6.216297100001611, "stage": "EXPERIMENT_COMPLETE", "solves": 378, "solver_failures": 0, "input_changes": []}
+{"seconds": 6.247878400001355, "stage": "DELIVERED", "seconds_total": 6.247876100000212}

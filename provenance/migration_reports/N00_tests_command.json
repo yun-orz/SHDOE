@@ -1,0 +1,11 @@
+{
+  "command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "tests/run_all_tests.py"
+  ],
+  "cwd": "E:\\SH\\optics\\n00_forward",
+  "returncode": 0,
+  "seconds": 4.65918493270874,
+  "source_guard": true
+}

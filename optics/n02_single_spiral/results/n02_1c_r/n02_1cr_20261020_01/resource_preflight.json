@@ -1,0 +1,68 @@
+{
+  "time": "2026-10-20T09:14:10.547497+08:00",
+  "memory": {
+    "ram_available_bytes": 2000379904,
+    "ram_total_bytes": 16869351424,
+    "cpu_peak_working_set_bytes": 631853056,
+    "cpu_working_set_bytes": 629776384,
+    "gpu_free_bytes": 7458521088,
+    "gpu_total_bytes": 8585216000
+  },
+  "gpu_method": "历史有界ASM，complex128，不修改传递函数",
+  "planned_domains": [
+    {
+      "padding": 2,
+      "output_size": 4096,
+      "physical_width_um": 4096.0,
+      "gpu_budget_bytes": 1275068416,
+      "allowed": false,
+      "limit_bytes": 6339742924,
+      "reason": "预检预算未满足时跳过，不尝试OOM后重试"
+    },
+    {
+      "padding": 4,
+      "output_size": 8192,
+      "physical_width_um": 8192.0,
+      "gpu_budget_bytes": 4294967296,
+      "allowed": false,
+      "limit_bytes": 6339742924,
+      "reason": "预检预算未满足时跳过，不尝试OOM后重试"
+    },
+    {
+      "padding": 5,
+      "output_size": 10240,
+      "physical_width_um": 10240.0,
+      "gpu_budget_bytes": 6559891456,
+      "allowed": false,
+      "limit_bytes": 6339742924,
+      "reason": "预检预算未满足时跳过，不尝试OOM后重试"
+    },
+    {
+      "padding": 6,
+      "output_size": 12288,
+      "physical_width_um": 12288.0,
+      "gpu_budget_bytes": 9328132096,
+      "allowed": false,
+      "limit_bytes": 6339742924,
+      "reason": "预检预算未满足时跳过，不尝试OOM后重试"
+    }
+  ],
+  "cpu_reference_estimated_peak_bytes": 1572864000,
+  "maximum_new_ASM_calls": 12,
+  "maximum_new_wavelengths_nm": [
+    420,
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    546.1,
+    660
+  ],
+  "CPU_methods": "非周期CZT Fresnel，仅局部RS点求积；不保存8192²以上整域数组，保存原始ROI、积分能量及缩略/剖面"
+}

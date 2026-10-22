@@ -1,0 +1,35 @@
+{
+  "time": "2026-10-20T09:33:11.811061+08:00",
+  "memory": {
+    "ram_available_bytes": 3072147456,
+    "ram_total_bytes": 16869351424,
+    "cpu_peak_working_set_bytes": 577310720,
+    "cpu_working_set_bytes": 504336384,
+    "gpu_free_bytes": 7458521088,
+    "gpu_total_bytes": 8585216000
+  },
+  "disk_free_bytes": 80694497280,
+  "RS_device": "cuda",
+  "RS_allowed": true,
+  "selected_point_ASM": [
+    {
+      "pad": 2,
+      "N": 4096,
+      "physical_width_um": 4096,
+      "estimated_gpu_bytes": 1342177280,
+      "allowed": true,
+      "status": "PLANNED_SELECTED_POINT_ASM"
+    },
+    {
+      "pad": 4,
+      "N": 8192,
+      "physical_width_um": 8192,
+      "estimated_gpu_bytes": 3758096384,
+      "allowed": true,
+      "status": "PLANNED_SELECTED_POINT_ASM"
+    }
+  ],
+  "no_full_pad5_pad8": true,
+  "RS_temporary_cap_MiB": 384,
+  "distinction": "选点ASM仍需pad2/pad4二维GPU FFT谱，但不分配完整相位核/传播复场/整域强度；主机只保留小块与少量输出"
+}

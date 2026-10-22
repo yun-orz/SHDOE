@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "independent_direction_checks": [
+    {
+      "axis": "x",
+      "signed_pixel": -0.005,
+      "detector_centroid_um": [
+        -0.01876608004252789,
+        0.0
+      ],
+      "passed": true,
+      "note": "只核验正负号/方向；粗像元中心的质心不强制等于真实亚像元位移"
+    },
+    {
+      "axis": "x",
+      "signed_pixel": 0.005,
+      "detector_centroid_um": [
+        0.01876608004252789,
+        0.0
+      ],
+      "passed": true,
+      "note": "只核验正负号/方向；粗像元中心的质心不强制等于真实亚像元位移"
+    },
+    {
+      "axis": "y",
+      "signed_pixel": -0.005,
+      "detector_centroid_um": [
+        0.0,
+        -0.01876608004252789
+      ],
+      "passed": true,
+      "note": "只核验正负号/方向；粗像元中心的质心不强制等于真实亚像元位移"
+    },
+    {
+      "axis": "y",
+      "signed_pixel": 0.005,
+      "detector_centroid_um": [
+        0.0,
+        0.01876608004252789
+      ],
+      "passed": true,
+      "note": "只核验正负号/方向；粗像元中心的质心不强制等于真实亚像元位移"
+    }
+  ],
+  "metric_max_abs_error": 1.734723475976807e-18,
+  "independently_recomputed_summary_max_abs_error": 0.0,
+  "positions": 17,
+  "solves": 1224,
+  "origin_cases": 72,
+  "NNLS_extra_calls": 0,
+  "RS_extra_calls": 0,
+  "old_files_unchanged": true,
+  "verifier_sha256": "fa879a602b1cbb2fb7e207f8e04c2e10f1379683c546308ff783d9bc0dc02505"
+}

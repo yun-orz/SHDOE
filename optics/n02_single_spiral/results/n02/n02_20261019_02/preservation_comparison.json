@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "original_file_count": 6326,
+  "changed_original_paths": [],
+  "new_non_n02_paths": [],
+  "scope": "历史全部文件size/mtime；文本另比SHA；排除.git、__pycache__和隔离n02目录，不声称全部二进制内容SHA"
+}

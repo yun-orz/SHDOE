@@ -1,0 +1,362 @@
+{
+  "status": "COMPLETE_EXP1_ONLY",
+  "entry": "PASS",
+  "original_G0": "FAIL_UNCHANGED",
+  "seconds": 6.2172476000014285,
+  "command": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe -B integration/single_spiral_to_hsi/n03_exp1/run_exp1.py --output E:\\SH\\reports\\N03\\EXP1_verified",
+  "tests": {
+    "checks": [
+      {
+        "name": "按真实波长查31点响应索引",
+        "passed": true,
+        "value": [
+          2,
+          5,
+          8,
+          11,
+          14,
+          17,
+          20,
+          23,
+          26
+        ]
+      },
+      {
+        "name": "B1全部波长固定540nm形状",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B0统一delta位置与能量",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B0_RGB_delta数组非负有限归一",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B0_RGB_delta独立单带420",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta独立单带450",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta独立单带480",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta独立单带510",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta独立单带540",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta独立单带570",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta独立单带600",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta独立单带630",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta独立单带660",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta独立多带",
+        "passed": true,
+        "value": {
+          "max_absolute": 1.3877787807814457e-17,
+          "relative": 5.854761873275368e-17
+        }
+      },
+      {
+        "name": "B0_RGB_delta零输入",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B0_RGB_delta线性",
+        "passed": true,
+        "value": 5.551115123125783e-17
+      },
+      {
+        "name": "B0_RGB_delta伴随内积",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B0_RGB_delta正交压缩重建A",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B0_RGB_delta原矩阵与压缩残差一致",
+        "passed": true,
+        "value": [
+          1.2566871346510768e-16,
+          1.5379888000494545e-16
+        ]
+      },
+      {
+        "name": "B0_RGB_deltaNNLS_KKT",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B0_RGB_delta完整加噪观测残差公式",
+        "passed": true,
+        "value": {
+          "dense_residual": 8.876765521146059e-06,
+          "projected_formula": 8.876765521146054e-06
+        }
+      },
+      {
+        "name": "B1_fixed_PSF数组非负有限归一",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B1_fixed_PSF独立单带420",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B1_fixed_PSF独立单带450",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B1_fixed_PSF独立单带480",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B1_fixed_PSF独立单带510",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B1_fixed_PSF独立单带540",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B1_fixed_PSF独立单带570",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B1_fixed_PSF独立单带600",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B1_fixed_PSF独立单带630",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B1_fixed_PSF独立单带660",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B1_fixed_PSF独立多带",
+        "passed": true,
+        "value": {
+          "max_absolute": 2.710505431213761e-20,
+          "relative": 1.1617174932255241e-16
+        }
+      },
+      {
+        "name": "B1_fixed_PSF零输入",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B1_fixed_PSF线性",
+        "passed": true,
+        "value": 6.776263578034403e-20
+      },
+      {
+        "name": "B1_fixed_PSF伴随内积",
+        "passed": true,
+        "value": 9.161508357502512e-18
+      },
+      {
+        "name": "B1_fixed_PSF正交压缩重建A",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B1_fixed_PSF原矩阵与压缩残差一致",
+        "passed": true,
+        "value": [
+          3.423445960257023e-17,
+          4.2412324375150064e-17
+        ]
+      },
+      {
+        "name": "B1_fixed_PSFNNLS_KKT",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B1_fixed_PSF完整加噪观测残差公式",
+        "passed": true,
+        "value": {
+          "dense_residual": 8.87305790340581e-06,
+          "projected_formula": 8.873057903405808e-06
+        }
+      },
+      {
+        "name": "B2_spiral_PSF数组非负有限归一",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B2_spiral_PSF独立单带420",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B2_spiral_PSF独立单带450",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B2_spiral_PSF独立单带480",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B2_spiral_PSF独立单带510",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B2_spiral_PSF独立单带540",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B2_spiral_PSF独立单带570",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B2_spiral_PSF独立单带600",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B2_spiral_PSF独立单带630",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B2_spiral_PSF独立单带660",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "B2_spiral_PSF独立多带",
+        "passed": true,
+        "value": {
+          "max_absolute": 2.0328790734103208e-20,
+          "relative": 1.3495410825334097e-16
+        }
+      },
+      {
+        "name": "B2_spiral_PSF零输入",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B2_spiral_PSF线性",
+        "passed": true,
+        "value": 4.743384504624082e-20
+      },
+      {
+        "name": "B2_spiral_PSF伴随内积",
+        "passed": true,
+        "value": 7.697835424647081e-18
+      },
+      {
+        "name": "B2_spiral_PSF正交压缩重建A",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B2_spiral_PSF原矩阵与压缩残差一致",
+        "passed": true,
+        "value": [
+          1.1456631240662771e-17,
+          1.6859980955029483e-17
+        ]
+      },
+      {
+        "name": "B2_spiral_PSFNNLS_KKT",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "B2_spiral_PSF完整加噪观测残差公式",
+        "passed": true,
+        "value": {
+          "dense_residual": 8.865092318016224e-06,
+          "projected_formula": 8.865092318016229e-06
+        }
+      },
+      {
+        "name": "B0_B1秩3",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "解析单位阵NNLS",
+        "passed": true,
+        "value": 0.0
+      },
+      {
+        "name": "秩亏toy不误判唯一解",
+        "passed": true,
+        "value": null
+      },
+      {
+        "name": "原物理响应红蓝toy",
+        "passed": true,
+        "value": [
+          7.0,
+          0.0,
+          2.0
+        ]
+      }
+    ],
+    "passed": 61,
+    "failed": 0
+  },
+  "solves": 378,
+  "inputs_unchanged": true,
+  "git_after": "M README.md\n?? integration/single_spiral_to_hsi/n03_audit.py\n?? integration/single_spiral_to_hsi/n03_exp1/forward.py\n?? integration/single_spiral_to_hsi/n03_exp1/run_exp1.py\n?? integration/single_spiral_to_hsi/n03_exp1/solvers.py\n?? integration/single_spiral_to_hsi/tests/test_n03_exp1.py\n?? reports/N03/00_audit.md\n?? reports/N03/00_manifest.json\n?? reports/N03/01_point_reconstruction_report.md\n?? reports/N03/EXP1/README.md\n?? reports/N03/EXP1/artifact_manifest.json\n?? reports/N03/EXP1/figures/archived_psfs.png\n?? reports/N03/EXP1/figures/column_cosine.png\n?? reports/N03/EXP1/figures/matrix_svd_norms_response.png\n?? reports/N03/EXP1/figures/noise_summary.png\n?? reports/N03/EXP1/figures/spectrum_broad_510.png\n?? reports/N03/EXP1/figures/spectrum_near_equal.png\n?? reports/N03/EXP1/figures/spectrum_onehot_540.png\n?? reports/N03/EXP1/figures/spectrum_random_0.png\n?? reports/N03/EXP1/figures/worst_spiral_case.png\n?? reports/N03/EXP1/logs/events.jsonl\n?? reports/N03/EXP1/logs/run_record.json\n?? reports/N03/EXP1/matrix_diagnostics.json\n?? reports/N03/EXP1/metrics.csv\n?? reports/N03/EXP1/noise_calibration.json\n?? reports/N03/EXP1/nonuniqueness_example.json\n?? reports/N03/EXP1/result_summary.md\n?? reports/N03/EXP1/run_config.json\n?? reports/N03/EXP1/spectra_results.json\n?? reports/N03/EXP1/summary_metrics.json\n?? reports/N03/EXP1/validation_results.json\n?? reports/N03/EXP1_verified/README.md\n?? reports/N03/EXP1_verified/figures/archived_psfs.png\n?? reports/N03/EXP1_verified/figures/column_cosine.png\n?? reports/N03/EXP1_verified/figures/matrix_svd_norms_response.png\n?? reports/N03/EXP1_verified/figures/noise_summary.png\n?? reports/N03/EXP1_verified/figures/spectrum_broad_510.png\n?? reports/N03/EXP1_verified/figures/spectrum_near_equal.png\n?? reports/N03/EXP1_verified/figures/spectrum_onehot_540.png\n?? reports/N03/EXP1_verified/figures/spectrum_random_0.png\n?? reports/N03/EXP1_verified/figures/worst_spiral_case.png\n?? reports/N03/EXP1_verified/logs/events.jsonl\n?? reports/N03/EXP1_verified/matrix_diagnostics.json\n?? reports/N03/EXP1_verified/metrics.csv\n?? reports/N03/EXP1_verified/noise_calibration.json\n?? reports/N03/EXP1_verified/nonuniqueness_example.json\n?? reports/N03/EXP1_verified/result_summary.md\n?? reports/N03/EXP1_verified/run_config.json\n?? reports/N03/EXP1_verified/spectra_results.json\n?? reports/N03/EXP1_verified/summary_metrics.json\n?? reports/N03/EXP1_verified/validation_results.json\n?? reports/N03/logs/00_audit_run.json\n?? reports/N03/logs/00_initial_attempt.md\n?? reports/N03/logs/01_delivery_verification.json\n?? reports/N03/run_commands.md"
+}

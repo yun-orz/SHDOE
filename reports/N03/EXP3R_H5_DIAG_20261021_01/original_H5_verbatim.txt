@@ -1,0 +1,23 @@
+    endpoints = [e for e in endings if tuple(e['position']) == selected]
+    certified = [e for e in endpoints if e['success']]
+    source = next(e for e in evaluations if tuple(e['position']) == selected)
+    selected_id = certified[0]['start_id'] if certified else endpoints[0]['start_id'] if endpoints else source['owner_start_id']
+    owner = next((e for e in endings if e['start_id'] == selected_id), None)
+    accepted = bool(certified and np.isfinite(result['estimate']).all() and
+                    result['estimate'].min() >= 0 and result['kkt'] <= 1e-7)
+    status = 'SUCCESS' if accepted else 'NUMERICALLY_INCOMPLETE' if all(e['budget_exhausted'] for e in endings) else 'INCOMPLETE_OPTIMIZATION'
+    result.update(seconds=elapsed, selected_start_id=selected_id,
+                  selected_candidate_converged=bool(certified),
+                  selected_candidate_budget_exhausted=bool(owner and owner['budget_exhausted']),
+                  selected_is_returned_endpoint=bool(endpoints),
+
+原冻结定义：
+选中缓存坐标与success=True的Powell返回终点逐位相同；仅属于成功运行的中间评价点不算认证
+
+原gate：
+{
+  "passed": false,
+  "accepted": 8,
+  "total": 48,
+  "definition": "选中缓存点与成功Powell返回终点逐位相同，且NNLS有限非负/KKT合格"
+}

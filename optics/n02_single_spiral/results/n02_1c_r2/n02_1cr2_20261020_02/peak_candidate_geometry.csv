@@ -1,0 +1,6 @@
+﻿point_id,x_um,y_um,roles,distance_common_center_um,physical_radius_um,outside_common_disk
+P000,0.5,33.5,"[""pad2_main"", ""pad4_main""]",0.5017445752125992,14.98711379,False
+P001,-14.5,29.5,"[""pad2_a_frozen_own_side"", ""pad2_b_common_side"", ""pad4_a_frozen_own_side"", ""pad4_b_common_side""]",15.06062352865212,14.98711379,True
+P002,0.75,32.75,"[""dx05_main""]",0.7894233374286307,14.98711379,False
+P003,-14.25,31.75,"[""dx05_a_frozen_own_side""]",14.422506451101997,14.98711379,False
+P004,-14.25,28.75,"[""dx05_b_common_side""]",15.023109620138952,14.98711379,True

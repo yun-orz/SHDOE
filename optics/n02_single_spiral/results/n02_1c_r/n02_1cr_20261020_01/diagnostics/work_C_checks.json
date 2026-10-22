@@ -1,0 +1,59 @@
+{
+  "max_main_energy_old_difference": 2.7755575615628914e-17,
+  "pixel_integrations": 100,
+  "max_pixel_energy_error": 3.3306690738754696e-16,
+  "gram_summaries": [
+    {
+      "pixel_um": 1,
+      "max_old_gram_difference": 0.0,
+      "effective_rank": 7.085220928960928,
+      "gram_condition": 224053.55793863183,
+      "rank_at_eps_n_lambda_max": 25,
+      "threshold": 4.415838220675758e-14,
+      "raw_negative_eigenvalues": 0,
+      "svd_gram_condition": 224053.55795298706,
+      "svd_eigenvalue_max_difference": 6.217248937900877e-15,
+      "photon_weighted_gram_condition": 215927.427035397,
+      "photon_weighted_effective_rank": 7.015432641196644
+    },
+    {
+      "pixel_um": 2,
+      "max_old_gram_difference": 0.0,
+      "effective_rank": 7.065517820946009,
+      "gram_condition": 822737.9432418946,
+      "rank_at_eps_n_lambda_max": 25,
+      "threshold": 4.4261880794318385e-14,
+      "raw_negative_eigenvalues": 0,
+      "svd_gram_condition": 822737.9432110228,
+      "svd_eigenvalue_max_difference": 1.1546319456101628e-14,
+      "photon_weighted_gram_condition": 795175.5602605253,
+      "photon_weighted_effective_rank": 6.995977340929625
+    },
+    {
+      "pixel_um": 4,
+      "max_old_gram_difference": 0.0,
+      "effective_rank": 6.993415859886682,
+      "gram_condition": 6787675.582339355,
+      "rank_at_eps_n_lambda_max": 25,
+      "threshold": 4.4666679969404496e-14,
+      "raw_negative_eigenvalues": 0,
+      "svd_gram_condition": 6787675.578568763,
+      "svd_eigenvalue_max_difference": 3.552713678800501e-15,
+      "photon_weighted_gram_condition": 6759550.765143962,
+      "photon_weighted_effective_rank": 6.924736112724965
+    },
+    {
+      "pixel_um": 8,
+      "max_old_gram_difference": 0.0,
+      "effective_rank": 6.7237103726913015,
+      "gram_condition": 15863921.164749278,
+      "rank_at_eps_n_lambda_max": 25,
+      "threshold": 4.623239327888009e-14,
+      "raw_negative_eigenvalues": 0,
+      "svd_gram_condition": 15863921.155499123,
+      "svd_eigenvalue_max_difference": 1.4210854715202004e-14,
+      "photon_weighted_gram_condition": 15730672.013355296,
+      "photon_weighted_effective_rank": 6.658098857283536
+    }
+  ]
+}

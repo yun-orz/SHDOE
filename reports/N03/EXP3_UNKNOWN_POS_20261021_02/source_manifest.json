@@ -1,0 +1,9 @@
+{
+  "integration\\single_spiral_to_hsi\\n03_exp3\\audit_exp3.py": "91b034a599245040627b4239ddf3de07cd3cce9247f2bdff27f0c4b6e2b5228d",
+  "integration\\single_spiral_to_hsi\\n03_exp3\\forward_adapter.py": "2990e4647afd666b2a0a43ec9dcdfbcf7d0bcdf522ef817528083b7e959918a1",
+  "integration\\single_spiral_to_hsi\\n03_exp3\\position_solver.py": "b3f5711e6d3332f7e620dc739095cbe8702ad2e517c7584d1b7731b573ca52ab",
+  "integration\\single_spiral_to_hsi\\n03_exp3\\run_exp3.py": "ac8fd858c09798476b1052c068e101a0674b153666fe45975b9b6022fafa77ac",
+  "integration\\single_spiral_to_hsi\\n03_exp3\\verify_exp3.py": "451e7b81e7feefcba6fec8ae6f14c038fa6ea439eb3a362abb87ceaadfa44e3b",
+  "integration\\single_spiral_to_hsi\\n03_exp3\\__init__.py": "7cf26dac0d418d6b873bc264df81d76b14aba35b6c296206fbe27d26895f800d",
+  "integration\\single_spiral_to_hsi\\tests\\test_n03_exp3.py": "e5c7742cfc31a603f503945ce116531b877419b1d82c9abfc6637eb8506c77bb"
+}

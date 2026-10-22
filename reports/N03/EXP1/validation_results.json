@@ -1,0 +1,328 @@
+{
+  "checks": [
+    {
+      "name": "按真实波长查31点响应索引",
+      "passed": true,
+      "value": [
+        2,
+        5,
+        8,
+        11,
+        14,
+        17,
+        20,
+        23,
+        26
+      ]
+    },
+    {
+      "name": "B1全部波长固定540nm形状",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B0统一delta位置与能量",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B0_RGB_delta数组非负有限归一",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B0_RGB_delta独立单带420",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta独立单带450",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta独立单带480",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta独立单带510",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta独立单带540",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta独立单带570",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta独立单带600",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta独立单带630",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta独立单带660",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta独立多带",
+      "passed": true,
+      "value": {
+        "max_absolute": 1.3877787807814457e-17,
+        "relative": 5.854761873275368e-17
+      }
+    },
+    {
+      "name": "B0_RGB_delta零输入",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B0_RGB_delta线性",
+      "passed": true,
+      "value": 5.551115123125783e-17
+    },
+    {
+      "name": "B0_RGB_delta伴随内积",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B0_RGB_delta正交压缩重建A",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B0_RGB_delta原矩阵与压缩残差一致",
+      "passed": true,
+      "value": [
+        1.2566871346510768e-16,
+        1.5379888000494545e-16
+      ]
+    },
+    {
+      "name": "B0_RGB_deltaNNLS_KKT",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B1_fixed_PSF数组非负有限归一",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B1_fixed_PSF独立单带420",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B1_fixed_PSF独立单带450",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B1_fixed_PSF独立单带480",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B1_fixed_PSF独立单带510",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B1_fixed_PSF独立单带540",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B1_fixed_PSF独立单带570",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B1_fixed_PSF独立单带600",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B1_fixed_PSF独立单带630",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B1_fixed_PSF独立单带660",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B1_fixed_PSF独立多带",
+      "passed": true,
+      "value": {
+        "max_absolute": 2.710505431213761e-20,
+        "relative": 1.1617174932255241e-16
+      }
+    },
+    {
+      "name": "B1_fixed_PSF零输入",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B1_fixed_PSF线性",
+      "passed": true,
+      "value": 6.776263578034403e-20
+    },
+    {
+      "name": "B1_fixed_PSF伴随内积",
+      "passed": true,
+      "value": 9.161508357502512e-18
+    },
+    {
+      "name": "B1_fixed_PSF正交压缩重建A",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B1_fixed_PSF原矩阵与压缩残差一致",
+      "passed": true,
+      "value": [
+        3.423445960257023e-17,
+        4.2412324375150064e-17
+      ]
+    },
+    {
+      "name": "B1_fixed_PSFNNLS_KKT",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B2_spiral_PSF数组非负有限归一",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B2_spiral_PSF独立单带420",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B2_spiral_PSF独立单带450",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B2_spiral_PSF独立单带480",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B2_spiral_PSF独立单带510",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B2_spiral_PSF独立单带540",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B2_spiral_PSF独立单带570",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B2_spiral_PSF独立单带600",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B2_spiral_PSF独立单带630",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B2_spiral_PSF独立单带660",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "B2_spiral_PSF独立多带",
+      "passed": true,
+      "value": {
+        "max_absolute": 2.0328790734103208e-20,
+        "relative": 1.3495410825334097e-16
+      }
+    },
+    {
+      "name": "B2_spiral_PSF零输入",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B2_spiral_PSF线性",
+      "passed": true,
+      "value": 4.743384504624082e-20
+    },
+    {
+      "name": "B2_spiral_PSF伴随内积",
+      "passed": true,
+      "value": 7.697835424647081e-18
+    },
+    {
+      "name": "B2_spiral_PSF正交压缩重建A",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B2_spiral_PSF原矩阵与压缩残差一致",
+      "passed": true,
+      "value": [
+        1.1456631240662771e-17,
+        1.6859980955029483e-17
+      ]
+    },
+    {
+      "name": "B2_spiral_PSFNNLS_KKT",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "B0_B1秩3",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "解析单位阵NNLS",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "name": "秩亏toy不误判唯一解",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "原物理响应红蓝toy",
+      "passed": true,
+      "value": [
+        7.0,
+        0.0,
+        2.0
+      ]
+    }
+  ],
+  "passed": 58,
+  "failed": 0
+}

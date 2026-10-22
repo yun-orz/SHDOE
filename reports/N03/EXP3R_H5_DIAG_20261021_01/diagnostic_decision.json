@@ -1,0 +1,84 @@
+{
+  "notice": "EXPLORATORY / N03 G0 FAIL / N02 G2+G3_Numerics FAIL",
+  "decision": "H5_DIAG_MIXED",
+  "engineering_QA_passed": true,
+  "observed": {
+    "B_observations": 48,
+    "B_local_starts": 96,
+    "H5_exact_replay": 8,
+    "provenance_counts": {
+      "SUCCESSFUL_START_INTERMEDIATE": 28,
+      "UNSUCCESSFUL_START_ONLY": 12,
+      "SUCCESSFUL_RETURN_ENDPOINT": 8
+    },
+    "C1_available": 47,
+    "no_successful_endpoint_cases": [
+      "pilot_4_9_0"
+    ],
+    "new_optimization_starts": 0
+  },
+  "diagnostic_inference": {
+    "semantic_close_cases": [
+      "pilot_0_0_0",
+      "pilot_0_8_0",
+      "pilot_0_8_20261021",
+      "pilot_0_9_0",
+      "pilot_0_11_0",
+      "pilot_0_13_0",
+      "pilot_0_15_0",
+      "pilot_0_15_20261021",
+      "pilot_1_0_20261021",
+      "pilot_1_8_0",
+      "pilot_1_8_20261021",
+      "pilot_1_9_20261021",
+      "pilot_1_11_0",
+      "pilot_1_11_20261021",
+      "pilot_1_13_0",
+      "pilot_1_15_0",
+      "pilot_1_15_20261021",
+      "pilot_3_0_20261021",
+      "pilot_3_8_0",
+      "pilot_3_8_20261021",
+      "pilot_3_11_0",
+      "pilot_3_11_20261021",
+      "pilot_3_13_0",
+      "pilot_3_15_0",
+      "pilot_3_15_20261021",
+      "pilot_4_0_0",
+      "pilot_4_0_20261021",
+      "pilot_4_15_20261021"
+    ],
+    "convergence_limited_cases": [
+      "pilot_4_9_0"
+    ],
+    "unresolved_cases": [
+      "pilot_0_0_20261021",
+      "pilot_0_13_20261021",
+      "pilot_1_9_0",
+      "pilot_3_0_0",
+      "pilot_3_9_0",
+      "pilot_4_9_20261021",
+      "pilot_4_11_0",
+      "pilot_4_11_20261021",
+      "pilot_4_13_0",
+      "pilot_4_13_20261021",
+      "pilot_4_15_0"
+    ],
+    "rule": "多数未认证中间点接近成功终点且目标接近支持语义；无成功终点或failure-only点与成功终点有显著距离/目标差支持收敛限制。"
+  },
+  "unverified": [
+    "光学PSF可信性和真实相机标定",
+    "全域唯一性",
+    "单seed以外的噪声泛化",
+    "未精修案例是否还能下降"
+  ],
+  "old_gate_unchanged": true,
+  "old_H5": "FAIL",
+  "full": "NOT_RUN 0/504",
+  "upstream": {
+    "N03_G0": "FAIL",
+    "N02_G2": "FAIL",
+    "N02_G3_Numerics": "FAIL"
+  },
+  "next_step": "若独立审核确认这些来源和C1反事实，另立并预注册候选返回/收敛认证一致的单点pilot；本轮不改旧选择器、不放行full。"
+}

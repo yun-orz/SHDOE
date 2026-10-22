@@ -1,0 +1,96 @@
+{
+  "status": "COMPLETED_LOCAL_DIAGNOSTIC",
+  "scientific_status": "LOCAL_MECHANISM_SUPPORTED_GLOBAL_INCONCLUSIVE",
+  "time": "2026-10-20T09:33:20.367862+08:00",
+  "decision": {
+    "stage": "N02-1C-R2",
+    "execution_status": "COMPLETED_LOCAL_DIAGNOSTIC",
+    "scientific_status": "LOCAL_MECHANISM_SUPPORTED_GLOBAL_INCONCLUSIVE",
+    "boundary_label": "MIXED",
+    "local_label_counts": {
+      "PHYSICAL_TAIL_SUPPORTED": 0,
+      "PERIODIC_OR_SAMPLING_ARTIFACT_SUPPORTED": 0,
+      "MIXED": 8,
+      "INCONCLUSIVE": 34
+    },
+    "P1_quadrature_levels_done": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "P2": {
+      "status": "COMPLETED_LOCAL_DIAGNOSTIC",
+      "RS_q1_q4_local_candidate_ratio_difference": 0.0011639483440459841,
+      "output_area_done": true,
+      "full_ROI_RS_certified": false,
+      "source_q8_done": false,
+      "old_G3": "FAIL"
+    },
+    "P3": "评价器不稳定有证据，单圈物理模态尚未完全认证",
+    "historical_states": {
+      "G0": "PASS_SIMULATED_FROZEN",
+      "G1": "PASS_SIMULATED_FROZEN",
+      "G2": "FAIL",
+      "G3_Numerics": "FAIL",
+      "G3_Fabrication": "仅假设扰动实验完成，真实工艺NOT_TESTED",
+      "G4_G8": "NOT_TESTED",
+      "prior_P0B": "INCONCLUSIVE"
+    },
+    "retrospective_gate_override": false,
+    "full_boundary_edge_estimated": false,
+    "full_ROI_physical_ratio_certified": false,
+    "G4_G8_permission": false,
+    "next_experiment": "仅在420nm同一8个预注册边界点追加16x16源像元内RS中点求积，与8x8比较，或对同一分片常值源做有误差界的像元相位积分；先排除尚未收敛的输入求积，不扩谱、不重新设计。"
+  },
+  "environment": {
+    "time": "2026-10-20T09:33:11.688706+08:00",
+    "python": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "python_version": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 22:57:13) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "git_head": "b9bf90c94bda664502d309be147949262fa71309",
+    "seed": 20261020
+  },
+  "resource_usage": {
+    "wall_seconds": 9.477017700002762,
+    "cpu_peak_working_set_bytes": 898867200,
+    "max_recorded_gpu_allocation_bytes": 3229745152,
+    "RS_device": "cuda",
+    "source_chunk": 8192,
+    "point_chunk": 4,
+    "new_full_domain_output_ASM": 0,
+    "selected_periodic_ASM_pads": [
+      2,
+      4
+    ],
+    "no_pad5_pad8": true,
+    "resource_after": {
+      "ram_available_bytes": 2726416384,
+      "ram_total_bytes": 16869351424,
+      "cpu_peak_working_set_bytes": 898867200,
+      "cpu_working_set_bytes": 865329152,
+      "gpu_free_bytes": 4115660800,
+      "gpu_total_bytes": 8585216000
+    }
+  },
+  "protocol_sha256": "1cae92d4be3f05a22723fc79b9a284e3157d9460a55fa55ecdbb6208beb567c2",
+  "input_hashes_sha256": "f8c1fa4e3ed19e25874b3bf4bc81a6bd5a72d374666f80e023d552a3df4594e3",
+  "source_hashes": {
+    "experiments/n02_1c_r2/r2_analysis.py": "d5ce9517a2914416e14bf1d3331454be32efb5107d967e9831d5805518303af4",
+    "experiments/n02_1c_r2/r2_common.py": "bc71dafc7d8ff7c396526698a06c21cdf8a90f9e0e2bc38e2940c41e4857e2b5",
+    "experiments/n02_1c_r2/r2_experiments.py": "f27258dfb4b7ceaab1feac0bea8b584102598fd32906f563926eb3ca33b05829",
+    "experiments/n02_1c_r2/r2_prepare.py": "fefb45298252a7a5ac91fcb7cac242a5b260751ea7f7e230546423c6c152518c",
+    "experiments/n02_1c_r2/r2_report.py": "fd4a37b9c388bc11711e7e8050e7a6f2eca196ab1eec7a82166c0ccfcbcda6f9",
+    "experiments/n02_1c_r2/r2_run.py": "c397d5105279b9e4ddb8c7ea88d752eb5bc4bebdd733d575f8c40966e20af095",
+    "experiments/n02_1c_r2/r2_solver.py": "ed4ac9d53702ca4f2c405a53676d9bc0ccda4411242f0b1b664819f28c21d80d",
+    "experiments/n02_1c_r2/r2_verify.py": "626139aefc9d96cfcc63a2c21f1ece81a5406a608ae835ec86e64a0da273ce89",
+    "configs/n02_1c_r2/protocol_v1.json": "9695082bb5bd0d1567e6a65f8628206999a1d445c532f232e4817709bbd3d263"
+  },
+  "artifact_manifest_sha256": "773a79877723971e4ec949f6480538d994abf37648a5eb5cd9b83b981db02d83",
+  "entry": "experiments/n02_1c_r2/r2_run.py"
+}

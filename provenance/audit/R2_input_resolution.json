@@ -1,0 +1,332 @@
+[
+  {
+    "original_path": "C:/Users/李咏晨/Downloads/N02_1CR2_Codex_%E5%AE%A1%E6%A0%B8%E4%B8%8E%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E4%B9%A6_20261020.md",
+    "expected_sha256": "33f332922dd10c433513ba20d7377cc1d5e468b9657e45014f1294441c7caac0",
+    "resolved_path": "E:\\SH\\provenance\\source_tasks\\R2_original_LF.md",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/B2/height_um.npy",
+    "expected_sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\height_um.npy",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/B2/aperture_mask.npy",
+    "expected_sha256": "07e77628a12d6c223057b219d70a4eb5869027b139aaf4113f00cd0b40dc44bc",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\aperture_mask.npy",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/B2/config.json",
+    "expected_sha256": "aee9b28c91fbf5ee01685cef576d82dafbe9da656c70d8c976d12ff67d57719a",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\config.json",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/B2/frozen_sha256.json",
+    "expected_sha256": "f98192f2864c398434c4fce917268692a3cb09e2ba1f2e69e52d7d75a79d420e",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\frozen_sha256.json",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/protocol_frozen.json",
+    "expected_sha256": "a9cdfbc3a86c925d7c6371b41beddc638b8c2964cd86be254de31933147d1027",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\protocol_frozen.json",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/gates.json",
+    "expected_sha256": "a9855429b0d94ac842496b32d0c18319f873ea9882415c5e8463a4dc6fd8d0a4",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\gates.json",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/gate3_convergence.csv",
+    "expected_sha256": "e6870f61a16e3e90d6a7cf5c4eed82b1163fadc316e04ab4a8d2e3466313e1e4",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\gate3_convergence.csv",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/gate3_convergence.json",
+    "expected_sha256": "95200505b152356b869a0b16dd4c17dd7cabc364a19d41134a1e34f36ed25acc",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\gate3_convergence.json",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/P0B_diagnostic_protocol.json",
+    "expected_sha256": "ac3f26b2326f5e127f8cc45869e325b1cea6d631364de4fba0fbecf6ded52a3a",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\P0B_diagnostic_protocol.json",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/review_corrections_v2.json",
+    "expected_sha256": "3ac0810e78c97ccf559ca9f6aa47218b9f1521ca1ed3d170c5143a009a0d9c1e",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\review_corrections_v2.json",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/P0B_gate_decision_v2.json",
+    "expected_sha256": "5b5e5efd1a956a9d80710a9fcb29c726347bde88177aca670c4ae72b822d53f9",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\P0B_gate_decision_v2.json",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/review_manifest_v2.json",
+    "expected_sha256": "7e07b6e906f7db9014892609bc736edf469feb0f9b744d01e7b8cd0dc30cdb00",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\review_manifest_v2.json",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/diagnostics/ratio_sensitivity_decomposition.csv",
+    "expected_sha256": "8cb43bd6b2c3a7b37e934f5219b21fc4b83aa8b755d1f91fca4753f17d363c7e",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\diagnostics\\ratio_sensitivity_decomposition.csv",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/diagnostics/RS_core_error_summary.csv",
+    "expected_sha256": "a5b6d5c535f8a87e218a65e745b405f654023437d2267d7f19d65fe7b0509833",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\diagnostics\\RS_core_error_summary.csv",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/diagnostics/425_fit_audit.csv",
+    "expected_sha256": "03a51c43b7f04062946c982c4d61be30823cf65646c42b682432e04197f3b08a",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\diagnostics\\425_fit_audit.csv",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/diagnostics/blue_domains_trajectory_v2.csv",
+    "expected_sha256": "3e5ae2b2232e498ec6bfeedb944c216ef4a124f137d442a72c363c9447d49f4c",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\diagnostics\\blue_domains_trajectory_v2.csv",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/propagation/RS_points_425nm.npz",
+    "expected_sha256": "ada1030859e96551aa49fe51b62bce53499fb4e1336db4d76245a74e8f515473",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\propagation\\RS_points_425nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r/n02_1cr_20261020_01/diagnostics/RS_point_comparison.csv",
+    "expected_sha256": "979107ac11bbc90d8dff0473e1958863c89ce535fa00852a3a3f823166302474",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r\\n02_1cr_20261020_01\\diagnostics\\RS_point_comparison.csv",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/reports/n02_1c_r/n02_1cr_20261020_01/summary_v2.md",
+    "expected_sha256": "8fd5e72a37a36db2737dd9eab79dd292c6699e8e0051362154c55d40c3ddb335",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\reports\\n02_1c_r\\n02_1cr_20261020_01\\summary_v2.md",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/reports/n02/n02_20261019_02/N02_final_decision.md",
+    "expected_sha256": "145a7aceb39b1973da8e3ea343493f04735f592ba92e472bff749bfb200b47d0",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\reports\\n02\\n02_20261019_02\\N02_final_decision.md",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/audit.py",
+    "expected_sha256": "e0b021ff1dafcbba902b9205ea6779d240eab3969b8c63f0bd8f1d599fab4a16",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\audit.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/evaluate.py",
+    "expected_sha256": "0459fdf82e91f4aab95a8f986c42f8a7eea57aa6a586507660b45e6526abd54f",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\evaluate.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/finalize.py",
+    "expected_sha256": "44e135d2684433d36af2f40112256b2f800d96e0aed6e4e29a36d070f774b0d2",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\finalize.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/optics.py",
+    "expected_sha256": "34d01a8634c56be2f447dfacd96db477c6846bb7923297a39a1cfa09cffec59f",
+    "resolved_path": "E:\\SH\\provenance\\source_code_originals\\experiments\\n02\\optics.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/physics_tests.py",
+    "expected_sha256": "34dee20f50ee181782ec0967fb83b4302747a2ea4f748a0ee45e3ad74b48fe8e",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\physics_tests.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/reporting.py",
+    "expected_sha256": "a60f664d4499f77ab7f0745575efb070b1e48757d17f9718d4d2f349992d28f8",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\reporting.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/resume.py",
+    "expected_sha256": "81aefdd9bac3182466215229ff5b4d33aa57285a4402e8d3de479b7a2d3255d6",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\resume.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/run.py",
+    "expected_sha256": "f7dcdc38cc6fc9929a666d7f10253374688347228aad6182a49dbde7f10c7ab3",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\run.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/selection.py",
+    "expected_sha256": "bb3ffad33d4220f0fe281421f9abc2bd41d5fa27e822854e7924607d55873bf4",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\selection.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/validation.py",
+    "expected_sha256": "f40f7d224766d02694c24b90631b734ff7c9b12e5cfa25a7dafbd5e18eb90041",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\validation.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02/verify.py",
+    "expected_sha256": "ff4cf2f2bcb8dd765eb2b4c1687bc001c19cc6b51a36ecf89fa9d0667d2f5f2b",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02\\verify.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02_1c_r/p0b_analysis.py",
+    "expected_sha256": "e320b5848d686315d87fc4fb3a5589dd1bf43432f6009103037dfe315a0afe64",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_analysis.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02_1c_r/p0b_boundary.py",
+    "expected_sha256": "15d8cea748ff46bcd07e6ab4978a02a1f5baa6260b3d52bf4410df5c78a5b121",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_boundary.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02_1c_r/p0b_common.py",
+    "expected_sha256": "eccf2b472c07569a257c222585c46173ac89aa79faf7873ac8e150a7ee8772a5",
+    "resolved_path": "E:\\SH\\provenance\\source_code_originals\\experiments\\n02_1c_r\\p0b_common.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02_1c_r/p0b_locators.py",
+    "expected_sha256": "e5b10af1a1bae1be4025c50c13fb1e426c9547d3452e6e73dfec47dd6d8cb643",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_locators.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02_1c_r/p0b_propagation.py",
+    "expected_sha256": "617c592319067a3f43a462a20de5f5a0b1b1415d5c884119ea7d910c7479f5ca",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_propagation.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02_1c_r/p0b_report.py",
+    "expected_sha256": "c6d94e7324ffe03310632776952461dd8628a0dc68a36267e2aed2314af8163b",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_report.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02_1c_r/p0b_review_v2.py",
+    "expected_sha256": "f8f21041f6723c763ee3ff8fe47ca610d5bf1aa823bca3333af08eaf1e9b921c",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_review_v2.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02_1c_r/p0b_run.py",
+    "expected_sha256": "7b2a490c1e0283ccfc7dcc0a2e370aaa1eb23b0cc0a8fadf7e280b7373c7146d",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_run.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/n02_1c_r/p0b_verify.py",
+    "expected_sha256": "d42058f7a526a89c5e94ead520a67b1042510149ba3f9250645c3992c92eabb3",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\experiments\\n02_1c_r\\p0b_verify.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/N01_1/model.py",
+    "expected_sha256": "3112859c690d8f7c3fc3b13a192f3c152afc1b791090bdb5d30199ed0d7859e8",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\vendor_compat\\experiments\\N01_1\\model.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/experiments/N01_2A/model.py",
+    "expected_sha256": "25085ce63adcf554c7da3a43021198275b0a1f6268944273d99c7d240105e3b8",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\vendor_compat\\experiments\\N01_2A\\model.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/src/spiral_hsi/optics/propagation.py",
+    "expected_sha256": "26d7a2e6565242ea10fbaaa35e0f1739c4e8896cf296ee3b24716f22bca3dab6",
+    "resolved_path": "E:\\SH\\optics\\n00_forward\\src\\spiral_hsi\\optics\\propagation.py",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/B2/cases/420nm.npz",
+    "expected_sha256": "864aec59ec85792d106000d29533ff5b8377d834abacc434b31fcb28d9a64c05",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\420nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/convergence/cases/pad4_420nm.npz",
+    "expected_sha256": "c170b27ee4c99dd62aceeabba92877caad2cff556ef03b7755d09fffaf284d16",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\convergence\\cases\\pad4_420nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/B2/cases/425nm.npz",
+    "expected_sha256": "89baf87c08842be5267c052994a6234557e987adbbe3f8bd1fcd09a78e35cf6a",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\425nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/convergence/cases/pad4_425nm.npz",
+    "expected_sha256": "bf00f99ad239b5b7ace99bf13776f53b05bf11c51928c6499bb3a24e73350646",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\convergence\\cases\\pad4_425nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/B2/cases/546.1nm.npz",
+    "expected_sha256": "57908d21d0ce48286402cdb156f7ad8672bbd7635cfaa5ab31d79e604a4e7c8f",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\546.1nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/convergence/cases/pad4_546.1nm.npz",
+    "expected_sha256": "7347c6e68aad52dbbd71eef2b1e1538b13bef71a93b3a25215b56bbbb9027f8c",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\convergence\\cases\\pad4_546.1nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/B2/cases/660nm.npz",
+    "expected_sha256": "ea84f1e608f679c8a615da599bd05854eab23a6ff2248df4b561b781f2ad5a62",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\B2\\cases\\660nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/convergence/cases/pad4_660nm.npz",
+    "expected_sha256": "cf6824f8c5103caa53918a2dbb62cc707873d2d1aadd9a44d633626ad0c0baff",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\convergence\\cases\\pad4_660nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02/n02_20261019_02/convergence/cases/dx05_546.1nm.npz",
+    "expected_sha256": "525e5df2502592bd48017a0b1d3e2e4f7b3b6ab2899eb0274e94e81cb7cf52bf",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02\\n02_20261019_02\\convergence\\cases\\dx05_546.1nm.npz",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r2/n02_1cr2_20261020_01/failure_traceback.txt",
+    "expected_sha256": "cd49bb0895600078a095c613347b48cf958f2d104784bd7b4a275ff0fa38679a",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r2\\n02_1cr2_20261020_01\\failure_traceback.txt",
+    "status": "MATCH"
+  },
+  {
+    "original_path": "E:/SpiralDOE_HSI/n00_run_20261009/results/n02_1c_r2/n02_1cr2_20261020_01/source_at_failure/source_snapshot_hashes.json",
+    "expected_sha256": "c8f603cf144f3c4a5aea06f38af370cf12947dbd0bb352b96caf7b981cb18cc4",
+    "resolved_path": "E:\\SH\\optics\\n02_single_spiral\\results\\n02_1c_r2\\n02_1cr2_20261020_01\\source_at_failure\\source_snapshot_hashes.json",
+    "status": "MATCH"
+  }
+]

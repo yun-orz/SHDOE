@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "solves": 1224,
+  "unique_positions": 17,
+  "zero_regression_cases": 72,
+  "max_zero_estimate_error": 0.0,
+  "checks_passed": 24,
+  "solver_failures": 0,
+  "max_kkt": 1.6868555265450984e-16,
+  "max_Q40_SNR_error_db": 7.105427357601002e-15
+}

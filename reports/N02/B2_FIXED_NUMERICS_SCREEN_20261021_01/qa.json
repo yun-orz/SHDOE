@@ -1,0 +1,27 @@
+{
+  "status": "B_SCREEN_PASS_LOCAL_ONLY",
+  "new_vector_L1": 0.0016399246880286875,
+  "secondary_separately_normalized_vector_L1": 0.00015919595588492763,
+  "max_absolute_intensity_difference": 9.015707785051188e-12,
+  "max_abs_difference_over_I16_peak": 0.001514861638470983,
+  "max_relative_point_intensity_difference": 0.003130622193268532,
+  "max_relative_point_complex_difference": 0.0016455528810730678,
+  "q8_history_relative_field_error": 0.0,
+  "kernel_calls": {
+    "q8": 1,
+    "q16": 1
+  },
+  "normalization": "same fixed K; no ROI/vector renormalization in primary L1",
+  "original_gates": {
+    "N02_G2": "FAIL_UNCHANGED",
+    "N02_G3_Numerics": "FAIL_UNCHANGED",
+    "N03_G0": "FAIL_UNCHANGED"
+  },
+  "not_rerun": [
+    "420nm full-domain edge",
+    "660nm full-domain edge",
+    "425nm localization",
+    "blue wavelength angle gates",
+    "ASM or FFT propagation"
+  ]
+}

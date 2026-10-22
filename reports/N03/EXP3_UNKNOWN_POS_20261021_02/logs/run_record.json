@@ -1,0 +1,29 @@
+{
+  "status": "STOP_G3_2",
+  "seconds": 122.06434840000293,
+  "timing": {
+    "pilot": {
+      "seconds": 105.39370909999707,
+      "peak_memory_bytes": 306192384,
+      "max_evaluations": 117
+    }
+  },
+  "command": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe -B integration/single_spiral_to_hsi/n03_exp3/run_exp3.py --output E:/SH/reports/N03/EXP3_UNKNOWN_POS_20261021_02",
+  "rows": 144,
+  "observations": 48,
+  "git_before": {
+    "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+    "status": "M README.md\n?? integration/single_spiral_to_hsi/n03_audit.py\n?? integration/single_spiral_to_hsi/n03_exp1/\n?? integration/single_spiral_to_hsi/n03_exp2/\n?? integration/single_spiral_to_hsi/n03_exp2b/\n?? integration/single_spiral_to_hsi/n03_exp3/\n?? integration/single_spiral_to_hsi/tests/\n?? reports/",
+    "diff": "b6eabf899354f8e9d40dc0e7f6df60e0095ccb380d36c2f3fe7e7711163ec88e"
+  },
+  "git_after": "M README.md\n?? integration/single_spiral_to_hsi/n03_audit.py\n?? integration/single_spiral_to_hsi/n03_exp1/\n?? integration/single_spiral_to_hsi/n03_exp2/\n?? integration/single_spiral_to_hsi/n03_exp2b/\n?? integration/single_spiral_to_hsi/n03_exp3/\n?? integration/single_spiral_to_hsi/tests/\n?? reports/",
+  "environment": {
+    "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 22:57:13) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "device": "CPU",
+    "threads": 4
+  }
+}

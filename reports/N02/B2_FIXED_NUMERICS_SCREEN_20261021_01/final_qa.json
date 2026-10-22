@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "screen_status": "B_SCREEN_PASS_LOCAL_ONLY",
+  "recomputed_vector_L1": 0.0016399246880286875,
+  "same_8_point_values": true,
+  "RS_extra_calls": 0,
+  "old_files_unchanged": true,
+  "verifier_sha256": "fa879a602b1cbb2fb7e207f8e04c2e10f1379683c546308ff783d9bc0dc02505"
+}

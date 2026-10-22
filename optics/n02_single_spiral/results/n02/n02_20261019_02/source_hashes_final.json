@@ -1,0 +1,14 @@
+{
+  "experiments\\n02\\audit.py": "e0b021ff1dafcbba902b9205ea6779d240eab3969b8c63f0bd8f1d599fab4a16",
+  "experiments\\n02\\evaluate.py": "0459fdf82e91f4aab95a8f986c42f8a7eea57aa6a586507660b45e6526abd54f",
+  "experiments\\n02\\finalize.py": "44e135d2684433d36af2f40112256b2f800d96e0aed6e4e29a36d070f774b0d2",
+  "experiments\\n02\\optics.py": "34d01a8634c56be2f447dfacd96db477c6846bb7923297a39a1cfa09cffec59f",
+  "experiments\\n02\\physics_tests.py": "34dee20f50ee181782ec0967fb83b4302747a2ea4f748a0ee45e3ad74b48fe8e",
+  "experiments\\n02\\reporting.py": "a60f664d4499f77ab7f0745575efb070b1e48757d17f9718d4d2f349992d28f8",
+  "experiments\\n02\\resume.py": "81aefdd9bac3182466215229ff5b4d33aa57285a4402e8d3de479b7a2d3255d6",
+  "experiments\\n02\\run.py": "f7dcdc38cc6fc9929a666d7f10253374688347228aad6182a49dbde7f10c7ab3",
+  "experiments\\n02\\selection.py": "bb3ffad33d4220f0fe281421f9abc2bd41d5fa27e822854e7924607d55873bf4",
+  "experiments\\n02\\validation.py": "f40f7d224766d02694c24b90631b734ff7c9b12e5cfa25a7dafbd5e18eb90041",
+  "experiments\\n02\\verify.py": "ff4cf2f2bcb8dd765eb2b4c1687bc001c19cc6b51a36ecf89fa9d0667d2f5f2b",
+  "configs/n02/baseline_B.yaml": "101462ad3f8227d2f09ed68858dccb58ae3c91a9b1e5e40634545033f9b58273"
+}

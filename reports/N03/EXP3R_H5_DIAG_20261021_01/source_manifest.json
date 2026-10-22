@@ -1,0 +1,18 @@
+{
+  "integration\\single_spiral_to_hsi\\n03_exp3r_h5_diag\\diagnostics.py": {
+    "sha256": "824b4ac38c3325bc26154351ac3f8bd8b13689d906f5e052d0b35bf999604e55",
+    "snapshot": "logs\\source_snapshot\\diagnostics.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp3r_h5_diag\\io_contract.py": {
+    "sha256": "03f446ec58c7533c5431a55e31f40a5b5bf1c8b6599f65d218c20b69a89a0448",
+    "snapshot": "logs\\source_snapshot\\io_contract.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp3r_h5_diag\\run_diag.py": {
+    "sha256": "700d059e479db37e4c457a7e086862bd44275c3c6a95ac3f1f43e9a65dd9f048",
+    "snapshot": "logs\\source_snapshot\\run_diag.py"
+  },
+  "integration\\single_spiral_to_hsi\\n03_exp3r_h5_diag\\tests_diag.py": {
+    "sha256": "a3d485fd97558c0283f0e553a73a22e85042fc7443d78e1c0150652115c40fb4",
+    "snapshot": "logs\\source_snapshot\\tests_diag.py"
+  }
+}

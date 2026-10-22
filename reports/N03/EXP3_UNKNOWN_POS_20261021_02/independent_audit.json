@@ -1,0 +1,302 @@
+{
+  "base_verification": {
+    "passed": true,
+    "failures": [],
+    "observations": {
+      "pilot": 48
+    },
+    "rows": 144,
+    "recomputed_statistics": 60
+  },
+  "checks": [
+    {
+      "name": "独立密集几何积分与半像元边界",
+      "error": 4.542679877764837e-16,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "逐带原始capture一致",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "高斯展宽与EXP2已验收API一致",
+      "error": 0.0,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "重复运行位置/noiseless",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "重复运行光谱/noiseless",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "搜索目标与直接残差/noiseless",
+      "error": 1.401298464324817e-45,
+      "tolerance": 1e-18,
+      "passed": true
+    },
+    {
+      "name": "原点J退化为F光谱",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "重复运行位置/Q40",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "重复运行光谱/Q40",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "搜索目标与直接残差/Q40",
+      "error": 1.3552527156068805e-20,
+      "tolerance": 1e-18,
+      "passed": true
+    }
+  ],
+  "all_pass": true,
+  "paired_comparisons": [
+    {
+      "protocol": "noiseless",
+      "n": 24,
+      "J_less_NRMSE_than_F_fraction": 0.75,
+      "F_minus_J_NRMSE_mean": 0.01899265433901041,
+      "F_minus_J_NRMSE_median": 0.009538344348894456,
+      "J_minus_O_NRMSE_mean": 9.677486182487452e-05,
+      "J_minus_O_NRMSE_median": 7.3536989245531285e-09,
+      "J_over_F_NRMSE_median_excluding_numerical_zero_F": 1.4519054906338295e-06
+    },
+    {
+      "protocol": "Q40",
+      "n": 24,
+      "J_less_NRMSE_than_F_fraction": 0.9166666666666666,
+      "F_minus_J_NRMSE_mean": 0.01891584327232805,
+      "F_minus_J_NRMSE_median": 0.009446179640036838,
+      "J_minus_O_NRMSE_mean": 0.00010020313681916487,
+      "J_minus_O_NRMSE_median": -1.985721972963539e-07,
+      "J_over_F_NRMSE_median_excluding_numerical_zero_F": 0.013568904749989733
+    }
+  ],
+  "local_terminations": {
+    "total": 96,
+    "converged": 19,
+    "budget_terminated": 77
+  },
+  "solution_boundary_fraction": 0.0,
+  "signal_norm_range": [
+    0.0007733311979267761,
+    0.0019710305686758815
+  ],
+  "worst_position_cases": [
+    {
+      "spectrum": "near_equal",
+      "kind": "double",
+      "position_id": "4",
+      "seed": "20261021",
+      "position_error_pixel": "0.011837610953432696",
+      "NRMSE": "0.0006315102698720021",
+      "dx_hat": "0.39550132088918843",
+      "dy_hat": "-0.36094947119009757"
+    },
+    {
+      "spectrum": "near_equal",
+      "kind": "double",
+      "position_id": "4",
+      "seed": "0",
+      "position_error_pixel": "0.011716099995917596",
+      "NRMSE": "0.0005796260496053442",
+      "dx_hat": "0.39507837054959605",
+      "dy_hat": "-0.36063224165767765"
+    },
+    {
+      "spectrum": "near_equal",
+      "kind": "double",
+      "position_id": "3",
+      "seed": "0",
+      "position_error_pixel": "0.008821995098288106",
+      "NRMSE": "0.0010140724756170344",
+      "dx_hat": "-0.24821375360732512",
+      "dy_hat": "0.20863926625002815"
+    },
+    {
+      "spectrum": "near_equal",
+      "kind": "double",
+      "position_id": "3",
+      "seed": "20261021",
+      "position_error_pixel": "0.00860844753929629",
+      "NRMSE": "0.0009808658335490824",
+      "dx_hat": "-0.2479323024129821",
+      "dy_hat": "0.2083564343906631"
+    },
+    {
+      "spectrum": "broad_510",
+      "kind": "broad",
+      "position_id": "4",
+      "seed": "20261021",
+      "position_error_pixel": "0.006641817259203106",
+      "NRMSE": "0.0005366784359952467",
+      "dx_hat": "0.400981822568878",
+      "dy_hat": "-0.3565688477640976"
+    },
+    {
+      "spectrum": "broad_510",
+      "kind": "broad",
+      "position_id": "4",
+      "seed": "0",
+      "position_error_pixel": "0.005652626024337702",
+      "NRMSE": "0.0004450985236460953",
+      "dx_hat": "0.39951997436169284",
+      "dy_hat": "-0.3556322070591898"
+    },
+    {
+      "spectrum": "broad_510",
+      "kind": "broad",
+      "position_id": "3",
+      "seed": "0",
+      "position_error_pixel": "0.0017885274887989818",
+      "NRMSE": "0.00015446641500515114",
+      "dx_hat": "-0.2508720540227839",
+      "dy_hat": "0.2015615224492578"
+    },
+    {
+      "spectrum": "broad_510",
+      "kind": "broad",
+      "position_id": "3",
+      "seed": "20261021",
+      "position_error_pixel": "0.0016884071982632373",
+      "NRMSE": "0.00018496148007159913",
+      "dx_hat": "-0.2508666638779761",
+      "dy_hat": "0.20144900399922103"
+    },
+    {
+      "spectrum": "onehot_660",
+      "kind": "onehot",
+      "position_id": "3",
+      "seed": "20261021",
+      "position_error_pixel": "0.0013755921757350987",
+      "NRMSE": "0.00030608553347221903",
+      "dx_hat": "-0.25088734617310304",
+      "dy_hat": "0.19894887174758596"
+    },
+    {
+      "spectrum": "onehot_660",
+      "kind": "onehot",
+      "position_id": "3",
+      "seed": "0",
+      "position_error_pixel": "0.0007173299256102801",
+      "NRMSE": "0.00012842111580060444",
+      "dx_hat": "-0.2505901233755702",
+      "dy_hat": "0.199592180648103"
+    }
+  ],
+  "objective_map_diagnostics": [
+    {
+      "observation": "pilot_0_0_0",
+      "sampled_min": 9.535950392634413e-30,
+      "sampled_max": 0.0017289755391112576,
+      "argmin_grid": [
+        0.0,
+        0.0
+      ],
+      "grid_dynamic_range": 0.0017289755391112576,
+      "scope": "局部有限网格；不认证全域唯一性"
+    },
+    {
+      "observation": "pilot_4_9_20261021",
+      "sampled_min": 9.996002002093647e-05,
+      "sampled_max": 0.001187999409442263,
+      "argmin_grid": [
+        0.4,
+        -0.35
+      ],
+      "grid_dynamic_range": 0.0010880393894213266,
+      "scope": "局部有限网格；不认证全域唯一性"
+    }
+  ],
+  "normalization_note": "EXP2/EXP2B逐带detector capture归一shape_only；无整图归一、无Delta-lambda；逐位置capture完整记录",
+  "blur_API": {
+    "offsets_um": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "sigma_um": 0.27397868561278865,
+    "gains": [
+      1,
+      1,
+      1
+    ],
+    "fine_energy_before": [
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0,
+      0.9999999999999997,
+      0.9999999999999998,
+      1.0000000000000002,
+      1.0
+    ],
+    "fine_energy_after": [
+      0.9998336952775533,
+      0.9999092093269855,
+      0.9999508718334752,
+      0.9999673360771513,
+      0.9999706048333358,
+      0.9999633071046345,
+      0.9999443005393279,
+      0.9999147882467405,
+      0.9998696366084899
+    ],
+    "method": "continuous Gaussian double area integral"
+  }
+}

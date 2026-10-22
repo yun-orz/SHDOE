@@ -1,0 +1,34 @@
+{
+  "version": "N02-1CR2-v1",
+  "seed": 20261020,
+  "scope": "P0-P4机制审计；不是新DOE或G2/G3追溯通过；不执行G4-G8",
+  "source_cell_model": "原1um高度和遮光掩模在各像元内分片常值；只加密入射球面振幅/曲率和RS核。保留原二值孔径像元的整个面积，不另行裁切圆孔边界。",
+  "normalization": "所有输入求积级共用原1x1入瞳功率导出的K；另存各级输入面积功率，禁止逐级/逐ROI强制归一取得一致",
+  "kernel": "RS1 z*exp(ik(R-z))*(1+i/(kR))/(i*lambda*R^2)；源场exp(ik*spherical_path+ik*(n-1)*fixed_height)，空气n_env=1",
+  "boundary_wavelength_nm": 420,
+  "boundary_q": [1,2,4],
+  "q8": "预注册8个边界点（外侧像元与向内8um，每条边一个）在P1预计时间<=300s且块内存安全时追加8x8；不是看结果挑点",
+  "point_plan": "4096um域每边预置沿法向0/8/16/32/64um中心偏移，沿边1024.5um、近角点与外侧8um、中心/主峰及反向控制；所有坐标和配对先落盘",
+  "RS_chunk": {"source_pixels": 8192, "output_points": 4, "maximum_input_q": 8, "estimated_temporary_cap_MiB": 384},
+  "resource_policy": {
+    "no_full_pad5_pad8": true,
+    "selected_ASM": "仅GPU FFT谱+分块传递核+选点逆DFT，输出少量复场；预算3*16*N^2+512MiB < 0.75*freeVRAM且RAM>0.75GiB，不满足则NOT_RUN_RESOURCE_LIMIT",
+    "RS": "优先GPU小块；不足时CPU同样分块，RAM不足512MiB则仅P0/P3与PARTIAL_RESOURCE_LIMIT归档",
+    "P1_budget_seconds": 300,
+    "P2_budget_seconds": 180,
+    "unexpected_OOM": "保留异常与跳过记录，不自动重试更大或全波段计算"
+  },
+  "diagnostic_convergence": {
+    "relative_complex_field_limit": 0.01,
+    "relative_intensity_limit": 0.02,
+    "absolute_field_floor": "1e-12用于除零保护并另列reason，不是能量归零",
+    "description": "点位误差阈值仅为预注册诊断尺度；4->8仍超限或未有8验证时不得认证最终收敛，更不能推出全域edge通过"
+  },
+  "P2": "仅P1完成且预算允许时，546.1nm旧冻结数据定位的主/盘外候选坐标并集；共同中心来自上轮开放Fresnel，输入q=1/2/4；少量候选像元另做2x2探测面积与物理半径裁切，仅局部候选比，不声称全局峰比",
+  "P3": "425nm只回读与独立拟合/RS49点重算，不重新传播；pad4实际5nm间隔",
+  "labels": ["PHYSICAL_TAIL_SUPPORTED","PERIODIC_OR_SAMPLING_ARTIFACT_SUPPORTED","MIXED","INCONCLUSIVE"],
+  "legacy_G2": "FAIL",
+  "legacy_G3": "FAIL",
+  "edge_limit_unchanged": 0.001,
+  "outside_ratio_change_limit_unchanged": 0.1
+}

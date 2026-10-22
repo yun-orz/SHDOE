@@ -1,0 +1,86 @@
+[
+  {
+    "name": "零高度与孔径分离",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "name": "常数高度解析",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "name": "相位回代",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "name": "SI与um单位PSF一致",
+    "status": "PASS",
+    "details": {
+      "psf_l1": 4.0020419817167257e-16
+    }
+  },
+  {
+    "name": "负相位取模与Q10边界",
+    "status": "PASS",
+    "details": {
+      "max_level_residual": 1.7763568394002505e-15,
+      "levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "name": "正负手性镜像高度",
+    "status": "PASS",
+    "details": {
+      "height_mirror_max_um": 0.0
+    }
+  },
+  {
+    "name": "GPU历史ASM与独立SciPy及Parseval",
+    "status": "PASS",
+    "details": {
+      "intensity_l1": 1.1013332372711718e-12,
+      "energy": 1.0000000000000004
+    }
+  },
+  {
+    "name": "重复传播稳定",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "name": "有限距离聚焦曲率符号与Airy",
+    "status": "PASS",
+    "details": {
+      "airy_cut_rms": 0.00010304652469810199,
+      "peak_x_um": -0.5
+    }
+  },
+  {
+    "name": "倏逝单频衰减",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "name": "零距离与padding中心坐标",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "name": "Q10设计相位误差上限",
+    "status": "PASS",
+    "details": null
+  }
+]

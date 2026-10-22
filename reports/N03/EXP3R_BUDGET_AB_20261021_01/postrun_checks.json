@@ -1,0 +1,18 @@
+{
+  "inputs_unchanged": true,
+  "changed": [],
+  "head_unchanged": true,
+  "tracked_diff_unchanged": true,
+  "git_before": {
+    "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+    "status": "M README.md\n?? integration/single_spiral_to_hsi/n03_audit.py\n?? integration/single_spiral_to_hsi/n03_exp1/\n?? integration/single_spiral_to_hsi/n03_exp2/\n?? integration/single_spiral_to_hsi/n03_exp2b/\n?? integration/single_spiral_to_hsi/n03_exp3/\n?? integration/single_spiral_to_hsi/n03_exp3r/\n?? integration/single_spiral_to_hsi/tests/\n?? reports/",
+    "tracked_diff_sha256": "b6eabf899354f8e9d40dc0e7f6df60e0095ccb380d36c2f3fe7e7711163ec88e"
+  },
+  "git_after": {
+    "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+    "status": "M README.md\n?? integration/single_spiral_to_hsi/n03_audit.py\n?? integration/single_spiral_to_hsi/n03_exp1/\n?? integration/single_spiral_to_hsi/n03_exp2/\n?? integration/single_spiral_to_hsi/n03_exp2b/\n?? integration/single_spiral_to_hsi/n03_exp3/\n?? integration/single_spiral_to_hsi/n03_exp3r/\n?? integration/single_spiral_to_hsi/tests/\n?? reports/",
+    "tracked_diff_sha256": "b6eabf899354f8e9d40dc0e7f6df60e0095ccb380d36c2f3fe7e7711163ec88e"
+  },
+  "full_observations": 0,
+  "upstream_gates_unchanged": true
+}

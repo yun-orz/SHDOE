@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETED_LOCAL_DIAGNOSTIC",
+  "RS_q_done": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "ASM_pads_done": [
+    2,
+    4
+  ],
+  "optional_q8_preselected_points": 8,
+  "skips": [],
+  "seconds": 3.6778401999908965,
+  "source_height_sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f"
+}

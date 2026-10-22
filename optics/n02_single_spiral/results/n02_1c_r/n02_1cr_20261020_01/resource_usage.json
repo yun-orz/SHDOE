@@ -1,0 +1,18 @@
+{
+  "wall_seconds": 139.23175429998082,
+  "cpu_peak_working_set_bytes": 1067048960,
+  "gpu_peak_allocated_bytes": 0,
+  "new_ASM_calls": 0,
+  "new_Fresnel_calls": 13,
+  "new_RS_calls": 4,
+  "original_data_reuse": true,
+  "no_install": true,
+  "resource_after": {
+    "ram_available_bytes": 2078220288,
+    "ram_total_bytes": 16869351424,
+    "cpu_peak_working_set_bytes": 1067048960,
+    "cpu_working_set_bytes": 781094912,
+    "gpu_free_bytes": 7458521088,
+    "gpu_total_bytes": 8585216000
+  }
+}

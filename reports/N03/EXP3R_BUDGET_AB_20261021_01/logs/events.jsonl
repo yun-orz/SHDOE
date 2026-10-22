@@ -1,0 +1,20 @@
+{"time": "2026-10-21T20:51:52.329449+08:00", "stage": "INPUTS_FROZEN", "files": 1246}
+{"time": "2026-10-21T20:51:55.429724+08:00", "stage": "R0_PASS", "observations": 48, "noise_fingerprints": 48}
+{"time": "2026-10-21T20:52:07.285010+08:00", "stage": "GROUP_PROGRESS", "group": "A", "observations": 6, "seconds": 11.854857800004538}
+{"time": "2026-10-21T20:52:19.124070+08:00", "stage": "GROUP_PROGRESS", "group": "A", "observations": 12, "seconds": 23.69424969999818}
+{"time": "2026-10-21T20:52:32.158034+08:00", "stage": "GROUP_PROGRESS", "group": "A", "observations": 18, "seconds": 36.72807610000018}
+{"time": "2026-10-21T20:52:43.521786+08:00", "stage": "GROUP_PROGRESS", "group": "A", "observations": 24, "seconds": 48.09134479999193}
+{"time": "2026-10-21T20:52:57.728978+08:00", "stage": "GROUP_PROGRESS", "group": "A", "observations": 30, "seconds": 62.29843450000044}
+{"time": "2026-10-21T20:53:11.037887+08:00", "stage": "GROUP_PROGRESS", "group": "A", "observations": 36, "seconds": 75.6083934000053}
+{"time": "2026-10-21T20:53:24.926398+08:00", "stage": "GROUP_PROGRESS", "group": "A", "observations": 42, "seconds": 89.49651440000162}
+{"time": "2026-10-21T20:53:39.179920+08:00", "stage": "GROUP_PROGRESS", "group": "A", "observations": 48, "seconds": 103.74956749999546}
+{"time": "2026-10-21T20:53:39.250755+08:00", "stage": "A_HISTORY_REGRESSION_PASS", "rows": 144, "traces": 48}
+{"time": "2026-10-21T20:53:58.877179+08:00", "stage": "GROUP_PROGRESS", "group": "B", "observations": 6, "seconds": 19.625322000007145}
+{"time": "2026-10-21T20:54:21.616095+08:00", "stage": "GROUP_PROGRESS", "group": "B", "observations": 12, "seconds": 42.36452270000882}
+{"time": "2026-10-21T20:54:46.218353+08:00", "stage": "GROUP_PROGRESS", "group": "B", "observations": 18, "seconds": 66.9666256000055}
+{"time": "2026-10-21T20:55:01.800100+08:00", "stage": "GROUP_PROGRESS", "group": "B", "observations": 24, "seconds": 82.5490434000094}
+{"time": "2026-10-21T20:55:31.995712+08:00", "stage": "GROUP_PROGRESS", "group": "B", "observations": 30, "seconds": 112.74387620000925}
+{"time": "2026-10-21T20:55:52.845130+08:00", "stage": "GROUP_PROGRESS", "group": "B", "observations": 36, "seconds": 133.59340510000766}
+{"time": "2026-10-21T20:56:23.402819+08:00", "stage": "GROUP_PROGRESS", "group": "B", "observations": 42, "seconds": 164.1508604999981}
+{"time": "2026-10-21T20:56:54.261684+08:00", "stage": "GROUP_PROGRESS", "group": "B", "observations": 48, "seconds": 195.01086580000992}
+{"time": "2026-10-21T20:56:58.397904+08:00", "stage": "PILOT_GATES", "decision": "EXP3R_PILOT_FAIL", "H2": {"passed": true, "passed_cases": 24, "total": 24, "threshold": 0.005}, "H3": {"passed": true, "passed_cases": 24, "total": 24, "threshold": 0.02}, "H5": {"passed": false, "accepted": 8, "total": 48, "definition": "选中缓存点与成功Powell返回终点逐位相同，且NNLS有限非负/KKT合格"}}

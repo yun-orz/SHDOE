@@ -1,0 +1,42 @@
+{
+  "file_sha_equal": false,
+  "keys_equal": false,
+  "arrays": {
+    "PSF_cube": {
+      "shape_equal": true,
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "wavelength_nm": {
+      "shape_equal": true,
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "height_um": {
+      "shape_equal": true,
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "aperture_mask": {
+      "shape_equal": true,
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "x_um": {
+      "shape_equal": true,
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "y_um": {
+      "shape_equal": true,
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    "raw_intensity": {
+      "shape_equal": true,
+      "equal": true,
+      "max_abs_difference": 0.0
+    }
+  },
+  "interpretation": "NPZ容器SHA不同，数组数值单独比较；仅选择verified作为参考"
+}

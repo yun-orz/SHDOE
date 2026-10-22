@@ -1,0 +1,7 @@
+{"stage": "G3_1_PASS", "tests": 17}
+{"stage": "POSITION_COMPLETE", "stage_name": "pilot", "position_id": 0, "rows": 36, "seconds": 24.082634499995038}
+{"stage": "POSITION_COMPLETE", "stage_name": "pilot", "position_id": 1, "rows": 72, "seconds": 48.7012415999925}
+{"stage": "POSITION_COMPLETE", "stage_name": "pilot", "position_id": 3, "rows": 108, "seconds": 76.44245319999754}
+{"stage": "POSITION_COMPLETE", "stage_name": "pilot", "position_id": 4, "rows": 144, "seconds": 105.39339709999331}
+{"stage": "PILOT_GATE", "seconds": 105.39370909999707, "peak_memory_bytes": 306192384, "max_evaluations": 117, "passed": false, "clean_worst_position": 0.011716099995917596, "Q40_worse_than_F": 0, "projected_full_seconds": 1106.6339455499692}
+{"stage": "DELIVERED", "status": "STOP_G3_2", "rows": 144}

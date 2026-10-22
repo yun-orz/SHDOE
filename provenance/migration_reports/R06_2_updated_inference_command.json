@@ -1,0 +1,13 @@
+{
+  "command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "5_eval_pretrained.py",
+    "--limit",
+    "8"
+  ],
+  "cwd": "E:\\SH\\framework\\DeepLensHSI",
+  "returncode": 0,
+  "seconds": 50.46608567237854,
+  "source_guard": true
+}

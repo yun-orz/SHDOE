@@ -1,0 +1,9 @@
+x_um,y_um,group,detail,q8_preregistered,point_id,opposite_id,inside_pad2,in_16um_boundary_strip,source_label
+2047.5,0.5,edge_normal,从外侧像元中心向内0um；距物理域边界0.5um,True,B006,B007,True,True,frozen_original / parallel_diagnostic / physical_reference并排
+-2047.5,-0.5,edge_normal,从外侧像元中心向内0um；距物理域边界0.5um,True,B007,B006,True,True,frozen_original / parallel_diagnostic / physical_reference并排
+0.5,2047.5,edge_normal,从外侧像元中心向内0um；距物理域边界0.5um,True,B008,B009,True,True,frozen_original / parallel_diagnostic / physical_reference并排
+-0.5,-2047.5,edge_normal,从外侧像元中心向内0um；距物理域边界0.5um,True,B009,B008,True,True,frozen_original / parallel_diagnostic / physical_reference并排
+2039.5,0.5,edge_normal,从外侧像元中心向内8um；距物理域边界8.5um,True,B010,B011,True,True,frozen_original / parallel_diagnostic / physical_reference并排
+-2039.5,-0.5,edge_normal,从外侧像元中心向内8um；距物理域边界8.5um,True,B011,B010,True,True,frozen_original / parallel_diagnostic / physical_reference并排
+0.5,2039.5,edge_normal,从外侧像元中心向内8um；距物理域边界8.5um,True,B012,B013,True,True,frozen_original / parallel_diagnostic / physical_reference并排
+-0.5,-2039.5,edge_normal,从外侧像元中心向内8um；距物理域边界8.5um,True,B013,B012,True,True,frozen_original / parallel_diagnostic / physical_reference并排

@@ -1,0 +1,55 @@
+{
+  "old_label": "PASS/SIMULATED_ASSUMED",
+  "meaning": "只确认实验已完成，不确认全部扰动合格",
+  "groups": 17,
+  "groups_not_25_of_25": 6,
+  "failed_groups": [
+    {
+      "name": "Q10_round",
+      "valid": 23,
+      "failed_wavelengths_nm": [
+        420.0,
+        460.0
+      ]
+    },
+    {
+      "name": "Q8_floor",
+      "valid": 23,
+      "failed_wavelengths_nm": [
+        430.0,
+        650.0
+      ]
+    },
+    {
+      "name": "height_scale_1.1",
+      "valid": 24,
+      "failed_wavelengths_nm": [
+        440.0
+      ]
+    },
+    {
+      "name": "rounding_0.5um",
+      "valid": 24,
+      "failed_wavelengths_nm": [
+        440.0
+      ]
+    },
+    {
+      "name": "lateral_2um",
+      "valid": 21,
+      "failed_wavelengths_nm": [
+        490.0,
+        520.0,
+        630.0,
+        650.0
+      ]
+    },
+    {
+      "name": "tilt01mrad",
+      "valid": 24,
+      "failed_wavelengths_nm": [
+        440.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-20T09:16:41.326567+08:00",
+  "base_manifest_sha256": "c45a322378690088666ff6895af663a046813ef78d5b5e1d52bb35aca4f5c09a",
+  "revision_source": "experiments\\n02_1c_r\\p0b_review_v2.py",
+  "revision_source_sha256": "f8f21041f6723c763ee3ff8fe47ca610d5bf1aa823bca3333af08eaf1e9b921c",
+  "outputs": {
+    "summary_v2.md": "8fd5e72a37a36db2737dd9eab79dd292c6699e8e0051362154c55d40c3ddb335",
+    "P0B_gate_decision_v2.json": "5b5e5efd1a956a9d80710a9fcb29c726347bde88177aca670c4ae72b822d53f9",
+    "review_corrections_v2.json": "3ac0810e78c97ccf559ca9f6aa47218b9f1521ca1ed3d170c5143a009a0d9c1e",
+    "diagnostics/blue_domains_trajectory_v2.csv": "3e5ae2b2232e498ec6bfeedb944c216ef4a124f137d442a72c363c9447d49f4c",
+    "diagnostics/425_RS_subgrid_peak_v2.json": "fb050940cb93b1e53a0a8fe08be471990d9361f8dca8842a6895c1e805546bc3",
+    "diagnostics/425_open_reference_comparison_v2.png": "7a16cc907ad2ce818170927ad76b9feed9202bdbc41762240d5e6d448e3aa4b7"
+  },
+  "report_summary_sha256": "8fd5e72a37a36db2737dd9eab79dd292c6699e8e0051362154c55d40c3ddb335"
+}

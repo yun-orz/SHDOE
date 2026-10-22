@@ -1,0 +1,12 @@
+{
+  "status": "FINAL_DELIVERY_PASS",
+  "branch": "B",
+  "protected_input_files": 77,
+  "frozen_source_files": 5,
+  "original_files_changed": [],
+  "tracked_diff_unchanged": true,
+  "verification_command": "D:/MiniAnaconda/envs/deeplens_hsi_4060/python.exe -B integration/single_spiral_to_hsi/n03_exp2b/verify_delivery.py --a E:/SH/reports/N03/EXP2B_CAL_TOL_20261021_01 --b E:/SH/reports/N02/B2_FIXED_NUMERICS_SCREEN_20261021_01",
+  "extra_NNLS_calls": 0,
+  "extra_RS_calls": 0,
+  "stop_for_review": true
+}

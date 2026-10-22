@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "core_checks": 141,
+  "core_failures": 0,
+  "full_solves": 5382,
+  "pilot_solves": 318,
+  "input_files": 147,
+  "changed_inputs": [],
+  "artifact_hash_failures": [],
+  "Q_max_realized_SNR_error_db": 7.105427357601002e-15,
+  "P_max_expected_electron_model_relative_difference": 6.310343111523475e-16,
+  "max_independent_energy_conservation_error": 3.3306690738754706e-16,
+  "detector_FOV_loss_B2_range": [
+    0.00032598948523932105,
+    0.001821995665523711
+  ],
+  "max_KKT_violation": 4.0366086180511445e-16,
+  "zero_estimates": 0,
+  "verifier_sha256": "1668a63591f01bb873f79e7253b553e0228c3561e30c852c0e02872dea81a470",
+  "verifier_command": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe -B E:\\SH\\integration\\single_spiral_to_hsi\\n03_exp2\\verify_exp2.py --output E:\\SH\\reports\\N03\\EXP2_20261020_03"
+}

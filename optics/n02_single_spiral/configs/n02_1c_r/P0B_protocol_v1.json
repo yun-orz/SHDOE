@@ -1,0 +1,32 @@
+{
+  "version": "N02-1C-R-P0B-v1",
+  "seed": 20261020,
+  "scope": "仅A/B/C诊断，不启动G4至G8；旧门禁与旧产物只读",
+  "height_policy": "只读B2/height_um.npy与aperture_mask.npy；新传播不调用design、不重新取模或量化",
+  "legacy_gates": {"G2": "FAIL", "G3_Numerics": "FAIL", "boundary_limit": 0.001, "outside_ratio_change_limit": 0.1},
+  "locators": {
+    "frozen3": "独立重算3x3对数二次拟合；H负定且驻点偏移各轴<=1pixel，否则保留原始argmax",
+    "centroid7": "7x7局部最小背景扣除后质心；非峰值无偏估计",
+    "constrained_log5_7": "H=-LL^T，中心各轴±1pixel，8个方向初值；边界活跃必须报告",
+    "intensity_interpolation": "1阶与3阶样条；25x25邻域预滤波，±1.5pixel局部寻峰，8初值；同21um窗口10倍采样能量对照，不缩放修补",
+    "uncertainty": "约束5/7和三次插值间位置协方差投影到角方向；仅代理，不是统计CI，不把有限差分波动自动归因为反转"
+  },
+  "new_propagation": {
+    "wavelengths_allowed_nm": [420,421,422,423,424,425,426,427,428,429,430,546.1,660],
+    "pad4_new_nm": [421,422,423,424,426,427,428,429],
+    "pad5_optional_nm": [420,425,546.1,660],
+    "max_new_full_ASM_calls": 12,
+    "ROI_width_um": 512,
+    "GPU_budget": "估计1.2*50*Noutput^2+256MiB，小于min(0.85*freeVRAM,6.5GiB)，RAM空闲>2GiB；不满足则跳过",
+    "bigger_than_pad5": "只计算预算，不执行",
+    "independent": "非周期Fresnel二维可分离CZT积分全部允许必要点；420/425/546.1/660nm用RS直接中点求积核对局部，425另加0.25um子网格",
+    "RS_tail": "稀疏横向点仅作机制线索，不认证全边界能量；输入相位接近Nyquist的点必须标记",
+    "prohibited": "不使用角谱滤波、窗函数、吸收边界或波前优化取得通过；不安装依赖"
+  },
+  "decision": {
+    "A": "拟合复现且11点均单半峰域、无接近主峰的竞争峰时可支持EVALUATOR_INSTABILITY；不据此认证全连续谱或唯一物理模态",
+    "B": "单个16um边缘份额并非周期误差直接测量；若开放积分/输入采样/全边界积分证据仍不足，必须INCONCLUSIVE",
+    "overall": "仅当A/B及主盘峰比采样敏感性均有稳定独立前向证据时DIAGNOSTIC_RESOLVED；明确物理失效则PHYSICAL_FAILURE；否则INCONCLUSIVE",
+    "restart_G4_G8": false
+  }
+}

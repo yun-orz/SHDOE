@@ -1,0 +1,48 @@
+{
+  "n01_thresholds": {
+    "phase": 1e-10,
+    "equivalent_psf_l1": 1e-08,
+    "energy": 1e-10,
+    "shape_l1": 0.05,
+    "shift_um": 2.0,
+    "angle_deg": 3.0,
+    "edge": 0.001,
+    "roi_fraction": 0.99,
+    "outside_disk_ratio": 1.25,
+    "distinct_peak_ratio": 1.25,
+    "dense_step_deg": 45.0
+  },
+  "peak_analysis": {
+    "max_peaks": 12,
+    "relative_intensity_floor": 0.05,
+    "minimum_separation": "原1.22lambda*z/D主盘半径",
+    "patch_halfwidth_pixels": 10,
+    "match_max_distance_um": 15.0,
+    "match_max_radial_change_um": 6.0,
+    "match_max_angle_change_deg": 70.0,
+    "match_min_patch_cosine": 0.65,
+    "match_max_intensity_factor": 4.0
+  },
+  "n02_proposal": {
+    "sidelobe_ratio": 1.5,
+    "min_angle_per_10nm_deg": 4.0,
+    "max_angle_per_10nm_deg": 18.0,
+    "total_min_deg": 200.0,
+    "total_max_deg": 280.0
+  },
+  "convergence": {
+    "shape_l1_max": 0.05,
+    "peak_shift_um_max": 2.0,
+    "angle_deg_max": 3.0,
+    "edge_fraction_max": 0.001,
+    "disk_ratio_abs_change_max": 0.1,
+    "incident_main_energy_abs_change_max": 0.01
+  },
+  "dense_adaptive_rule": "对 420–500nm 中 N02 峰比小于1.60、形态失败或链接不唯一的5nm邻段，每段新增1/2/3/4nm点，合并去重；最多80新增点",
+  "uncertainty": "像素/亚像素角差与跨网格差仅误差代理；不构造虚假统计置信区间",
+  "p3_caveat": "原提取器的NMS及refine按1um像素解释；只用于原1um协议，0.5um仅做物理指标收敛，不重定义冻结链接器",
+  "material": "ASSUMED: 任务书给定Cauchy，未标定IP-Dip2；常数及折射率±0.005敏感性",
+  "energy": "相对单位入瞳能量=1，raw强度单位um^-2；总域Parseval与无限空间收集效率分开；不含界面反射/吸收",
+  "stop": "前向测试失败停止；科学失败保留。数值不收敛禁止G6/G7/G8。G5仅在基础模型无错误时有限诊断扫描。",
+  "scan_budget": "G2/G3失败仅运行固定R粗扫6候选×25波长，不因失败无限搜索；P1/P2依赖未满足记NOT_TESTED"
+}

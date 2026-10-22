@@ -1,0 +1,16 @@
+{
+  "PSF_cube_sha_equal": false,
+  "common_files": 7,
+  "different_sha_files": [
+    "energy_and_crop.csv",
+    "psf_cube.npz",
+    "test_summary.json",
+    "metadata.json"
+  ],
+  "only_N00": [
+    "preflight_summary.json",
+    "t03_analytical_airy_validation.png"
+  ],
+  "only_verified": [],
+  "decision": "仅复制N00_verified；NPZ容器SHA不同，需以N00_source_array_deduplication.json中的逐数组数值比较为准；原始N00原位保留"
+}

@@ -1,0 +1,15 @@
+{
+  "classification": "INCONCLUSIVE",
+  "core_error_vs_RS": {
+    "OPEN_FRESNEL": 0.000866137608225621,
+    "pad2": 0.0039025555048870855,
+    "pad4": 0.0011254533920029288
+  },
+  "physical_tail_not_excluded": true,
+  "numerical_boundary_not_excluded": true,
+  "limits": [
+    "非周期精确RS仅局部点，不是全条带面积积分",
+    "原像元内部波前求积未细分收敛",
+    "细采样主盘外峰比敏感性尚未完全分离"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "base_manifest_sha256": "d850e3b338e9f875758c13bd935b25a86379480778ef9ef3b3728056f48807e6",
+  "verification_sha256": "583277f695857d15ff679ac02c0cee9206402fc9dfbfb6ad84f58d99a834392a",
+  "verification_source_sha256": "1db48ef92ea90d93ae020a5ff697eddd319c6c0145f360955ca0918a5dc0e925",
+  "source_path": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+  "scope": "补充独立只读重算，旧主归档不覆盖"
+}

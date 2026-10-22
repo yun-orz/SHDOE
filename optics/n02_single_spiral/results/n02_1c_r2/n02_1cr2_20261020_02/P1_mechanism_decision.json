@@ -1,0 +1,16 @@
+{
+  "label": "MIXED",
+  "local_label_counts": {
+    "PHYSICAL_TAIL_SUPPORTED": 0,
+    "PERIODIC_OR_SAMPLING_ARTIFACT_SUPPORTED": 0,
+    "MIXED": 8,
+    "INCONCLUSIVE": 34
+  },
+  "quadrature_4to8_tested": 8,
+  "quadrature_4to8_converged": 8,
+  "max_4to8_complex_change": 0.006605312564243643,
+  "max_4to8_intensity_change": 0.012598466448816955,
+  "full_boundary_fraction_estimated": false,
+  "legacy_G3": "FAIL",
+  "full_domain_certified": false
+}

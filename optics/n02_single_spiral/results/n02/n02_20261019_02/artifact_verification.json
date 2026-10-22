@@ -1,0 +1,4006 @@
+{
+  "status": "PASS",
+  "verified_cases": 571,
+  "max_normalized_psf_error": 0.0,
+  "max_parseval_error": 5.960464477539062e-07,
+  "cases": [
+    {
+      "path": "aperture_decenter2um\\cases\\420nm.npz",
+      "sha256": "126a029f91f2b94b72d4b72c49bf1ad2fd6c6bf165846c8779c31b9a40c35388",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7344468952016524,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\430nm.npz",
+      "sha256": "b6033fa33861fdc95d6460afa9c8afe94224fc7120db4d7a28ea283f3c2cf375",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7513750091357921,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\440nm.npz",
+      "sha256": "9fd3caead6c07d3c3ca60fce4eb620247094768dd0742c65c2de1b7abf362d7d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.769981609706122,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\450nm.npz",
+      "sha256": "7968c9b2caf3d78caf25e33f69ddb9b556f59c9f1d3f6146410c468b8d1cf60e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7886234084725492,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\460nm.npz",
+      "sha256": "ee154bdd16f808615bbc5acf31beeb94f4cdee3021aa97f1434bab9309ad9d77",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.807385742443389,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\470nm.npz",
+      "sha256": "a3ada8406c2c5c8998b83163eb6fdc335d5ef8de3124d939448834d12f6d2edc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8248965615775751,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\480nm.npz",
+      "sha256": "e00c96aa4dc06b33ec81e1c269a5d79d4011b5cd73ffd46c21098647ad87cef4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.840627443949656,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\490nm.npz",
+      "sha256": "41afa8140626516dcfdedbc44cd36e6960508b04c8c7f75e7b66abe69340850e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8538495910080938,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\500nm.npz",
+      "sha256": "8ca6f2d7ff8c350fcb5b027e0f5014f6cc3fa809684be4382c8d849154aa1bb8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8645671262674239,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\510nm.npz",
+      "sha256": "fb60913de21ac21960fe2fc68b5509fbe9a794024a88e668a7d354e7036641cb",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8728469986981874,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\520nm.npz",
+      "sha256": "bfe299b5bf281d8b0877227427375be5d2798624ef3b92d7a5d8c0bf6434c769",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8788710914464718,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\530nm.npz",
+      "sha256": "cc710ce733d03853ee558ade9d665fa345f5a99cac6c9084f261786b88f470ba",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8822921840268042,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\540nm.npz",
+      "sha256": "94721fcf1b4ceebcf2d149b9874abf0e168c618cdc9989e968bc2bd340020c84",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8835881788729432,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\550nm.npz",
+      "sha256": "826d1853c4c2ed0dae9316c2a082088018309b18217b1252c7b0b3298368c9ed",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8825402737392581,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\560nm.npz",
+      "sha256": "18310679d9ae9568eb1ba397b0bb05fb63a31878b5d25d3221aed63ea5ce4b98",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8791723985125277,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\570nm.npz",
+      "sha256": "1b98cf33b7ab59ddd2373f99e97cad977938d2ed2eb97212fa5cc91c83d6c586",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8738526044977979,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\580nm.npz",
+      "sha256": "93c8b212d02b0fe20d1739b56abaabfafcb2bb0428a25e4eefe8133bfb13615c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8664234356452721,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\590nm.npz",
+      "sha256": "af84c8cf063c67de6f4f2247eb4c9bb919999771b5ae64dde82cab7894590cc3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.856980826262614,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\600nm.npz",
+      "sha256": "b127212e03038753dd1de5b4f2600bc5d9842a85c125616c3c6bbeff2729d2f8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8464409491239774,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\610nm.npz",
+      "sha256": "3e99db02839d4190bc3444fba49b3b7cf2580ecc41e89061866f6ad899503b59",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8350724625733384,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\620nm.npz",
+      "sha256": "34f5030f5cfa2f1015b89c20ea5931d4261aa8f2c33929248bd59dbdad539319",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8222287331904499,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\630nm.npz",
+      "sha256": "3d99fc9c22709c2965b3d2f7ad5c9857eca8144f88ebf858f3b07a4565feefc9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8079781538741928,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\640nm.npz",
+      "sha256": "306c75d359b57664713ec2829fb401a57c4b7fa47c9b45832942513dcf9c6000",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7925965208704102,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\650nm.npz",
+      "sha256": "a14b4c8c0a202758b9e5e6f880cc429f1e6e1c70c3c208427e9d9445f4ca60a0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7759671949692228,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "aperture_decenter2um\\cases\\660nm.npz",
+      "sha256": "2c81f6086ad98a604d459ead54c6e12cfe76a943d06b727d476a2fa27cecf10d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7588871229568971,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B0\\cases\\420nm.npz",
+      "sha256": "741701f62d84d1650b7d88d7430c36812d6108399bf24c3b6d5075eecd3ffa96",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7982035599401583,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\430nm.npz",
+      "sha256": "418afa52e5365b9aa5b5b609897114f0adb1c18c8fa4c383df1d4a72f2388068",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8129667816494065,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\440nm.npz",
+      "sha256": "c7e133edc36fc2c0fa4cc280b25034516f1d1c75d6a411e3aa831360d06688e8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8290003087093488,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\450nm.npz",
+      "sha256": "a87eee68451a812205ed171f4ddd0e7982fdc5836394bd668709f3179f140efc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8486594826081997,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B0\\cases\\460nm.npz",
+      "sha256": "593c6a3743313a1e73b777aea7240b31e593c0ae061e9aa5d9347c7bc7b7cba4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8689315730274705,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\470nm.npz",
+      "sha256": "b60e1780b0d953245231784bd42074f0cd2c085a0b3bbf879b2037476058c4a8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8882831465667836,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\480nm.npz",
+      "sha256": "a0450d7e7e0bf375603f72bd2700299a64e19060f0747836e21db72ed3c4b709",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.906188878121432,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\490nm.npz",
+      "sha256": "43659da3428d181c706bfaa2e77508cc06b24360749cd7bded7815cdd476b05c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9215606319764356,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\500nm.npz",
+      "sha256": "553faca5fcd440ad1f5a88ada2f0867bfa7da06fc805e46c74969982262113d9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9343382009874713,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\510nm.npz",
+      "sha256": "f954c433f945c2d048e3a5f78e3ed34323fcbdc207af10fe85703340661092c9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.944563696294291,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\520nm.npz",
+      "sha256": "1951645b789685518378d0862ce4886ccf34019f59072977b869a8e2858f2f95",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9520976911586754,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\530nm.npz",
+      "sha256": "33b9fa032b07083241b20d3cd20c858e4bc84eb62d2dc34fc21580937e131eff",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.956884949149888,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\540nm.npz",
+      "sha256": "da067681693db7f0c8bfd23a3f54e0394e28a9e7496a2e1b0de2e454ae3faf02",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9592767384725657,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\546.1nm.npz",
+      "sha256": "3ee460ad61499a004687d7522ffd63e36140dd8af5731d8b4bcbe1069a051716",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.959647006700928,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\550nm.npz",
+      "sha256": "11a3589af69dd41c49f4349f2e95ab360ffbf064896dcfb6032e7fd4400ed188",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9594485982982155,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\560nm.npz",
+      "sha256": "d8bb9f36d425831e203a081ad1723cbea2a2bbb9b5856bbb553d7b2379c9cd0e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9575604499248382,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\570nm.npz",
+      "sha256": "063aaac6576718e9fa6e7720d04434150f150caf325fd7673b6920e478b9003e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9539191560244046,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\580nm.npz",
+      "sha256": "0f56f255c6f58d366148b5e02750084403dd87150b2d2a96876c2635d2492efc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9486556691379806,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\590nm.npz",
+      "sha256": "ba996f44516150879d819332ad736f4975d199c4d9a52a7ab925ab431bd88a26",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9418429699546661,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\600nm.npz",
+      "sha256": "a3889304d55c4d9dd19e05d1421dd2ec9e4cf442b8dba6f5f7416b6cb691b717",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.933917189135246,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\610nm.npz",
+      "sha256": "e964c823c130372c9c6783ae79518e45923aa45dea3504ffca77d693d7a6d501",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9250422451749098,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\620nm.npz",
+      "sha256": "5ad14372e5447b7186d0003f063ace5c611853461f9a91b7116a504e4ac5e89f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9150594249087423,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\630nm.npz",
+      "sha256": "34638a2fda250a6153439f44a4e569ce28c53309ceca74ab42575e9c4cb084e6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9043217637432187,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\640nm.npz",
+      "sha256": "e3517b92a2b3e3f13d53d69a2ac4e3b72d506273079dc202c48766feb2abe79f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.893148043506998,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\650nm.npz",
+      "sha256": "c9e83b8fa006cd7d3613eccad0f17a22bd83b21c9e53021033f22561e064921f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8814851258027481,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B0\\cases\\660nm.npz",
+      "sha256": "ccc672bae843093e977e1c15df4e524031261bf734a05df5fd9236be8702edc6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.869505526773542,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\420nm.npz",
+      "sha256": "45611bd9623212af6bac671c1aa8ce2ccce40ded786029f44f85f3d5b05a657b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7682532839397618,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\430nm.npz",
+      "sha256": "75deeb1c42c9e787bb9eadf599d4024f135983bf81ece431d27b18efeca3d3b5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7828746547770543,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\440nm.npz",
+      "sha256": "b68dd412239974f9995075b605803fde0c43632bc7df4697bc99215c602dac0c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8002278759799845,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\450nm.npz",
+      "sha256": "de67138170cc0abd41c218cf2e39563a91e26489425151b982cd8e2891686bbb",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8182966253844907,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\460nm.npz",
+      "sha256": "7dbf211bbec920637648e70e01feb6e464cadbf9de2137b2dae376888fea2450",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8368371296904382,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\470nm.npz",
+      "sha256": "d4f75f9000d8456d0a48f3422861e48addaeead0a6181d0e64aea6c301c414c9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8544456901254053,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\480nm.npz",
+      "sha256": "a462a73a2b901965890e36549f5a97dd5fd4be33e50cbaf402814fcc25239d37",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8705027984032043,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\490nm.npz",
+      "sha256": "26b58f706da1658854c9b3e4227329cc9ab32519759aaf756e2684e13b738740",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8840872504155012,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "B1\\cases\\500nm.npz",
+      "sha256": "741198e9d801a794dece95a3b316d4aa6599b2c8319ecd8c49730a4f2d0de56a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8951328293102436,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\510nm.npz",
+      "sha256": "bfec3543635aadbaca9edf5cc82d2a99ff8cb9921ab107a4f368da61f14d3525",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.903742439228833,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\520nm.npz",
+      "sha256": "5d9c0d860810b21d3906fe638f218f1a03dc61f2fb041c288b1751fd08b25122",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.910079928150574,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\530nm.npz",
+      "sha256": "ae5e453328e2a1b4c6286bf52db88859f72953053ae80472cb3e70739ce3c456",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.913674637056242,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\540nm.npz",
+      "sha256": "4ba3c26e5fe670e118422f672d8d94dfacad3f2d5ec2e03ec95c0e19978c4ad7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9150297225069536,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\546.1nm.npz",
+      "sha256": "ae792f256c99978215d7d5925fdcc1c9adb6dc18a941a4c8cfc3b2011ab00bba",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9147060358489933,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\550nm.npz",
+      "sha256": "2de1cd3ebb592f2b6ecc88917998df625ea6d404ea90a2964c563af0f0112887",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9139807546112889,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\560nm.npz",
+      "sha256": "6f69f8eb9bc2fd5aaf95c0ce346736e51d911c404635e19038e4ddf9d0d0f2b5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9105117781063,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B1\\cases\\570nm.npz",
+      "sha256": "660718cf5555b43cbf3e2943caff7918a966733fdfdc850da1c47f03c7520d90",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.905012822790123,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\580nm.npz",
+      "sha256": "5d8ed70879cc106e7de713a7d9f661b5c22ae0b2f6c8547c78a8b414cb700083",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8973008194960181,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\590nm.npz",
+      "sha256": "49c8cba5b8bb9b4e3adba884599bbe9abfde824ceff403d0dfe64e7e4bb7b1f2",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8874755342391945,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\600nm.npz",
+      "sha256": "99182c501e3b317d3ad66f761f772ef2cc32ae26728a6623e76cbd0a976f5b68",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8764752960046317,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\610nm.npz",
+      "sha256": "22902a2a5637baac9a1a43d7c9387801bf782d06f36f51490c91dc83ae9965ff",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8646013615363459,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\620nm.npz",
+      "sha256": "aafaadc633cab048e3f59604fd1f593e831c0ea4d954908889430947aa001cff",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8511720813320007,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\630nm.npz",
+      "sha256": "a206f376e1b2fd08c4cbc7c2d30db56333734dd6e50075f873bc163cdc2ad37e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8362062566463976,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\640nm.npz",
+      "sha256": "20d0141cef9e6ca43eaa14a6efdf189b8facbe6491b91c49fe3579b1b7297a7a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8199765650718206,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B1\\cases\\650nm.npz",
+      "sha256": "3e1b1c97f7681a074b06d3f030b369d84c9aea3405a7d1f1eda6dce193e9fdf4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8023887325644169,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B1\\cases\\660nm.npz",
+      "sha256": "893e9e6821b9c4a886126e2946b0c84a24be0ce840ca917b80ad5151629ad45a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7843027044263199,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B2\\cases\\420nm.npz",
+      "sha256": "864aec59ec85792d106000d29533ff5b8377d834abacc434b31fcb28d9a64c05",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.736137608779348,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\421nm.npz",
+      "sha256": "207ae2a97260bf4f225a14aa96b88137ba6e217b5a6b21cf2862e94fa516d01f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7376373641010688,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\422nm.npz",
+      "sha256": "aee60bb8892a4fecb768f7be6c84185a735db00ab80dd95826a466c1fc27b62c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7391622643483977,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\423nm.npz",
+      "sha256": "716d812a9cc2eae8736b3e56e3736c56f3c678a62836afb65c48d15e5ffb3f99",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7407240681022772,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\424nm.npz",
+      "sha256": "80abf61f163346e20b71a44f9a20f8e7230256605533cf13ff65636b07133910",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7423485188142541,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\425nm.npz",
+      "sha256": "89baf87c08842be5267c052994a6234557e987adbbe3f8bd1fcd09a78e35cf6a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7440321434440641,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\426nm.npz",
+      "sha256": "5e9ff38e2b16cde1f58c92dc22e770c7b2809752dd28a020395f80836348c586",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7457616394430537,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\427nm.npz",
+      "sha256": "e40e66d191d80e4e11fcf330cc180d01ff7a1cd0e86e294fe714fef40646b5ad",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7475528545265038,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\428nm.npz",
+      "sha256": "8151801522395c1809bb171c6c31d0ccabb7f13af8ad38a29a2f29be5b4057cd",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7493605867588755,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\429nm.npz",
+      "sha256": "b21929800d6cdd1f690c2188709538b3bc0c4b1ba01783f808ac074addababd7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7511999757844515,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\430nm.npz",
+      "sha256": "8e118d5ae19c86882e9b5962de793840dd5c482c8c8cc9d08404ee5e038aed29",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7530701487971545,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\435nm.npz",
+      "sha256": "86caed8aee95aa5bf184690deb531bf51ca3cda41a4525548f63927a91f8a58f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7624997001069549,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\440nm.npz",
+      "sha256": "9cd5c1ac25a15266690b583508f226a859db0ada4f0c58aaba93fa58cbbfaa5a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.771831795806475,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\445nm.npz",
+      "sha256": "5e930181bf0d4ab3f263dc8b99237751572e7970f3e5c026a6eed45738a57fa6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7811764391388224,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\450nm.npz",
+      "sha256": "2cd0eeda745bc648b2e8027a98e168bd10278f9e414dde3b189cfe982b61722d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7906093441902559,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\455nm.npz",
+      "sha256": "73549d80ffcc2105e995b7815569011bbf0fbb194224fb82dd7694d687c582d6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8001151495020016,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\460nm.npz",
+      "sha256": "de3320714587fae0f432efd4ade639a3662dfc5a16db6844c86ef715969e78c7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8093995026284846,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\465nm.npz",
+      "sha256": "013b9be173014f528a79c6dffc0689d58c1949e1fa366a14113b204d1c167331",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8183201680585636,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\470nm.npz",
+      "sha256": "0ba300646bc2d4ea6497c0326de91d7d0e16d60998eba701370498b30be7e428",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8269049197442133,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\475nm.npz",
+      "sha256": "be2ae228e8ec087c7ac9969e2fdf5d5e2f0919169bbd139336e4fad295e67789",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8350947944404565,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\480nm.npz",
+      "sha256": "fce5a7b90b15c0fe2c5999f17c4aa9b8c275b43dc9df73a0bed3eb8fc0176bdb",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8427112754814243,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\485nm.npz",
+      "sha256": "908e3991a94f1124a0abf55ca36f939a64381b0cefe49933ca9fb07db7bcd5c1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8496759064280077,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\490nm.npz",
+      "sha256": "c37073d2769c31c58d53b318fa214eaccd3a1bdedf19dbec7d15cb5081b61b2c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8559892370564269,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\495nm.npz",
+      "sha256": "8168754ab9113e9b563a61f4d305a2dea77bd1e20d9c78599168e70e466ae357",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8616652195523437,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\500nm.npz",
+      "sha256": "01bda9e9f3c49d05d33766eba35de7006f0358f4bf535dd152dbf2d05d39d213",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8667002350103896,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B2\\cases\\510nm.npz",
+      "sha256": "174e07c1c425547674a1615776efa57403a41426cd54fdc602bf0fca5e952cbe",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8749832855730743,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "B2\\cases\\520nm.npz",
+      "sha256": "8196ee5393ef0acdacd0131c83ce204ea03ccf87777206fc394ea9672a8608af",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.881062298579015,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\530nm.npz",
+      "sha256": "40bf352ad62f00c7aa253db2fd3bb201c7e515135a92f74eec75f0ce413ee488",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8844984717434282,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\540nm.npz",
+      "sha256": "29d90260f5faccdf52be7630331205b72717251572f0ebb5675346f1616fc8a3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8857940486944001,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\546.1nm.npz",
+      "sha256": "57908d21d0ce48286402cdb156f7ad8672bbd7635cfaa5ab31d79e604a4e7c8f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8854845304030031,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B2\\cases\\550nm.npz",
+      "sha256": "01dfb0ee57b0feb628cd2c92f0554f72170cf372df79c53d009e4f1dfa1b2827",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8847918307657865,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B2\\cases\\560nm.npz",
+      "sha256": "f7602887354b0f608e543cd94c68029ee29b8ae30f303fca84301349ac024005",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8814654337140703,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B2\\cases\\570nm.npz",
+      "sha256": "8e261358c66bf93028a72fefc223d79a46343b858785a08a5e16eb44c1ed83f5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8761895073503131,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B2\\cases\\580nm.npz",
+      "sha256": "deafd500c2cf8b8f4e3a4ea595365914102de3092a8f71a6d6df7fefd7397677",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8687987452864566,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B2\\cases\\590nm.npz",
+      "sha256": "44537c4994bba438f287f127cc28acb8889db9aa6c9dcab37999cdb46f3c07b5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8593898015367737,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B2\\cases\\600nm.npz",
+      "sha256": "c2222048f66f60a0f59d6fa2770c5e9e9fef5810e260959b3ed474c720b42b09",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8488640065996272,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B2\\cases\\610nm.npz",
+      "sha256": "c77abaf9b11cbfebb5a90e6dbb4901a74e20b9cc532762b1c82e7a7f8315fb17",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8374903659001066,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B2\\cases\\620nm.npz",
+      "sha256": "b4f71aef90019f027e0d1bf72ffdaafcdd95949bfd0b223a5623e77f9e23750e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.824616467034018,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B2\\cases\\630nm.npz",
+      "sha256": "f844239b6ea492ee7ca11dfcfbc103fbe499c1df6f812da420e74906a0871877",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8102761252370683,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B2\\cases\\640nm.npz",
+      "sha256": "a427f75d5d347f6ac4ce8e8dcef43646088a9b0d237c85f1b0f328f39be5afb4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.794749083504207,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B2\\cases\\650nm.npz",
+      "sha256": "2188b525b223352f0455d4763361cee0d0bad0dec8900170d74384ba511487bc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7779290125495758,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B2\\cases\\660nm.npz",
+      "sha256": "ea84f1e608f679c8a615da599bd05854eab23a6ff2248df4b561b781f2ad5a62",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7606236310714682,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B3\\cases\\420nm.npz",
+      "sha256": "71405362fba49dd5dcb3f92012c114a0afd1f4c1ff78541dae4c0fae5fd8f712",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7361376087793482,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\430nm.npz",
+      "sha256": "f1acaef6189441e3ecce2875e44f36020c45597165e28de6bca63e36e3437fcd",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7530701487971545,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\440nm.npz",
+      "sha256": "b3faf145d6c505a9cbdcc90fda6736943d42e3b6bd1d14bdb351786a06222d29",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7718317958064748,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\450nm.npz",
+      "sha256": "a32e77123118083fb0f183d5aa82edd8decaf2bcc416389eb77507dfe630fdeb",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7906093441902557,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\460nm.npz",
+      "sha256": "eb24ed3ac01b532af895e9b49cb12d2e22fe11b5b03150280cb21f0bee04b37c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8093995026284847,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\470nm.npz",
+      "sha256": "b53c88444bc54e36e0ad8e3a18b3b676e56ede793ad6c249ceb7eb3d047bb504",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8269049197442131,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B3\\cases\\480nm.npz",
+      "sha256": "0ab696ae1c9f0e4128428aa6cd4507d09fc86c7a113262e95d6ad9e9698ffbdc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8427112754814244,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\490nm.npz",
+      "sha256": "5da0a13769e52a16d4bcc71c119aa8662a22c8e0ef0d8dd5ff43664d87a38c77",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8559892370564272,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\500nm.npz",
+      "sha256": "bba2288837298d973412e124cef1e3e1b7f2f11c17dfe8cb0d98c9732f909b3d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8667002350103903,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\510nm.npz",
+      "sha256": "9f9bb65872f7049ba8bb1a63c9bdb4bd26c2472b133b4a4b4235b4511601592c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8749832855730743,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\520nm.npz",
+      "sha256": "70ff4f4432ca918ed922d611ea5e23d6a60f536f007e5fe5950383707c9ad53f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8810622985790152,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\530nm.npz",
+      "sha256": "0a47a674ba58e9727481806512602517f0b64cac85ca985d1770ebe3f4ce5bcb",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8844984717434283,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\540nm.npz",
+      "sha256": "f5fd76bcd4c690c3ab0c159079a5df37177f14ff8792c28e1ac315c434038931",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8857940486944004,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\546.1nm.npz",
+      "sha256": "7b2e21a36d2efbe09e5ef1c14e2625e7bdbd455342f36c87772a375afd494988",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8854845304030032,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B3\\cases\\550nm.npz",
+      "sha256": "1dbdd33cf529f9d51676f810a43514e0c2f3ce6e9f8585e1564c85f06fa37820",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8847918307657864,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "B3\\cases\\560nm.npz",
+      "sha256": "726ff8ab065b1874696b6d2ae721dbddd29b77a0172cc2c28b835afae12c2072",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8814654337140706,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B3\\cases\\570nm.npz",
+      "sha256": "55a88e0f8695c2b89c2768104f6352c6423a39a44a2f1904eb1deecf701d9c81",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.876189507350313,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B3\\cases\\580nm.npz",
+      "sha256": "1fc7f7f0bd026e3305b2f92329c23f923b9948a6fbfc573bc4dd813775ebbd04",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8687987452864568,
+      "energy_error": 1.1102230246251565e-15
+    },
+    {
+      "path": "B3\\cases\\590nm.npz",
+      "sha256": "e6fa40db344a4a51b1201eeda558fff42a19ef5a563d4474b807fbd7242c1163",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8593898015367736,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B3\\cases\\600nm.npz",
+      "sha256": "81b154b43fc23d960f067643667b00c9735d1429a3d54a41178bef30844c68cd",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8488640065996274,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B3\\cases\\610nm.npz",
+      "sha256": "3dbf6817310abf30f2a508db37eab209fdb698d89dc17a132ad12aa80bb392bd",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8374903659001067,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B3\\cases\\620nm.npz",
+      "sha256": "2c730385d0636d854b86bac227e985718171a6163ec3dec404e0b1e97e2619af",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8246164670340179,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B3\\cases\\630nm.npz",
+      "sha256": "9580e19def868f411ba1c8bcd1a5c195f8642f8de19d34badeb914c7d790bfe3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8102761252370686,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B3\\cases\\640nm.npz",
+      "sha256": "c4b9abbedb6a0946b8854b2bcea3598127a449186899ed3bffc0e3b975331571",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.794749083504207,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "B3\\cases\\650nm.npz",
+      "sha256": "b92f9ff6c976045b12bc2f6894578561e3692d699585568323c6dc0dd4556185",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7779290125495757,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "B3\\cases\\660nm.npz",
+      "sha256": "818cce5deba2e8a8dce8c88cbbe80827210ce241802cd0c69a4570e6dd27e462",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7606236310714682,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "convergence\\cases\\complex64_420nm.npz",
+      "sha256": "0cb66275c836df9832f3d1c5ff31be292da7c428e0982ba8e6af6d6a4a522d45",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7359642386436462,
+      "energy_error": 5.960464477539062e-07
+    },
+    {
+      "path": "convergence\\cases\\complex64_425nm.npz",
+      "sha256": "7cbd787d30ecd3d6244823b8a2336d878320767f0d3dda931cab7ed1ed57cf5c",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7438523173332214,
+      "energy_error": 5.960464477539062e-07
+    },
+    {
+      "path": "convergence\\cases\\complex64_430nm.npz",
+      "sha256": "0685ddc0697208ad98126151f4d470d9ca669bbb7e010c7897214a5aa958f52c",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7529069185256958,
+      "energy_error": 5.960464477539062e-07
+    },
+    {
+      "path": "convergence\\cases\\complex64_546.1nm.npz",
+      "sha256": "44ed3dbcce85274e90ce3ead9da5a0ca5a5600b55fea97a31cda83b6a8a7cb30",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.8854056596755981,
+      "energy_error": 5.960464477539062e-07
+    },
+    {
+      "path": "convergence\\cases\\complex64_660nm.npz",
+      "sha256": "8feb2f0a9831e162ee8600afe27ab577331f83b1c221d6d61948fc54ab77179d",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7605640888214111,
+      "energy_error": 5.960464477539062e-07
+    },
+    {
+      "path": "convergence\\cases\\cpu_asm_420nm.npz",
+      "sha256": "ad5b04021a2a1ae7938a4bce72d5a55efff16108f44e147046e16fb4cec9ea96",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7361376087793838,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "convergence\\cases\\cpu_asm_546.1nm.npz",
+      "sha256": "bebe56bfe397d7b0c82794dc077d725ba6672f271794e1eb77dabd71fa573a4e",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.8854845304030053,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "convergence\\cases\\cpu_asm_660nm.npz",
+      "sha256": "645c7e4778f4f3efe588eb2ca631aed7ed50803b8d9cd6aec1b1213407b642d8",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7606236310714434,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "convergence\\cases\\dx05_420nm.npz",
+      "sha256": "031deee3f69cfb0ade1520dfb3952d64a75bcd5dd2fb2fa16e12a7df80e208a4",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7357063035907302,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "convergence\\cases\\dx05_425nm.npz",
+      "sha256": "514ec76343abf0909821f56c9d99383d1ed4ff680bf7f897829cfb8ad3cd0aa1",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7436225205389614,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "convergence\\cases\\dx05_430nm.npz",
+      "sha256": "def2837d8507f57a3a2d30731a1b1fad067bb95f25d9d3d3d40a68b7079300f8",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7526908968287995,
+      "energy_error": 1.1102230246251565e-16
+    },
+    {
+      "path": "convergence\\cases\\dx05_546.1nm.npz",
+      "sha256": "525e5df2502592bd48017a0b1d3e2e4f7b3b6ab2899eb0274e94e81cb7cf52bf",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.8854840478638777,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "convergence\\cases\\dx05_660nm.npz",
+      "sha256": "83f7adee0770c45e2a1811f7e13fed9a6cde0468c3d8518dc0cc31f36bc8bb6e",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7606543253840841,
+      "energy_error": 3.3306690738754696e-16
+    },
+    {
+      "path": "convergence\\cases\\Fresnel_420nm.npz",
+      "sha256": "a87d918f1a4940204aa21ed7c3b3b4ed2eff8ac4835cc1ae2bdf6137f5e9e970",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7363749452796541,
+      "energy_error": 1.1102230246251565e-15
+    },
+    {
+      "path": "convergence\\cases\\Fresnel_425nm.npz",
+      "sha256": "17fb3269ad846d9e7906bf195fbfc63ef415ace9fba47380366e0f9cf2a85758",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.744272054832335,
+      "energy_error": 0.0
+    },
+    {
+      "path": "convergence\\cases\\Fresnel_430nm.npz",
+      "sha256": "65c1cbcb4d5295eb72abda861d191251cee7e8df4327ab2f498575a5bef233f9",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7532945936990633,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "convergence\\cases\\Fresnel_546.1nm.npz",
+      "sha256": "5292c4f835adb3a4edd66c5eb7ae6a4618efe3b8a89c85ae615513512f3cfced",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.8855084683975208,
+      "energy_error": 5.551115123125783e-16
+    },
+    {
+      "path": "convergence\\cases\\Fresnel_660nm.npz",
+      "sha256": "e1042fb79e8ea4d70c26961e2eb74185879d321a2942d4a6fe82209310549847",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.760746135208855,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "convergence\\cases\\pad4_420nm.npz",
+      "sha256": "c170b27ee4c99dd62aceeabba92877caad2cff556ef03b7755d09fffaf284d16",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.735051174663371,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "convergence\\cases\\pad4_425nm.npz",
+      "sha256": "bf00f99ad239b5b7ace99bf13776f53b05bf11c51928c6499bb3a24e73350646",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7430015969639182,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "convergence\\cases\\pad4_430nm.npz",
+      "sha256": "62309662158740b91f6116a05eccaf12c03fe441aff2ae041d340064dcd91ee5",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7520887723015435,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "convergence\\cases\\pad4_546.1nm.npz",
+      "sha256": "7347c6e68aad52dbbd71eef2b1e1538b13bef71a93b3a25215b56bbbb9027f8c",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.8849149191468567,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "convergence\\cases\\pad4_660nm.npz",
+      "sha256": "cf6824f8c5103caa53918a2dbb62cc707873d2d1aadd9a44d633626ad0c0baff",
+      "height_hash_match": false,
+      "raw_roi_energy": 0.7600016052566496,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\420nm.npz",
+      "sha256": "df7433b822d73676da33f8dd37ab0458c19ebdd49bddb6861d5ba2bb266edc0f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8208041102162127,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\430nm.npz",
+      "sha256": "547d485cb91e76958d4ef256635f93060b328526362e30bf3b0406eb09488948",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8371206419047981,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\440nm.npz",
+      "sha256": "1390bcf5bc47773e401585d29e720c210c2557355f98d3216835f60941fa74f7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8518775842967261,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\450nm.npz",
+      "sha256": "8fb80bb3504d7cca4a085d0dfe239e1477c389ec3ad2c345a84e06efff59f1f8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8638677627394713,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\460nm.npz",
+      "sha256": "e22ae61b07631c0b67d0e83a4d76e0c3c225e981eb7acf2116f5100ea2f8a7e1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8736148640954684,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\470nm.npz",
+      "sha256": "2b6a4ba609b7406077986d5539c7bf9b621bd8e466cd3315d7118789cc176bee",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8809470927761879,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\480nm.npz",
+      "sha256": "71ba9021c8d3ddf277d411bc78b66eb95838e58895022e17b824bcb73f4c4946",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8857833146295898,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\490nm.npz",
+      "sha256": "d8c373560acefa5043b661a876d96d71e6b5e98d7472c147c85ac87d3a4e7dd7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.888011089592374,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\500nm.npz",
+      "sha256": "25806d0dba5feb409936e3d022fe10051c7db99682890b0fda5605eeeeed2174",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8878538754587565,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\510nm.npz",
+      "sha256": "70f9328977e0904d45b4965aa51dd49a350395867396298a5f1bf278aa74acb7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8856203672597334,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\520nm.npz",
+      "sha256": "c579a0f708d2a9a7cf2197f28c15b482b484b78d0e4e115fffbc69a3b504a61f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.881673669182254,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\530nm.npz",
+      "sha256": "4ff0ba5deb37188a6bc710371cad34fabe29cab531c06acdd28d0a5ada63b55b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8757854642756192,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\540nm.npz",
+      "sha256": "fa46edb22b070161d5122feadd8a1bc56d7c165117ce430c7a5ce4b8882c30de",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8682060581328428,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\550nm.npz",
+      "sha256": "1704a8f0b437ed3b6a3e8ea9e58015cf7f2bffc7aba9c47408053c2046618da5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8589140221696343,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\560nm.npz",
+      "sha256": "ec210808fee696d858d5f8c122f2cbe7d41600b823244c11297c6ce61315aa21",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8480371373239816,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\570nm.npz",
+      "sha256": "9aad59dd403ba075386a24dac37dd2ce785f94f7af3312969de94af258567189",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8358219341542465,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\580nm.npz",
+      "sha256": "5e5f813f87a05404e62055ff546c9e42b9d29f4dc346345a9cb2d83eb4efe969",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8224150311229276,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\590nm.npz",
+      "sha256": "c6f23607680dfe5cf927196c8f56242ded3b5babfe6596082841da88f421b164",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8077314868418476,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\600nm.npz",
+      "sha256": "6f17c78b39061ec5a100ab3921818ecdce6aafc0b928f7df6ba7fd0355bd2b50",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7927539351277005,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\610nm.npz",
+      "sha256": "574654d9ad655143ba6bf86de196fa3d4e5717b68725d2b6b410819c0324354b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7776985380263729,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\620nm.npz",
+      "sha256": "f184c39c2c29bc0b6b5190e016b2554c452922c6cc7158772bdd83db0bd27eb2",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7615636433482832,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\630nm.npz",
+      "sha256": "6430c258048b3b8da2819c99d510af87302fe762aa6e318ea3435e1d4e1e3ffa",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7446619761845396,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\640nm.npz",
+      "sha256": "4103beaf3fbabca0e670983d7e7033540189c9a09433de94e4b5c7fee6492034",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7274436347098,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\650nm.npz",
+      "sha256": "dc13d274ddfbba08d6925be752ef74e9545fe4edde58cca6449dd14f63c8e0b1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7094647143343487,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.9\\cases\\660nm.npz",
+      "sha256": "21fb85d75eb14de3c3149f903379927eb083bfa0226a73950febb3068935c01d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6914785583327187,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\420nm.npz",
+      "sha256": "4c8e19f4b806075cb22044d1f0ed063d1dbf8ab119d7f02dfb5c0a72b1d3d71a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7793672490349922,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\430nm.npz",
+      "sha256": "f1872eb4b677291db95c61fd57ca000ff4c2b143da2dcb59e8063b75bbe68d1b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7974580882348891,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\440nm.npz",
+      "sha256": "6f7f6dc1465721b0a6d1fb922e249e81af21f40915c4d6defc90ffd10d6cad67",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8154613519841404,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\450nm.npz",
+      "sha256": "0339f59bc2572874e0d655f798a564ea1541e47faea882e2b2ce7365fe787bef",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8318056041300568,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\460nm.npz",
+      "sha256": "3de5b9eccd675a2b59cd5bfc2bb95450c1db4ec97cc2c64c4b4c43ac7c8f2a9e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.846761440646722,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\470nm.npz",
+      "sha256": "90ee01cbb1da53af2e099a26866a4150e9d86b18dc65f6ee8992704382552b9d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8596671773512706,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\480nm.npz",
+      "sha256": "56f4651800f51a544c9b2c75d2d49b1a3a29163a1553ba5836e3734fbdf6d782",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.87032058856682,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\490nm.npz",
+      "sha256": "db01f948cb22bfbac8849e7ab9a5b5bc701ddeb2c3586821e817f5f4baae3af4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8782635601853344,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\500nm.npz",
+      "sha256": "f365f4209b2ccf2788e9def4a61d634fc367f6faa156df53880c8e2ae1bb8754",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8835878312724758,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\510nm.npz",
+      "sha256": "d2220ddb8806e729802fb3939b2ef1cce372be116fbced95841ece9672401bd6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8865753736328689,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\520nm.npz",
+      "sha256": "61c5a1720198ce7a2ad6fae51d36fe1983e8995ab9f564d57c6e5424d0699577",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8875221420757101,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\530nm.npz",
+      "sha256": "c0d26cf4a5d5105ad8370e666ed53b345adac5a639fe18b3614cf5e01a3e6e59",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8861143560042364,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\540nm.npz",
+      "sha256": "178303e0cf72e4797114aa7a5de59b9182867f70308318fee8f395100b6a914a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8827323786507437,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\550nm.npz",
+      "sha256": "6733d1de7902664e97aa13922a6656dad2514315b9404233c692bb1cab71de23",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8772927336943405,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\560nm.npz",
+      "sha256": "549073e64ebc520bea9209a7740f4e1f7920a02ba87690c908ab86f91d0adc08",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8698716938151421,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\570nm.npz",
+      "sha256": "6fc779a4c770090041eb46770c5f397996aca3eed49e5d31c8cd25a0e77f2664",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8607896924018574,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\580nm.npz",
+      "sha256": "77347e3e98e36a2fb531721d550962217b48862419298447ed20fa7ee2e14c64",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8500361869429244,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\590nm.npz",
+      "sha256": "b274747b38f72df43174ac0bc1640ae773c8a31098db1961ee4c17166b1d5a4e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8376338252989378,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\600nm.npz",
+      "sha256": "773829e97b8f66f23f247d0069edb5df6688867c736cb3c3be7090134cc110a5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.824542277889544,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\610nm.npz",
+      "sha256": "f80069731f435e6d6873520225c8c8b4397bdcae1631b76962004548ee7cc2da",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8110073605555884,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\620nm.npz",
+      "sha256": "20afe57a070088b7ec271acaea0d154ead1ab70b143e9767b572e0f8857f67fc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7961904789383328,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\630nm.npz",
+      "sha256": "db607e93744d21abb5596a9158c346aab00db39b720392db6588618f20c3b347",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.780260342619852,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\640nm.npz",
+      "sha256": "8ee64a2af455fa0a4f09e54c95d31dd62be4183bdb7210c4f4e21bf584696ab7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7635916021050286,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\650nm.npz",
+      "sha256": "97ac637ee7f173b1fb2236faa5510889aa209150e4c284d2b8717a27315b1e8a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7459150983355487,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_0.95\\cases\\660nm.npz",
+      "sha256": "5b83e1f6d650f0c4abc96a30aae0492fa69dbec40e7cf93ca77136f5a6e15097",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7280147711932988,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\420nm.npz",
+      "sha256": "c4728c8fb5fb38f1d4fb5bed97da9adb7d08c667a2cb455a37beead5f7ba07d0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6955837840499098,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\430nm.npz",
+      "sha256": "16428440bb2007de406b8d9c19b787b0bef3812a903f307111ea95d0603c0eba",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7082655403756003,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\440nm.npz",
+      "sha256": "d5e93ad6c6b94d0b9fb8b35641a3af5b298b7d1d3c0671ddfdcdebf68cdb2cae",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7249672865815507,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\450nm.npz",
+      "sha256": "83e26f91481eaa9d831c61ca5bfa92781fc8c25a1cc0d63529f8bec9c4786765",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7438226299909207,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\460nm.npz",
+      "sha256": "d7f676bc1619e6906019760136b5f26045834fb3fe3fb50d4221f9531e030815",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.764584099214976,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\470nm.npz",
+      "sha256": "0087b8878eea3214d8523d7c606007bdeaed32c7585ff0c7b1022c953771a7c4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7852199392660074,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\480nm.npz",
+      "sha256": "355238e46772698c7ad2163ed8a4e6c7fa2eb4d8f9088d4d1acf6ebb8005d424",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8050123841427592,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\490nm.npz",
+      "sha256": "944d663ff49fa2f19fdf7e204061769ea77226dd4979917e9533b1f93231879b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8227747895263374,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\500nm.npz",
+      "sha256": "17e48bb83d1f2aaa41ec80d0decc01006d7610586e0d7fc44914ef3221434430",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8383534571647219,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\510nm.npz",
+      "sha256": "8744178e45456a0795fdc0787742ccf9c8e9759314de239af900005b54241978",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8516179457057422,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\520nm.npz",
+      "sha256": "34570e47ad496a2235f465da63f773acd54d4b845027ce9dc848c1c5070181df",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8627165014866727,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\530nm.npz",
+      "sha256": "da872011853270773472778ce3ddb880560f7dcd6e3748d11a5f9839ea8d2a2a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8710611756130755,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\540nm.npz",
+      "sha256": "7558f240b6a03ea5329693dc8515423d9301920f7069a2cad3b3ea515ea5904d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8772597268560411,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\550nm.npz",
+      "sha256": "4c8c5e5f17f3b915537987bc91f722c255414f9a238dcfa99a8e8b88608914b4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8810658935773891,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\560nm.npz",
+      "sha256": "55501fe102d1e26ac456f33bcc5044a4a4c638d56863d7e0f432bec1e6637b5e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8822964882856634,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\570nm.npz",
+      "sha256": "6fd7545d50e9b21aaf7ca1f22c391595aaa0d23571321add84b87261b2b5f565",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.881354714635273,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\580nm.npz",
+      "sha256": "f66464201cc1f96554f2228348a2af7f27dfaba39760c439ec3f3225effe03f6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8779241807671148,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\590nm.npz",
+      "sha256": "82520180222c5a1f1dce7404bc7429dbcbe280489ef81a32b7ab944d798cb13d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8721347360892564,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\600nm.npz",
+      "sha256": "6032bf6b5ed9d99282526a20d1695e4cfa5655849fefaacda54167601a702a98",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8647917848481694,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\610nm.npz",
+      "sha256": "34dc5209cca79817590e5425358e7cb66adf5485353aceeae9f56b31c14612d4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8561779189860662,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\620nm.npz",
+      "sha256": "3da9abc79d3c7a8013617853dc3542455847da74296a94176451a78504ecce46",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8458432736044275,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\630nm.npz",
+      "sha256": "bf4b51d6d86837b8471ec19d6a7c2f9ac73aa5c51c480a66073c717d3101eb42",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8336990679608944,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\640nm.npz",
+      "sha256": "4cf5097c900a9932a0d87935d0ddda91d1441f13ca7707c0bb4d977ad47e74da",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8199105214864723,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\650nm.npz",
+      "sha256": "03c0158fd8005e77c160d01e4b155863e26868b1a3ddeb38556541f1f2ab37bd",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8045142946191716,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.05\\cases\\660nm.npz",
+      "sha256": "71f10d5aa8872730ba8e6facc7f8fd9b4e82d73ea2746a22c1cef43142a89981",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7883330378069122,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\420nm.npz",
+      "sha256": "15a704eece763236fb8271d04d3c756956597012b2489ac8181d29301d0945bf",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6614659786226949,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\430nm.npz",
+      "sha256": "329d845011e198a18bcaaca9bbcd0386186bd5abcee44a4392d15c73ee0482b9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6670186522918979,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\440nm.npz",
+      "sha256": "b6aa4f5505ecb6e834fa0fc52a995ed0cb473718f8d3c4de320819acbeda5b8a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6788181502198775,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\450nm.npz",
+      "sha256": "f2c2f6e79c5d0728010c2c87526403c633966f9f993443eca3152b5813e3c0a8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6951913533054541,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\460nm.npz",
+      "sha256": "5db88eb6839a981f49335885e645faa3c0f81f34cdc372041a777620b936268c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7157344710817902,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\470nm.npz",
+      "sha256": "f9e280605171260fb9bfbcc6614ae51386273f38435514ded12ec38db515012b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7376489303651159,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\480nm.npz",
+      "sha256": "14536e106e44026ec9d9a108d5f239702bb05e08cc363c68c2e43bbd5c5ea1ca",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7598328957285969,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\490nm.npz",
+      "sha256": "9ab78081ccdd9e2e72981fc43bd629d6422f3d3762cdc3736a0edc77cd5b338f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.780801649568815,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\500nm.npz",
+      "sha256": "960c973ece92f1737b0c6c642727117b53f1aa336dbc2435d86247957315c301",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8003197152680344,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\510nm.npz",
+      "sha256": "1634273092deaa372ea686cca1741dd9a8af8630612b6f50a7e48b3990f3638f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8178605567215453,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\520nm.npz",
+      "sha256": "e2e1f7de6ea8f2945c2dd3a06404195e568ec2faa7c649a93a4b72e16ec10abc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8334967661920991,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\530nm.npz",
+      "sha256": "3558ba3bdd76521966353ca9db15fee94ad4009f3e5f49c86cd35c8312b8b231",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.846488599957034,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\540nm.npz",
+      "sha256": "a426d5a3622f7cbffef0344d5fa38edb1fcd50bc608d06bc2b0c305999f3fd53",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8575266896418321,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\550nm.npz",
+      "sha256": "cc975a7395f39fa2d9f5ca61dee3bc0c724289bceec521492528684bec882a8e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8662583086293464,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\560nm.npz",
+      "sha256": "d51beb65418f58ab331aea029fdaf5dbe5219aee7b65602f83bc4422c7828e48",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8722902583483484,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\570nm.npz",
+      "sha256": "d5ad7e71a55a0906aa672f7e11e4e55935367c1f32815223225e6146d407c9bd",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8760238807803487,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\580nm.npz",
+      "sha256": "8550fa44befb07ad5dd4a8f360f0f565626597f9c0c1ce3bedece0d2fdb1e826",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8769964593256468,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\590nm.npz",
+      "sha256": "144465f0ad990fcf3ea34c3ecfa49a760ea374e257c1e20fc6b8cd485cdda9e0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8753252613125186,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\600nm.npz",
+      "sha256": "7d2045a8a9bc9b0d0b12d7f5085a91561e140de59fd91357b2f570ecafa6a95f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8716817540043046,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\610nm.npz",
+      "sha256": "d27cca4a51383daf7841810442b6a8e3fae251880c2ef532399644a42033bc86",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8663496104937434,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\620nm.npz",
+      "sha256": "5c8fb7ad86887c811b6e6b514d47051f06948705404f5c844b1030ad5b5e474b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8590901434274738,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\630nm.npz",
+      "sha256": "891762aef2a2a7e08926f76d68bbf2289b427290a8992879d5d2ae27060b002a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8497066019592127,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\640nm.npz",
+      "sha256": "8f46afb3d69a8a6ba3a6a6e6747d45b4daac94e5fd255d06c8b0ad9d09fc2153",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8382305102667726,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\650nm.npz",
+      "sha256": "c05e6565e5d3c01476a7af72531aec7c765c7f85a6ee573c66ab3340e0f50faa",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8248144337937715,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "height_scale_1.1\\cases\\660nm.npz",
+      "sha256": "8481d68b791a8b07e570fbbb69cb4aa5d795d5fc15eedd52187652686b00f0a1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8102850680329097,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\420nm.npz",
+      "sha256": "625b79046cd54832124c8676fd4614df7ed0e82d7f27655bc6b421d92a4d567a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7159923018922323,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\430nm.npz",
+      "sha256": "d4feb3049b9ce37f54a3dd4e3a555149ce3eb4b20d74e6461ed4efa8119d4d5f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7236482915732901,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\440nm.npz",
+      "sha256": "4739157cef4f74a016f4bad6ee4d5a88cbf5961d542f03a903afb8bff694815f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7332306994075377,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\450nm.npz",
+      "sha256": "10caf061332b6de3382e9807f03a5938e998acf47de5e6142a71ab32f592382b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.743609491067247,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\460nm.npz",
+      "sha256": "1839bbc563eba75ee957886f58fd0b80fe22f13bb7f64e1f649acb208bd8db59",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7546993168526497,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\470nm.npz",
+      "sha256": "1878563d37203082566a6c7e6def327cca47089de25e03a948d7db45ea9dfe21",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7653847967426763,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\480nm.npz",
+      "sha256": "5e2b30b8fb8870e45076f5ac4895c753181a8b757a38a822f34a45ccbe174bd2",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7751120206615718,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\490nm.npz",
+      "sha256": "0f246c7e25f1f576545ba204eb95ba055db6b63502c3176964942eb1af809f4f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7831491020516337,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\500nm.npz",
+      "sha256": "aa98fe00cb20df410c1571094112834b0714cdfd538587f3c507a18590a0cfb9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.789526061740147,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\510nm.npz",
+      "sha256": "a3566edf4c315b9610a183a4e1b700400f4bd5180c174c5872d32c7ff69f107d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7940687027686194,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\520nm.npz",
+      "sha256": "f61f02af171c5085accaab38ae8d4725db48495717a7a175d94066a6890c113a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7970126965250233,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\530nm.npz",
+      "sha256": "614131e48c11d6af4065e3dc16811dfe8924a5bc3fb17114bdd3b83ffb2ce167",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7980883416369813,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\540nm.npz",
+      "sha256": "bd277f30d6ed081e4b92c60c0a4377297d2846b1429bcfe77802ba15e5d56e16",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7976613581441557,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\550nm.npz",
+      "sha256": "ea2ec423a0746d6d2edc6cdcff4da51d096ce0517a8ff9058f7678a449eada1c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.795670981981907,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\560nm.npz",
+      "sha256": "4b821656e1e239f5b0b2326991cba2aaa132415ea0c1a94465fd31c7f8b8be66",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7919883698292395,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\570nm.npz",
+      "sha256": "05f0b994d99cc4451247a1e8beb5dd00f88376f96c414411fed55913d8f5b7ac",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7868270457450998,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\580nm.npz",
+      "sha256": "945fb5a43b851a956d4d124c7179283a6850ad5f66dd442f3ccff5a1c4b96c49",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7801455522574205,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\590nm.npz",
+      "sha256": "aab561c263206117f1662cddf55e0e749529ba9d865f6021e70266c5d33d872c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7718008367322917,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\600nm.npz",
+      "sha256": "cff091807b8078d7867864d6c8bd9110e9ffe1e5a0859521d9f1829bbb27eb76",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7625728278366991,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\610nm.npz",
+      "sha256": "24c039ef5586f5df64741d3d9fdab5c146a774aef029b226098b58c361621af6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7526463112331534,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\620nm.npz",
+      "sha256": "97065cd00e668e1d924cff3d4adc3d9825cb83ebed2772909cc8bed5e9b82116",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.741513259715905,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\630nm.npz",
+      "sha256": "0df70cacf01aa5da525f1234c56a44987cc2d2c45d5ee40857adfdb9c5ab96c1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7292494384428335,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\640nm.npz",
+      "sha256": "30c28dde02bc1f115bb9f1205697348d4d389ec27fcdf9056cde624ebf45c3ba",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7160201533925262,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\650nm.npz",
+      "sha256": "ea22b75f430eb576d6c3414e1861f48141c8512f6a227ffc8fd73358e9f7e673",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7015130508220039,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_2um\\cases\\660nm.npz",
+      "sha256": "63a7908689a8451902a4d9dc3e64282dee5fe1afff6ed72156f46f7ff7c3bff4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6866888896094149,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\420nm.npz",
+      "sha256": "9df53247a3ac0f8f65f5ea5c9efcf97537f2545c41bd236a6c63738161b2060a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6700876309694974,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\430nm.npz",
+      "sha256": "7e5c7c9207dfffca526b6ab832b4b1ef5489e5f75d0af98644f6a8fb99f08476",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6745258841946672,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\440nm.npz",
+      "sha256": "422f5e78e7da916674e047695d4eb15a815ec8bbd7fdd774c9f3a1fdee48214c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6790728767672712,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\450nm.npz",
+      "sha256": "887c5cf7c751e9a6c3e28dcda71f38271a014e7001aa5ff286628673e964aaf2",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6833556938273279,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\460nm.npz",
+      "sha256": "4e48c6960025b17c26edd2c3f43720fe6537f241b4ec54748c3e2f327be6b1c0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6876447267616353,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\470nm.npz",
+      "sha256": "693814e8650391d16852165f6ba22d583d73fe7064fc1eee970147865ea96a36",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6917469696281123,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\480nm.npz",
+      "sha256": "b6663d511917a10e7ece9f15da8e74068ae4e09aec50ea5e637a1408e8178f59",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6948779634801868,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\490nm.npz",
+      "sha256": "242f37853e890900b85f158c599a688931d6e760b0eead8140e36596b0e2478f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6968364776803961,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\500nm.npz",
+      "sha256": "92553e93616b12d5b851c7696faa7bc32be61972899daa9e7fee3eab0fcc79ac",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6976655140753427,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\510nm.npz",
+      "sha256": "faa0a328963831b0083b2304e33f1ea69038000a5ab4593137c7a61b1e78e27f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.69727500485453,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\520nm.npz",
+      "sha256": "a09f1f750b05f24f52437fa6444f8ba7f82555f3de8fd3b7533a0479ba76f2e5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6958488518536116,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\530nm.npz",
+      "sha256": "07dab02d963f9561b2ac961ea5a382739cefd1f241c80e421428ce7f476e774f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6933250817842335,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\540nm.npz",
+      "sha256": "0593f7cb93f68c5614c9ef3ebab5150a0112d304e2b2d45c4f4f81ba5a4778c0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.690053010481035,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\550nm.npz",
+      "sha256": "ce1fe9d61e0c7e152cd2be99df88930a7cc94fb3d59d6a11213f272dd8ea4b25",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6858094750742845,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\560nm.npz",
+      "sha256": "cbe80774db8c3176eb83463689e403506914705106db006a010d89273101474b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6805925054835259,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\570nm.npz",
+      "sha256": "0f8c52b1811ffd94a4be340e75bbf818c42f53882640ecad45a2240217bbe005",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6745755430734165,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\580nm.npz",
+      "sha256": "2d71bec8f76c472e1ca2b38b35118d89572fdd1a6ac615ff008b443d09829981",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6678150898775386,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\590nm.npz",
+      "sha256": "8c1199ae586423c69a1fbe9585311ca331acd794cd4123e80096d22612f4c94b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6599294487009917,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\600nm.npz",
+      "sha256": "008ff3c4a570a8846cdccebd837143ac096d0878bbca1128b3cc6f955ecc2a94",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6516121740350207,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\610nm.npz",
+      "sha256": "6a053e7db9e1f4f96d25e398b74ae3381bfcaf1d5fe738633989f105ce2a2f92",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6430314409336727,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\620nm.npz",
+      "sha256": "afdd53d6bbc184cbfe1d3fb7007e53b75b600d96d5e04d6088a6c8aef87185ac",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6337450048185805,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\630nm.npz",
+      "sha256": "4208e5b5b0c87b95fc4b3c92696a5aa6d5a82e2a014fb5fb517d15003b7c4b8a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6241945805197867,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\640nm.npz",
+      "sha256": "2de4bc7ce30a25fea00dc06d1f3a42d1e7f74d703e85e85fdf79cd4172743954",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6146252702342849,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\650nm.npz",
+      "sha256": "0e892f0b9358bdf120f7d520ad96068fed4539efec9e27ec548dffc3264e24ac",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6047689732718637,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "lateral_4um\\cases\\660nm.npz",
+      "sha256": "a92fa0e3d07e774acb9aa1e00e556fccaa315dc8d9c5a46612e4d3f39591d886",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.5952672080232814,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "local20nm\\cases\\420nm.npz",
+      "sha256": "3e3a26ed12f5fbab00f0226e8eee17e9026f930657d56ff12d8fcaf03f3dd48f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.73853802231597,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\430nm.npz",
+      "sha256": "cf760424b13e45a1934fc0424a25be073b4eb82807ce52dd99da2fa12f2ecb1e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7557493737034966,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\440nm.npz",
+      "sha256": "4a3a5e8b5e42d03e89a6c1ca0120d6d7ec3f492266d41a4d938669e1723f29b9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.774531207713829,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\450nm.npz",
+      "sha256": "411beaf80cff396bf4aff9d11c4f09e85e70127a9f92132141de7f01d2982522",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7931850212056587,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\460nm.npz",
+      "sha256": "1ec24bff7a40574576f823a0f031b30b25c7133e83d53694cca03bdeb56ffd81",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.811273164454479,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\470nm.npz",
+      "sha256": "0ebc83517c8cb5c997739c12c3e7117f76353e3718d846daee69d1f25d876cd8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8281231818396927,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\480nm.npz",
+      "sha256": "b85cdd7a61da7b74835239e0534f17d1dcaa1cede544207d1bb1ec50d41c26e9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8434236429727209,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\490nm.npz",
+      "sha256": "d1954524d9845e0ec3fc6b1ac5bf07214e252c91aa323142de64b2e147400c06",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8562446462713584,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\500nm.npz",
+      "sha256": "21041dbd52323fbb49e5b6d0056c0bc96f489e08e6548c96d3cb8b1ea1930083",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8663219909438512,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\510nm.npz",
+      "sha256": "3139850d66e6a2896e5615b3475c98614d7fbffd77bf6f0b23fec610ea96967c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.874029558396055,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\520nm.npz",
+      "sha256": "5ab6f61e263c378b4dbcc4a2cec220ae481ca77c0b43ddf47e6e01b7f8d1edd8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8795045314386709,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\530nm.npz",
+      "sha256": "c26606c8dcac5e44699f90bdd640c585befe2b4603a8e771e33489e4ef8414ed",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8823350874162188,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\540nm.npz",
+      "sha256": "1f23611ef3591b778cbc97401348161d02f5ba7c4d8d011d7b35e68d0e3a7ec3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8831274152187927,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\550nm.npz",
+      "sha256": "0a19ffd4955f8011231eeadd18b95362abed8f26ad220d4d64197a2c772fb366",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8816380307534191,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\560nm.npz",
+      "sha256": "a577575542fa353d6691d1f4aca2299e1f0a3ed324a696ccc062b096e46c76c9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8779663577305078,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\570nm.npz",
+      "sha256": "dcaab4e6c1a790dba081566a8da29ec3a2270a7e67da07b6d05a3b6e76fff163",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8723607605656177,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\580nm.npz",
+      "sha256": "0c451e9ef8dc56ab645c750195d2f19fd4b4646891cb40f4801464245dc8c4ec",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8646255075006521,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "local20nm\\cases\\590nm.npz",
+      "sha256": "ef3edd70d8358a537e40a6e4970b033eb2435c24cf7a967ad08bfc9484cb80d1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.855034460664975,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "local20nm\\cases\\600nm.npz",
+      "sha256": "c2ec7a25256979c466f88d9eb82f5c8951d14b46baf78879f99092d1cd97e1bc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8443453601049112,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "local20nm\\cases\\610nm.npz",
+      "sha256": "ddb399239e7b552614b529d027d688807698dcbd2af1b4f36b59b1ab92701b63",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8327695755288559,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "local20nm\\cases\\620nm.npz",
+      "sha256": "bb1aed262ba743eabe65d2447475e793c68bccc2a8661db681e27a559ef16c7f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8198779575404715,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "local20nm\\cases\\630nm.npz",
+      "sha256": "81d944088c01aaa8c1929508e454fddbcc8f2d02a9e644949badc3bc12afd1ff",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8056825061818753,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "local20nm\\cases\\640nm.npz",
+      "sha256": "feaa2e873962cfa50878a825954ce8daccebbd52b28da5800ec8d2b605c090fc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7902071283423534,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "local20nm\\cases\\650nm.npz",
+      "sha256": "ff7cd61c414e93ea7a7c97c98a02aaec50c44bc906fc8921f9d3d63bf6645e17",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7732982240248952,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "local20nm\\cases\\660nm.npz",
+      "sha256": "c2e9033f50b3ed9b43012d6aa1b1d7dd2c39400c608d934a6de88014239a1300",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.75589734836147,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\420nm.npz",
+      "sha256": "82354fa40c0b38a703203e489ea1d3deb95cb0093136459a02cc692f67f377b5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7639804554075481,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\430nm.npz",
+      "sha256": "c7cdf65e7e264f3f0d1668898cdf1c4d2e7b52842ab22cf1266a74929c570461",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7788916163601722,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\440nm.npz",
+      "sha256": "1920af1958c7a322bc1105b32cd4c523c2ad83f608365d4fb510d72354886c03",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7946625993263003,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\450nm.npz",
+      "sha256": "b09b77ebb671f84a1b7a65871fa72f6e30a177902b6ab31bdd1b472130fe6d30",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8098912154708262,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\460nm.npz",
+      "sha256": "a437d56a5bc9c1d5a79bad155e5933669763145586e8b2653f5ea37395ae40c0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8249352499363193,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\470nm.npz",
+      "sha256": "a05772e3efd0ea7c9bdc0b38478cb17ca55585229cb95d5f3f7ea3a9b412daa1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8389146890450566,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\480nm.npz",
+      "sha256": "76103b5d1607c4db6c93b83ad09fb7d3228bc5e4f33f0e97b624898884feaf36",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.851561268809398,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\490nm.npz",
+      "sha256": "08005998f6748fd78d7e4ca6b7b44c0ccc48003fce2c8c48e95328696a9f6516",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.862172031655815,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\500nm.npz",
+      "sha256": "68a2e2c5ef064ec8144d51320431d47a407725e92232837dd6b9f29fb74fe863",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8707196534394481,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\510nm.npz",
+      "sha256": "f1aa03e55f1ee6d10591acfb5886bfd9af773cf37c7536c8425d548b4bb43d7f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8773464777277352,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\520nm.npz",
+      "sha256": "b24a6a7e575c00c1364210070efbac118a75bebcc8246da30c6f717dafc807a7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8822413087563018,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\530nm.npz",
+      "sha256": "accabfd6bc7a25ece6fc0ecda6cfd9a863dc77893476d1070fbdd179e4c45cf5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8849282139093425,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\540nm.npz",
+      "sha256": "fd99cae71274647e7d202271dbde2a42a65b80a30dc092dfa4a78d67bafed0b8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8858516698992541,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\550nm.npz",
+      "sha256": "7c25e8ea74c0596abed3b0576c22169902e33d5a0381dc3f5feb65f2842e3ebc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.884816756704896,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\560nm.npz",
+      "sha256": "65c1e812799cc5407a59ed82046b576aee67e0679d9beae9f321c8a0c0903b66",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8817502500917073,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\570nm.npz",
+      "sha256": "9061572eee42b88a8db0715f9ef4e46ea19fdf93507798bd0b69920b350855f7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8769810246315483,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\580nm.npz",
+      "sha256": "56ae2054871f97ab8f6481902962b87b419d74ca66c735dd15667fecec0e8b83",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8702863224993183,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\590nm.npz",
+      "sha256": "e0ef68c15948777f50a85103fe8bea6bf57d94a3b647bd7724533a6051f2c8c8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8617198450236608,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\600nm.npz",
+      "sha256": "54408f71c7b61990fc178af4eea58d35029cf79347f18796d862b40a789a2310",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.85212808466977,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\610nm.npz",
+      "sha256": "7337eea45244ee56eec0a57d76c49f96801659be6175f5d4882d753f6c8d479b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8417390394759948,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\620nm.npz",
+      "sha256": "fa989a49a7bcc6b4d6fc92753f3c06aa0e30b90b4661298e0a9db1c09065bf6b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8299039935771502,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\630nm.npz",
+      "sha256": "e4490f2893db6b4687cbd2332fb972e554dcea9820571e6ed6641d22c3fcfe79",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8166039829867944,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\640nm.npz",
+      "sha256": "dcc3c082a59f91c5cb8e03a872d49ddadb0227fa8f79efad4e4e9860321bef15",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8020614630672541,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "material_constant\\cases\\650nm.npz",
+      "sha256": "a752efb3dbd9b726af7ff3bdb9b030379ea83cdf8d15f6b43d3b2dcb3339c98a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7861799982303275,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "material_constant\\cases\\660nm.npz",
+      "sha256": "947ae84103b0b75eb2ff5364d3f6c431832b8f35f55a5f2b8a590d43124db5df",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7697514340665143,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_minus005\\cases\\420nm.npz",
+      "sha256": "b89fdfdd32ed25340088b747a2d5b8f96e5d8ccbc0dfbdbd58209120a79fc253",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7435885980647327,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\430nm.npz",
+      "sha256": "9f218acbb6e3dd23e2d73f3ced97fe10cdb0e7aefadd32b5404a357d96b02d26",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7609738128170725,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\440nm.npz",
+      "sha256": "944a7471fbef89eb55499e1383ff039635e477591cca3796e27d53610e84d0fb",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7798274705425321,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\450nm.npz",
+      "sha256": "27483f7b4dddf66eb237ab2dfaae33a08e58317ea3e6a62c89937abdd78adc7d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7983635164183353,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\460nm.npz",
+      "sha256": "08d24be8a10b8978e988bd2d661652a5752b16c0bca3bb4581dc8769ef688497",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8166235725675735,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\470nm.npz",
+      "sha256": "85fac11fa3320b37a4a4c42f3b2afd17cdc744762d9042d15f3dd4fe56276eca",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8334294449082332,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\480nm.npz",
+      "sha256": "a175db796d0de1a0b7f7b96a93fe01177cb8ae53192497b22f552c6204a30a75",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8484103370006106,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\490nm.npz",
+      "sha256": "b702f15ec7ad0f48e8fc8a066ca4712e480fc14daf2d4fe9c3430afa6121416c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8608026622583876,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\500nm.npz",
+      "sha256": "23f2019ab37aa33adb34239ea0b232abda3a54e2eb6a86412a87727116e1629a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8705904845588607,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\510nm.npz",
+      "sha256": "bbb2454991d164f476a5f2127823eabc4fe745f062d037256d415a53ab3894ad",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8779476766872969,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\520nm.npz",
+      "sha256": "64fc0349c5a5186a7a0de22bdb3ffb1e346d62f7e1d7a94ec38d7de5fde806c8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8831117795919656,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\530nm.npz",
+      "sha256": "c62ebfbf1c6c4ee6d7a0e47bd0124a9206ddfa873fc70d3ceba9bdf0ede066c3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8856691630254405,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\540nm.npz",
+      "sha256": "6928b3e39c7469888318f3e98792dca6ec4dc732677f61db0d9493015bc6e240",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8861017066878939,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\550nm.npz",
+      "sha256": "ca91563b671d079ba1b68fb9252f4f721f5aaf4df3e10dd91d44e08f09b8c7e4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8842669020519272,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_minus005\\cases\\560nm.npz",
+      "sha256": "6ca7e2d0ad3dddeb5430df9729f58477583e5788a86713d5f8e7f2560cca64cd",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.880161250221679,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_minus005\\cases\\570nm.npz",
+      "sha256": "41a50afa8051dbc49df6b0a225dedc2eff9d774afb425b6e2902d38fddf0c2cc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8741518315301031,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_minus005\\cases\\580nm.npz",
+      "sha256": "0b8ddb5f49d5f0a94a8cfc24d0bd40da98cd0219bf5529bf65267e21e7f885e8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8661014875131583,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_minus005\\cases\\590nm.npz",
+      "sha256": "d66ebb7e22dd95c4d32bea30ee6296e816de7457999bc958a7d46e4c1c2f2c8c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8560967960538989,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "n_minus005\\cases\\600nm.npz",
+      "sha256": "4000087e63228593790cb46b3694d986fa47855055080bb9d849a8b5dfb0b8dd",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8450528094687464,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_minus005\\cases\\610nm.npz",
+      "sha256": "77ab23c61eeda0a8ffdbb00b4d6c5ac329306a767dd3f57b1064d37fc7da5a5c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.833235354891962,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_minus005\\cases\\620nm.npz",
+      "sha256": "670561e03f94fd2c1bdc11f6c927b63cd74b45b5ba8f01652a90d110c0467389",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8199570980069404,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "n_minus005\\cases\\630nm.npz",
+      "sha256": "313f893b6c47a06082a0e6f58b92f8d62e675b00c2be7ad141f7c81b87a1049a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.805275777913137,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_minus005\\cases\\640nm.npz",
+      "sha256": "e36fa80c9b6b59545026928a98c44fff2fff12aa92d879da08b29dbee1a4793f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7894901645331656,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_minus005\\cases\\650nm.npz",
+      "sha256": "a097093929b8f53c78c6350d4b39e3f2fac33b8400ed4553ec3665bcb0eec373",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7724657799862392,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "n_minus005\\cases\\660nm.npz",
+      "sha256": "9eec53cbfb292ecd10e6a6187bf4892753eaf84fd8a4b000f582d490c2da0d4d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7550067885203432,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\420nm.npz",
+      "sha256": "91cd98d57eb601c0823263759ee7edb8334ee58b74d982198e457d67cfcbb3ce",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7287694418772849,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\430nm.npz",
+      "sha256": "697b4c6773ab7adef031439cd61a3826a8d162f8cb6a1e14bbd9edec93ac8554",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7451546092451603,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\440nm.npz",
+      "sha256": "2d7bd0f0202de2fb2a0118057117f7a7d9bf4129f83b66b1a8d8233993509051",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7637368082559476,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\450nm.npz",
+      "sha256": "4859a0b8aae749cca235f68c3571b581b8b19bfce1fa32966d4275b9c0d49283",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7826818113599567,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\460nm.npz",
+      "sha256": "90f488a577086041668db3a5f494e88c46550978b1692052c12921842cdfbda9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8019426720182541,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\470nm.npz",
+      "sha256": "dcbb13203843107ba5721996bc2196b08698acede23351ff3a3ce977f3222ee0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8201000755186135,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\480nm.npz",
+      "sha256": "bb40507021212eeb42555306ee8e01f3b0bc3858125e419c2d184d6a82e6d1a2",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8366935242821413,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\490nm.npz",
+      "sha256": "081153dc3b308ec1a4784c95d2d0b507bdcab95752cc7408884f5a78eae8d857",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8508285417127726,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\500nm.npz",
+      "sha256": "e85e73fffb2f7b996f1525ed0978690b81ddae809be95b43613af799ea15251c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8624445614401616,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\510nm.npz",
+      "sha256": "454f8e75af68f1f028caa9719ccd2e0fb2f72ea0d65d629e904ee203ad2b7c38",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8716418376483549,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\520nm.npz",
+      "sha256": "5f3e8d5f4d76ddbca2b156f0005ca5825e03a0df22cde06b6ab00ddb716e9d55",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8786306155405627,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\530nm.npz",
+      "sha256": "f5139c6c50071f03331a7e4db4b4f70bfe9171a830c828fa40edb6e549681c40",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8829462074402327,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\540nm.npz",
+      "sha256": "bf33e8f5103dc74eba4ef3f4d226608da334a6173a672ca534a71f6c067dffde",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8851107492238236,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\550nm.npz",
+      "sha256": "63aa67f45f923abed1dd810b5a7bb7397d548597fba00676c2a850db03a59c48",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8849519007232745,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\560nm.npz",
+      "sha256": "a0cff242053ec4c1dbae3ebe5fed980ab93940b5df41a67e6e9d43ec8c348903",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8824186620165188,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "n_plus005\\cases\\570nm.npz",
+      "sha256": "de88869b717f31a110edaab81eaebdbf5c37d36b733d59e5815c88cb4e6acd35",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8778924313045818,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\580nm.npz",
+      "sha256": "997b04c0333bc76b81515c969060a1d597eb13605e29f5a2b6a345b1e7f16a76",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8711798843318158,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\590nm.npz",
+      "sha256": "e1a79dd7adb1f39a92cbb372105c9577503bf94803ebf3fe45b840450130d2ff",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8623864160269131,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\600nm.npz",
+      "sha256": "aa01ea2d7b312499b3e7d7ff6bbccc1520b2d2b5e3b48cf6b7ca3c2f02c1f769",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8523983913504524,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\610nm.npz",
+      "sha256": "1a4ebd15b7d5f2719460ca6cdaa1b51bab61555ffbdcafb5ab27ee2cc650a9df",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.841487664237897,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\620nm.npz",
+      "sha256": "10775a04d9e54ffddad5457bbfe0a208be0aedd97fcaf9d87137b8a1c383d386",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8290372738981083,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\630nm.npz",
+      "sha256": "e5d4e35fbb6206589fa1332fcb0ddd6f17ae3ae9e55e330725f6c954d49ccc6a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8150575125812863,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\640nm.npz",
+      "sha256": "c43d3459422eec89dcb4bfc379851e83535ce1754f6a0b1c0f19c84a9ccdd714",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7998084378204254,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\650nm.npz",
+      "sha256": "ff913712995a2fc4fd9fc7d6f81513a9436b7945c708b2591372ea413e6cf5d6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7832111974040445,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "n_plus005\\cases\\660nm.npz",
+      "sha256": "aa04aeef38286ea5bf6438b181ee411c7af80ccc10941cf47eeef49da6fad497",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7660767566570377,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\420nm.npz",
+      "sha256": "20c1061bd0342e873b35c77aefb4ee93b644797a7c10ab8507d837d227ac79ee",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7451651090578533,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\430nm.npz",
+      "sha256": "7d4a22e6fc88d44614c29096733c9691243776593d63d3a49d6dda7ef93de3d9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7619700180175429,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\440nm.npz",
+      "sha256": "4c5c6aed433db4a835b876645b7713d1a1bb98fb0e028e7a46c9873fb89c5bd8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7802595955558419,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\450nm.npz",
+      "sha256": "53b3712fa2d0c22efaa834e9ed12040a2165b13c44fb2ec78b12201e377c4bca",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7978853101403852,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\460nm.npz",
+      "sha256": "7e17ea88aaae6074b3be246c43dc4b9e66fecb32dc320b4477f255575cc21cf8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8152531005004386,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\470nm.npz",
+      "sha256": "ae985c1c9f82280f19abfddfb464a6f6b76fc78b47440e3cc2d249ab7348fbac",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8312196748299431,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\480nm.npz",
+      "sha256": "eab06044551d1125610904a9f8a96b79014cb8abf9cac41169da0f5668d50d7a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8453579631380277,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\490nm.npz",
+      "sha256": "33b4d93b7233c042fc6e3dc8259b4b6f8c7dda39ddfb51a1e0eb45bc58e5fc98",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8568897649293397,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\500nm.npz",
+      "sha256": "3d68203e8aabfd626452748157294df3599c644ba0c5d9006a0928b3588c3710",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8659069298213153,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\510nm.npz",
+      "sha256": "6b5dd5cc066b774cb4fa3d8053ae8af8222dc28a1e5545cabffdc9279c3138d2",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8725793674946184,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\520nm.npz",
+      "sha256": "d20e3b05236f5cb41e793e1e0686e6075d3762f548d000dcce59206a807bd33d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8771617911946803,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\530nm.npz",
+      "sha256": "70aba7241dbb904200e0dfbcba5961980591c0f933468a147d9c8d699aaa6705",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8792517989690888,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\540nm.npz",
+      "sha256": "d2357e6ca598d3a95c86e597a9261b0a63ae4beb9926eb9f84fdb7b9f382c6e8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8792411273627668,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q10_round\\cases\\550nm.npz",
+      "sha256": "738bd6693b1d31e5ad4de88c546c4812da0ada826e3ad48a3da696d4a8e29294",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8771091065864519,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\560nm.npz",
+      "sha256": "9a3a833be0f8abfc425789f44da90759f3518610b1229e36591c9572e88af730",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.872828294892283,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\570nm.npz",
+      "sha256": "0e2aa14819b2ac99cc7494a1196e36cfb9fce0f7ebeb4a3a6508b36c10953f41",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8667331501306732,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\580nm.npz",
+      "sha256": "c99b9a6ea92aafe0d7be5c172615523b5cbac3670044db616d0e5862eef042a1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8586452212269176,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\590nm.npz",
+      "sha256": "5013ad3ace5ef621fb39e6c2e7611b87d363ab5c1304023e8649c08f1f17728b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.848598730286756,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\600nm.npz",
+      "sha256": "e985e1b093c9653a352538795f9054fd563380a15a448335d6574a294977fa6c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8375286397255712,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\610nm.npz",
+      "sha256": "ccf39cda4e52ebd542e967a9df125a2a2308ba04bf8562905c7e3c80d69ed611",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.825745279566463,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\620nm.npz",
+      "sha256": "e7837f775fb8a7112e64064b4f10bd96a05c2f5ab5264bd2b5a1482ca7250e6b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8126153801713096,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "Q10_round\\cases\\630nm.npz",
+      "sha256": "5ee412d91553164896d435c178e52b16213c69d3b8c83507d8d68dcd8cb90a4d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7982073829756284,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\640nm.npz",
+      "sha256": "f4811a2b0e35d56191175114892fa877b4bb205f130d57b0542be50465d248d3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7825881247722601,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\650nm.npz",
+      "sha256": "86c09533cfa79151c50ee8a36dd4fe6bffc6ef3860b14d7140dea5db23c86834",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7656163778364843,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q10_round\\cases\\660nm.npz",
+      "sha256": "0e55b721436065206508ae478233aa2f39f1711d016a3f1f12cc170009b1993e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7483074978740981,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\420nm.npz",
+      "sha256": "dc5a262da714cf3a2a24e937834da19b43f997a5219bb892b3e411506b3794a5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7555886232153972,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\430nm.npz",
+      "sha256": "21ab8906c83ac921dc2281a9dfc9528ae3437f452867eccd6dada6348c9fc93d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7711193659621303,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\440nm.npz",
+      "sha256": "9ea146e00b1f76fcd6fc03a668f5cb01e5305a3eeaac42fcea488d10cb93dcf3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7890575852554907,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\450nm.npz",
+      "sha256": "a0d889e4de3984b50a7975fd24adf6d95b966e189633f05c92f9104f7cd3fdc5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8074293087522405,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\460nm.npz",
+      "sha256": "f6dc4b24f68a02de147eaa6a205683cbcfc9ddbad0ff941bb9e3017397dfb3de",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8260529259960249,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\470nm.npz",
+      "sha256": "b42b13d4eb920bd94716a421ad32cb0711df4b514c8c647799a7042bcf344b78",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8436210253142227,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\480nm.npz",
+      "sha256": "fcc79ec5f14a10cea92e13c154b967a46f07b5488b566118167e1531927cc81a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8595704434162226,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\490nm.npz",
+      "sha256": "5059809644f4c5b22fd7e8b1475e8345e0478cf669edea7229b848e7f6c51fa0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8730298571701375,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\500nm.npz",
+      "sha256": "472f961439116cb7435d54ca3c15014ff82f387c233c1bd6c12484dcaedb1d66",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8839417100772612,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\510nm.npz",
+      "sha256": "f7a84d39e8d7d5c1f5fbe14ab08a761153259ec41392de4dc193aa3c2ef76de4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8924425657363868,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\520nm.npz",
+      "sha256": "3562d338d64c9c51cc77c2255053e3474fb437a33ca2ba0104eeffac15bcc01e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8986865207176932,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\530nm.npz",
+      "sha256": "5163ff21b0b22cf595da5d4a52d4aecfd97334cdb0badc058c73fe94f107fb8a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.902211356509263,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\540nm.npz",
+      "sha256": "a2f646f02bfec2c39ffd469e54cf5d9f962aa5aca312dac14f428ca4b45978bf",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9035263312769711,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\550nm.npz",
+      "sha256": "926fc6459ea3c883d0d8316a5d70975a634941268c75d221e20605724ffda2c7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.9024739438043368,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\560nm.npz",
+      "sha256": "6bd10d088ba413a1e498f109f7a1fec511261ef188a081e0a5bf819bbd800e58",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8990487447601812,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\570nm.npz",
+      "sha256": "e219a7ddb522b077e303c56eab79b32f1a94b540b54025ff0238582d19c1295b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8936310527671916,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\580nm.npz",
+      "sha256": "3353f9b3f67d472a184563eed983263f364755f2dd01dd24ecb3225e9d65fc51",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8860454058727103,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\590nm.npz",
+      "sha256": "70596c4476d20f493f8e52396ce10f58dc1cf3917fba2690b67bdb6938193ea3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8763862200367214,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\600nm.npz",
+      "sha256": "87fd9b85fee71376e9706280100b0bcbbcc08866c72b579e7d35c407bdcc2318",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8655773657248643,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\610nm.npz",
+      "sha256": "031949baede3cb07373baf1a4d2d2fd047094f98088ebfccacb9c5bffeddd2bd",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8539095662858064,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\620nm.npz",
+      "sha256": "aa3362a59a5373440b0f8edb34e782e4d14d1a9b2ae10616e4eb0d8a78899e55",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.840700188389915,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\630nm.npz",
+      "sha256": "ba68d07c8361608a75ed11d74a3dd0b1af38b6de3c00b4a21a3f2999c3af42c3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8259846947725614,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\640nm.npz",
+      "sha256": "64aaded5e86c864f7ea58c409f3c74d5c1a7936ebaf27a23e470d43e46582f2d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8100345747494911,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\650nm.npz",
+      "sha256": "3146032e6960284b0217377ab55cd9be0e529307d45797ae5c6b48420ab6de30",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7927512235507572,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q16_floor\\cases\\660nm.npz",
+      "sha256": "4ff1e90f7f5767b011ace6ca5a8a12997977eff28b7abd929a164cc537693fc3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7749828226412105,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\420nm.npz",
+      "sha256": "a53d0cf26607bf6e7d90c75eee72bba5c0566c08ef96767f9ff5ea40db2503b0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7184870515079619,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\430nm.npz",
+      "sha256": "91dee95aa52ea140be8913fdf668860e1d6e55ab8b0700697a05d00342c3ff51",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7365443714551843,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\440nm.npz",
+      "sha256": "021ef2351f72e9a406f944468ec256d57fd1ff97d17cd3566eed8c0299a42499",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7559806855710771,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\450nm.npz",
+      "sha256": "0e62b2d8854788feaeb13fb697423e42b5238220220c7d8ae93db8a68cdcdb6e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7751315494480423,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\460nm.npz",
+      "sha256": "0af9b045e7bcdfb8e1149fd10ad20e8634c3f82f8ffc55c9aac4c114a4eed724",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7939941416858325,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\470nm.npz",
+      "sha256": "74e23d358fdc6e53b55a7318db92abddc815abbd0213d17a0cdc84d90b0bdb2e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8114791527409877,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\480nm.npz",
+      "sha256": "8fac3e95b2aba1f5af5aeb1bcc0b0b0b39d2fe5f1d3df2dce32758ae2125ebea",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8271969970048985,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\490nm.npz",
+      "sha256": "169a017374ed15c21086621d1f2f1dd13802b8e31406a91744ac828293211617",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8403769509752845,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\500nm.npz",
+      "sha256": "a1bf58a1bfc2ecc404ff6f79493af8448282dabbb190688c0ab3be3e3336f1d9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8509818511667696,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\510nm.npz",
+      "sha256": "53a8c5adee0f17ed56a93b0737a1c5ae02c343064a4f5db637928ca2750b22a7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8592285515006586,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\520nm.npz",
+      "sha256": "0436dc01a63e782690846b4daa9a3f76e09d2e6aee143a720ea06c09b53eb1a7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.865244065018322,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\530nm.npz",
+      "sha256": "8b0add74b5c529c7b6105c30028bd750e279094aa65d56cb0d3eb5f891d43496",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8686111228254457,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\540nm.npz",
+      "sha256": "64d3e5fcb80d2b1bffd09472dafb59a164c5a2ce4966daf73a41b1ddd7979690",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8698171375502662,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\550nm.npz",
+      "sha256": "99d92408c06edd10577f98311de61e916911cf66276b8a3d92f457c3619a5e04",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8687580184249103,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\560nm.npz",
+      "sha256": "6e34b3b2de152142ec299f3e4f8c44e10455b24f66c19d394a82ac3b1c8e24c5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8654647529847981,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\570nm.npz",
+      "sha256": "a9efe38c77cab81f7ebf6e6f9c7656f0391c74e3e7a434f3b5f13a554a4dd5bb",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8602633404966596,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\580nm.npz",
+      "sha256": "69f3609b765acb5f6609ebef83ffb512b9ccbd8f3effe80e2b2c3d1ebc274481",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8530102690002919,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\590nm.npz",
+      "sha256": "db4293a889d468375c2e7abe146eb0191b47345ad6a801b5676c79aae7f1290a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8438173131673413,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\600nm.npz",
+      "sha256": "55165a85ceeb12893fb3b8af3356c460411fbd737640f5a41f4fab40d9675a59",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8335540069790411,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\610nm.npz",
+      "sha256": "9625fd05c392462c01ac18c8862ddb0ce79758a206350cac1c7cf344894ef75e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8224846419915737,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\620nm.npz",
+      "sha256": "7ad8c17cb6491b6bc0cc33e25d9b80747e6e290ab86679997ad16796be413980",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8099564296746524,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\630nm.npz",
+      "sha256": "2b48c0817dcfc00a6849eb209a00b1fbdb0872d7385b8238ca3b1e273ce1565c",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7959920842707682,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\640nm.npz",
+      "sha256": "d1d9368b33f522f44147f41327ff49c56bd515f0b83f5e7d6e45848f4123c3e6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7808545853477321,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\650nm.npz",
+      "sha256": "5c27203ba5649480bce9a2a89d0beddb87a85a29335f3df9835c05fa9428e662",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7644633540894744,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "Q8_floor\\cases\\660nm.npz",
+      "sha256": "73dbf3e93d74fc1a281a18202c99f71a4c4a04756223929ebc4eceadb9e806be",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.747606100483291,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\420nm.npz",
+      "sha256": "6933d75305c3c910f4cd83ff6cea69d30510c7c1fac356ce78bca64bc23edc1e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7672075479617068,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\430nm.npz",
+      "sha256": "7a01b3220d40a16539afed1c1c67daf25ce5a09827d9b4acda92448f2977501f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.780226183340122,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\440nm.npz",
+      "sha256": "e8f7a3782a6999e0d35f1a47ce0aee3e12f4a0dfb09b7a2f979679856ad3ff03",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.793893321283557,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\450nm.npz",
+      "sha256": "2979f8489ae101c7d19da524d2b63230de4a72f0523bc017a59e8c893ec6a38d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.806757267291903,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\460nm.npz",
+      "sha256": "49d2d10d39e442893b455d83982d8af86e4a1c466d62ebe3efeefd4270e1a3af",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.819356479049559,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\470nm.npz",
+      "sha256": "095e46607f5a1f0e8139f507773f4108e78fd9e19f8f6a5b6f787c3f4798196b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8307576612682788,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\480nm.npz",
+      "sha256": "c4ad2738e452f8fde09b4da389979f3e7c00a7bcd70fa0204a38191f1e97fa28",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.840633950925116,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\490nm.npz",
+      "sha256": "a9d0c7637ede4f3995470cdac5435107a6df942a567688ccff6287014944a369",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8483170474503999,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\500nm.npz",
+      "sha256": "e6acb75cd7e5b83b4baaf55ba12b51e5e4bb3301159c4b1b67c33a1871c30620",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8538346848997382,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\510nm.npz",
+      "sha256": "4adaa2143a1f530a1d2a997b712f17b05e72fd47655153ca43d9543875b4a6f5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8573566891949728,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\520nm.npz",
+      "sha256": "a1eed22b0e98703f3cf893b835bc55d73cbd8590c20e4ba71ce9c0f891ac2b44",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8591282256385656,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\530nm.npz",
+      "sha256": "dcec7e1d8596f93aafde3ae8e23e065aed1720e2ae33d6432e708dccc3041528",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8587177567261222,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\540nm.npz",
+      "sha256": "5e540ea5075b254671c5869a21ee7f366c0b0833b55ce76e6d218ceef4a13479",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8566595998752684,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\550nm.npz",
+      "sha256": "df17982ac9d66dd07caea6db2ffc2851b9d9da26d2ea950d37a8fe53d98319fe",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8528359041908111,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\560nm.npz",
+      "sha256": "8bcb2695c6ce4a4ad9678d351b4b5747173e268b38b5d6103040b02affc0dece",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8471629265724138,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\570nm.npz",
+      "sha256": "fa636a97384539c84e553d7f1931c8f59d722a20ca629c483ded9a4b82150d04",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.839927954048651,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\580nm.npz",
+      "sha256": "a184549bc449da9188f582de77fde75435aba8b32167940394f5c1ca42a84634",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8310398509467163,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\590nm.npz",
+      "sha256": "7bb77f8cd3bddda241d370c2c4ab82b753d366912be5e16f791cd0f47de5ffbf",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8205133795754133,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\600nm.npz",
+      "sha256": "8ea5bad50c1ef75199fd1a3596ff27d202744271a39d878d8ee92eebcb7796a7",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8091816747556408,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\610nm.npz",
+      "sha256": "9dfcb5db491515ce6510de025256006257c83ed1d69f0bcc199f0ae01fb3f5d2",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7972382319332615,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\620nm.npz",
+      "sha256": "25942b28c7a5d07023637f4ac5618899fbe186ffd4696236487b4430ff3a57e0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.784027501533599,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\630nm.npz",
+      "sha256": "03f497249ccf2085f33c69c559588287188c9b46fdc80a3673543b53a6594870",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7696514440445853,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\640nm.npz",
+      "sha256": "c61b18781d4cce9ee6cd8c1281f20f51cadabbf45e9564ed6d9bcf6bba770fd1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7543561455517076,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\650nm.npz",
+      "sha256": "48eecc0698441b4351ad97cd029787b500b6c1e49f58dc967f65f4fe1306ced8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7379413797446743,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_0.5um\\cases\\660nm.npz",
+      "sha256": "edd184c2502c643381cfafa89f996adca24c72204aa7ff1d662ccf537846d68f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7211652605991116,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\420nm.npz",
+      "sha256": "b8ac6e2ef703bf1e0ba8a4276c6d68be8ac6174cc401e1b313737a9c7a30f5e0",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.737711256886662,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\430nm.npz",
+      "sha256": "05e35bc3f43a6dadf9904de39023a40ddca8312fd3b94dfc5ed82508b46c31f2",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7420028874956409,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\440nm.npz",
+      "sha256": "561512eb2f8d0d71afea523fcf72094f30802379dd10f54be190d2b631c313e3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7469068094883592,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\450nm.npz",
+      "sha256": "f04d6db438d374c0be8dcd0cc9be9533d9ce09dc6217fc86fd330bd9c4a4d235",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7516255454121448,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\460nm.npz",
+      "sha256": "b5138f50cac294cd4942245cad59ab69dc6230731dd66d1ca81b9ffa573a7302",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7568711992993963,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\470nm.npz",
+      "sha256": "35fc3c8af9e6290d6a4f4aa8367148db663ae745e31b4a232e768d4a0ddd41eb",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7616500882631284,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\480nm.npz",
+      "sha256": "b91280d17355bd134c165a322675c1c40b5839ea0437ae0aaf70bea38e0246ea",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7655063460354838,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\490nm.npz",
+      "sha256": "8e409075aeeb01c06354b8e337903ea1c119392f212f30c901a91f2377aedc63",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7680009536819872,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\500nm.npz",
+      "sha256": "7ce68cb4c9fdfaf39db4b239e3b07f3c31430972f62275e3b6fb7b983d3e455a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7690531150551085,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\510nm.npz",
+      "sha256": "ab03aa8249296275a5bc44cef6cf85ac83a3d75ecb9d10383536e91dfa93625b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.768837449040428,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\520nm.npz",
+      "sha256": "3857c3ea5d068aecc17eb7fe07c575e6f0e4d8e15bc55fe9ef67c799e3f48354",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7673890419130844,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\530nm.npz",
+      "sha256": "c2fe8879492be74c9b1558d51bc55889938e10c4828f867f2a297315b34eef86",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7644774908865444,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\540nm.npz",
+      "sha256": "a89f3d80088e3f9919cb7f3f3cddb05c493dc5e437599023e03c6824b96ee7cc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7606479271059103,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\550nm.npz",
+      "sha256": "b9974db66ac0759bf0ed4dece34d03fd723d4f6f73ce678ab4342833a5f95f81",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7558239165909942,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\560nm.npz",
+      "sha256": "de964eaa1e5fa422dc92ce33ae84ef635b4fed78eaac582aa036acf2bc1990f4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7497587448789567,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\570nm.npz",
+      "sha256": "24c91cd776ce41b48741ed0a39255d907323c9a3b708d3bbef7c05c232fcfe01",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7425854786541569,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\580nm.npz",
+      "sha256": "ded8ced8473b465e9416ec56b4894b505a820ab1a0a5e1dd48ddf7e7fe291a28",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7343773183086627,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\590nm.npz",
+      "sha256": "a2364211d0d1efa39c2a4ed6a10f84a6b3b19b3d444a848802bae3637371ddab",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7250004259052649,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\600nm.npz",
+      "sha256": "ab614dd6fe8df767659fdcc16bd479b8a5354045c2924dd02427a4a7bd1a1aaf",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7150982808366462,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\610nm.npz",
+      "sha256": "fcbd8d79680830e398244ee693979c0a4a5f08cb60b14a1d8fa728f9868d3c6b",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.704734100961123,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\620nm.npz",
+      "sha256": "716ef37ffc19ef929710064fb7db7c6f6cb8211514fec6a4bc96f86fe260f7c9",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6933113419377736,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\630nm.npz",
+      "sha256": "568e2a68edf7318346346a6476feb894463af05ffc1e6c0c253747d7741246d6",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6810870552015957,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\640nm.npz",
+      "sha256": "58ae8fafc173f89d1ed54a1cc113965f36025ef146fa0d58155af5045ca380d5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6682344967344673,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\650nm.npz",
+      "sha256": "c6222ffeaf36e424fdb78031d8e5ba7bda99c430330c37ef3097824493678db3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6543731632320683,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "rounding_1um\\cases\\660nm.npz",
+      "sha256": "c670c49d97d45487d1311619cc204a85e0f529c9706f7f4e28153171e3422e70",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.6402247606642817,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "smoke_B2\\cases\\420nm.npz",
+      "sha256": "06e4c2ae6662b8aeeab6e185af79e5ba89f5eabc74e052ad708248f36ce76219",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7406421705366918,
+      "energy_error": 0.0
+    },
+    {
+      "path": "smoke_B2\\cases\\546.1nm.npz",
+      "sha256": "e5fb9bd9f2d457104d7008342db2a5ce84e3be468e52c0ab3dceab6231cb52ef",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8879858635547069,
+      "energy_error": 2.220446049250313e-16
+    },
+    {
+      "path": "smoke_B2\\cases\\660nm.npz",
+      "sha256": "8658f27ee9bc2e2260bc984642f92c4c4a52c9fb187ec62c5c6ad43490b501f8",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.764351395433919,
+      "energy_error": 0.0
+    },
+    {
+      "path": "tilt01mrad\\cases\\420nm.npz",
+      "sha256": "184ac80b0c4a93f6eb21d4dbfe594af97235a15fbbcbf5103ee00203883b1a7e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7362828715982279,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\430nm.npz",
+      "sha256": "a46759ca00c5a7ea9294648aecaa760e7d547f1af94602961e058037986ea979",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7531199594831521,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\440nm.npz",
+      "sha256": "3d208f9e8ab39bcd75068a9694817b12b1514c58e92544b17065e22160c31f97",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7719298115010381,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\450nm.npz",
+      "sha256": "9bc817596c62ddae438e3a10241e559d7467ce677155326dc5abef841aa87d7d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7906623477801237,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\460nm.npz",
+      "sha256": "ba2ce5e68d02c38049f1d8a2b2e8179aef8cf226f7f2ca8234345d622b112c33",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8093631586354187,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\470nm.npz",
+      "sha256": "4a2e36f04fd2f0c24ec61e779a16cdbad6e7ab5294f68fc9ea3d04c7eb98ab5d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8269319712475387,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\480nm.npz",
+      "sha256": "ce19f24a9673fbba5a847d03157a997f2fe47039490e1349e8e30645ebef78f4",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8427578002484917,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\490nm.npz",
+      "sha256": "388eea34d98794c0eed93b7f406f5df6ff377e79e6de96856fb46f3ec31b77e5",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.855993080068722,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\500nm.npz",
+      "sha256": "688cdc812cdc5e5de5ae50da4cb8940f5f495f4e3451f29736b899fa19991af1",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8667012417707063,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\510nm.npz",
+      "sha256": "989fcb5112c3016d1e97d31b969807605d572c8f6583cc942a49502865d985d2",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8749897563767673,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\520nm.npz",
+      "sha256": "73d32eedfbf98be118701d6dc144bdba84987f6e88f582917b638ce54d039581",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.881054881796971,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\530nm.npz",
+      "sha256": "4a3a9467a8118784685f15be18a3aa8fb119e3a5c63920f1299bd4fcc567120e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8845251175879222,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\540nm.npz",
+      "sha256": "b7e20e8dd93955bedd12b64efb54dc090ae7f43b8055953a05411fe4d197bcce",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8857929767412508,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\550nm.npz",
+      "sha256": "c3cf7251263fc16109c5f2c6fb24ab92421062c5afd5885e2b192ed3e29d279e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8847705904164809,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\560nm.npz",
+      "sha256": "23d365177c248fd5269719128aacc5a803b1b017b9f49913ff58a575e00c9dcc",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8814412395025003,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\570nm.npz",
+      "sha256": "e57bdcec3ffa9e32c8841b4abbc1e4f55c0cf0ee56bce7f6e9abc84797f63b1d",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.876198702903136,
+      "energy_error": 4.440892098500626e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\580nm.npz",
+      "sha256": "463315bb583e58964b5cedc1d231a87e8e1cc2e2ab264adb09a1a79a1ea1e10f",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.868692929932395,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\590nm.npz",
+      "sha256": "2cfccdd54c1a48d15258a0ac9640e95e9c0884e26c064e13de5217d2cae015ef",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8591840734753863,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\600nm.npz",
+      "sha256": "006b7f1fb306599c4e6011d7e15a789d4a5b1167a26d59c70d371e7a5fcbdf8a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8486480442886524,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\610nm.npz",
+      "sha256": "bd562544f7066bd5435b277f94fe599d575b6f85435fe3ab629619aba810358a",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8371212669796142,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\620nm.npz",
+      "sha256": "38023a3f72892de3fd46a3d1846a52b25e9886533b38e7c66068f4b0331f2850",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8240820627632629,
+      "energy_error": 8.881784197001252e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\630nm.npz",
+      "sha256": "b3340ec1a41089f85c7902eb6c2b393cfc39b83e0cd53cf77c538d8fdf68cec3",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.8096144982925536,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\640nm.npz",
+      "sha256": "c998203f7fc0248168d574315f00c1b807cf41f673256c70f621982f11c1a531",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7938450769249745,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\650nm.npz",
+      "sha256": "61fea7206644e772443f3561e467fc71ff3579a4b11bda36c96340a3da15112e",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7768064717147558,
+      "energy_error": 6.661338147750939e-16
+    },
+    {
+      "path": "tilt01mrad\\cases\\660nm.npz",
+      "sha256": "3db2764ffcabfbf59dce93bd9f5ba017130710247fbfd87f3abb637d2c536775",
+      "height_hash_match": true,
+      "raw_roi_energy": 0.7595446651787195,
+      "energy_error": 4.440892098500626e-16
+    }
+  ],
+  "scope": "真实NPZ原始强度/归一副本/面积能量回读，已存高度SHA，冻结检测复算；不以工程核查覆盖科学FAIL"
+}

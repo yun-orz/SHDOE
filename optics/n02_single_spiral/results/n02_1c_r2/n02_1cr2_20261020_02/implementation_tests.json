@@ -1,0 +1,37 @@
+[
+  {
+    "name": "RS轴上小方孔远场解析幅值与面积",
+    "status": "PASS",
+    "details": {
+      "relative_field_error": 6.710172609460374e-07
+    }
+  },
+  {
+    "name": "对称控制孔径RS对边复场对称",
+    "status": "PASS",
+    "details": {
+      "centrosymmetric_aperture_complex_error": 2.0816774938628973e-17
+    }
+  },
+  {
+    "name": "RS分块划分与CPU_GPU独立内核一致",
+    "status": "PASS",
+    "details": {
+      "cpu_gpu_and_chunk_relative_field_error": 1.1804066126930392e-15
+    }
+  },
+  {
+    "name": "固定高度子像元RS与独立显式循环",
+    "status": "PASS",
+    "details": {
+      "independent_loop_field_error": 1.1599546850228559e-14
+    }
+  },
+  {
+    "name": "选点ASM逆DFT与独立完整IFFT",
+    "status": "PASS",
+    "details": {
+      "point_inverse_DFT_max_complex_error": 1.1284039528514164e-16
+    }
+  }
+]

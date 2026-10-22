@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-20T09:13:03.673755+08:00",
+  "python": "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+  "argv": [
+    "experiments/n02_1c_r/p0b_run.py",
+    "--run-id",
+    "n02_1cr_20261020_01"
+  ]
+}

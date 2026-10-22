@@ -1,0 +1,13 @@
+{
+  "command": [
+    "D:\\MiniAnaconda\\envs\\deeplens_hsi_4060\\python.exe",
+    "-B",
+    "E:\\SH\\provenance\\tools\\verify_n02_frozen.py",
+    "E:\\SpiralDOE_HSI\\n00_run_20261009",
+    "E:\\SH\\provenance\\migration_reports\\source_N02_frozen.json"
+  ],
+  "cwd": "E:\\SH",
+  "returncode": 0,
+  "seconds": 5.716485261917114,
+  "source_guard": false
+}

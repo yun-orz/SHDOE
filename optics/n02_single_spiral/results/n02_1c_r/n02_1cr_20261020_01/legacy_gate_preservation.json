@@ -1,0 +1,69 @@
+{
+  "old_gates_sha256": "a9855429b0d94ac842496b32d0c18319f873ea9882415c5e8463a4dc6fd8d0a4",
+  "unchanged_old_labels": {
+    "G0": {
+      "status": "PASS",
+      "execution": "SIMULATED",
+      "reason": "12/12物理测试及冻结协议/历史路径审计"
+    },
+    "G1": {
+      "status": "PASS",
+      "execution": "SIMULATED",
+      "reason": "B2固定高度25标准通道物理/形态/链接与旋转成立"
+    },
+    "G2": {
+      "status": "FAIL",
+      "execution": "SIMULATED",
+      "standard25": "PASS",
+      "blue5nm": "FAIL",
+      "reason": "425nm冻结3x3拟合不稳定；1nm局部若干角符号误差代理/缩放角差门不通过；不能仅报标准25点"
+    },
+    "G3_Numerics": {
+      "status": "FAIL",
+      "execution": "SIMULATED",
+      "reason": "多个波长全域16um边缘能量未达冻结0.001门"
+    },
+    "G3_Fabrication": {
+      "status": "PASS",
+      "execution": "SIMULATED_ASSUMED",
+      "reason": "完成有界假设扰动定量，实测工艺NOT_TESTED"
+    },
+    "G4": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G5": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G6": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G7": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "G8": {
+      "status": "INCONCLUSIVE",
+      "execution": "NOT_TESTED",
+      "reason": "G3关键数值门失败，依据任务书停止条件停止结构扫描/优化/双孔径与重建"
+    },
+    "GF": {
+      "status": "PASS",
+      "execution": "SIMULATED",
+      "reason": "完成本轮P0证据归档与独立回读；科研L1/L2/L3不因此通过"
+    }
+  },
+  "physics_tests_count": 12,
+  "physics_tests_pass_count": 12,
+  "artifact_hash_checked": 900,
+  "raw_npz_reread": 571,
+  "max_area_error": 0.0,
+  "max_normalized_error": 0.0,
+  "note": "原gates.json固定PASS写法不能替代此处回读证据；本轮不重新给旧门授予PASS"
+}

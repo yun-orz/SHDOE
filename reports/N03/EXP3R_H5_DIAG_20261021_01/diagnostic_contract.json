@@ -1,0 +1,142 @@
+{
+  "notice": "EXPLORATORY / N03 G0 FAIL / N02 G2+G3_Numerics FAIL",
+  "phase": "N03-A-EXP3R-H5-DIAG",
+  "created_at": "2026-10-21T21:55:21.835937+08:00",
+  "canonical": "E:\\SH\\reports\\N03\\EXP3R_BUDGET_AB_20261021_01",
+  "task": {
+    "path": "C:\\Users\\李咏晨\\Downloads\\N03-A-EXP3R-H5_%E6%94%B6%E6%95%9B%E8%AF%8A%E6%96%AD%E4%B8%8E%E5%80%99%E9%80%89%E9%80%89%E6%8B%A9%E7%AD%96%E7%95%A5%E5%AE%A1%E6%9F%A5_Codex%E4%BB%BB%E5%8A%A1%E4%B9%A6.md",
+    "sha256": "6cd28ecb9333c6766672f7d99afe658d780c1836554b07f9f625d3dbc83f216f"
+  },
+  "git_before": {
+    "head": "a9560ffb0b134d54a0e45dccb4a2024d26a5c4ae",
+    "porcelain_v2": "1 .M N... 100644 100644 100644 1afd76527585b15e1782192942f9f4dbc9c509c1 1afd76527585b15e1782192942f9f4dbc9c509c1 README.md\n? integration/single_spiral_to_hsi/n03_audit.py\n? integration/single_spiral_to_hsi/n03_exp1/\n? integration/single_spiral_to_hsi/n03_exp2/\n? integration/single_spiral_to_hsi/n03_exp2b/\n? integration/single_spiral_to_hsi/n03_exp3/\n? integration/single_spiral_to_hsi/n03_exp3r/\n? integration/single_spiral_to_hsi/n03_exp3r_h5_diag/\n? integration/single_spiral_to_hsi/tests/\n? reports/",
+    "tracked_diff_sha256": "b6eabf899354f8e9d40dc0e7f6df60e0095ccb380d36c2f3fe7e7711163ec88e"
+  },
+  "original_gate": {
+    "H0": {
+      "passed": true,
+      "definition": "48观测指纹一致且A的144行历史回归通过"
+    },
+    "H1": {
+      "passed": true,
+      "definition": "仅maxfev55→150；真值隔离；同一只读y"
+    },
+    "H2": {
+      "passed": true,
+      "passed_cases": 24,
+      "total": 24,
+      "threshold": 0.005
+    },
+    "H3": {
+      "passed": true,
+      "passed_cases": 24,
+      "total": 24,
+      "threshold": 0.02
+    },
+    "H4": {
+      "passed": true,
+      "fractions": {
+        "noiseless": 1.0,
+        "Q40": 1.0
+      },
+      "NRMSE_threshold": 0.01,
+      "fraction_threshold": 0.8
+    },
+    "H5": {
+      "passed": false,
+      "accepted": 8,
+      "total": 48,
+      "definition": "选中缓存点与成功Powell返回终点逐位相同，且NNLS有限非负/KKT合格"
+    },
+    "H6": {
+      "passed": true,
+      "unchanged": true,
+      "complete": true,
+      "boundary_cases": [],
+      "OF_invariant": true
+    },
+    "violations_clean": [],
+    "violations_Q40": [],
+    "full": {
+      "status": "NOT_RUN",
+      "observations": 0,
+      "planned": 504
+    },
+    "upstream": {
+      "N03_G0": "FAIL",
+      "N02_G2": "FAIL",
+      "N02_G3_Numerics": "FAIL"
+    },
+    "decision": "EXP3R_PILOT_FAIL"
+  },
+  "original_H5_rule_sha256": "73bb90f61bc261443c69c3f9e11e15199161d212cee3663dd572950d6b827c63",
+  "original_H5_permanently_preserved": true,
+  "derived_budget_guard": {
+    "A": 119,
+    "B": 309,
+    "independent_intervention": false
+  },
+  "D1": {
+    "observations": 48,
+    "starts": 96,
+    "classification": "精确坐标+local_requests的实际起点来源",
+    "exact_equality": "tuple(endpoint.position)==tuple(best_position) and endpoint.success"
+  },
+  "thresholds": {
+    "position_near_px": 1e-05,
+    "machine_near_px": 1e-12,
+    "float_near_px": 1e-08,
+    "objective_abs_near": 1e-10,
+    "relative_denominator_floor": 1e-12,
+    "reevaluation_atol": 1e-15,
+    "reevaluation_rtol": 1e-09,
+    "KKT": 1e-07
+  },
+  "D2": {
+    "selection": "先按归档成功终点loss稳定取最小；无成功终点明确缺失；再重评价和后验评分",
+    "no_truth_selection": true,
+    "reevaluation_unique_upper_bound": 125,
+    "per_observation_C0_one_plus_successful_endpoints_at_most_two": true
+  },
+  "D3": {
+    "conditional": true,
+    "trigger": "D1/D2完整可核验且诊断仍INCONCLUSIVE或40未认证中仍>20例未解释",
+    "skip_when_explained": true,
+    "selected_ids": [
+      "pilot_0_11_20261021",
+      "pilot_0_9_20261021",
+      "pilot_0_0_0",
+      "pilot_0_11_0",
+      "pilot_0_13_0",
+      "pilot_0_0_20261021",
+      "pilot_0_13_20261021",
+      "pilot_1_9_0"
+    ],
+    "selection_rule": "原8/28/12分类分别按ID字典序取2/3/3；不足按全体剩余ID补齐",
+    "method": "Powell",
+    "max_starts": 8,
+    "maxfev": 80,
+    "total_evaluation_cap": 640,
+    "bounds": [
+      [
+        -0.5,
+        0.5
+      ],
+      [
+        -0.5,
+        0.5
+      ]
+    ],
+    "xtol": 1e-05,
+    "ftol": 1e-10,
+    "start": "历史B cache-best；只运行一次，无新网格，无替代算法"
+  },
+  "decision_rule": "语义证据要求来自成功起点的中间点接近对应成功终点，并且C1距离/目标接近；>20/40且有收敛限制证据→MIXED；仅多数语义→SELECTION_SEMANTICS_DOMINANT；仅收敛限制→CONVERGENCE_LIMITED；否则INCONCLUSIVE；见diagnostics.diagnose",
+  "source_sha256": {
+    "integration\\single_spiral_to_hsi\\n03_exp3r_h5_diag\\diagnostics.py": "824b4ac38c3325bc26154351ac3f8bd8b13689d906f5e052d0b35bf999604e55",
+    "integration\\single_spiral_to_hsi\\n03_exp3r_h5_diag\\io_contract.py": "03f446ec58c7533c5431a55e31f40a5b5bf1c8b6599f65d218c20b69a89a0448",
+    "integration\\single_spiral_to_hsi\\n03_exp3r_h5_diag\\run_diag.py": "700d059e479db37e4c457a7e086862bd44275c3c6a95ac3f1f43e9a65dd9f048",
+    "integration\\single_spiral_to_hsi\\n03_exp3r_h5_diag\\tests_diag.py": "a3d485fd97558c0283f0e553a73a22e85042fc7443d78e1c0150652115c40fb4"
+  },
+  "full": "NOT_RUN 0/504;原H5及所有上游FAIL不重判"
+}

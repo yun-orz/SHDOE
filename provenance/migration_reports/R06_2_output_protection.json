@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "args": [
+        "5_eval_pretrained.py",
+        "--limit",
+        "8"
+      ],
+      "existing_output_rejected": true,
+      "existing_file_sha256_unchanged": true
+    },
+    {
+      "args": [
+        "5_eval_pretrained.py",
+        "--no-swap-rb"
+      ],
+      "existing_output_rejected": true,
+      "existing_file_sha256_unchanged": true
+    },
+    {
+      "args": [
+        "6_evaluate_metrics.py"
+      ],
+      "existing_output_rejected": true,
+      "existing_file_sha256_unchanged": true
+    }
+  ]
+}

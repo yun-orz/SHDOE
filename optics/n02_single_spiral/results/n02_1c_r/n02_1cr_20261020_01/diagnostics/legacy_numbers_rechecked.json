@@ -1,0 +1,15 @@
+{
+  "height_max_um": 0.8839344951958746,
+  "standard_valid": 25,
+  "independent_rotation_deg": 244.84922563344048,
+  "unique_links": 24,
+  "oldcsv_max_height_um": 0.8839344951958746,
+  "oldcsv_last_unwrapped_deg": 179.46412865277878,
+  "roi_min": 0.736137608779348,
+  "roi_max": 0.8857940486944001,
+  "main_min": 0.08355412239633635,
+  "old_edge_420": 0.0013761612064570245,
+  "old_edge_660": 0.0011644851783079017,
+  "height_array_sha256": "eb191b8d1093590ad22872d1de78f9261c6286fee756901ada7274315a727250",
+  "height_file_sha256": "8166b58c358b3be2862cd9401f17b6bdd6ad5dcc575e5278aaa135f28b5ba19f"
+}

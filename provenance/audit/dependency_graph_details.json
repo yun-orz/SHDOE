@@ -1,0 +1,4382 @@
+[
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import os"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import subprocess"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import platform"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from datetime import datetime"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "from zoneinfo import ZoneInfo"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 11,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 12,
+    "kind": "import",
+    "expression": "import torch"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 13,
+    "kind": "import",
+    "expression": "import scipy"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 14,
+    "kind": "import",
+    "expression": "from optics import ROOT, sha, config, cauchy"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 80,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(inputs[8].read_text(encoding='utf-8-sig'))"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('x', encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('x', encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 79,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(inputs[7].read_text(encoding='utf-8-sig'))"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 80,
+    "kind": "file_or_dynamic_call",
+    "expression": "inputs[8].read_text(encoding='utf-8-sig')"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 76,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 79,
+    "kind": "file_or_dynamic_call",
+    "expression": "inputs[7].read_text(encoding='utf-8-sig')"
+  },
+  {
+    "file": "experiments\\n02\\audit.py",
+    "line": 50,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import csv"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import math"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "from optics import *"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "from audit import write, textfile"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 134,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 136,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 16,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('x', encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 23,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(path, allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 30,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((folder.parent / 'protocol_frozen.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(folder / 'cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 36,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(folder / 'cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 128,
+    "kind": "file_or_dynamic_call",
+    "expression": "(folder / f'{tag}_gram.npz').open('xb')"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 158,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(folder / f'{tag}_gram.npz')"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 163,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(folder / 'cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 24,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['record_json'].item())"
+  },
+  {
+    "file": "experiments\\n02\\evaluate.py",
+    "line": 30,
+    "kind": "file_or_dynamic_call",
+    "expression": "(folder.parent / 'protocol_frozen.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\finalize.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\finalize.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "experiments\\n02\\finalize.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\finalize.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "from optics import ROOT"
+  },
+  {
+    "file": "experiments\\n02\\finalize.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from reporting import finalize"
+  },
+  {
+    "file": "experiments\\n02\\finalize.py",
+    "line": 13,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((out / 'environment.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\finalize.py",
+    "line": 13,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'environment.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import hashlib"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import importlib.util"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import math"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 11,
+    "kind": "import",
+    "expression": "import torch"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 12,
+    "kind": "import",
+    "expression": "import yaml"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 13,
+    "kind": "import",
+    "expression": "from scipy import fft"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 30,
+    "kind": "import",
+    "expression": "from spiral_hsi.optics.phase_from_height import phase_from_height"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 31,
+    "kind": "import",
+    "expression": "from spiral_hsi.optics.propagation import asm as core_asm"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 25,
+    "kind": "file_or_dynamic_call",
+    "expression": "module('n02_frozen_support', ROOT / 'vendor_compat/experiments/N01_3A_G2_f2_q6_13wave/support.py')"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.spec_from_file_location(name, path)"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 20,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.module_from_spec(spec)"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 21,
+    "kind": "file_or_dynamic_call",
+    "expression": "spec.loader.exec_module(obj)"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 35,
+    "kind": "file_or_dynamic_call",
+    "expression": "yaml.safe_load((ROOT / 'configs/n02/baseline_B.yaml').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 39,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256()"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 47,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(a).tobytes()).hexdigest()"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 146,
+    "kind": "file_or_dynamic_call",
+    "expression": "array_sha(h)"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 35,
+    "kind": "file_or_dynamic_call",
+    "expression": "(ROOT / 'configs/n02/baseline_B.yaml').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 40,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open('rb')"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 195,
+    "kind": "file_or_dynamic_call",
+    "expression": "array_sha(h)"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 47,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(a).tobytes())"
+  },
+  {
+    "file": "experiments\\n02\\optics.py",
+    "line": 41,
+    "kind": "file_or_dynamic_call",
+    "expression": "stream.read(1048576)"
+  },
+  {
+    "file": "experiments\\n02\\physics_tests.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\physics_tests.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02\\physics_tests.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import torch"
+  },
+  {
+    "file": "experiments\\n02\\physics_tests.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "from scipy.special import j1"
+  },
+  {
+    "file": "experiments\\n02\\physics_tests.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from optics import *"
+  },
+  {
+    "file": "experiments\\n02\\physics_tests.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from audit import write"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import csv"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import math"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import os"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "import stat"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "import ctypes"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 11,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 12,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 13,
+    "kind": "import",
+    "expression": "from optics import ROOT, sha, array_sha, config, design, measure"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 14,
+    "kind": "import",
+    "expression": "from audit import write, textfile, snapshot, now, git"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 15,
+    "kind": "import",
+    "expression": "from evaluate import load, csvwrite"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 23,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 25,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 70,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 72,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 79,
+    "kind": "import",
+    "expression": "from scipy.ndimage import map_coordinates"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(Path(path).read_text(encoding='utf-8-sig'))"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 74,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(out / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 74,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(out / 'B1/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 121,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'physics_tests.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 121,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'baseline_summaries.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 122,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'gate3_convergence.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 122,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'G3.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 122,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'gate3_fabrication.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 123,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'B2/dense_blue_summary.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 123,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'B2/adaptive_blue_summary.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 138,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'preservation_before.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 152,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(ROOT / 'configs/n02/baseline_B.yaml')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).read_text(encoding='utf-8-sig')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 32,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(p)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 55,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'B2/adaptive_blue_metrics.csv').open(encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 127,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'B2/adaptive_blue_links.csv').open(encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 135,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'downstream_gates.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 146,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'B2' / k)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 151,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 158,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(x)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 174,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'B2/standard_links.csv').open(encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 177,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'B2/dense_blue_metrics.csv').open(encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 245,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 94,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(folder / 'config.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 96,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(folder / 'height_um.npy', allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 96,
+    "kind": "file_or_dynamic_call",
+    "expression": "array_sha(h)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 98,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(p)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 147,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 154,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(out / 'B2/cases' / f'{w}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 158,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'propagation_ledger.jsonl').read_text(encoding='utf-8').splitlines()"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 243,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / name).read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 100,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(p, allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 248,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'invocation.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 249,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'config_resolved.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 250,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'artifact_manifest.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 251,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 158,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'propagation_ledger.jsonl').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\reporting.py",
+    "line": 112,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import traceback"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from optics import ROOT, config, sha"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "from audit import write, textfile, now"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 21,
+    "kind": "import",
+    "expression": "from validation import validate"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 23,
+    "kind": "import",
+    "expression": "from reporting import finalize"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 24,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((out / 'environment.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 24,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'environment.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\resume.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import traceback"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import os"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "import stat"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 11,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 12,
+    "kind": "import",
+    "expression": "from optics import *"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 13,
+    "kind": "import",
+    "expression": "from audit import audit, write, textfile, now, snapshot, git"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 14,
+    "kind": "import",
+    "expression": "from physics_tests import run_tests"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 15,
+    "kind": "import",
+    "expression": "from evaluate import csvwrite, evaluate, plot_candidate"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 112,
+    "kind": "import",
+    "expression": "from validation import validate"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 114,
+    "kind": "import",
+    "expression": "from reporting import finalize"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 93,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(out / 'B2/height_um.npy', allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 21,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'propagation_ledger.jsonl').open('a', encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open('xb')"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 35,
+    "kind": "file_or_dynamic_call",
+    "expression": "array_sha(h)"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 53,
+    "kind": "file_or_dynamic_call",
+    "expression": "(folder / filename).open('xb')"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 69,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 40,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(target)"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 61,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(folder / 'height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 61,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(folder / 'aperture_mask.npy')"
+  },
+  {
+    "file": "experiments\\n02\\run.py",
+    "line": 62,
+    "kind": "file_or_dynamic_call",
+    "expression": "array_sha(d['height'])"
+  },
+  {
+    "file": "experiments\\n02\\selection.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\selection.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\selection.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "experiments\\n02\\selection.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "from optics import *"
+  },
+  {
+    "file": "experiments\\n02\\selection.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from audit import write, textfile"
+  },
+  {
+    "file": "experiments\\n02\\selection.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from evaluate import csvwrite, evaluate"
+  },
+  {
+    "file": "experiments\\n02\\selection.py",
+    "line": 22,
+    "kind": "file_or_dynamic_call",
+    "expression": "module('n02_runner_selection', Path(__file__).with_name('run.py'))"
+  },
+  {
+    "file": "experiments\\n02\\selection.py",
+    "line": 38,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((out / 'B2/standard_summary.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\selection.py",
+    "line": 38,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'B2/standard_summary.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import math"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from scipy.ndimage import gaussian_filter, shift"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from optics import *"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "from audit import write, textfile"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "from evaluate import csvwrite, load, evaluate"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 123,
+    "kind": "import",
+    "expression": "from optics import measure"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 152,
+    "kind": "import",
+    "expression": "from selection import select"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 157,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 159,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "module('n02_runner_validation', Path(__file__).with_name('run.py'))"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 35,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(base / 'height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 37,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((base / 'standard_summary.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 17,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(n, 2, n, 2).mean(axis=(1, 3))"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 37,
+    "kind": "file_or_dynamic_call",
+    "expression": "(base / 'standard_summary.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 38,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((base / 'dense_blue_summary.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 49,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(base / 'cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 38,
+    "kind": "file_or_dynamic_call",
+    "expression": "(base / 'dense_blue_summary.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 39,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(base / 'cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 127,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(base / 'cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 129,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(n, pixel, n, pixel).mean(axis=(1, 3))"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 138,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / f'pixel_{pixel}um_gram.npz').open('xb')"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 17,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(n, 2, n, 2)"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 101,
+    "kind": "file_or_dynamic_call",
+    "expression": "h.reshape(cfg['size'] // px, px, cfg['size'] // px, px).mean(axis=(1, 3))"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 129,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(n, pixel, n, pixel)"
+  },
+  {
+    "file": "experiments\\n02\\validation.py",
+    "line": 101,
+    "kind": "file_or_dynamic_call",
+    "expression": "h.reshape(cfg['size'] // px, px, cfg['size'] // px, px)"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from optics import ROOT, sha, measure, array_sha"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from evaluate import load"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 14,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((out / 'manifest.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 15,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((out / 'artifact_manifest.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((out / 'preservation_comparison.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 14,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'manifest.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 15,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'artifact_manifest.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 16,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'artifact_manifest.json')"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'preservation_comparison.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 24,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((folder / 'config.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 25,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(folder / 'height_um.npy', allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 25,
+    "kind": "file_or_dynamic_call",
+    "expression": "array_sha(height)"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 17,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / name)"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 18,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(ROOT / name)"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 24,
+    "kind": "file_or_dynamic_call",
+    "expression": "(folder / 'config.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02\\verify.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "from p0b_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 3,
+    "kind": "import",
+    "expression": "from p0b_locators import quadratic, centroid, all_locators, synthetic_tests"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "from scipy.ndimage import maximum_filter, label"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 133,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 135,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 234,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 236,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 12,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'artifact_manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'artifact_verification.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'physics_tests.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 35,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(OLD / 'B2/standard_metrics.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 35,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(OLD / 'B2/standard_links.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 56,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'gate3_convergence.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 96,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(OLD / '425nm_fit_diagnostics.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 10,
+    "kind": "file_or_dynamic_call",
+    "expression": "TASK.read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 11,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(TASK)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 14,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 17,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 21,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 38,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 58,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 60,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'convergence/cases' / f'{name}_{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 82,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases' / f'{w}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 91,
+    "kind": "file_or_dynamic_call",
+    "expression": "shape.append(dict(wavelength_nm=w, main_intensity=r['main_peak'], distinct_side_intensity=r['distinct_side_peak'], halfmax_components=r['halfmax_components'], strongest_competitor_ratio=1 / r['distinct_side_ratio'], radius_frozen_um=r['peak_radius_um'], local_covariance_um2=cov))"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 95,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 177,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases' / f'{w}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 23,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(p, allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 52,
+    "kind": "file_or_dynamic_call",
+    "expression": "arrsha(h)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 52,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 98,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(ref['offset_pixels'])"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 99,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(ref['hessian_eigenvalues'])"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 175,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(OLD / 'gate3_pixel_integration.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 187,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(n, pixel, n, pixel).mean(axis=(1, 3))"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 202,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(OLD / (f'pixel_{pixel}um_gram.npz' if pixel != 1 else 'B2/standard_gram.npz'), allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 31,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_analysis.py",
+    "line": 187,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(n, pixel, n, pixel)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "from p0b_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 3,
+    "kind": "import",
+    "expression": "from p0b_locators import quadratic, interpolate"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "from p0b_propagation import acquire_asm, acquire_fresnel, rs_points"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "from scipy.ndimage import map_coordinates, label"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 151,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 153,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 12,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 24,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'convergence/cases' / f'dx05_{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 39,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(512, 2, 512, 2).mean(axis=(1, 3))"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 77,
+    "kind": "file_or_dynamic_call",
+    "expression": "arrsha(h)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 39,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(512, 2, 512, 2)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 92,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(path, allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_boundary.py",
+    "line": 21,
+    "kind": "file_or_dynamic_call",
+    "expression": "arrsha(h)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import os"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import csv"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import hashlib"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import importlib.util"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "import platform"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "import subprocess"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 11,
+    "kind": "import",
+    "expression": "import ctypes"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 12,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 13,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 14,
+    "kind": "import",
+    "expression": "from datetime import datetime"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 15,
+    "kind": "import",
+    "expression": "from zoneinfo import ZoneInfo"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 16,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 17,
+    "kind": "import",
+    "expression": "import scipy"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 18,
+    "kind": "import",
+    "expression": "import torch"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "load_module('p0b_frozen_optics', ROOT / 'experiments/n02/optics.py')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 144,
+    "kind": "import",
+    "expression": "from scipy.ndimage import label, maximum_filter"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.spec_from_file_location(name, path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.module_from_spec(spec)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 29,
+    "kind": "file_or_dynamic_call",
+    "expression": "spec.loader.exec_module(mod)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 38,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(Path(path).read_text(encoding='utf-8-sig'))"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 42,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256()"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 48,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(a).tobytes()).hexdigest()"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 127,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'B2/config.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 128,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(OLD / 'B2/height_um.npy', allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 129,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(OLD / 'B2/aperture_mask.npy', allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 38,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).read_text(encoding='utf-8-sig')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 43,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open('rb')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 63,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('x', encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 68,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('x', encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 74,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('x', encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 80,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open(encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 85,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('xb')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 89,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(path, allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 94,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'execution_ledger.jsonl').open('a', encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 48,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(a).tobytes())"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 90,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['record_json'].item())"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 44,
+    "kind": "file_or_dynamic_call",
+    "expression": "f.read(1048576)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_common.py",
+    "line": 121,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_locators.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_locators.py",
+    "line": 3,
+    "kind": "import",
+    "expression": "from scipy.optimize import least_squares, minimize"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_locators.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "from scipy.ndimage import map_coordinates"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 3,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import torch"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "from scipy.signal import CZT"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "from p0b_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 65,
+    "kind": "import",
+    "expression": "from p0b_locators import quadratic, constrained"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 114,
+    "kind": "file_or_dynamic_call",
+    "expression": "intensity.reshape(n // 16, 16, n // 16, 16).mean(dim=(1, 3)).cpu().numpy()"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 96,
+    "kind": "file_or_dynamic_call",
+    "expression": "arrsha(h)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 110,
+    "kind": "file_or_dynamic_call",
+    "expression": "arrsha(h)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 114,
+    "kind": "file_or_dynamic_call",
+    "expression": "intensity.reshape(n // 16, 16, n // 16, 16).mean(dim=(1, 3)).cpu()"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 121,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 129,
+    "kind": "file_or_dynamic_call",
+    "expression": "arrsha(h)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 114,
+    "kind": "file_or_dynamic_call",
+    "expression": "intensity.reshape(n // 16, 16, n // 16, 16).mean(dim=(1, 3))"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_propagation.py",
+    "line": 114,
+    "kind": "file_or_dynamic_call",
+    "expression": "intensity.reshape(n // 16, 16, n // 16, 16)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "from p0b_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 8,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'diagnostics/implementation_self_tests.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 9,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'diagnostics/legacy_numbers_rechecked.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 9,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'diagnostics/legacy_convergence_count.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 11,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'diagnostics/blue_1nm_shape.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 86,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'preservation_before.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 89,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'input_hashes.json').items()"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 151,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(ROOT / 'configs/n02_1c_r/P0B_protocol_v1.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 37,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases' / f'{w:g}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 93,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(s)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 150,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 153,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 61,
+    "kind": "file_or_dynamic_call",
+    "expression": "arrsha(np.load(OLD / 'B2/height_um.npy'))"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 82,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'gate3_fabrication.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 89,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 89,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 93,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'execution_ledger.jsonl').read_text(encoding='utf-8').splitlines()"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 132,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 61,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 91,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 156,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'invocation.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 157,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'artifact_manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 158,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 91,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_report.py",
+    "line": 93,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'execution_ledger.jsonl').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "from p0b_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "from p0b_locators import quadratic"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 87,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 89,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 10,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 10,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'resource_usage.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 11,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'diagnostics/blue_domains_trajectory.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 25,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases/425nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'convergence/cases/pad4_425nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(out / 'propagation/open_fresnel_425nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 36,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'diagnostics/ratio_sensitivity_decomposition.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 48,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'P0B_gate_decision.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 53,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'summary.md').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 101,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'review_manifest_v2.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 104,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'diagnostics/blue_domains_trajectory_v2.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(out / 'propagation/RS_points_425nm.npz', allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 29,
+    "kind": "file_or_dynamic_call",
+    "expression": "z['intensity_raw'][mask].reshape(13, 13)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 93,
+    "kind": "file_or_dynamic_call",
+    "expression": "xy[:, 0].reshape(13, 13)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 93,
+    "kind": "file_or_dynamic_call",
+    "expression": "xy[:, 1].reshape(13, 13)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 101,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 102,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(ROOT / m['revision_source'])"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 103,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 109,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'P0B_gate_decision_v2.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 39,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 39,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'P0B_diagnostic_protocol.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 80,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 81,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(__file__)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 82,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(reportdir / 'summary_v2.md')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 82,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_review_v2.py",
+    "line": 60,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'resource_preflight.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import traceback"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from p0b_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from p0b_analysis import audit, analyze_a, analyze_c"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "from p0b_propagation import plan_resources, self_tests"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "from p0b_boundary import run_b"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 11,
+    "kind": "import",
+    "expression": "from p0b_report import finalize"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 16,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(ROOT / 'configs/n02_1c_r/P0B_protocol_v1.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 18,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'P0B_diagnostic_protocol.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_run.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "from p0b_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from p0b_locators import quadratic"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from p0b_analysis import gram_diagnostics"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 13,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 13,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'artifact_manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 17,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases/425nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 24,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(out / 'diagnostics/gram_pixel1um.npz', allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 31,
+    "kind": "file_or_dynamic_call",
+    "expression": "arrsha(h)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 14,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'artifact_manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 20,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'diagnostics/425_fit_audit.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 21,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(ref['unconstrained_offset_pixels'])"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 22,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases' / f'{w}nm.npz')[0].ravel()"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(s)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 15,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 16,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(ROOT / p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 18,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'P0B_gate_decision.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'execution_ledger.jsonl').read_text(encoding='utf-8').splitlines()"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 22,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases' / f'{w}nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'execution_ledger.jsonl').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r\\p0b_verify.py",
+    "line": 37,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'P0B_gate_decision.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "from r2_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 74,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 76,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 146,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 148,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 98,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'convergence/cases/dx05_546.1nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 98,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(512, 2, 512, 2).mean(axis=(1, 3))"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 117,
+    "kind": "file_or_dynamic_call",
+    "expression": "(abs(v) ** 2).reshape(-1, 4)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 117,
+    "kind": "file_or_dynamic_call",
+    "expression": "p.reshape(-1, 4, 2)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_analysis.py",
+    "line": 98,
+    "kind": "file_or_dynamic_call",
+    "expression": "raw.reshape(512, 2, 512, 2)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import os, json, csv, hashlib, importlib.util, time, subprocess, platform, shutil"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "from datetime import datetime"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from zoneinfo import ZoneInfo"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "import torch"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "import scipy"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 23,
+    "kind": "file_or_dynamic_call",
+    "expression": "module('r2_previous_common', ROOT / 'experiments/n02_1c_r/p0b_common.py')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 20,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.spec_from_file_location(name, path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 20,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.module_from_spec(spec)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 20,
+    "kind": "file_or_dynamic_call",
+    "expression": "spec.loader.exec_module(m)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 29,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(Path(path).read_text(encoding='utf-8-sig'))"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256()"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 39,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(a).tobytes()).hexdigest()"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 103,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'B2/config.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 103,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 103,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(OLD / 'B2/aperture_mask.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 29,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).read_text(encoding='utf-8-sig')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 34,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open('rb')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 55,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('x', encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 60,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('x', encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 65,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('x', encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 71,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open(encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 76,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('xb')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 80,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(path, allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 84,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'execution_ledger.jsonl').open('a', encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 39,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(a).tobytes())"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 80,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['record_json'].item())"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 35,
+    "kind": "file_or_dynamic_call",
+    "expression": "f.read(1048576)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_common.py",
+    "line": 97,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "from r2_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 3,
+    "kind": "import",
+    "expression": "from r2_solver import rs, periodic_points"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import traceback"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 96,
+    "kind": "file_or_dynamic_call",
+    "expression": "(cells[:, None, :] + off[None, :, :]).reshape(-1, 2)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 111,
+    "kind": "file_or_dynamic_call",
+    "expression": "module('r2_old_locators', ROOT / 'experiments/n02_1c_r/p0b_locators.py')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 112,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases/425nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 116,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(UP / 'propagation/RS_points_425nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 124,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(UP / 'diagnostics/blue_domains_trajectory_v2.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 113,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(UP / 'diagnostics/425_fit_audit.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 114,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(old['unconstrained_offset_pixels'])"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 115,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(old['hessian_eigenvalues'])"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 119,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 60,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(refpath)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 77,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 106,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_experiments.py",
+    "line": 121,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(UP / 'diagnostics/RS_core_error_summary.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "from r2_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 24,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'B2/frozen_sha256.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(UP / 'review_manifest_v2.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 29,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 58,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(ROOT / 'configs/n02_1c_r2/protocol_v1.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 61,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(ROOT / 'configs/n02_1c_r2/protocol_v1.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 76,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(OLD / 'B2/cases/420nm.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 23,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 24,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 25,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/aperture_mask.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(UP / 'manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 45,
+    "kind": "file_or_dynamic_call",
+    "expression": "TASK.read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 60,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 110,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(UP / p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 30,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(UP / 'P0B_gate_decision_v2.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 36,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 37,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/aperture_mask.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 63,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'protocol_locked.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 64,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'boundary_sample_plan.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 64,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'peak_sample_plan.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 65,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 65,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'source_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 102,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(UP / 'diagnostics/ratio_sensitivity_decomposition.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_prepare.py",
+    "line": 118,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "from r2_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 131,
+    "kind": "import",
+    "expression": "from r2_verify import numerical_verify"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 7,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'implementation_tests.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 7,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 65,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'preservation_before.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 67,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'input_hashes.json').items()"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 11,
+    "kind": "file_or_dynamic_call",
+    "expression": "loadcase(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 23,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'peak_mask_sensitivity_rs.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 70,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(line)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 129,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'N02_1CR2_next_step_decision.md').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 135,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'P1_execution_status.json').get('RS_q_done', [])"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 67,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 67,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 70,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'execution_ledger.jsonl').read_text(encoding='utf-8').splitlines()"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 106,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 138,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'protocol_locked.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 139,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 139,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'source_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 140,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'artifact_manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 15,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'P1_execution_status.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_report.py",
+    "line": 70,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'execution_ledger.jsonl').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_run.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_run.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse, traceback"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_run.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "from r2_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_run.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "from r2_prepare import prepare"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_run.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from r2_solver import self_tests"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_run.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from r2_experiments import run_p1, run_p2, check_p3"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_run.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "from r2_analysis import analyze_p1, analyze_p2"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_run.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "from r2_report import finalize"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_run.py",
+    "line": 15,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_solver.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "from r2_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "from r2_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 3,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 14,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'boundary_quadrature_convergence.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 22,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'boundary_pointwise_rs.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 42,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 42,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'artifact_manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 46,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'input_hashes.json').items()"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 43,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'artifact_manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 9,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(p, allow_pickle=False)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 32,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['meta_json'].item())"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 44,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 45,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(ROOT / p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 46,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 46,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 49,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(UP / 'P0B_gate_decision_v2.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 10,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['meta_json'].item())"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(p)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['meta_json'].item())"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 48,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 48,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(OLD / 'gates.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify.py",
+    "line": 50,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'input_hashes.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "from r2_common import *"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 17,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'boundary_asm_rs_comparison.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 20,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'boundary_opposite_edge_pairs.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 25,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'peak_sample_plan.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "csvread(out / 'peak_mask_sensitivity_rs.csv')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 9,
+    "kind": "file_or_dynamic_call",
+    "expression": "read(out / 'boundary_sample_plan.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(out / 'raw/P2_RS_q4_output_area2.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 34,
+    "kind": "file_or_dynamic_call",
+    "expression": "z['points_um'].reshape(-1, 4, 2)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 11,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(path)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 12,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['meta_json'].item())"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 15,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(out / f'raw/P1_ASM_pad{pad}_selected.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 58,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(OLD / 'B2/height_um.npy')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 30,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(out / f'raw/P2_RS_q{q}.npz')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 34,
+    "kind": "file_or_dynamic_call",
+    "expression": "z['field_without_global_piston'].reshape(-1, 4)"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 64,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'manifest.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 65,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(out / 'verification_extended.json')"
+  },
+  {
+    "file": "experiments\\n02_1c_r2\\r2_verify_extended.py",
+    "line": 65,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(__file__)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_1\\model.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import math"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_1\\model.py",
+    "line": 3,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_1\\model.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_1\\model.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import torch"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_1\\model.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import torch.nn.functional as F"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_1\\model.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from scipy.ndimage import label"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import hashlib"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 3,
+    "kind": "import",
+    "expression": "import importlib.util"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import math"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "import torch"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "from scipy.ndimage import maximum_filter"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 14,
+    "kind": "import",
+    "expression": "from spiral_hsi.optics.phase_from_height import fused_silica, phase_from_height"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 15,
+    "kind": "import",
+    "expression": "from spiral_hsi.optics.propagation import asm as n00_asm"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 18,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.spec_from_file_location('n01_baseline_model', ROOT / 'experiments/N01_1/model.py')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.module_from_spec(spec)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 20,
+    "kind": "file_or_dynamic_call",
+    "expression": "spec.loader.exec_module(baseline)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(value, dtype=np.float64).tobytes()).hexdigest()"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 201,
+    "kind": "file_or_dynamic_call",
+    "expression": "other.reshape(base.shape[0], 2, base.shape[1], 2).mean(axis=(1, 3))"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(value, dtype=np.float64).tobytes())"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 202,
+    "kind": "file_or_dynamic_call",
+    "expression": "othercoords.reshape(-1, 2).mean(axis=1)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 201,
+    "kind": "file_or_dynamic_call",
+    "expression": "other.reshape(base.shape[0], 2, base.shape[1], 2)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2A\\model.py",
+    "line": 202,
+    "kind": "file_or_dynamic_call",
+    "expression": "othercoords.reshape(-1, 2)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import math"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "from scipy.ndimage import maximum_filter"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "from runtime import ROOT, EXP, load, write_json, write_csv, old, legacy"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 157,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 159,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 104,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((out / 'config.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 108,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((out / 'sources.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 104,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'config.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 108,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'sources.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\analyze.py",
+    "line": 110,
+    "kind": "file_or_dynamic_call",
+    "expression": "load(out / 'cases' / f'A2_m12_{w}.npz')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import importlib.util"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 13,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.spec_from_file_location('p1_readonly_tools', ROOT / 'experiments/N01_2E_multiorder_pilot/run.py')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 14,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.module_from_spec(spec)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 15,
+    "kind": "file_or_dynamic_call",
+    "expression": "spec.loader.exec_module(old)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 21,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(path, allow_pickle=False)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_m12_branch_diagnostic\\runtime.py",
+    "line": 22,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['record_json'].item())"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\model.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\model.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import importlib.util"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\model.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\model.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\model.py",
+    "line": 9,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.spec_from_file_location('n01_2a_readonly', ROOT / 'experiments/N01_2A/model.py')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\model.py",
+    "line": 10,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.module_from_spec(spec)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\model.py",
+    "line": 11,
+    "kind": "file_or_dynamic_call",
+    "expression": "spec.loader.exec_module(legacy)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import argparse"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import csv"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import hashlib"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import platform"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "import subprocess"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "import time"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 11,
+    "kind": "import",
+    "expression": "import traceback"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 12,
+    "kind": "import",
+    "expression": "from datetime import datetime"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 13,
+    "kind": "import",
+    "expression": "from zoneinfo import ZoneInfo"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 14,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 15,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 16,
+    "kind": "import",
+    "expression": "import torch"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 17,
+    "kind": "import",
+    "expression": "import matplotlib"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 19,
+    "kind": "import",
+    "expression": "import matplotlib.pyplot as plt"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 20,
+    "kind": "import",
+    "expression": "from model import ROOT, legacy, focus_spiral, a2_height"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256()"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 117,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((ROOT / 'results/N01_2A/artifact_manifest.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 125,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((ROOT / 'results/N01_2A/metadata.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 132,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(ROOT / 'results/N01_2A/height_C_um.npy', allow_pickle=False)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 276,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((EXP / 'config.json').read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 277,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads((ROOT / pilot['baseline_config']).read_text(encoding='utf-8'))"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open('rb')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 34,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open('x', encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 40,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open('x', encoding='utf-8-sig', newline='')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 47,
+    "kind": "file_or_dynamic_call",
+    "expression": "path.open('xb')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 115,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 117,
+    "kind": "file_or_dynamic_call",
+    "expression": "(ROOT / 'results/N01_2A/artifact_manifest.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 125,
+    "kind": "file_or_dynamic_call",
+    "expression": "(ROOT / 'results/N01_2A/metadata.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 133,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(ROOT / 'results/N01_2A/height_C_um.npy')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 261,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'summary.md').open('x', encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 276,
+    "kind": "file_or_dynamic_call",
+    "expression": "(EXP / 'config.json').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 277,
+    "kind": "file_or_dynamic_call",
+    "expression": "(ROOT / pilot['baseline_config']).read_text(encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 167,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(p, allow_pickle=False)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 170,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['record_json'].item())"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 222,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'git_status_before.txt').read_text(encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "stream.read(1024 * 1024)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 184,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 196,
+    "kind": "file_or_dynamic_call",
+    "expression": "(out / 'propagation_ledger.jsonl').open('a', encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2E_multiorder_pilot\\run.py",
+    "line": 214,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(ROOT / rel)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import importlib.util"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import os"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 12,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.spec_from_file_location('g2_legacy_tools', ROOT / 'experiments/N01_2E_multiorder_pilot/run.py')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 13,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.module_from_spec(spec)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 13,
+    "kind": "file_or_dynamic_call",
+    "expression": "spec.loader.exec_module(old)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "np.load(path, allow_pickle=False)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 19,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(z['record_json'].item())"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_2F_G2_f1_13wave\\runtime.py",
+    "line": 28,
+    "kind": "file_or_dynamic_call",
+    "expression": "sha(p)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 2,
+    "kind": "import",
+    "expression": "import sys"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 4,
+    "kind": "import",
+    "expression": "import os"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 5,
+    "kind": "import",
+    "expression": "import json"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 6,
+    "kind": "import",
+    "expression": "import csv"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 7,
+    "kind": "import",
+    "expression": "import math"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 8,
+    "kind": "import",
+    "expression": "import hashlib"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 9,
+    "kind": "import",
+    "expression": "import importlib.util"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 10,
+    "kind": "import",
+    "expression": "from pathlib import Path"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 11,
+    "kind": "import",
+    "expression": "from datetime import datetime"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 12,
+    "kind": "import",
+    "expression": "from zoneinfo import ZoneInfo"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 13,
+    "kind": "import",
+    "expression": "import numpy as np"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 30,
+    "kind": "file_or_dynamic_call",
+    "expression": "module('frozen_g2_runtime', ROOT / 'experiments/N01_2F_G2_f1_13wave/runtime.py')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 33,
+    "kind": "file_or_dynamic_call",
+    "expression": "sys.modules.get('runtime')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 34,
+    "kind": "file_or_dynamic_call",
+    "expression": "module('frozen_p3_runtime', ROOT / 'experiments/N01_2E_m12_branch_diagnostic/runtime.py')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 35,
+    "kind": "file_or_dynamic_call",
+    "expression": "module('frozen_p3_analysis', ROOT / 'experiments/N01_2E_m12_branch_diagnostic/analyze.py')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 26,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.spec_from_file_location(name, path)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "importlib.util.module_from_spec(spec)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 27,
+    "kind": "file_or_dynamic_call",
+    "expression": "spec.loader.exec_module(result)"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 36,
+    "kind": "file_or_dynamic_call",
+    "expression": "sys.modules.pop('runtime')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 44,
+    "kind": "file_or_dynamic_call",
+    "expression": "json.loads(Path(path).read_text(encoding='utf-8-sig'))"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 46,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(json.dumps(value, sort_keys=True, separators=(',', ':')).encode()).hexdigest()"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 47,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(a).tobytes()).hexdigest()"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 44,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).read_text(encoding='utf-8-sig')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 49,
+    "kind": "file_or_dynamic_call",
+    "expression": "Path(path).open('a', encoding='utf-8')"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 46,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(json.dumps(value, sort_keys=True, separators=(',', ':')).encode())"
+  },
+  {
+    "file": "vendor_compat\\experiments\\N01_3A_G2_f2_q6_13wave\\support.py",
+    "line": 47,
+    "kind": "file_or_dynamic_call",
+    "expression": "hashlib.sha256(np.ascontiguousarray(a).tobytes())"
+  }
+]

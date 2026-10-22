@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "means": {
+    "psnr_db": 30.81941843032837,
+    "ssim": 0.8498,
+    "sam_deg": 17.079047560691833,
+    "sam_fixed_deg": 21.931973814964294
+  },
+  "per_scene_comparison": [
+    {
+      "scene": "chart_and_stuffed_toy_ms",
+      "differences": {
+        "psnr_db": 0.0,
+        "ssim": 0.0,
+        "sam_deg": 3.814697265625e-06,
+        "sam_fixed_deg": 0.0
+      },
+      "psnr_improved_over_R05": true
+    },
+    {
+      "scene": "clay_ms",
+      "differences": {
+        "psnr_db": -1.9073486328125e-06,
+        "ssim": 0.0,
+        "sam_deg": -1.9073486328125e-06,
+        "sam_fixed_deg": 0.0
+      },
+      "psnr_improved_over_R05": true
+    },
+    {
+      "scene": "fake_and_real_lemons_ms",
+      "differences": {
+        "psnr_db": -3.814697265625e-06,
+        "ssim": 0.0,
+        "sam_deg": 4.76837158203125e-06,
+        "sam_fixed_deg": 2.86102294921875e-06
+      },
+      "psnr_improved_over_R05": true
+    },
+    {
+      "scene": "flowers_ms",
+      "differences": {
+        "psnr_db": -1.9073486328125e-06,
+        "ssim": 0.0,
+        "sam_deg": 0.0,
+        "sam_fixed_deg": 1.9073486328125e-06
+      },
+      "psnr_improved_over_R05": true
+    },
+    {
+      "scene": "photo_and_face_ms",
+      "differences": {
+        "psnr_db": 0.0,
+        "ssim": 0.0,
+        "sam_deg": 1.9073486328125e-06,
+        "sam_fixed_deg": 7.62939453125e-06
+      },
+      "psnr_improved_over_R05": true
+    },
+    {
+      "scene": "pompoms_ms",
+      "differences": {
+        "psnr_db": 0.0,
+        "ssim": 0.0,
+        "sam_deg": 4.76837158203125e-06,
+        "sam_fixed_deg": 3.814697265625e-06
+      },
+      "psnr_improved_over_R05": true
+    },
+    {
+      "scene": "real_and_fake_peppers_ms",
+      "differences": {
+        "psnr_db": -3.814697265625e-06,
+        "ssim": 0.0,
+        "sam_deg": 2.86102294921875e-06,
+        "sam_fixed_deg": 3.814697265625e-06
+      },
+      "psnr_improved_over_R05": true
+    },
+    {
+      "scene": "sponges_ms",
+      "differences": {
+        "psnr_db": 0.0,
+        "ssim": 0.0,
+        "sam_deg": -1.9073486328125e-06,
+        "sam_fixed_deg": -1.9073486328125e-06
+      },
+      "psnr_improved_over_R05": true
+    }
+  ],
+  "reference_source": "reports/R06-2_channel_swap/metrics_summary.json",
+  "max_absolute_metric_difference": 7.62939453125e-06,
+  "protected_model_optics_data_files": 290,
+  "source_B_files": 1344,
+  "source_B_all_sha256_size_mtime_and_git_unchanged": true,
+  "weight_sha256": "4cc4c92d95064155b312a2ff5dcf8037a5a431a2200f797d71f014e612d5666f",
+  "network_input_order": "BGR",
+  "physical_sensor_order": "RGB",
+  "weight_file_modified": false,
+  "old_R05_preserved": true
+}

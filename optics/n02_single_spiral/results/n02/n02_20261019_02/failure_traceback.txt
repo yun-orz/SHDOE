@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "E:\SpiralDOE_HSI\n00_run_20261009\experiments\n02\run.py", line 124, in <module>
+    try:execute(out)
+  File "E:\SpiralDOE_HSI\n00_run_20261009\experiments\n02\run.py", line 112, in execute
+    from validation import validate
+ModuleNotFoundError: No module named 'validation'

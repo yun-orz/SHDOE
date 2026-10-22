@@ -1,0 +1,5 @@
+# Python与验收运行缓存可再生成，不纳入科研状态快照。
+**/__pycache__/
+**/*.py[cod]
+/provenance/runtime_cache/
+/.venv/

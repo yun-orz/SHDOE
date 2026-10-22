@@ -1,0 +1,27 @@
+{
+  "status": "H5_DIAG_MIXED",
+  "engineering_QA": true,
+  "stage": "COMPLETE",
+  "seconds": 29.31999979999091,
+  "argv": [
+    "integration/single_spiral_to_hsi/n03_exp3r_h5_diag/run_diag.py",
+    "--task",
+    "C:/Users/李咏晨/Downloads/N03-A-EXP3R-H5_%E6%94%B6%E6%95%9B%E8%AF%8A%E6%96%AD%E4%B8%8E%E5%80%99%E9%80%89%E9%80%89%E6%8B%A9%E7%AD%96%E7%95%A5%E5%AE%A1%E6%9F%A5_Codex%E4%BB%BB%E5%8A%A1%E4%B9%A6.md"
+  ],
+  "observed": {
+    "B_observations": 48,
+    "B_local_starts": 96,
+    "H5_exact_replay": 8,
+    "provenance_counts": {
+      "SUCCESSFUL_START_INTERMEDIATE": 28,
+      "UNSUCCESSFUL_START_ONLY": 12,
+      "SUCCESSFUL_RETURN_ENDPOINT": 8
+    },
+    "C1_available": 47,
+    "no_successful_endpoint_cases": [
+      "pilot_4_9_0"
+    ],
+    "new_optimization_starts": 0
+  },
+  "error": null
+}
